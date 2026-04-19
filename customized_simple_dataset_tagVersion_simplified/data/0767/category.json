@@ -1,7 +1,7 @@
-{
-    "entity": 3,
-    "volume": 3,
-    "direction": 0,
-    "operation": 14,
-    "affect": 16
+﻿{
+    "entity":  "quadruple",
+    "volume":  "tube",
+    "direction":  "planar",
+    "operation":  "folding",
+    "affect":  "perimetral"
 }

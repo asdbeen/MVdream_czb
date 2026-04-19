@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 5,
-    "direction": 6,
-    "operation": 33,
-    "affect": 51
+﻿{
+    "entity":  "single",
+    "volume":  "arch",
+    "direction":  "down",
+    "operation":  "zigzagging",
+    "affect":  "indented"
 }

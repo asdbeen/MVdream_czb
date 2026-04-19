@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 3,
-    "direction": 12,
-    "operation": 4,
-    "affect": 43
+﻿{
+    "entity":  "single",
+    "volume":  "tube",
+    "direction":  "horizontal",
+    "operation":  "bending",
+    "affect":  "columnar"
 }

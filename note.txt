@@ -1,0 +1,6 @@
+python -u scripts/train_hull_finetune.py --dataset_root customized_simple_dataset_tagVersion_simplified --meta_path customized_simple_dataset_tagVersion_simplified/train.txt --num_views 4 --bs 4 --size 256 --epochs 1 --device cuda
+
+python -m py_compile scripts/gradio_app.py
+
+
+--meta_path customized_simple_dataset_tagVersion_simplified/train.txt --num_views 4 --bs 4 --size 256 --epochs 1 --device cuda  --debug_timing 

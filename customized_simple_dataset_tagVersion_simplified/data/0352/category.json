@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 17,
-    "direction": 9,
-    "operation": 3,
-    "affect": 0
+﻿{
+    "entity":  "single",
+    "volume":  "disk",
+    "direction":  "bi",
+    "operation":  "curving",
+    "affect":  "porous"
 }

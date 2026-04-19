@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 23,
-    "direction": 13,
-    "operation": 1,
-    "affect": 1
+﻿{
+    "entity":  "single",
+    "volume":  "sphere",
+    "direction":  "polar",
+    "operation":  "splitting",
+    "affect":  "notched"
 }

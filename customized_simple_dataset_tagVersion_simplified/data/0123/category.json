@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 14,
-    "direction": 10,
-    "operation": 31,
-    "affect": 3
+﻿{
+    "entity":  "multiple",
+    "volume":  "pipe",
+    "direction":  "random",
+    "operation":  "draping",
+    "affect":  "tentacular"
 }

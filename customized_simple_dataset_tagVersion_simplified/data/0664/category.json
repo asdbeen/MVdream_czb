@@ -1,7 +1,7 @@
-{
-    "entity": 2,
-    "volume": 3,
-    "direction": 15,
-    "operation": 4,
-    "affect": 42
+﻿{
+    "entity":  "triple",
+    "volume":  "tube",
+    "direction":  "radial",
+    "operation":  "bending",
+    "affect":  "sunken"
 }

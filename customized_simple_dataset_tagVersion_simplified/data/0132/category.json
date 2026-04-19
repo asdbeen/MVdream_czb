@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 6,
-    "direction": 7,
-    "operation": 2,
-    "affect": 41
+﻿{
+    "entity":  "multiple",
+    "volume":  "courtyard",
+    "direction":  "thin",
+    "operation":  "stacking",
+    "affect":  "irregular"
 }

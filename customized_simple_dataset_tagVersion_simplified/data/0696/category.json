@@ -1,7 +1,7 @@
-{
-    "entity": 1,
-    "volume": 8,
-    "direction": 8,
-    "operation": 42,
-    "affect": 5
+﻿{
+    "entity":  "double",
+    "volume":  "cone",
+    "direction":  "vertical",
+    "operation":  "overlapping",
+    "affect":  "asymmetrical"
 }

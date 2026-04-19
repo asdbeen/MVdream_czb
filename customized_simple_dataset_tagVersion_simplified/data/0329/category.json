@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 8,
-    "direction": 2,
-    "operation": 1,
-    "affect": 47
+﻿{
+    "entity":  "single",
+    "volume":  "cone",
+    "direction":  "oblique",
+    "operation":  "splitting",
+    "affect":  "truncated"
 }

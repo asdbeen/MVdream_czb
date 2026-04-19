@@ -1,180 +1,394 @@
-import random
+import os
+import sys
 import argparse
-from functools import partial
-import numpy as np
+import contextlib
+import random
+from typing import Dict, List, Optional, Tuple
+
 import gradio as gr
-from omegaconf import OmegaConf
-import torch 
+import numpy as np
+import torch
+import torchvision.transforms as T
+from PIL import Image
+
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
 
 from mvdream.camera_utils import get_camera
-from mvdream.ldm.util import instantiate_from_config
 from mvdream.ldm.models.diffusion.ddim import DDIMSampler
-from mvdream.model_zoo import build_model
-from PIL import Image
-import torchvision.transforms as T
 from mvdream.ldm.modules.encoders.modules import ImageEmbedder
+from mvdream.ldm.modules.lora import inject_lora
+from mvdream.model_zoo import build_model
+
+CATEGORY_FIELDS = ["entity", "volume", "direction", "operation", "affect"]
 
 
-def set_seed(seed):
+def set_seed(seed: int) -> None:
     random.seed(seed)
     np.random.seed(seed)
     torch.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
 
 
-def t2i(model, image_size, prompt, uc, sampler, step=20, scale=7.5, batch_size=8, ddim_eta=0., dtype=torch.float32, device="cuda", camera=None, num_frames=1, hull_embed=None, category_tensor=None):
-    if type(prompt)!=list:
-        prompt = [prompt]
-    with torch.no_grad(), torch.autocast(device_type=device, dtype=dtype):
-        text_c = model.get_learned_conditioning(prompt).to(device)
-        c_text = text_c.repeat(batch_size,1,1)
-        uc_text = uc.repeat(batch_size,1,1)
+def _load_adapter_weights(model, adapter_ckpt_path: str, lora_rank: int, lora_alpha: float, device: str):
+    replaced = inject_lora(model, r=lora_rank, alpha=lora_alpha)
+    print(f"Injected LoRA into {replaced} modules for inference.")
 
-        if hull_embed is not None:
-            if hull_embed.shape[0] == 1:
-                hull_rep = hull_embed.repeat(batch_size,1,1)
-            else:
-                hull_rep = hull_embed
+    ckpt = torch.load(adapter_ckpt_path, map_location="cpu")
+    model_state = ckpt.get("model_state", ckpt)
+    missing, unexpected = model.load_state_dict(model_state, strict=False)
+    print(
+        f"Loaded adapter checkpoint: {adapter_ckpt_path}; "
+        f"missing={len(missing)}, unexpected={len(unexpected)}"
+    )
+
+    cond_proj = None
+    cond_proj_state = ckpt.get("cond_proj_state")
+    if cond_proj_state is not None:
+        weight = cond_proj_state["weight"]
+        out_features, in_features = weight.shape
+        cond_proj = torch.nn.Linear(in_features, out_features)
+        cond_proj.load_state_dict(cond_proj_state)
+        cond_proj.to(device)
+        cond_proj.eval()
+        print("Loaded cond_proj from adapter checkpoint.")
+    else:
+        print("cond_proj_state not found in checkpoint; using embedding dim auto-match.")
+
+    ref_pose_proj = None
+    ref_pose_proj_state = ckpt.get("ref_pose_proj_state")
+    if ref_pose_proj_state is not None:
+        weight = ref_pose_proj_state["weight"]
+        out_features, in_features = weight.shape
+        ref_pose_proj = torch.nn.Linear(in_features, out_features)
+        ref_pose_proj.load_state_dict(ref_pose_proj_state)
+        ref_pose_proj.to(device)
+        ref_pose_proj.eval()
+        print("Loaded ref_pose_proj from adapter checkpoint.")
+    else:
+        print("ref_pose_proj_state not found in checkpoint; reference poses will be ignored.")
+
+    return cond_proj, ref_pose_proj
+
+
+def _prepare_hull_embed(
+    image_encoder: ImageEmbedder,
+    images: List[Optional[np.ndarray]],
+    image_size: int,
+    device: str,
+    cond_proj: Optional[torch.nn.Module],
+    target_text_dim: int,
+) -> torch.Tensor:
+    valid = [im for im in images if im is not None]
+    if len(valid) == 0:
+        raise ValueError("Please upload at least one image.")
+
+    to_tensor = T.Compose([
+        T.ToPILImage(),
+        T.Resize((image_size, image_size)),
+        T.ToTensor(),
+    ])
+
+    embeds = []
+    with torch.no_grad():
+        for im in valid:
+            x = to_tensor(im).unsqueeze(0).to(device)
+            emb = image_encoder.encode(x)  # (1, 1, D)
+            embeds.append(emb)
+
+    hull_embed = torch.cat(embeds, dim=1)  # (1, num_images, D)
+    if hull_embed.shape[-1] != target_text_dim:
+        if cond_proj is not None:
+            hull_embed = cond_proj(hull_embed)
         else:
-            hull_rep = torch.zeros((batch_size,1,c_text.shape[2]), device=device)
+            raise ValueError(
+                f"Hull embedding dim {hull_embed.shape[-1]} != text dim {target_text_dim}, "
+                "and no cond_proj_state exists in checkpoint."
+            )
+    return hull_embed
 
-        context_cat = torch.cat([c_text, hull_rep], dim=1)
-        uc_context_cat = torch.cat([uc_text, torch.zeros_like(hull_rep)], dim=1)
 
-        c_ = {"context": context_cat}
-        uc_ = {"context": uc_context_cat}
-        if category_tensor is not None:
-            y = category_tensor.long()
-            if y.dim() == 0:
-                y = y.unsqueeze(0)
-            if y.shape[0] == 1:
-                y_rep = y.repeat(batch_size)
-            else:
-                y_rep = y
-            c_["y"] = y_rep
-            uc_["y"] = torch.zeros_like(y_rep)
+def _prepare_reference_pose_tokens(
+    images: List[Optional[np.ndarray]],
+    elevations: List[float],
+    azimuths: List[float],
+    device: str,
+    ref_pose_proj: Optional[torch.nn.Module],
+    target_text_dim: int,
+) -> Optional[torch.Tensor]:
+    if ref_pose_proj is None:
+        return None
 
-        if camera is not None:
-            c_["camera"] = uc_["camera"] = camera
-            c_["num_frames"] = uc_["num_frames"] = num_frames
+    pose_tokens = []
+    for image, elevation, azimuth in zip(images, elevations, azimuths):
+        if image is None:
+            continue
+        pose = get_camera(1, elevation=float(elevation), azimuth_start=float(azimuth)).to(device)
+        pose_tokens.append(pose[:, :12].unsqueeze(1))
+
+    if len(pose_tokens) == 0:
+        return None
+
+    pose_tokens = torch.cat(pose_tokens, dim=1)
+    pose_rep = ref_pose_proj(pose_tokens)
+    if pose_rep.shape[-1] != target_text_dim:
+        raise ValueError(
+            f"Reference pose dim {pose_rep.shape[-1]} != text dim {target_text_dim}."
+        )
+    return pose_rep
+
+
+def _sample_multiview(
+    model,
+    sampler,
+    prompt: str,
+    negative_prompt: str,
+    category_name: str,
+    hull_embed: torch.Tensor,
+    ref_pose_embed: Optional[torch.Tensor],
+    image_size: int,
+    steps: int,
+    guidance_scale: float,
+    seed: int,
+    elevation: int,
+    azimuth: int,
+    num_frames: int,
+    device: str,
+    fp16: bool,
+) -> Tuple[List[np.ndarray], np.ndarray]:
+    set_seed(seed)
+    dtype = torch.float16 if fp16 and device.startswith("cuda") and torch.cuda.is_available() else torch.float32
+    amp_ctx = torch.autocast(device_type="cuda", dtype=dtype) if dtype == torch.float16 else contextlib.nullcontext()
+
+    camera = get_camera(num_frames, elevation=elevation, azimuth_start=azimuth).to(device)
+
+    with torch.no_grad(), amp_ctx:
+        text_prompt = prompt.strip() if prompt.strip() else category_name
+        text_c = model.get_learned_conditioning([text_prompt]).to(device)
+        uc_text = model.get_learned_conditioning([negative_prompt]).to(device)
+
+        c_text = text_c.repeat(num_frames, 1, 1)
+        uc_text = uc_text.repeat(num_frames, 1, 1)
+        hull_rep = hull_embed.repeat(num_frames, 1, 1)
+        if ref_pose_embed is not None:
+            pose_rep = ref_pose_embed.repeat(num_frames, 1, 1)
+            context_cat = torch.cat([c_text, hull_rep, pose_rep], dim=1)
+            uc_context_cat = torch.cat([uc_text, torch.zeros_like(hull_rep), torch.zeros_like(pose_rep)], dim=1)
+        else:
+            context_cat = torch.cat([c_text, hull_rep], dim=1)
+            uc_context_cat = torch.cat([uc_text, torch.zeros_like(hull_rep)], dim=1)
+
+        c_ = {
+            "context": context_cat,
+            "camera": camera,
+            "num_frames": num_frames,
+        }
+        uc_ = {
+            "context": uc_context_cat,
+            "camera": camera,
+            "num_frames": num_frames,
+        }
 
         shape = [4, image_size // 8, image_size // 8]
-        samples_ddim, _ = sampler.sample(S=step, conditioning=c_,
-                                        batch_size=batch_size, shape=shape,
-                                        verbose=False,
-                                        unconditional_guidance_scale=scale,
-                                        unconditional_conditioning=uc_,
-                                        eta=ddim_eta, x_T=None)
-        x_sample = model.decode_first_stage(samples_ddim)
-        x_sample = torch.clamp((x_sample + 1.0) / 2.0, min=0.0, max=1.0)
-        x_sample = 255. * x_sample.permute(0,2,3,1).cpu().numpy()
+        samples, _ = sampler.sample(
+            S=steps,
+            conditioning=c_,
+            batch_size=num_frames,
+            shape=shape,
+            verbose=False,
+            unconditional_guidance_scale=guidance_scale,
+            unconditional_conditioning=uc_,
+            eta=0.0,
+            x_T=None,
+        )
+        decoded = model.decode_first_stage(samples)
+        decoded = torch.clamp((decoded + 1.0) / 2.0, 0.0, 1.0)
+        arr = (decoded.permute(0, 2, 3, 1).cpu().numpy() * 255.0).astype(np.uint8)
 
-    return list(x_sample.astype(np.uint8))
-
-
-def generate_images(args, model, sampler, hull_embed, category_tensor, text_input, uncond_text_input, seed, guidance_scale, step, elevation, azimuth, use_camera):
-    dtype = torch.float16 if args.fp16 else torch.float32
-    device = args.device
-    batch_size = args.num_frames
-
-    if use_camera:
-        camera = get_camera(args.num_frames, elevation=elevation, azimuth_start=azimuth)
-        camera = camera.repeat(batch_size//args.num_frames,1).to(device)
-        num_frames = args.num_frames
-    else:
-        camera = None
-        num_frames = 1
-    
-    t = text_input + args.suffix
-    uc = model.get_learned_conditioning( [uncond_text_input] ).to(device)
-    set_seed(seed)
-    images = []
-    for _ in range(2):
-        img = t2i(model, args.size, t, uc, sampler, step=step, scale=guidance_scale, batch_size=batch_size, ddim_eta=0.0, 
-            dtype=dtype, device=device, camera=camera, num_frames=num_frames, hull_embed=hull_embed, category_tensor=category_tensor)
-        img = np.concatenate(img, 1)
-        images.append(img)
-    images = np.concatenate(images, 0)
-    return images
+    images = [arr[i] for i in range(arr.shape[0])]
+    grid = np.concatenate(images, axis=1)
+    return images, grid
 
 
+def build_app(args):
+    print("Loading base model...")
+    model = build_model(args.model_name, ckpt_path=args.base_ckpt)
+    model.to(args.device)
+    model.eval()
 
-if __name__ == "__main__":
-
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--model_name", type=str, default="sd-v2.1-base-4view", help="load pre-trained model from hugginface")
-    parser.add_argument("--config_path", type=str, default=None, help="load model from local config (override model_name)")
-    parser.add_argument("--ckpt_path", type=str, default=None, help="path to local checkpoint")
-    parser.add_argument("--suffix", type=str, default=", 3d asset")
-    parser.add_argument("--num_frames", type=int, default=4)
-    parser.add_argument("--size", type=int, default=256)
-    parser.add_argument("--hull_path", type=str, default=None, help="path to hull (convexhull) image")
-    parser.add_argument("--category", type=int, default=None, help="category id for conditioning")
-    parser.add_argument("--fp16", action="store_true")
-    parser.add_argument("--device", type=str, default='cuda')
-    args = parser.parse_args()
-
-    print("load t2i model ... ")
-    if args.config_path is None:
-        model = build_model(args.model_name, ckpt_path=args.ckpt_path)
-    else:
-        assert args.ckpt_path is not None, "ckpt_path must be specified!"
-        config = OmegaConf.load(args.config_path)
-        model = instantiate_from_config(config.model)
-        model.load_state_dict(torch.load(args.ckpt_path, map_location='cpu'))
-    model.device = args.device
+    cond_proj, ref_pose_proj = _load_adapter_weights(
+        model,
+        adapter_ckpt_path=args.adapter_ckpt,
+        lora_rank=args.lora_rank,
+        lora_alpha=args.lora_alpha,
+        device=args.device,
+    )
     model.to(args.device)
     model.eval()
 
     sampler = DDIMSampler(model)
-    print("load t2i model done . ")
-
-    # prepare hull encoder and load hull if provided
     image_encoder = ImageEmbedder(device=args.device, img_size=args.size)
-    hull_embed = None
-    category_tensor = None
-    if args.hull_path is not None:
-        img = Image.open(args.hull_path).convert('RGB')
-        transform = T.Compose([T.Resize((args.size, args.size)), T.ToTensor()])
-        img_t = transform(img).unsqueeze(0).to(args.device)
-        hull_embed = image_encoder.encode(img_t)
-    if args.category is not None:
-        category_tensor = torch.tensor([args.category], device=args.device)
+    image_encoder.eval()
 
-    fn_with_model = partial(generate_images, args, model, sampler, hull_embed, category_tensor)
+    def infer(
+        image1,
+        image2,
+        image3,
+        image4,
+        image1_elevation,
+        image1_azimuth,
+        image2_elevation,
+        image2_azimuth,
+        image3_elevation,
+        image3_azimuth,
+        image4_elevation,
+        image4_azimuth,
+        cat_entity,
+        cat_volume,
+        cat_direction,
+        cat_operation,
+        cat_affect,
+        prompt,
+        negative_prompt,
+        steps,
+        guidance_scale,
+        seed,
+        elevation,
+        azimuth,
+    ):
+        try:
+            cat_values = {
+                "entity": cat_entity.strip(),
+                "volume": cat_volume.strip(),
+                "direction": cat_direction.strip(),
+                "operation": cat_operation.strip(),
+                "affect": cat_affect.strip(),
+            }
+            cat_str = ", ".join(f"{k}: {v}" for k, v in cat_values.items() if v)
+            category_name = cat_str if cat_str else "object"
 
-    with gr.Blocks() as demo:
-        gr.Markdown("MVDream demo for multi-view images generation from text and camera inputs.")
+            text_dim = model.get_learned_conditioning([category_name]).shape[-1]
+            hull_embed = _prepare_hull_embed(
+                image_encoder=image_encoder,
+                images=[image1, image2, image3, image4],
+                image_size=args.size,
+                device=args.device,
+                cond_proj=cond_proj,
+                target_text_dim=text_dim,
+            )
+            ref_pose_embed = _prepare_reference_pose_tokens(
+                images=[image1, image2, image3, image4],
+                elevations=[image1_elevation, image2_elevation, image3_elevation, image4_elevation],
+                azimuths=[image1_azimuth, image2_azimuth, image3_azimuth, image4_azimuth],
+                device=args.device,
+                ref_pose_proj=ref_pose_proj,
+                target_text_dim=text_dim,
+            )
+
+            images, grid = _sample_multiview(
+                model=model,
+                sampler=sampler,
+                prompt=prompt,
+                negative_prompt=negative_prompt,
+                category_name=category_name,
+                hull_embed=hull_embed,
+                ref_pose_embed=ref_pose_embed,
+                image_size=args.size,
+                steps=int(steps),
+                guidance_scale=float(guidance_scale),
+                seed=int(seed),
+                elevation=int(elevation),
+                azimuth=int(azimuth),
+                num_frames=4,
+                device=args.device,
+                fp16=args.fp16,
+            )
+            status = f"Done. category='{category_name}', refs={sum(x is not None for x in [image1, image2, image3, image4])}"
+            return grid, images, status
+        except Exception as e:
+            return None, None, f"Error: {e}"
+
+    with gr.Blocks(title="MVDream Adapter Inference") as demo:
+        gr.Markdown("## MVDream Adapter Inference\nUpload 1-4 reference images, fill in category fields, and generate 4 views.")
         with gr.Row():
-            with gr.Column():
-                text_input = gr.Textbox(value="", label="prompt")
-                uncond_text_input = gr.Textbox(value="", label="negative prompt")
-                seed = gr.Number(value=23, label="seed", precision=0)
-                guidance_scale = gr.Number(value=7.5, label="guidance_scale")
-                step = gr.Number(value=25, label="sample steps", precision=0)
-                elevation = gr.Slider(0, 30, value=15, label="Elevation", info="Choose between 0 and 30")
-                azimuth = gr.Slider(0, 360, value=0, label="Azimuth", info="Choose between 0 and 360")
-                use_camera = gr.Checkbox(value=True, label="Multi-view Mode", info="Multi-view mode or not (indepedent images)")
-                text_button = gr.Button("Generate Images")
-            with gr.Column():
-                image_output = gr.Image()
+            with gr.Column(scale=1):
+                image1 = gr.Image(type="numpy", label="Reference Image 1 (required)")
+                image1_elevation = gr.Slider(-90, 90, value=15, step=1, label="Image 1 Elevation")
+                image1_azimuth = gr.Slider(0, 360, value=0, step=1, label="Image 1 Azimuth")
+                image2 = gr.Image(type="numpy", label="Reference Image 2 (optional)")
+                image2_elevation = gr.Slider(-90, 90, value=15, step=1, label="Image 2 Elevation")
+                image2_azimuth = gr.Slider(0, 360, value=90, step=1, label="Image 2 Azimuth")
+                image3 = gr.Image(type="numpy", label="Reference Image 3 (optional)")
+                image3_elevation = gr.Slider(-90, 90, value=15, step=1, label="Image 3 Elevation")
+                image3_azimuth = gr.Slider(0, 360, value=180, step=1, label="Image 3 Azimuth")
+                image4 = gr.Image(type="numpy", label="Reference Image 4 (optional)")
+                image4_elevation = gr.Slider(-90, 90, value=15, step=1, label="Image 4 Elevation")
+                image4_azimuth = gr.Slider(0, 360, value=270, step=1, label="Image 4 Azimuth")
+                gr.Markdown("### Category")
+                cat_entity    = gr.Textbox(value="", label="entity",    placeholder="e.g. single")
+                cat_volume    = gr.Textbox(value="", label="volume",    placeholder="e.g. cuboid")
+                cat_direction = gr.Textbox(value="", label="direction", placeholder="e.g. planar")
+                cat_operation = gr.Textbox(value="", label="operation", placeholder="e.g. perforating")
+                cat_affect    = gr.Textbox(value="", label="affect",    placeholder="e.g. porous")
+                prompt = gr.Textbox(value="", label="Prompt (optional)")
+                negative_prompt = gr.Textbox(value="", label="Negative Prompt")
+                steps = gr.Slider(10, 80, value=30, step=1, label="Sampling Steps")
+                guidance_scale = gr.Slider(1.0, 15.0, value=7.5, step=0.1, label="Guidance Scale")
+                seed = gr.Number(value=23, precision=0, label="Seed")
+                elevation = gr.Slider(0, 30, value=15, step=1, label="Camera Elevation")
+                azimuth = gr.Slider(0, 360, value=0, step=1, label="Camera Azimuth Start")
+                run_btn = gr.Button("Generate", variant="primary")
+            with gr.Column(scale=1):
+                grid_out = gr.Image(type="numpy", label="4-View Grid")
+                gallery_out = gr.Gallery(label="Generated Views", columns=4, object_fit="contain", height=220)
+                status = gr.Textbox(label="Status", interactive=False)
 
-        inputs = [text_input, uncond_text_input, seed, guidance_scale, step, elevation, azimuth, use_camera]
-        default_params = ["", 23, 7.5, 30, 15, 0, True]
-        gr.Examples(
-            [   
-                ["an astronaut riding a horse"] + default_params,
-                ["an earth"] + default_params,
-                ["a statue of a cute cat"] + default_params,
-                ["Luffy from one piece, head, super detailed, best quality, 4K, HD"] + default_params,
-                ["higly detailed, majestic royal tall ship, realistic painting, by Charles Gregory Artstation and Antonio Jacobsen and Edward Moran, intricated details, blender, hyperrealistic, 4k, HD"] + default_params,
-            ],
-            inputs,
-            image_output,
-            fn_with_model,
-            cache_examples=True,
+        run_btn.click(
+            infer,
+            inputs=[image1, image2, image3, image4,
+                image1_elevation, image1_azimuth,
+                image2_elevation, image2_azimuth,
+                image3_elevation, image3_azimuth,
+                image4_elevation, image4_azimuth,
+                    cat_entity, cat_volume, cat_direction, cat_operation, cat_affect,
+                    prompt, negative_prompt, steps, guidance_scale, seed, elevation, azimuth],
+            outputs=[grid_out, gallery_out, status],
         )
 
-        text_button.click(fn_with_model, inputs=inputs, outputs=image_output)
+    return demo
 
-    demo.launch(share=True)
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model_name", type=str, default="sd-v2.1-base-4view")
+    parser.add_argument("--base_ckpt", type=str, default=None, help="Optional base model checkpoint path")
+    parser.add_argument("--adapter_ckpt", type=str, default="checkpoints/ckpt_epoch_0.pth", help="Adapter-only checkpoint path")
+    parser.add_argument("--lora_rank", type=int, default=4)
+    parser.add_argument("--lora_alpha", type=float, default=1.0)
+    parser.add_argument("--size", type=int, default=256)
+    parser.add_argument("--fp16", action="store_true")
+    parser.add_argument("--device", type=str, default="cuda")
+    parser.add_argument("--server_name", type=str, default="127.0.0.1")
+    parser.add_argument("--server_port", type=int, default=7860)
+    parser.add_argument("--share", action="store_true")
+    args = parser.parse_args()
+
+    app = build_app(args)
+    launch_kwargs = {
+        "server_name": args.server_name,
+        "server_port": args.server_port,
+        "share": args.share,
+        "show_api": False,
+    }
+    try:
+        app.launch(**launch_kwargs)
+    except ValueError as e:
+        # Some environments cannot access localhost during Gradio checks.
+        if "localhost is not accessible" in str(e) and not args.share:
+            print("[warn] localhost check failed; retrying with share=True")
+            launch_kwargs["share"] = True
+            app.launch(**launch_kwargs)
+        else:
+            raise

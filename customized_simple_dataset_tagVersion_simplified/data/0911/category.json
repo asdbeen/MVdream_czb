@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 22,
-    "direction": 6,
-    "operation": 32,
-    "affect": 42
+﻿{
+    "entity":  "multiple",
+    "volume":  "wedge",
+    "direction":  "down",
+    "operation":  "peeling",
+    "affect":  "sunken"
 }

@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 0,
-    "direction": 12,
-    "operation": 24,
-    "affect": 20
+﻿{
+    "entity":  "single",
+    "volume":  "cuboid",
+    "direction":  "horizontal",
+    "operation":  "crumpling",
+    "affect":  "cantilevered"
 }

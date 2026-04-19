@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 16,
-    "direction": 7,
-    "operation": 28,
-    "affect": 60
+﻿{
+    "entity":  "single",
+    "volume":  "cross",
+    "direction":  "thin",
+    "operation":  "subtracting",
+    "affect":  "concave"
 }

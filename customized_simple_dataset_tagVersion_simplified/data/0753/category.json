@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 1,
-    "direction": 10,
-    "operation": 18,
-    "affect": 24
+﻿{
+    "entity":  "single",
+    "volume":  "cube",
+    "direction":  "random",
+    "operation":  "pitching",
+    "affect":  "sawtooth"
 }

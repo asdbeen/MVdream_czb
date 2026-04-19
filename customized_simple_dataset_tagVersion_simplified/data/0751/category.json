@@ -1,7 +1,7 @@
-{
-    "entity": 1,
-    "volume": 23,
-    "direction": 2,
-    "operation": 64,
-    "affect": 37
+﻿{
+    "entity":  "double",
+    "volume":  "sphere",
+    "direction":  "oblique",
+    "operation":  "connecting",
+    "affect":  "dilated"
 }

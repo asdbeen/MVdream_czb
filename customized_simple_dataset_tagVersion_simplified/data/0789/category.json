@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 6,
-    "direction": 2,
-    "operation": 25,
-    "affect": 69
+﻿{
+    "entity":  "single",
+    "volume":  "courtyard",
+    "direction":  "oblique",
+    "operation":  "embedding",
+    "affect":  "round"
 }

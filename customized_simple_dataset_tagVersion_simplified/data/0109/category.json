@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 2,
-    "direction": 12,
-    "operation": 2,
-    "affect": 21
+﻿{
+    "entity":  "multiple",
+    "volume":  "hemisphere",
+    "direction":  "horizontal",
+    "operation":  "stacking",
+    "affect":  "shifted"
 }

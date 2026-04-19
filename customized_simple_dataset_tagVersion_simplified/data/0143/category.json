@@ -1,7 +1,7 @@
-{
-    "entity": 2,
-    "volume": 9,
-    "direction": 14,
-    "operation": 42,
-    "affect": 39
+﻿{
+    "entity":  "triple",
+    "volume":  "donut",
+    "direction":  "omni",
+    "operation":  "overlapping",
+    "affect":  "rotational"
 }

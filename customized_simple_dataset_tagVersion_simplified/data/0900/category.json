@@ -1,7 +1,7 @@
-{
-    "entity": 1,
-    "volume": 21,
-    "direction": 8,
-    "operation": 35,
-    "affect": 2
+﻿{
+    "entity":  "double",
+    "volume":  "tripod",
+    "direction":  "vertical",
+    "operation":  "joining",
+    "affect":  "symmetrical"
 }

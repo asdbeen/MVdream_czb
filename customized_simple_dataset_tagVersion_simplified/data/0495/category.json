@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 4,
-    "direction": 8,
-    "operation": 20,
-    "affect": 69
+﻿{
+    "entity":  "single",
+    "volume":  "cylinder",
+    "direction":  "vertical",
+    "operation":  "spiraling",
+    "affect":  "round"
 }

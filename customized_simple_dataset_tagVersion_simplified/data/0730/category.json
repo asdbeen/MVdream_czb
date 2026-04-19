@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 15,
-    "direction": 8,
-    "operation": 38,
-    "affect": 66
+﻿{
+    "entity":  "single",
+    "volume":  "pyramid",
+    "direction":  "vertical",
+    "operation":  "tapering",
+    "affect":  "rolled"
 }

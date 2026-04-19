@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 9,
-    "direction": 12,
-    "operation": 38,
-    "affect": 36
+﻿{
+    "entity":  "single",
+    "volume":  "donut",
+    "direction":  "horizontal",
+    "operation":  "tapering",
+    "affect":  "discontinuous"
 }

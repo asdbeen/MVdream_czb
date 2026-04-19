@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 14,
-    "direction": 4,
-    "operation": 40,
-    "affect": 53
+﻿{
+    "entity":  "multiple",
+    "volume":  "pipe",
+    "direction":  "perpendicular",
+    "operation":  "scaffolding",
+    "affect":  "crossed"
 }

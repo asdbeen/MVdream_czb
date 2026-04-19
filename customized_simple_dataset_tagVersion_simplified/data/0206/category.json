@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 9,
-    "direction": 19,
-    "operation": 32,
-    "affect": 19
+﻿{
+    "entity":  "single",
+    "volume":  "donut",
+    "direction":  "centrifugal",
+    "operation":  "peeling",
+    "affect":  "enveloping"
 }

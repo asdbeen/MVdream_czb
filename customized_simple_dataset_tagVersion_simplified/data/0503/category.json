@@ -1,7 +1,7 @@
-{
-    "entity": 2,
-    "volume": 0,
-    "direction": 5,
-    "operation": 29,
-    "affect": 60
+﻿{
+    "entity":  "triple",
+    "volume":  "cuboid",
+    "direction":  "linear",
+    "operation":  "arraying",
+    "affect":  "concave"
 }

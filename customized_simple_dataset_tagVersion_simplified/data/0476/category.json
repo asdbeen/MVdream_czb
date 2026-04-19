@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 18,
-    "direction": 19,
-    "operation": 13,
-    "affect": 63
+﻿{
+    "entity":  "multiple",
+    "volume":  "Lshape",
+    "direction":  "centrifugal",
+    "operation":  "seperating",
+    "affect":  "consistent"
 }

@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 0,
-    "direction": 8,
-    "operation": 2,
-    "affect": 37
+﻿{
+    "entity":  "multiple",
+    "volume":  "cuboid",
+    "direction":  "vertical",
+    "operation":  "stacking",
+    "affect":  "dilated"
 }

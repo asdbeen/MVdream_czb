@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 8,
-    "direction": 9,
-    "operation": 11,
-    "affect": 5
+﻿{
+    "entity":  "single",
+    "volume":  "cone",
+    "direction":  "bi",
+    "operation":  "bifurcating",
+    "affect":  "asymmetrical"
 }

@@ -1,7 +1,7 @@
-{
-    "entity": 3,
-    "volume": 0,
-    "direction": 8,
-    "operation": 47,
-    "affect": 30
+﻿{
+    "entity":  "quadruple",
+    "volume":  "cuboid",
+    "direction":  "vertical",
+    "operation":  "compressing",
+    "affect":  "gaping"
 }

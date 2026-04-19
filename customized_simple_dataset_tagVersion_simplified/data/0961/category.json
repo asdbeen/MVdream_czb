@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 0,
-    "direction": 2,
-    "operation": 10,
-    "affect": 42
+﻿{
+    "entity":  "single",
+    "volume":  "cuboid",
+    "direction":  "oblique",
+    "operation":  "grading",
+    "affect":  "sunken"
 }

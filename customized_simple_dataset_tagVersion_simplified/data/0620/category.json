@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 3,
-    "direction": 5,
-    "operation": 32,
-    "affect": 10
+﻿{
+    "entity":  "single",
+    "volume":  "tube",
+    "direction":  "linear",
+    "operation":  "peeling",
+    "affect":  "hollow"
 }

@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 4,
-    "direction": 6,
-    "operation": 43,
-    "affect": 10
+﻿{
+    "entity":  "single",
+    "volume":  "cylinder",
+    "direction":  "down",
+    "operation":  "pixelating",
+    "affect":  "hollow"
 }

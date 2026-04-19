@@ -26,8 +26,10 @@ class LoRALinear(nn.Module):
 
         if r > 0:
             # A: (r, in), B: (out, r)
-            self.lora_A = nn.Parameter(torch.zeros(r, self.in_features))
-            self.lora_B = nn.Parameter(torch.zeros(self.out_features, r))
+            param_device = self.weight.device if self.weight is not None else None
+            param_dtype = self.weight.dtype if self.weight is not None else None
+            self.lora_A = nn.Parameter(torch.zeros(r, self.in_features, device=param_device, dtype=param_dtype))
+            self.lora_B = nn.Parameter(torch.zeros(self.out_features, r, device=param_device, dtype=param_dtype))
             # initialize
             nn.init.kaiming_uniform_(self.lora_A, a=math.sqrt(5))
             nn.init.zeros_(self.lora_B)
@@ -42,8 +44,14 @@ class LoRALinear(nn.Module):
         out = F.linear(x, self.weight, self.bias)
         if self.r > 0:
             # adapter: x -> (.., r) via A, then -> (.., out) via B
-            adapter = F.linear(x, self.lora_A)
-            adapter = F.linear(adapter, self.lora_B)
+            lora_A = self.lora_A
+            lora_B = self.lora_B
+            if lora_A.device != x.device or lora_A.dtype != x.dtype:
+                lora_A = lora_A.to(device=x.device, dtype=x.dtype)
+            if lora_B.device != x.device or lora_B.dtype != x.dtype:
+                lora_B = lora_B.to(device=x.device, dtype=x.dtype)
+            adapter = F.linear(x, lora_A)
+            adapter = F.linear(adapter, lora_B)
             return out + self.scaling * adapter
         return out
 

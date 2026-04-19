@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 0,
-    "direction": 1,
-    "operation": 60,
-    "affect": 4
+﻿{
+    "entity":  "single",
+    "volume":  "cuboid",
+    "direction":  "normal",
+    "operation":  "oscillating",
+    "affect":  "pyramidal"
 }

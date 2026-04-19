@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 20,
-    "direction": 14,
-    "operation": 19,
-    "affect": 7
+﻿{
+    "entity":  "single",
+    "volume":  "hypershape",
+    "direction":  "omni",
+    "operation":  "branching",
+    "affect":  "organic"
 }

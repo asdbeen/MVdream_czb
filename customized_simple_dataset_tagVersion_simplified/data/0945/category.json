@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 31,
-    "direction": 10,
-    "operation": 15,
-    "affect": 41
+﻿{
+    "entity":  "multiple",
+    "volume":  "line",
+    "direction":  "random",
+    "operation":  "intersecting",
+    "affect":  "irregular"
 }

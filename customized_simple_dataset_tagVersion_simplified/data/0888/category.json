@@ -1,7 +1,7 @@
-{
-    "entity": 1,
-    "volume": 1,
-    "direction": 2,
-    "operation": 64,
-    "affect": 10
+﻿{
+    "entity":  "double",
+    "volume":  "cube",
+    "direction":  "oblique",
+    "operation":  "connecting",
+    "affect":  "hollow"
 }

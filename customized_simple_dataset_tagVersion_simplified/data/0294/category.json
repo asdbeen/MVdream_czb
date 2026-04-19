@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 14,
-    "direction": 2,
-    "operation": 50,
-    "affect": 45
+﻿{
+    "entity":  "single",
+    "volume":  "pipe",
+    "direction":  "oblique",
+    "operation":  "ripping",
+    "affect":  "kinky"
 }

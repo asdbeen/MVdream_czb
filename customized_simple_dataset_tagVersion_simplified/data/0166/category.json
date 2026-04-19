@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 5,
-    "direction": 5,
-    "operation": 16,
-    "affect": 14
+﻿{
+    "entity":  "single",
+    "volume":  "arch",
+    "direction":  "linear",
+    "operation":  "voiding",
+    "affect":  "staggered"
 }

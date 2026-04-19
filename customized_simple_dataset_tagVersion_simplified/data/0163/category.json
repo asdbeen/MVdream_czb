@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 9,
-    "direction": 2,
-    "operation": 10,
-    "affect": 54
+﻿{
+    "entity":  "single",
+    "volume":  "donut",
+    "direction":  "oblique",
+    "operation":  "grading",
+    "affect":  "topographic"
 }

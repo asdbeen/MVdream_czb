@@ -1,7 +1,7 @@
 ''' Utiliy functions to load pre-trained models more easily '''
 import os
-import pkg_resources
 from omegaconf import OmegaConf
+from importlib import resources
 
 import torch
 from huggingface_hub import hf_hub_download
@@ -24,9 +24,7 @@ PRETRAINED_MODELS = {
 
 
 def get_config_file(config_path):
-    cfg_file = pkg_resources.resource_filename(
-        "mvdream", os.path.join("configs", config_path)
-    )
+    cfg_file = str(resources.files("mvdream").joinpath("configs", config_path))
     if not os.path.exists(cfg_file):
         raise RuntimeError(f"Config {config_path} not available!")
     return cfg_file

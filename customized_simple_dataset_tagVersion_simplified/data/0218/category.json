@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 3,
-    "direction": 0,
-    "operation": 27,
-    "affect": 59
+﻿{
+    "entity":  "single",
+    "volume":  "tube",
+    "direction":  "planar",
+    "operation":  "looping",
+    "affect":  "anthropomorphic"
 }

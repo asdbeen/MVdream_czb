@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 6,
-    "direction": 1,
-    "operation": 18,
-    "affect": 57
+﻿{
+    "entity":  "single",
+    "volume":  "courtyard",
+    "direction":  "normal",
+    "operation":  "pitching",
+    "affect":  "inverted"
 }

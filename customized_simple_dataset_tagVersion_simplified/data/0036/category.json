@@ -1,7 +1,7 @@
-{
-    "entity": 2,
-    "volume": 16,
-    "direction": 10,
-    "operation": 21,
-    "affect": 26
+﻿{
+    "entity":  "triple",
+    "volume":  "cross",
+    "direction":  "random",
+    "operation":  "wrapping",
+    "affect":  "cubic"
 }

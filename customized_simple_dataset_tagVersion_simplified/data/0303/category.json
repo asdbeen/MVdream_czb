@@ -1,7 +1,7 @@
-{
-    "entity": 1,
-    "volume": 28,
-    "direction": 8,
-    "operation": 56,
-    "affect": 2
+﻿{
+    "entity":  "double",
+    "volume":  "vortex",
+    "direction":  "vertical",
+    "operation":  "morphing",
+    "affect":  "symmetrical"
 }

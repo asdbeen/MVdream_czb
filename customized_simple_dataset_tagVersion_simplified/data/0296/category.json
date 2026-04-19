@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 23,
-    "direction": 1,
-    "operation": 23,
-    "affect": 4
+﻿{
+    "entity":  "multiple",
+    "volume":  "sphere",
+    "direction":  "normal",
+    "operation":  "packing",
+    "affect":  "pyramidal"
 }

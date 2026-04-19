@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 0,
-    "direction": 8,
-    "operation": 63,
-    "affect": 15
+﻿{
+    "entity":  "single",
+    "volume":  "cuboid",
+    "direction":  "vertical",
+    "operation":  "fluting",
+    "affect":  "waved"
 }

@@ -1,7 +1,7 @@
-{
-    "entity": 1,
-    "volume": 0,
-    "direction": 16,
-    "operation": 15,
-    "affect": 44
+﻿{
+    "entity":  "double",
+    "volume":  "cuboid",
+    "direction":  "parallel",
+    "operation":  "intersecting",
+    "affect":  "flooring"
 }

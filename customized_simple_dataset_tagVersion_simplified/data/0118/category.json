@@ -1,7 +1,7 @@
-{
-    "entity": 1,
-    "volume": 18,
-    "direction": 2,
-    "operation": 13,
-    "affect": 30
+﻿{
+    "entity":  "double",
+    "volume":  "Lshape",
+    "direction":  "oblique",
+    "operation":  "seperating",
+    "affect":  "gaping"
 }

@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 10,
-    "direction": 4,
-    "operation": 18,
-    "affect": 57
+﻿{
+    "entity":  "single",
+    "volume":  "gable",
+    "direction":  "perpendicular",
+    "operation":  "pitching",
+    "affect":  "inverted"
 }

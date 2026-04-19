@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 4,
-    "direction": 0,
-    "operation": 23,
-    "affect": 16
+﻿{
+    "entity":  "multiple",
+    "volume":  "cylinder",
+    "direction":  "planar",
+    "operation":  "packing",
+    "affect":  "perimetral"
 }

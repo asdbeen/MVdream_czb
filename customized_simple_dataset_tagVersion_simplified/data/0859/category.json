@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 5,
-    "direction": 12,
-    "operation": 13,
-    "affect": 16
+﻿{
+    "entity":  "multiple",
+    "volume":  "arch",
+    "direction":  "horizontal",
+    "operation":  "seperating",
+    "affect":  "perimetral"
 }

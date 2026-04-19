@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 1,
-    "direction": 8,
-    "operation": 49,
-    "affect": 32
+﻿{
+    "entity":  "single",
+    "volume":  "cube",
+    "direction":  "vertical",
+    "operation":  "hovering",
+    "affect":  "colonnaded"
 }

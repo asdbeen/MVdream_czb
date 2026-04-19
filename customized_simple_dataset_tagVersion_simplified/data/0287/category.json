@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 27,
-    "direction": 8,
-    "operation": 29,
-    "affect": 37
+﻿{
+    "entity":  "multiple",
+    "volume":  "hexagonal",
+    "direction":  "vertical",
+    "operation":  "arraying",
+    "affect":  "dilated"
 }

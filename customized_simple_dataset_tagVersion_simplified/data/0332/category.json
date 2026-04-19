@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 17,
-    "direction": 0,
-    "operation": 13,
-    "affect": 27
+﻿{
+    "entity":  "single",
+    "volume":  "disk",
+    "direction":  "planar",
+    "operation":  "seperating",
+    "affect":  "patterned"
 }

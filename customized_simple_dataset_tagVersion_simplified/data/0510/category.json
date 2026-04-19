@@ -1,7 +1,7 @@
-{
-    "entity": 1,
-    "volume": 8,
-    "direction": 9,
-    "operation": 48,
-    "affect": 45
+﻿{
+    "entity":  "double",
+    "volume":  "cone",
+    "direction":  "bi",
+    "operation":  "interlocking",
+    "affect":  "kinky"
 }

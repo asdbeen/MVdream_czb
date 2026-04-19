@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 4,
-    "direction": 2,
-    "operation": 18,
-    "affect": 13
+﻿{
+    "entity":  "single",
+    "volume":  "cylinder",
+    "direction":  "oblique",
+    "operation":  "pitching",
+    "affect":  "gabled"
 }

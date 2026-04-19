@@ -5,6 +5,7 @@ import torch.nn as nn
 import numpy as np
 from einops import rearrange
 from typing import Optional, Any
+import os
 
 from ..attention import MemoryEfficientCrossAttention
 
@@ -15,6 +16,11 @@ try:
 except:
     XFORMERS_IS_AVAILBLE = False
     print("No module 'xformers'. Proceeding without it.")
+
+_disable_xformers_env = os.environ.get("MVDREAM_DISABLE_XFORMERS", "1").strip().lower()
+if _disable_xformers_env in ("1", "true", "yes", "on"):
+    XFORMERS_IS_AVAILBLE = False
+    print("[info] xformers disabled by MVDREAM_DISABLE_XFORMERS; using torch attention.")
 
 
 def get_timestep_embedding(timesteps, embedding_dim):
@@ -235,6 +241,13 @@ class MemoryEfficientAttnBlock(nn.Module):
                                         stride=1,
                                         padding=0)
         self.attention_op: Optional[Any] = None
+        self._disable_xformers = False
+
+    def _torch_attention(self, q, k, v):
+        scale = q.shape[-1] ** -0.5
+        sim = torch.bmm(q.float(), k.float().transpose(1, 2)) * scale
+        attn = torch.softmax(sim, dim=-1).to(v.dtype)
+        return torch.bmm(attn, v)
 
     def forward(self, x):
         h_ = x
@@ -255,7 +268,15 @@ class MemoryEfficientAttnBlock(nn.Module):
             .contiguous(),
             (q, k, v),
         )
-        out = xformers.ops.memory_efficient_attention(q, k, v, attn_bias=None, op=self.attention_op)
+        if self._disable_xformers:
+            out = self._torch_attention(q, k, v)
+        else:
+            try:
+                out = xformers.ops.memory_efficient_attention(q, k, v, attn_bias=None, op=self.attention_op)
+            except RuntimeError as e:
+                self._disable_xformers = True
+                print(f"[warn] xformers self-attention failed; fallback to torch attention. reason: {e}")
+                out = self._torch_attention(q, k, v)
 
         out = (
             out.unsqueeze(0)

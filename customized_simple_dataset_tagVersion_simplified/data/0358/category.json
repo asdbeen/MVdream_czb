@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 4,
-    "direction": 2,
-    "operation": 16,
-    "affect": 46
+﻿{
+    "entity":  "single",
+    "volume":  "cylinder",
+    "direction":  "oblique",
+    "operation":  "voiding",
+    "affect":  "circular"
 }

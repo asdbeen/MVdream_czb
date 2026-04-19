@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 0,
-    "direction": 8,
-    "operation": 5,
-    "affect": 0
+﻿{
+    "entity":  "single",
+    "volume":  "cuboid",
+    "direction":  "vertical",
+    "operation":  "stretching",
+    "affect":  "porous"
 }

@@ -1,7 +1,7 @@
-{
-    "entity": 3,
-    "volume": 0,
-    "direction": 0,
-    "operation": 32,
-    "affect": 42
+﻿{
+    "entity":  "quadruple",
+    "volume":  "cuboid",
+    "direction":  "planar",
+    "operation":  "peeling",
+    "affect":  "sunken"
 }

@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 15,
-    "direction": 10,
-    "operation": 14,
-    "affect": 33
+﻿{
+    "entity":  "single",
+    "volume":  "pyramid",
+    "direction":  "random",
+    "operation":  "folding",
+    "affect":  "cornered"
 }

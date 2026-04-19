@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 1,
-    "direction": 14,
-    "operation": 28,
-    "affect": 7
+﻿{
+    "entity":  "single",
+    "volume":  "cube",
+    "direction":  "omni",
+    "operation":  "subtracting",
+    "affect":  "organic"
 }

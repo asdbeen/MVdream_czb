@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 14,
-    "direction": 7,
-    "operation": 19,
-    "affect": 7
+﻿{
+    "entity":  "multiple",
+    "volume":  "pipe",
+    "direction":  "thin",
+    "operation":  "branching",
+    "affect":  "organic"
 }

@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 0,
-    "direction": 3,
-    "operation": 12,
-    "affect": 1
+﻿{
+    "entity":  "single",
+    "volume":  "cuboid",
+    "direction":  "uni",
+    "operation":  "undulating",
+    "affect":  "notched"
 }

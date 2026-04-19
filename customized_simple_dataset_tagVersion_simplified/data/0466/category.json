@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 3,
-    "direction": 9,
-    "operation": 27,
-    "affect": 51
+﻿{
+    "entity":  "single",
+    "volume":  "tube",
+    "direction":  "bi",
+    "operation":  "looping",
+    "affect":  "indented"
 }

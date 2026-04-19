@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 1,
-    "direction": 1,
-    "operation": 52,
-    "affect": 17
+﻿{
+    "entity":  "single",
+    "volume":  "cube",
+    "direction":  "normal",
+    "operation":  "waffling",
+    "affect":  "gridded"
 }

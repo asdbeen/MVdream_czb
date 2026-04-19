@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 9,
-    "direction": 19,
-    "operation": 49,
-    "affect": 43
+﻿{
+    "entity":  "single",
+    "volume":  "donut",
+    "direction":  "centrifugal",
+    "operation":  "hovering",
+    "affect":  "columnar"
 }

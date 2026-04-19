@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 0,
-    "direction": 3,
-    "operation": 43,
-    "affect": 38
+﻿{
+    "entity":  "single",
+    "volume":  "cuboid",
+    "direction":  "uni",
+    "operation":  "pixelating",
+    "affect":  "gradated"
 }

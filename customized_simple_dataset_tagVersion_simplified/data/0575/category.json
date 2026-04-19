@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 18,
-    "direction": 8,
-    "operation": 24,
-    "affect": 10
+﻿{
+    "entity":  "single",
+    "volume":  "Lshape",
+    "direction":  "vertical",
+    "operation":  "crumpling",
+    "affect":  "hollow"
 }

@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 17,
-    "direction": 2,
-    "operation": 17,
-    "affect": 20
+﻿{
+    "entity":  "single",
+    "volume":  "disk",
+    "direction":  "oblique",
+    "operation":  "inflating",
+    "affect":  "cantilevered"
 }

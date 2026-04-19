@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 13,
-    "direction": 7,
-    "operation": 4,
-    "affect": 29
+﻿{
+    "entity":  "single",
+    "volume":  "surface",
+    "direction":  "thin",
+    "operation":  "bending",
+    "affect":  "continuous"
 }

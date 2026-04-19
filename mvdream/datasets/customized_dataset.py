@@ -9,6 +9,9 @@ from torch.utils.data import Dataset
 import torchvision.transforms as T
 
 
+CATEGORY_FIELDS = ["entity", "volume", "direction", "operation", "affect"]
+
+
 def opposite_view(i):
     if 0 <= i <= 24:
         return (i + 12) % 24
@@ -28,31 +31,56 @@ def get_random_views(rgba_dir, num_views=4):
 
 
 def get_4_cardinal_views(rgba_dir, front_view=None):
-    """Return indices for [front, back, left, right] based on available view numbers.
+    """Return [front, back, left, right] sampled within the same ring.
 
-    If front_view is None, pick a random front. Uses circular indexing over sorted view numbers.
+    Ring-1: 0..24, Ring-2: 27..39.
     """
     all_files = [f for f in os.listdir(rgba_dir) if f.endswith('.png')]
     view_numbers = sorted([int(os.path.splitext(f)[0]) for f in all_files])
-    N = len(view_numbers)
-    if N == 0:
+    ring1 = [v for v in view_numbers if 0 <= v <= 24]
+    ring2 = [v for v in view_numbers if 27 <= v <= 39]
+
+    if len(ring1) == 0 and len(ring2) == 0:
         return np.array([])
+
+    # choose ring by front_view when provided; otherwise randomly pick one available ring
+    ring = None
+    if front_view is not None:
+        fv = int(front_view)
+        if fv in ring1:
+            ring = ring1
+        elif fv in ring2:
+            ring = ring2
+    if ring is None:
+        candidates = []
+        if len(ring1) > 0:
+            candidates.append(ring1)
+        if len(ring2) > 0:
+            candidates.append(ring2)
+        ring = random.choice(candidates)
+
+    N = len(ring)
+    if N < 4:
+        # not enough views in this ring, fallback to random views from all available files
+        return get_random_views(rgba_dir, num_views=4)
+
     # pick front
     if front_view is None:
-        front = random.choice(view_numbers)
+        front = random.choice(ring)
     else:
         front = int(front_view)
-        if front not in view_numbers:
+        if front not in ring:
             # fallback to random
-            front = random.choice(view_numbers)
-    idx = view_numbers.index(front)
+            front = random.choice(ring)
+    idx = ring.index(front)
+
     # compute cardinal positions
     half = N // 2
     quarter = max(1, N // 4)
     back_idx = (idx + half) % N
     left_idx = (idx + quarter) % N
     right_idx = (idx - quarter) % N
-    picks = [view_numbers[idx], view_numbers[back_idx], view_numbers[left_idx], view_numbers[right_idx]]
+    picks = [ring[idx], ring[back_idx], ring[left_idx], ring[right_idx]]
     return np.array(picks)
 
 
@@ -65,7 +93,7 @@ class customizedDataset(Dataset):
     """
     def __init__(self, root_dir: str, meta_path: str, sample_side_views: int = 4, source_image_res: int = 256,
                  render_image_res_low: int = 256, render_image_res_high: int = 256, render_region_size: int = 256,
-                 normalize_camera: bool = False, normed_dist_to_center=None):
+                 normalize_camera: bool = False, normed_dist_to_center=None, use_value_json: bool = True):
         super().__init__()
         self.root_dir = root_dir
         with open(meta_path, 'r') as f:
@@ -77,6 +105,7 @@ class customizedDataset(Dataset):
         self.render_region_size = render_region_size
         self.normalize_camera = normalize_camera
         self.normed_dist_to_center = normed_dist_to_center
+        self.use_value_json = use_value_json
         self.transform = T.Compose([T.Resize((self.source_image_res, self.source_image_res)), T.ToTensor()])
 
     def __len__(self):
@@ -91,34 +120,36 @@ class customizedDataset(Dataset):
 
         # load category
         category_path = os.path.join(root, 'category.json')
-        category_entity = ''
+        category_text = ''
         try:
             with open(category_path, 'r') as f:
                 cat = json.load(f)
                 if isinstance(cat, dict):
-                    category_entity = cat.get('entity', '')
+                    parts = []
+                    for key in CATEGORY_FIELDS:
+                        value = str(cat.get(key, '')).strip()
+                        if value:
+                            parts.append(f"{key}: {value}")
+                    category_text = ", ".join(parts) if parts else ''
                 else:
-                    category_entity = str(cat)
+                    category_text = str(cat)
         except Exception:
-            category_entity = ''
+            category_text = ''
 
         # value
-        value_path = os.path.join(root, 'value.json')
-        try:
-            with open(value_path, 'r') as f:
-                val = json.load(f)
-                value_tensor = torch.tensor([float(val.get('linearity', 0.0)), float(val.get('planarity', 0.0)), float(val.get('sphericity', 0.0))], dtype=torch.float32)
-        except Exception:
+        if self.use_value_json:
+            value_path = os.path.join(root, 'value.json')
+            try:
+                with open(value_path, 'r') as f:
+                    val = json.load(f)
+                    value_tensor = torch.tensor([float(val.get('linearity', 0.0)), float(val.get('planarity', 0.0)), float(val.get('sphericity', 0.0))], dtype=torch.float32)
+            except Exception:
+                value_tensor = torch.zeros(3, dtype=torch.float32)
+        else:
             value_tensor = torch.zeros(3, dtype=torch.float32)
 
-        # pick sample views
-        sample_views = get_random_views(convex_dir, num_views=self.sample_side_views)
-        # include opposite view as second element (mimic example)
-        try:
-            source_image_view_back = opposite_view(sample_views[0])
-            sample_views = np.insert(sample_views, 1, source_image_view_back)
-        except Exception:
-            pass
+        # fixed 4-view sampling: [front, back, left, right] from the same ring
+        sample_views = get_4_cardinal_views(convex_dir)
 
         hulls = []
         gts = []
@@ -169,8 +200,9 @@ class customizedDataset(Dataset):
         sample = {
             'uid': uid,
             'poses': poses,
-            'category': category_entity,
+            'category': category_text,
             'value_tensor': value_tensor,
+            'selected_view_ids': torch.tensor(sample_views, dtype=torch.long),
             'source_image': hulls[0],
             'source_image_back': hulls[1] if hulls.shape[0]>1 else hulls[0],
             'source_image_left': hulls[2] if hulls.shape[0]>2 else hulls[0],

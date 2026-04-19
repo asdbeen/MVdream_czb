@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 0,
-    "direction": 5,
-    "operation": 50,
-    "affect": 41
+﻿{
+    "entity":  "single",
+    "volume":  "cuboid",
+    "direction":  "linear",
+    "operation":  "ripping",
+    "affect":  "irregular"
 }

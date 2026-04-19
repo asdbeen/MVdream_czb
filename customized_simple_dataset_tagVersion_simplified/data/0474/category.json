@@ -1,7 +1,7 @@
-{
-    "entity": 3,
-    "volume": 15,
-    "direction": 11,
-    "operation": 31,
-    "affect": 10
+﻿{
+    "entity":  "quadruple",
+    "volume":  "pyramid",
+    "direction":  "cardinal",
+    "operation":  "draping",
+    "affect":  "hollow"
 }

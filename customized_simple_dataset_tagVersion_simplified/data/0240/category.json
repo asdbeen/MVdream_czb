@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 3,
-    "direction": 9,
-    "operation": 33,
-    "affect": 20
+﻿{
+    "entity":  "single",
+    "volume":  "tube",
+    "direction":  "bi",
+    "operation":  "zigzagging",
+    "affect":  "cantilevered"
 }

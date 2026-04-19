@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 18,
-    "direction": 15,
-    "operation": 49,
-    "affect": 44
+﻿{
+    "entity":  "multiple",
+    "volume":  "Lshape",
+    "direction":  "radial",
+    "operation":  "hovering",
+    "affect":  "flooring"
 }

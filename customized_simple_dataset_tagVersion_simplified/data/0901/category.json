@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 23,
-    "direction": 1,
-    "operation": 24,
-    "affect": 41
+﻿{
+    "entity":  "single",
+    "volume":  "sphere",
+    "direction":  "normal",
+    "operation":  "crumpling",
+    "affect":  "irregular"
 }

@@ -1,7 +1,7 @@
-{
-    "entity": 3,
-    "volume": 3,
-    "direction": 8,
-    "operation": 13,
-    "affect": 70
+﻿{
+    "entity":  "quadruple",
+    "volume":  "tube",
+    "direction":  "vertical",
+    "operation":  "seperating",
+    "affect":  "contained"
 }

@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 0,
-    "direction": 10,
-    "operation": 6,
-    "affect": 31
+﻿{
+    "entity":  "single",
+    "volume":  "cuboid",
+    "direction":  "random",
+    "operation":  "tangling",
+    "affect":  "wired"
 }

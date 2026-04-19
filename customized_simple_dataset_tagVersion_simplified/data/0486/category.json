@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 14,
-    "direction": 14,
-    "operation": 23,
-    "affect": 0
+﻿{
+    "entity":  "multiple",
+    "volume":  "pipe",
+    "direction":  "omni",
+    "operation":  "packing",
+    "affect":  "porous"
 }

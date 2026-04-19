@@ -1,7 +1,7 @@
-{
-    "entity": 1,
-    "volume": 7,
-    "direction": 8,
-    "operation": 35,
-    "affect": 2
+﻿{
+    "entity":  "double",
+    "volume":  "canopy",
+    "direction":  "vertical",
+    "operation":  "joining",
+    "affect":  "symmetrical"
 }

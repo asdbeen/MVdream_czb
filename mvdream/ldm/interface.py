@@ -120,6 +120,10 @@ class LatentDiffusionInterface(nn.Module):
         assert isinstance(cond, dict)
         return self.model(x_noisy, t, **cond, **kwargs)
 
+    @property
+    def device(self):
+        return next(self.parameters()).device
+
     def get_learned_conditioning(self, prompts: List[str]):
         return self.cond_stage_model(prompts)
 

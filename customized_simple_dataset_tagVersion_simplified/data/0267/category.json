@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 3,
-    "direction": 12,
-    "operation": 26,
-    "affect": 14
+﻿{
+    "entity":  "multiple",
+    "volume":  "tube",
+    "direction":  "horizontal",
+    "operation":  "intertwining",
+    "affect":  "staggered"
 }

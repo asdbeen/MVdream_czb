@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 1,
-    "direction": 5,
-    "operation": 7,
-    "affect": 9
+﻿{
+    "entity":  "single",
+    "volume":  "cube",
+    "direction":  "linear",
+    "operation":  "unfolding",
+    "affect":  "paneled"
 }

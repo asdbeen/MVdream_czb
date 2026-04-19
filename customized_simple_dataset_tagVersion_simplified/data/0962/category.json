@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 1,
-    "direction": 10,
-    "operation": 1,
-    "affect": 28
+﻿{
+    "entity":  "single",
+    "volume":  "cube",
+    "direction":  "random",
+    "operation":  "splitting",
+    "affect":  "rippled"
 }

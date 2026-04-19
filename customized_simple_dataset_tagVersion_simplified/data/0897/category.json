@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 6,
-    "direction": 7,
-    "operation": 4,
-    "affect": 12
+﻿{
+    "entity":  "single",
+    "volume":  "courtyard",
+    "direction":  "thin",
+    "operation":  "bending",
+    "affect":  "opening"
 }

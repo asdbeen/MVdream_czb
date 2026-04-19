@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 5,
-    "direction": 6,
-    "operation": 32,
-    "affect": 25
+﻿{
+    "entity":  "single",
+    "volume":  "arch",
+    "direction":  "down",
+    "operation":  "peeling",
+    "affect":  "stripped"
 }

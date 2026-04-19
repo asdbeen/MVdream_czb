@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 0,
-    "direction": 19,
-    "operation": 42,
-    "affect": 12
+﻿{
+    "entity":  "multiple",
+    "volume":  "cuboid",
+    "direction":  "centrifugal",
+    "operation":  "overlapping",
+    "affect":  "opening"
 }

@@ -1,7 +1,7 @@
-{
-    "entity": 3,
-    "volume": 3,
-    "direction": 7,
-    "operation": 15,
-    "affect": 2
+﻿{
+    "entity":  "quadruple",
+    "volume":  "tube",
+    "direction":  "thin",
+    "operation":  "intersecting",
+    "affect":  "symmetrical"
 }

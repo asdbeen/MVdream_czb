@@ -1,7 +1,7 @@
-{
-    "entity": 1,
-    "volume": 4,
-    "direction": 4,
-    "operation": 15,
-    "affect": 18
+﻿{
+    "entity":  "double",
+    "volume":  "cylinder",
+    "direction":  "perpendicular",
+    "operation":  "intersecting",
+    "affect":  "tilted"
 }

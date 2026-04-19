@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 1,
-    "direction": 1,
-    "operation": 36,
-    "affect": 14
+﻿{
+    "entity":  "single",
+    "volume":  "cube",
+    "direction":  "normal",
+    "operation":  "slicing",
+    "affect":  "staggered"
 }

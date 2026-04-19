@@ -1,7 +1,7 @@
-{
-    "entity": 1,
-    "volume": 15,
-    "direction": 8,
-    "operation": 42,
-    "affect": 21
+﻿{
+    "entity":  "double",
+    "volume":  "pyramid",
+    "direction":  "vertical",
+    "operation":  "overlapping",
+    "affect":  "shifted"
 }

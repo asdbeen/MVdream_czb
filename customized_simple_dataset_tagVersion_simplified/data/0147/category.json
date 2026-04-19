@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 14,
-    "direction": 0,
-    "operation": 23,
-    "affect": 50
+﻿{
+    "entity":  "multiple",
+    "volume":  "pipe",
+    "direction":  "planar",
+    "operation":  "packing",
+    "affect":  "discoid"
 }

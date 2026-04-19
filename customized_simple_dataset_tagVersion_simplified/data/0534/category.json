@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 0,
-    "direction": 14,
-    "operation": 42,
-    "affect": 64
+﻿{
+    "entity":  "multiple",
+    "volume":  "cuboid",
+    "direction":  "omni",
+    "operation":  "overlapping",
+    "affect":  "domical"
 }

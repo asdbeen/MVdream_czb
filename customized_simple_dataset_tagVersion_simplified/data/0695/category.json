@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 6,
-    "direction": 12,
-    "operation": 18,
-    "affect": 24
+﻿{
+    "entity":  "single",
+    "volume":  "courtyard",
+    "direction":  "horizontal",
+    "operation":  "pitching",
+    "affect":  "sawtooth"
 }

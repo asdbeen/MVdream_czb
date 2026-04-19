@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 1,
-    "direction": 7,
-    "operation": 29,
-    "affect": 15
+﻿{
+    "entity":  "multiple",
+    "volume":  "cube",
+    "direction":  "thin",
+    "operation":  "arraying",
+    "affect":  "waved"
 }

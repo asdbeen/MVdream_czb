@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 17,
-    "direction": 5,
-    "operation": 36,
-    "affect": 14
+﻿{
+    "entity":  "multiple",
+    "volume":  "disk",
+    "direction":  "linear",
+    "operation":  "slicing",
+    "affect":  "staggered"
 }

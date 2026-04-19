@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 3,
-    "direction": 2,
-    "operation": 15,
-    "affect": 0
+﻿{
+    "entity":  "multiple",
+    "volume":  "tube",
+    "direction":  "oblique",
+    "operation":  "intersecting",
+    "affect":  "porous"
 }

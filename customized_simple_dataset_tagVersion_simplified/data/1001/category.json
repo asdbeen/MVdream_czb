@@ -1,7 +1,7 @@
-{
-    "entity": 2,
-    "volume": 8,
-    "direction": 17,
-    "operation": 35,
-    "affect": 10
+﻿{
+    "entity":  "triple",
+    "volume":  "cone",
+    "direction":  "tri",
+    "operation":  "joining",
+    "affect":  "hollow"
 }

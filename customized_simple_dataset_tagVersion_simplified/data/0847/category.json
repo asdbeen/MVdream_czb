@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 4,
-    "direction": 3,
-    "operation": 24,
-    "affect": 41
+﻿{
+    "entity":  "single",
+    "volume":  "cylinder",
+    "direction":  "uni",
+    "operation":  "crumpling",
+    "affect":  "irregular"
 }

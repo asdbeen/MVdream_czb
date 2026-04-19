@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 15,
-    "direction": 6,
-    "operation": 4,
-    "affect": 20
+﻿{
+    "entity":  "single",
+    "volume":  "pyramid",
+    "direction":  "down",
+    "operation":  "bending",
+    "affect":  "cantilevered"
 }

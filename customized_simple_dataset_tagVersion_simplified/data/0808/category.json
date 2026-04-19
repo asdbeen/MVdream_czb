@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 11,
-    "direction": 18,
-    "operation": 67,
-    "affect": 73
+﻿{
+    "entity":  "single",
+    "volume":  "blob",
+    "direction":  "up",
+    "operation":  "splashing",
+    "affect":  "crowned"
 }

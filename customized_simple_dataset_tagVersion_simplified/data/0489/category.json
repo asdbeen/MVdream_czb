@@ -1,7 +1,7 @@
-{
-    "entity": 3,
-    "volume": 8,
-    "direction": 11,
-    "operation": 13,
-    "affect": 37
+﻿{
+    "entity":  "quadruple",
+    "volume":  "cone",
+    "direction":  "cardinal",
+    "operation":  "seperating",
+    "affect":  "dilated"
 }

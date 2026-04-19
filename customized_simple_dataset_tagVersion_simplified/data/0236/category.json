@@ -1,7 +1,7 @@
-{
-    "entity": 1,
-    "volume": 0,
-    "direction": 12,
-    "operation": 31,
-    "affect": 6
+﻿{
+    "entity":  "double",
+    "volume":  "cuboid",
+    "direction":  "horizontal",
+    "operation":  "draping",
+    "affect":  "vaulted"
 }

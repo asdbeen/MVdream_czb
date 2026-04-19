@@ -1,7 +1,7 @@
-{
-    "entity": 3,
-    "volume": 6,
-    "direction": 8,
-    "operation": 10,
-    "affect": 20
+﻿{
+    "entity":  "quadruple",
+    "volume":  "courtyard",
+    "direction":  "vertical",
+    "operation":  "grading",
+    "affect":  "cantilevered"
 }

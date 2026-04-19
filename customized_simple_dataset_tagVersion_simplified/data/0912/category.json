@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 17,
-    "direction": 11,
-    "operation": 32,
-    "affect": 26
+﻿{
+    "entity":  "multiple",
+    "volume":  "disk",
+    "direction":  "cardinal",
+    "operation":  "peeling",
+    "affect":  "cubic"
 }

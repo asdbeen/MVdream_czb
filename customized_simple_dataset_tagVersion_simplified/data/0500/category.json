@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 3,
-    "direction": 6,
-    "operation": 13,
-    "affect": 34
+﻿{
+    "entity":  "single",
+    "volume":  "tube",
+    "direction":  "down",
+    "operation":  "seperating",
+    "affect":  "curved"
 }

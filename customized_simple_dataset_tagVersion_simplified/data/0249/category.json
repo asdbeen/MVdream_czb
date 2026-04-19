@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 15,
-    "direction": 8,
-    "operation": 27,
-    "affect": 47
+﻿{
+    "entity":  "single",
+    "volume":  "pyramid",
+    "direction":  "vertical",
+    "operation":  "looping",
+    "affect":  "truncated"
 }

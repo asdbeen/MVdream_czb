@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 5,
-    "direction": 18,
-    "operation": 25,
-    "affect": 10
+﻿{
+    "entity":  "single",
+    "volume":  "arch",
+    "direction":  "up",
+    "operation":  "embedding",
+    "affect":  "hollow"
 }

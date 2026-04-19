@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 15,
-    "direction": 11,
-    "operation": 35,
-    "affect": 26
+﻿{
+    "entity":  "multiple",
+    "volume":  "pyramid",
+    "direction":  "cardinal",
+    "operation":  "joining",
+    "affect":  "cubic"
 }

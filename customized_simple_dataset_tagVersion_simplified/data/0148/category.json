@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 15,
-    "direction": 1,
-    "operation": 22,
-    "affect": 1
+﻿{
+    "entity":  "single",
+    "volume":  "pyramid",
+    "direction":  "normal",
+    "operation":  "carving",
+    "affect":  "notched"
 }

@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 7,
-    "direction": 7,
-    "operation": 33,
-    "affect": 43
+﻿{
+    "entity":  "single",
+    "volume":  "canopy",
+    "direction":  "thin",
+    "operation":  "zigzagging",
+    "affect":  "columnar"
 }

@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 0,
-    "direction": 1,
-    "operation": 26,
-    "affect": 26
+﻿{
+    "entity":  "single",
+    "volume":  "cuboid",
+    "direction":  "normal",
+    "operation":  "intertwining",
+    "affect":  "cubic"
 }

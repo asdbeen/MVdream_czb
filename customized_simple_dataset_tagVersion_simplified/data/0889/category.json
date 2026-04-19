@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 14,
-    "direction": 7,
-    "operation": 23,
-    "affect": 41
+﻿{
+    "entity":  "multiple",
+    "volume":  "pipe",
+    "direction":  "thin",
+    "operation":  "packing",
+    "affect":  "irregular"
 }

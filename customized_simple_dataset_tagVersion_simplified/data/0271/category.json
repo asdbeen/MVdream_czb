@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 20,
-    "direction": 14,
-    "operation": 23,
-    "affect": 10
+﻿{
+    "entity":  "multiple",
+    "volume":  "hypershape",
+    "direction":  "omni",
+    "operation":  "packing",
+    "affect":  "hollow"
 }

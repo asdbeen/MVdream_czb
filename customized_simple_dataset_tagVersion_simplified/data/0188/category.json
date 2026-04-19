@@ -1,7 +1,7 @@
-{
-    "entity": 1,
-    "volume": 3,
-    "direction": 9,
-    "operation": 26,
-    "affect": 30
+﻿{
+    "entity":  "double",
+    "volume":  "tube",
+    "direction":  "bi",
+    "operation":  "intertwining",
+    "affect":  "gaping"
 }

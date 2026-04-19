@@ -1,7 +1,7 @@
-{
-    "entity": 1,
-    "volume": 3,
-    "direction": 5,
-    "operation": 53,
-    "affect": 19
+﻿{
+    "entity":  "double",
+    "volume":  "tube",
+    "direction":  "linear",
+    "operation":  "bridging",
+    "affect":  "enveloping"
 }

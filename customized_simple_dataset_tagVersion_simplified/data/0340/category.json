@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 6,
-    "direction": 0,
-    "operation": 36,
-    "affect": 36
+﻿{
+    "entity":  "single",
+    "volume":  "courtyard",
+    "direction":  "planar",
+    "operation":  "slicing",
+    "affect":  "discontinuous"
 }

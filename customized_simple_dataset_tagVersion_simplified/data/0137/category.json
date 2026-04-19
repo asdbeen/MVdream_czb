@@ -1,7 +1,7 @@
-{
-    "entity": 3,
-    "volume": 13,
-    "direction": 0,
-    "operation": 41,
-    "affect": 52
+﻿{
+    "entity":  "quadruple",
+    "volume":  "surface",
+    "direction":  "planar",
+    "operation":  "excavating",
+    "affect":  "convex"
 }

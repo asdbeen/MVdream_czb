@@ -1,7 +1,7 @@
-{
-    "entity": 3,
-    "volume": 18,
-    "direction": 9,
-    "operation": 29,
-    "affect": 38
+﻿{
+    "entity":  "quadruple",
+    "volume":  "Lshape",
+    "direction":  "bi",
+    "operation":  "arraying",
+    "affect":  "gradated"
 }

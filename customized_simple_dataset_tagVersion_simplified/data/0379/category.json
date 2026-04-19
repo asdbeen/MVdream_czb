@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 0,
-    "direction": 15,
-    "operation": 21,
-    "affect": 34
+﻿{
+    "entity":  "multiple",
+    "volume":  "cuboid",
+    "direction":  "radial",
+    "operation":  "wrapping",
+    "affect":  "curved"
 }

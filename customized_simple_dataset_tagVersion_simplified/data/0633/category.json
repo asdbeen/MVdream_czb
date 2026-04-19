@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 3,
-    "direction": 5,
-    "operation": 20,
-    "affect": 30
+﻿{
+    "entity":  "single",
+    "volume":  "tube",
+    "direction":  "linear",
+    "operation":  "spiraling",
+    "affect":  "gaping"
 }

@@ -1,7 +1,7 @@
-{
-    "entity": 1,
-    "volume": 18,
-    "direction": 4,
-    "operation": 42,
-    "affect": 20
+﻿{
+    "entity":  "double",
+    "volume":  "Lshape",
+    "direction":  "perpendicular",
+    "operation":  "overlapping",
+    "affect":  "cantilevered"
 }

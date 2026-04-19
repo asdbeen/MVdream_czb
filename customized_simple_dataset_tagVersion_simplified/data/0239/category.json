@@ -1,7 +1,7 @@
-{
-    "entity": 3,
-    "volume": 3,
-    "direction": 14,
-    "operation": 14,
-    "affect": 3
+﻿{
+    "entity":  "quadruple",
+    "volume":  "tube",
+    "direction":  "omni",
+    "operation":  "folding",
+    "affect":  "tentacular"
 }

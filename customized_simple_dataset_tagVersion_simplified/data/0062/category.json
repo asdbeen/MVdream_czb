@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 0,
-    "direction": 9,
-    "operation": 27,
-    "affect": 36
+﻿{
+    "entity":  "single",
+    "volume":  "cuboid",
+    "direction":  "bi",
+    "operation":  "looping",
+    "affect":  "discontinuous"
 }

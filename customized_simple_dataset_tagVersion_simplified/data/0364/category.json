@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 1,
-    "direction": 11,
-    "operation": 59,
-    "affect": 54
+﻿{
+    "entity":  "single",
+    "volume":  "cube",
+    "direction":  "cardinal",
+    "operation":  "spiraing",
+    "affect":  "topographic"
 }

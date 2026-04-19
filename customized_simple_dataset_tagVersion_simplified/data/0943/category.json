@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 3,
-    "direction": 0,
-    "operation": 17,
-    "affect": 55
+﻿{
+    "entity":  "multiple",
+    "volume":  "tube",
+    "direction":  "planar",
+    "operation":  "inflating",
+    "affect":  "bundled"
 }

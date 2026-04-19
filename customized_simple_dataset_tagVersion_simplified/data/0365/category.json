@@ -1,7 +1,7 @@
-{
-    "entity": 1,
-    "volume": 6,
-    "direction": 6,
-    "operation": 51,
-    "affect": 6
+﻿{
+    "entity":  "double",
+    "volume":  "courtyard",
+    "direction":  "down",
+    "operation":  "leaning",
+    "affect":  "vaulted"
 }

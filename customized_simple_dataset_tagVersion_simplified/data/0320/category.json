@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 9,
-    "direction": 12,
-    "operation": 36,
-    "affect": 21
+﻿{
+    "entity":  "single",
+    "volume":  "donut",
+    "direction":  "horizontal",
+    "operation":  "slicing",
+    "affect":  "shifted"
 }

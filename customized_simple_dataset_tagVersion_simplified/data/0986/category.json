@@ -1,7 +1,7 @@
-{
-    "entity": 3,
-    "volume": 0,
-    "direction": 11,
-    "operation": 13,
-    "affect": 34
+﻿{
+    "entity":  "quadruple",
+    "volume":  "cuboid",
+    "direction":  "cardinal",
+    "operation":  "seperating",
+    "affect":  "curved"
 }

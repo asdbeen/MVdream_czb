@@ -1,7 +1,7 @@
-{
-    "entity": 1,
-    "volume": 2,
-    "direction": 2,
-    "operation": 2,
-    "affect": 2
+﻿{
+    "entity":  "double",
+    "volume":  "hemisphere",
+    "direction":  "oblique",
+    "operation":  "stacking",
+    "affect":  "symmetrical"
 }

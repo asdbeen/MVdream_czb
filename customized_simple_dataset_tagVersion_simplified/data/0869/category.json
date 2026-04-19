@@ -1,7 +1,7 @@
-{
-    "entity": 4,
-    "volume": 3,
-    "direction": 14,
-    "operation": 35,
-    "affect": 8
+﻿{
+    "entity":  "multiple",
+    "volume":  "tube",
+    "direction":  "omni",
+    "operation":  "joining",
+    "affect":  "spherical"
 }

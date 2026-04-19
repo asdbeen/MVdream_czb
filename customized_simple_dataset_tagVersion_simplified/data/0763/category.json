@@ -1,7 +1,7 @@
-{
-    "entity": 0,
-    "volume": 20,
-    "direction": 10,
-    "operation": 22,
-    "affect": 60
+﻿{
+    "entity":  "single",
+    "volume":  "hypershape",
+    "direction":  "random",
+    "operation":  "carving",
+    "affect":  "concave"
 }
