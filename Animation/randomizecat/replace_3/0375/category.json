@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "capsule",
+  "direction": "normal",
+  "operation": "intersecting",
+  "affect": "crossed"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "tube",
+  "direction": "cardinal",
+  "operation": "looping",
+  "affect": "bundled"
+}

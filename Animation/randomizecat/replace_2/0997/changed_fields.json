@@ -1,0 +1,17 @@
+{
+  "sample_id": "0997",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "porous"
+    },
+    {
+      "field": "operation",
+      "old": "grading",
+      "new": "subtracting"
+    }
+  ]
+}

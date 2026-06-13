@@ -1,0 +1,27 @@
+{
+  "sample_id": "0247",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "convex"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "slitting"
+    },
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "wedge"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "polar"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "blob",
+  "direction": "omni",
+  "operation": "voiding",
+  "affect": "colonnaded"
+}

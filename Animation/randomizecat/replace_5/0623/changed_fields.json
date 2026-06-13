@@ -1,0 +1,32 @@
+{
+  "sample_id": "0623",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "domical",
+      "new": "dilated"
+    },
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "ellipsoid"
+    },
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "voiding"
+    },
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "tri"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

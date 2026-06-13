@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "arch",
+  "direction": "linear",
+  "operation": "joining",
+  "affect": "asymmetrical"
+}

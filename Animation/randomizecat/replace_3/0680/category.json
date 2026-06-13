@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "canopy",
+  "direction": "centrifugal",
+  "operation": "embedding",
+  "affect": "continuous"
+}

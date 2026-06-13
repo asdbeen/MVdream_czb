@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "roll",
+  "direction": "oblique",
+  "operation": "interlocking",
+  "affect": "vaulted"
+}

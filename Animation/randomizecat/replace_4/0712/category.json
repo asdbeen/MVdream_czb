@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "disk",
+  "direction": "planar",
+  "operation": "tangling",
+  "affect": "staggered"
+}

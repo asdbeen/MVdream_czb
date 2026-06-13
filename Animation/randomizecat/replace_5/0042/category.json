@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "donut",
+  "direction": "tri",
+  "operation": "spiraling",
+  "affect": "flooring"
+}

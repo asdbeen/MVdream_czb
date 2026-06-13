@@ -1,0 +1,32 @@
+{
+  "sample_id": "0563",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "linear"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "tube"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "patterned"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "single"
+    },
+    {
+      "field": "operation",
+      "old": "unfolding",
+      "new": "overlapping"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "sphere",
+  "direction": "radial",
+  "operation": "overlapping",
+  "affect": "concave"
+}

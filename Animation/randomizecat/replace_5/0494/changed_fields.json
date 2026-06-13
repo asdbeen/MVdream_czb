@@ -1,0 +1,32 @@
+{
+  "sample_id": "0494",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "surface",
+      "new": "hexagonal"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "draping"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "discontinuous"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "polar"
+    }
+  ]
+}

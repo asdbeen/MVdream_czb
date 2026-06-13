@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "hexagonal",
+  "direction": "vertical",
+  "operation": "interlocking",
+  "affect": "rotational"
+}

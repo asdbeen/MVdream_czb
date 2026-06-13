@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "gable",
+  "direction": "polar",
+  "operation": "tangling",
+  "affect": "cantilevered"
+}

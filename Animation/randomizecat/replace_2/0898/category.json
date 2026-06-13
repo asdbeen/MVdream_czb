@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "disk",
+  "direction": "linear",
+  "operation": "stacking",
+  "affect": "cylindrical"
+}

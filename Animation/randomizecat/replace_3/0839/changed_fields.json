@@ -1,0 +1,22 @@
+{
+  "sample_id": "0839",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "canopy"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "tri"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    }
+  ]
+}

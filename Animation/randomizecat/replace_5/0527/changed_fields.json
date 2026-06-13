@@ -1,0 +1,32 @@
+{
+  "sample_id": "0527",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "hemisphere",
+      "new": "capsule"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "waved"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "slicing"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "polar"
+    }
+  ]
+}

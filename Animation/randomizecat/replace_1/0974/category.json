@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cylinder",
+  "direction": "random",
+  "operation": "bending",
+  "affect": "hollow"
+}

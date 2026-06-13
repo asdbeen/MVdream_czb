@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "sphere",
+  "direction": "omni",
+  "operation": "oscillating",
+  "affect": "cylindrical"
+}

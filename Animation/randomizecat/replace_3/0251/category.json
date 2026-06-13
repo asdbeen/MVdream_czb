@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "ellipsoid",
+  "direction": "planar",
+  "operation": "slicing",
+  "affect": "staggered"
+}

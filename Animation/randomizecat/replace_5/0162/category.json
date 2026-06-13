@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "wedge",
+  "direction": "uni",
+  "operation": "spiralling",
+  "affect": "opening"
+}

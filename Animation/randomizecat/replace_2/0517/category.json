@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "Lshape",
+  "direction": "uni",
+  "operation": "packing",
+  "affect": "round"
+}

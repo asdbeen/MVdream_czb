@@ -1,0 +1,17 @@
+{
+  "sample_id": "0557",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "bi"
+    },
+    {
+      "field": "affect",
+      "old": "pyramidal",
+      "new": "gabled"
+    }
+  ]
+}

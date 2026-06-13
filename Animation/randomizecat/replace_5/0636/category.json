@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "arch",
+  "direction": "oblique",
+  "operation": "intersecting",
+  "affect": "rolled"
+}

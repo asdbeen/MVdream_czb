@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "pipe",
+  "direction": "radial",
+  "operation": "leaning",
+  "affect": "crowned"
+}

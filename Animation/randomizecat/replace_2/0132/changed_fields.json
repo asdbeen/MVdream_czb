@@ -1,0 +1,17 @@
+{
+  "sample_id": "0132",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "pyramid"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    }
+  ]
+}

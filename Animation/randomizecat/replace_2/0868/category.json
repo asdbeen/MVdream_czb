@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cuboid",
+  "direction": "linear",
+  "operation": "packing",
+  "affect": "latticed"
+}

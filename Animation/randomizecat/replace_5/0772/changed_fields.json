@@ -1,0 +1,32 @@
+{
+  "sample_id": "0772",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "hemisphere"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "normal"
+    },
+    {
+      "field": "operation",
+      "old": "grading",
+      "new": "perforating"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "truncated"
+    }
+  ]
+}

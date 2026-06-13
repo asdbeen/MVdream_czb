@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "donut",
+  "direction": "up",
+  "operation": "excavating",
+  "affect": "staggered"
+}

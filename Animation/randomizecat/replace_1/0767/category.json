@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "tube",
+  "direction": "planar",
+  "operation": "intertwining",
+  "affect": "perimetral"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "hexagonal",
+  "direction": "thin",
+  "operation": "subtracting",
+  "affect": "staggered"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "tube",
+  "direction": "bi",
+  "operation": "sagging",
+  "affect": "indented"
+}

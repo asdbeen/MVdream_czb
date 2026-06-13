@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cuboid",
+  "direction": "vertical",
+  "operation": "floating",
+  "affect": "enveloping"
+}

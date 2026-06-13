@@ -1,0 +1,17 @@
+{
+  "sample_id": "0639",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "down"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

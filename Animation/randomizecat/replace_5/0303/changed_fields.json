@@ -1,0 +1,32 @@
+{
+  "sample_id": "0303",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "single"
+    },
+    {
+      "field": "affect",
+      "old": "symmetrical",
+      "new": "cantilevered"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "polar"
+    },
+    {
+      "field": "operation",
+      "old": "morphing",
+      "new": "tangling"
+    },
+    {
+      "field": "volume",
+      "old": "vortex",
+      "new": "gable"
+    }
+  ]
+}

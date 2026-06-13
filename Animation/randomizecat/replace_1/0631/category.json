@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cuboid",
+  "direction": "thin",
+  "operation": "slitting",
+  "affect": "gabled"
+}

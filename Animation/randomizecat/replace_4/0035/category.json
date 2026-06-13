@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "octahedral",
+  "direction": "linear",
+  "operation": "carving",
+  "affect": "contained"
+}

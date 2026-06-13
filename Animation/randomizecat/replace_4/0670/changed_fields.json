@@ -1,0 +1,27 @@
+{
+  "sample_id": "0670",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "planar"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "roll"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "splitting"
+    },
+    {
+      "field": "affect",
+      "old": "staggered",
+      "new": "conic"
+    }
+  ]
+}

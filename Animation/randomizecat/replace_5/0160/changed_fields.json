@@ -1,0 +1,32 @@
+{
+  "sample_id": "0160",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "sphere"
+    },
+    {
+      "field": "affect",
+      "old": "wired",
+      "new": "pyramidal"
+    },
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "compressing"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "polar"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0572",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "framed"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "vortex"
+    },
+    {
+      "field": "operation",
+      "old": "grooving",
+      "new": "filleting"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "cardinal"
+    }
+  ]
+}

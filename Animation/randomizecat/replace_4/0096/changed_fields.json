@@ -1,0 +1,27 @@
+{
+  "sample_id": "0096",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "hovering"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "flooring",
+      "new": "prismic"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "line"
+    }
+  ]
+}

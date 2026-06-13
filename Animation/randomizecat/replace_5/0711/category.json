@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cube",
+  "direction": "tri",
+  "operation": "overlapping",
+  "affect": "rolled"
+}

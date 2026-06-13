@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cylinder",
+  "direction": "linear",
+  "operation": "crumpling",
+  "affect": "sunken"
+}

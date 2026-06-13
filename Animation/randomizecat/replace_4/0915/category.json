@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "cardinal",
+  "operation": "subtracting",
+  "affect": "concave"
+}

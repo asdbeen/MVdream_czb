@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "blob",
+  "direction": "tri",
+  "operation": "tapering",
+  "affect": "curved"
+}

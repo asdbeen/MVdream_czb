@@ -1,0 +1,17 @@
+{
+  "sample_id": "0575",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "horizontal"
+    },
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "polyhedron"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "polyhedron",
+  "direction": "horizontal",
+  "operation": "excavating",
+  "affect": "convex"
+}

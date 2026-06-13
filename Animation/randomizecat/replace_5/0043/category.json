@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "ellipsoid",
+  "direction": "thin",
+  "operation": "bifurcating",
+  "affect": "inserted"
+}

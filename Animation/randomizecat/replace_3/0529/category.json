@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "wedge",
+  "direction": "normal",
+  "operation": "morphing",
+  "affect": "irregular"
+}

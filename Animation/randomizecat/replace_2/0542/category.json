@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "tube",
+  "direction": "random",
+  "operation": "folding",
+  "affect": "curved"
+}

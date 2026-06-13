@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "pipe",
+  "direction": "thin",
+  "operation": "grooving",
+  "affect": "discoid"
+}

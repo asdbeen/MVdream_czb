@@ -1,0 +1,32 @@
+{
+  "sample_id": "0859",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "tapering"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "vertical"
+    },
+    {
+      "field": "affect",
+      "old": "perimetral",
+      "new": "circular"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "capsule"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    }
+  ]
+}

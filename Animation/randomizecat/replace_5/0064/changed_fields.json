@@ -1,0 +1,32 @@
+{
+  "sample_id": "0064",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "tri"
+    },
+    {
+      "field": "affect",
+      "old": "wired",
+      "new": "continuous"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "hemisphere"
+    },
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "connecting"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "sample_id": "0207",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "zigzagging",
+      "new": "peeling"
+    }
+  ]
+}

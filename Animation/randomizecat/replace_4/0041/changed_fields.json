@@ -1,0 +1,27 @@
+{
+  "sample_id": "0041",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "line"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "perpendicular"
+    },
+    {
+      "field": "operation",
+      "old": "crumpling",
+      "new": "voiding"
+    }
+  ]
+}

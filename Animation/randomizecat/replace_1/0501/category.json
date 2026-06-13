@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "arch",
+  "direction": "perpendicular",
+  "operation": "draping",
+  "affect": "vaulted"
+}

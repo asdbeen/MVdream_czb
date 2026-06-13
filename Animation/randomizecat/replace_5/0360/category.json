@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "line",
+  "direction": "random",
+  "operation": "oscillating",
+  "affect": "circular"
+}

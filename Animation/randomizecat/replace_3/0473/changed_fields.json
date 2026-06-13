@@ -1,0 +1,22 @@
+{
+  "sample_id": "0473",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "stellate"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "parallel"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    }
+  ]
+}

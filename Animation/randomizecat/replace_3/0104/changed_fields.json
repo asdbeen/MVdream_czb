@@ -1,0 +1,22 @@
+{
+  "sample_id": "0104",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "thin"
+    },
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "folding"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "multiple"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0753",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "pitching",
+      "new": "morphing"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "cuboid"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "up"
+    },
+    {
+      "field": "affect",
+      "old": "sawtooth",
+      "new": "dashed"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0006",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "perpendicular",
+      "new": "random"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "Lshape"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "gable",
+  "direction": "normal",
+  "operation": "spiralling",
+  "affect": "sawtooth"
+}

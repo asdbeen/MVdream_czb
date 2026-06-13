@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "gable",
+  "direction": "omni",
+  "operation": "pitching",
+  "affect": "tentacular"
+}

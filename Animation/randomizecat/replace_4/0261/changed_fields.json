@@ -1,0 +1,27 @@
+{
+  "sample_id": "0261",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "diagonal"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "cuboid"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "tapering"
+    }
+  ]
+}

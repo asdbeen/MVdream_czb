@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "wedge",
+  "direction": "tri",
+  "operation": "splitting",
+  "affect": "notched"
+}

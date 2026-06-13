@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cross",
+  "direction": "random",
+  "operation": "ripping",
+  "affect": "dashed"
+}

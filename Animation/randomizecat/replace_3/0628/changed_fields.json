@@ -1,0 +1,22 @@
+{
+  "sample_id": "0628",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "bi"
+    },
+    {
+      "field": "operation",
+      "old": "voiding",
+      "new": "containing"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

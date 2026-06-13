@@ -1,0 +1,27 @@
+{
+  "sample_id": "0471",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "waved",
+      "new": "symmetrical"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "vortex",
+      "new": "line"
+    },
+    {
+      "field": "operation",
+      "old": "morphing",
+      "new": "spiraing"
+    }
+  ]
+}

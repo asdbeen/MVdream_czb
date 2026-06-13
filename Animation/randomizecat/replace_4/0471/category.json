@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "line",
+  "direction": "vertical",
+  "operation": "spiraing",
+  "affect": "symmetrical"
+}

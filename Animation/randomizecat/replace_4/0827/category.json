@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "octahedral",
+  "direction": "random",
+  "operation": "zigzagging",
+  "affect": "sawtooth"
+}

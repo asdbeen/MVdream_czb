@@ -1,0 +1,22 @@
+{
+  "sample_id": "0189",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "centrifugal"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "morphing"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "hypershape"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0922",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "gable"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "horizontal"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "zigzagging"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "discontinuous",
+      "new": "porous"
+    }
+  ]
+}

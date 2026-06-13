@@ -1,0 +1,27 @@
+{
+  "sample_id": "0026",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "parallel"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "knotting"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "dashed"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "vortex"
+    }
+  ]
+}

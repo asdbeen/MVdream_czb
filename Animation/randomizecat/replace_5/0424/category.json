@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "disk",
+  "direction": "planar",
+  "operation": "hovering",
+  "affect": "tentacular"
+}

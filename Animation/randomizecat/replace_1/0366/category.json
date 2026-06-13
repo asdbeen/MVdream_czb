@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "courtyard",
+  "direction": "omni",
+  "operation": "intersecting",
+  "affect": "gaping"
+}

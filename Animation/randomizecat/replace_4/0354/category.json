@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cuboid",
+  "direction": "omni",
+  "operation": "unfolding",
+  "affect": "consistent"
+}

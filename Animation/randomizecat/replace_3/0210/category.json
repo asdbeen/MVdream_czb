@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "pipe",
+  "direction": "linear",
+  "operation": "bending",
+  "affect": "staggered"
+}

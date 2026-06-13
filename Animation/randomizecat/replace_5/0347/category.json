@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "canopy",
+  "direction": "centrifugal",
+  "operation": "excavating",
+  "affect": "inverted"
+}

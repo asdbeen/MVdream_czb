@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "donut",
+  "direction": "omni",
+  "operation": "seperating",
+  "affect": "tilted"
+}

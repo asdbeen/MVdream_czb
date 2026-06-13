@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "tube",
+  "direction": "cardinal",
+  "operation": "overlapping",
+  "affect": "semicircular"
+}

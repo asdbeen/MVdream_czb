@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "Lshape",
+  "direction": "vertical",
+  "operation": "splashing",
+  "affect": "rotational"
+}

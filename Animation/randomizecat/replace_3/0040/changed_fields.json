@@ -1,0 +1,22 @@
+{
+  "sample_id": "0040",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "twisting"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "asymmetrical"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "linear"
+    }
+  ]
+}

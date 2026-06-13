@@ -1,0 +1,22 @@
+{
+  "sample_id": "0744",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "polyhedron"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "perpendicular"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "separating"
+    }
+  ]
+}

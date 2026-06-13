@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "donut",
+  "direction": "normal",
+  "operation": "peeling",
+  "affect": "degraded"
+}

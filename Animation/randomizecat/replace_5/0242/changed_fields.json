@@ -1,0 +1,32 @@
+{
+  "sample_id": "0242",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "columnar",
+      "new": "rolled"
+    },
+    {
+      "field": "operation",
+      "old": "hovering",
+      "new": "splashing"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "planar"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "glyph"
+    }
+  ]
+}

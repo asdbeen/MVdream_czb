@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cylinder",
+  "direction": "tri",
+  "operation": "curving",
+  "affect": "irregular"
+}

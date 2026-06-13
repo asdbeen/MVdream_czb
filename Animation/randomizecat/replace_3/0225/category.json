@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "wedge",
+  "direction": "thin",
+  "operation": "bifurcating",
+  "affect": "consistent"
+}

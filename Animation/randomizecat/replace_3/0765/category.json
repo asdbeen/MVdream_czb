@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "blob",
+  "direction": "uni",
+  "operation": "looping",
+  "affect": "perimetral"
+}

@@ -1,0 +1,17 @@
+{
+  "sample_id": "0522",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "looping"
+    },
+    {
+      "field": "affect",
+      "old": "tentacular",
+      "new": "symmetrical"
+    }
+  ]
+}

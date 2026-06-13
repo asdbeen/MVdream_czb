@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cross",
+  "direction": "polar",
+  "operation": "voiding",
+  "affect": "irregular"
+}

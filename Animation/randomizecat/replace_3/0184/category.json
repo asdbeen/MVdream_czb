@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "blob",
+  "direction": "planar",
+  "operation": "intertwining",
+  "affect": "shifted"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0634",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "horizontal"
+    },
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "stripped"
+    },
+    {
+      "field": "operation",
+      "old": "subtracting",
+      "new": "spiraing"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

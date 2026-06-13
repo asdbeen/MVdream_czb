@@ -1,0 +1,17 @@
+{
+  "sample_id": "0437",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "cube"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "gridded"
+    }
+  ]
+}

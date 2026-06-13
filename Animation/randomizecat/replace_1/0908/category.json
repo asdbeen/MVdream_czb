@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "arch",
+  "direction": "bi",
+  "operation": "scaffolding",
+  "affect": "cantilevered"
+}

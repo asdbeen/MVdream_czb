@@ -1,0 +1,17 @@
+{
+  "sample_id": "0196",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "random"
+    },
+    {
+      "field": "operation",
+      "old": "pitching",
+      "new": "tangling"
+    }
+  ]
+}

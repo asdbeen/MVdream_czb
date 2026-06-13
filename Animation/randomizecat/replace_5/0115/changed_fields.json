@@ -1,0 +1,32 @@
+{
+  "sample_id": "0115",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "columnar",
+      "new": "enveloping"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "canopy",
+      "new": "hexagonal"
+    },
+    {
+      "field": "operation",
+      "old": "spiraling",
+      "new": "branching"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "thin"
+    }
+  ]
+}

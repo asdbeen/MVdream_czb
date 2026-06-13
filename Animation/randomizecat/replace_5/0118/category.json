@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "donut",
+  "direction": "centrifugal",
+  "operation": "curving",
+  "affect": "cornered"
+}

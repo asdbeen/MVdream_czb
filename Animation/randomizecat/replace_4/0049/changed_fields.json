@@ -1,0 +1,27 @@
+{
+  "sample_id": "0049",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "patterned",
+      "new": "gridded"
+    },
+    {
+      "field": "operation",
+      "old": "puncturing",
+      "new": "zigzagging"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "hemisphere"
+    }
+  ]
+}

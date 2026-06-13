@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "line",
+  "direction": "perpendicular",
+  "operation": "joining",
+  "affect": "discontinuous"
+}

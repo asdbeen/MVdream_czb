@@ -1,0 +1,32 @@
+{
+  "sample_id": "0800",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "capsule"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "perpendicular"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "sawtooth"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "containing"
+    }
+  ]
+}

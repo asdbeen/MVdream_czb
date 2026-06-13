@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "Lshape",
+  "direction": "radial",
+  "operation": "interlocking",
+  "affect": "gradated"
+}

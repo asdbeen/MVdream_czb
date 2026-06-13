@@ -1,0 +1,17 @@
+{
+  "sample_id": "0975",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "perpendicular",
+      "new": "planar"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "folding"
+    }
+  ]
+}

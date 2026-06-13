@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "wedge",
+  "direction": "perpendicular",
+  "operation": "intersecting",
+  "affect": "vaulted"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "glyph",
+  "direction": "omni",
+  "operation": "peeling",
+  "affect": "prismic"
+}

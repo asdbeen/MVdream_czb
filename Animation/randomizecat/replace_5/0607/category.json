@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cylinder",
+  "direction": "oblique",
+  "operation": "spiraling",
+  "affect": "prismic"
+}

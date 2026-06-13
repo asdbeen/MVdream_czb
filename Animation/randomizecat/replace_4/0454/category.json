@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "tube",
+  "direction": "up",
+  "operation": "compressing",
+  "affect": "framed"
+}

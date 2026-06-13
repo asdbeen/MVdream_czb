@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "Lshape",
+  "direction": "radial",
+  "operation": "excavating",
+  "affect": "vortical"
+}

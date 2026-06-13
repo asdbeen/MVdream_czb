@@ -1,0 +1,22 @@
+{
+  "sample_id": "0370",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "canopy"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "wrapping"
+    },
+    {
+      "field": "affect",
+      "old": "bundled",
+      "new": "truncated"
+    }
+  ]
+}

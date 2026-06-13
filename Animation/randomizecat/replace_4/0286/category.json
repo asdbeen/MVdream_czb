@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "polyhedron",
+  "direction": "bi",
+  "operation": "peeling",
+  "affect": "truncated"
+}

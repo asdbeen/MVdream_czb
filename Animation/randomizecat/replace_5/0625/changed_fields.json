@@ -1,0 +1,32 @@
+{
+  "sample_id": "0625",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "excavating"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "gaping"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "perpendicular"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "hemisphere"
+    }
+  ]
+}

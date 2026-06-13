@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cone",
+  "direction": "planar",
+  "operation": "looping",
+  "affect": "continuous"
+}

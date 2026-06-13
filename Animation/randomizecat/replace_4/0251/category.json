@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cuboid",
+  "direction": "horizontal",
+  "operation": "scarving",
+  "affect": "staggered"
+}

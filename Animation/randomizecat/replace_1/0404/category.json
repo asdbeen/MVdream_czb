@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "wedge",
+  "direction": "oblique",
+  "operation": "folding",
+  "affect": "cantilevered"
+}

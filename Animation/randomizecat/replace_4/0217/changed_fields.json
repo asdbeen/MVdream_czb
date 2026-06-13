@@ -1,0 +1,27 @@
+{
+  "sample_id": "0217",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "wedge",
+      "new": "courtyard"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "thin"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "wrapping"
+    }
+  ]
+}

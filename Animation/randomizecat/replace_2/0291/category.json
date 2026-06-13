@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "tube",
+  "direction": "normal",
+  "operation": "scarving",
+  "affect": "cubic"
+}

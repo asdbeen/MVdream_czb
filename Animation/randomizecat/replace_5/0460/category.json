@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "line",
+  "direction": "down",
+  "operation": "scarving",
+  "affect": "symmetrical"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0502",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "conic"
+    },
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "surface"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "cardinal"
+    },
+    {
+      "field": "operation",
+      "old": "fluting",
+      "new": "scaffolding"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

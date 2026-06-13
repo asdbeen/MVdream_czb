@@ -1,0 +1,17 @@
+{
+  "sample_id": "0885",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "concave",
+      "new": "vortical"
+    },
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "twisting"
+    }
+  ]
+}

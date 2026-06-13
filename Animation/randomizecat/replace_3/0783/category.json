@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "capsule",
+  "direction": "thin",
+  "operation": "bending",
+  "affect": "gridded"
+}

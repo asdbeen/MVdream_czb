@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cone",
+  "direction": "normal",
+  "operation": "splitting",
+  "affect": "gradated"
+}

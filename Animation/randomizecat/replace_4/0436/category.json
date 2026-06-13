@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "polyhedron",
+  "direction": "tri",
+  "operation": "tapering",
+  "affect": "faceted"
+}

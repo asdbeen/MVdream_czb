@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hypershape",
+  "direction": "horizontal",
+  "operation": "bending",
+  "affect": "gaping"
+}

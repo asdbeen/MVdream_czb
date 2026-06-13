@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "donut",
+  "direction": "normal",
+  "operation": "bridging",
+  "affect": "rotational"
+}

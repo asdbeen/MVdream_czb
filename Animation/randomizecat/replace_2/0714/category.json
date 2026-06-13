@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "surface",
+  "direction": "polar",
+  "operation": "undulating",
+  "affect": "anthropomorphic"
+}

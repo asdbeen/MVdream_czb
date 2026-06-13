@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "roll",
+  "direction": "thin",
+  "operation": "branching",
+  "affect": "pyramidal"
+}

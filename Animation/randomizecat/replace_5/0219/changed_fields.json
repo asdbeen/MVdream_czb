@@ -1,0 +1,32 @@
+{
+  "sample_id": "0219",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "radial"
+    },
+    {
+      "field": "operation",
+      "old": "spiraling",
+      "new": "packing"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "disk"
+    },
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "cornered"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

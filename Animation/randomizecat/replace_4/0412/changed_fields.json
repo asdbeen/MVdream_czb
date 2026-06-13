@@ -1,0 +1,27 @@
+{
+  "sample_id": "0412",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "wrapping",
+      "new": "scarving"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "asymmetrical"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "lune"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "tri"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cuboid",
+  "direction": "perpendicular",
+  "operation": "pleating",
+  "affect": "curved"
+}

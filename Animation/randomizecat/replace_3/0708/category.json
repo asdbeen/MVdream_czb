@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cuboid",
+  "direction": "thin",
+  "operation": "slicing",
+  "affect": "wired"
+}

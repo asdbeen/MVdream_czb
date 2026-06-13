@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "hexagonal",
+  "direction": "perpendicular",
+  "operation": "embedding",
+  "affect": "continuous"
+}

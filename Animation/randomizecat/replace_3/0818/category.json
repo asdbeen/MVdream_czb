@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cylinder",
+  "direction": "linear",
+  "operation": "overlapping",
+  "affect": "crossed"
+}

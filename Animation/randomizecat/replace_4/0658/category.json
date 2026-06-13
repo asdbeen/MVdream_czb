@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "vortex",
+  "direction": "thin",
+  "operation": "pitching",
+  "affect": "concave"
+}

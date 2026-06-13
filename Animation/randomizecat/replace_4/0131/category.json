@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "line",
+  "direction": "uni",
+  "operation": "fluting",
+  "affect": "bundled"
+}

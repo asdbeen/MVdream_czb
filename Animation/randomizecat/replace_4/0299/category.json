@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "glyph",
+  "direction": "perpendicular",
+  "operation": "zigzagging",
+  "affect": "sawtooth"
+}

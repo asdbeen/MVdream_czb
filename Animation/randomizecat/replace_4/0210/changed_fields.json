@@ -1,0 +1,27 @@
+{
+  "sample_id": "0210",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "arch"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "undulating"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "discoid"
+    }
+  ]
+}

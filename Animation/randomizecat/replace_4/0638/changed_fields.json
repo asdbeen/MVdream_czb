@@ -1,0 +1,27 @@
+{
+  "sample_id": "0638",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gabled",
+      "new": "gridded"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "canopy"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "bi"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "inflating"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0215",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "tri"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "tube"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "grooving",
+      "new": "hovering"
+    }
+  ]
+}

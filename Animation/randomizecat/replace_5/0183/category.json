@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "Lshape",
+  "direction": "perpendicular",
+  "operation": "puncturing",
+  "affect": "discontinuous"
+}

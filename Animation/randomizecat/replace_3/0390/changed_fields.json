@@ -1,0 +1,22 @@
+{
+  "sample_id": "0390",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "parallel"
+    },
+    {
+      "field": "affect",
+      "old": "gridded",
+      "new": "cornered"
+    },
+    {
+      "field": "operation",
+      "old": "inflating",
+      "new": "pitching"
+    }
+  ]
+}

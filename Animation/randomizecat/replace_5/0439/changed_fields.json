@@ -1,0 +1,32 @@
+{
+  "sample_id": "0439",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "oscillating",
+      "new": "wrapping"
+    },
+    {
+      "field": "volume",
+      "old": "pyramid",
+      "new": "gable"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "cardinal"
+    },
+    {
+      "field": "affect",
+      "old": "truncated",
+      "new": "prismic"
+    }
+  ]
+}

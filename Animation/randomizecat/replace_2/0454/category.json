@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "canopy",
+  "direction": "vertical",
+  "operation": "slitting",
+  "affect": "latticed"
+}

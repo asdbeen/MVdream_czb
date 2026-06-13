@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "pyramid",
+  "direction": "thin",
+  "operation": "fractaling",
+  "affect": "crossed"
+}

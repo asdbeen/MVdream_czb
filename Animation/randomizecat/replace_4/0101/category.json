@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "glyph",
+  "direction": "tri",
+  "operation": "bending",
+  "affect": "stripped"
+}

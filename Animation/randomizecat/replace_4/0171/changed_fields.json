@@ -1,0 +1,27 @@
+{
+  "sample_id": "0171",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "surface"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "wired"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "degrading"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "omni"
+    }
+  ]
+}

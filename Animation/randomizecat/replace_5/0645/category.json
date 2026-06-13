@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cone",
+  "direction": "bi",
+  "operation": "pixelating",
+  "affect": "semicircular"
+}

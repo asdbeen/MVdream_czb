@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "tube",
+  "direction": "planar",
+  "operation": "puncturing",
+  "affect": "sawtooth"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0892",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "zigzagging"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "omni"
+    },
+    {
+      "field": "affect",
+      "old": "convex",
+      "new": "framed"
+    }
+  ]
+}

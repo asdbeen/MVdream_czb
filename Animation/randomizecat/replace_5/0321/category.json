@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "tube",
+  "direction": "omni",
+  "operation": "degrading",
+  "affect": "domical"
+}

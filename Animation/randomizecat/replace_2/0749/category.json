@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "vortex",
+  "direction": "horizontal",
+  "operation": "inflating",
+  "affect": "pyramidal"
+}

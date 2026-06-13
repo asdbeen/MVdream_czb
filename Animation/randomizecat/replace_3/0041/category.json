@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "pyramid",
+  "direction": "down",
+  "operation": "crumpling",
+  "affect": "cubic"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0383",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "radial"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "twisting"
+    },
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "paneled"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "hemisphere"
+    }
+  ]
+}

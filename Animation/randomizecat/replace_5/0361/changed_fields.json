@@ -1,0 +1,32 @@
+{
+  "sample_id": "0361",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "twisting",
+      "new": "kerfing"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "affect",
+      "old": "opening",
+      "new": "stripped"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "polar"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "courtyard"
+    }
+  ]
+}

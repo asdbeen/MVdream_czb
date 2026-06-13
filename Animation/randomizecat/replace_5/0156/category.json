@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cross",
+  "direction": "planar",
+  "operation": "peeling",
+  "affect": "circular"
+}

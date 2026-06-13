@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hemisphere",
+  "direction": "horizontal",
+  "operation": "pitching",
+  "affect": "consistent"
+}

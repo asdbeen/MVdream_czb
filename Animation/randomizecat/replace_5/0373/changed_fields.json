@@ -1,0 +1,32 @@
+{
+  "sample_id": "0373",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "oscillating",
+      "new": "spiralling"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "omni"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "capsule"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "staggered",
+      "new": "gradated"
+    }
+  ]
+}

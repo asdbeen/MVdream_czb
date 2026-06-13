@@ -1,0 +1,27 @@
+{
+  "sample_id": "0476",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "wedge"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "kerfing"
+    },
+    {
+      "field": "direction",
+      "old": "centrifugal",
+      "new": "normal"
+    }
+  ]
+}

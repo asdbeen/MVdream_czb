@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "hypershape",
+  "direction": "cardinal",
+  "operation": "filleting",
+  "affect": "topographic"
+}

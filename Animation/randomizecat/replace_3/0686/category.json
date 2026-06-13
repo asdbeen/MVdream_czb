@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "Lshape",
+  "direction": "perpendicular",
+  "operation": "sagging",
+  "affect": "gradated"
+}

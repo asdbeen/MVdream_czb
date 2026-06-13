@@ -1,0 +1,27 @@
+{
+  "sample_id": "0138",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "peeling",
+      "new": "intertwining"
+    },
+    {
+      "field": "affect",
+      "old": "paneled",
+      "new": "kinky"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "bi"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "wedge"
+    }
+  ]
+}

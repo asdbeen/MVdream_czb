@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "polyhedron",
+  "direction": "centrifugal",
+  "operation": "undulating",
+  "affect": "hollow"
+}

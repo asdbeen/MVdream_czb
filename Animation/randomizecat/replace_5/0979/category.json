@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cross",
+  "direction": "cardinal",
+  "operation": "seperating",
+  "affect": "staggered"
+}

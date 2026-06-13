@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "tube",
+  "direction": "parallel",
+  "operation": "overlapping",
+  "affect": "notched"
+}

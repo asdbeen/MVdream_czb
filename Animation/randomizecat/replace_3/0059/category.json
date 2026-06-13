@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "lune",
+  "direction": "up",
+  "operation": "wrapping",
+  "affect": "truncated"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "tube",
+  "direction": "tri",
+  "operation": "intersecting",
+  "affect": "conic"
+}

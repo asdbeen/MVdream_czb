@@ -1,0 +1,17 @@
+{
+  "sample_id": "0217",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "excavating"
+    },
+    {
+      "field": "affect",
+      "old": "rotational",
+      "new": "conic"
+    }
+  ]
+}

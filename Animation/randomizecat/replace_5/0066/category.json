@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hexagonal",
+  "direction": "oblique",
+  "operation": "curving",
+  "affect": "latticed"
+}

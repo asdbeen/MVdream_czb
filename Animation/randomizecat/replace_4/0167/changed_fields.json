@@ -1,0 +1,27 @@
+{
+  "sample_id": "0167",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "perforating",
+      "new": "tapering"
+    },
+    {
+      "field": "affect",
+      "old": "gridded",
+      "new": "prismic"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "wedge"
+    }
+  ]
+}

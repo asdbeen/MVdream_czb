@@ -1,0 +1,27 @@
+{
+  "sample_id": "0960",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "lune"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "gabled",
+      "new": "notched"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "bifurcating"
+    }
+  ]
+}

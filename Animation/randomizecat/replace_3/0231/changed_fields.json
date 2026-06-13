@@ -1,0 +1,22 @@
+{
+  "sample_id": "0231",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "asymmetrical",
+      "new": "gaping"
+    },
+    {
+      "field": "direction",
+      "old": "parallel",
+      "new": "normal"
+    },
+    {
+      "field": "operation",
+      "old": "leaning",
+      "new": "slicing"
+    }
+  ]
+}

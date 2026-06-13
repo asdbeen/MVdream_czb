@@ -1,0 +1,32 @@
+{
+  "sample_id": "0538",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "glyph"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "uni"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "vortical"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "pixelating"
+    }
+  ]
+}

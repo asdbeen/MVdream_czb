@@ -1,0 +1,27 @@
+{
+  "sample_id": "0400",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "vertical"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "enveloping"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "zigzagging"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

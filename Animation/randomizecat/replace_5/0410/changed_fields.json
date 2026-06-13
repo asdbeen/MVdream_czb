@@ -1,0 +1,32 @@
+{
+  "sample_id": "0410",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "perforating",
+      "new": "filleting"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "disk"
+    },
+    {
+      "field": "affect",
+      "old": "latticed",
+      "new": "perimetral"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "cardinal"
+    }
+  ]
+}

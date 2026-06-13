@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hemisphere",
+  "direction": "parallel",
+  "operation": "knotting",
+  "affect": "tapered"
+}

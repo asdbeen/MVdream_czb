@@ -1,0 +1,27 @@
+{
+  "sample_id": "0768",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "polar"
+    },
+    {
+      "field": "operation",
+      "old": "subtracting",
+      "new": "overlapping"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "pyramid"
+    },
+    {
+      "field": "affect",
+      "old": "gridded",
+      "new": "domical"
+    }
+  ]
+}

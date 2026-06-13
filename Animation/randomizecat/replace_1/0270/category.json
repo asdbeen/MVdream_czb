@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "sphere",
+  "direction": "vertical",
+  "operation": "stacking",
+  "affect": "colonnaded"
+}

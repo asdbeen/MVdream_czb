@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "canopy",
+  "direction": "perpendicular",
+  "operation": "spiraling",
+  "affect": "columnar"
+}

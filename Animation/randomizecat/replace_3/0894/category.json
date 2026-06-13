@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "wedge",
+  "direction": "oblique",
+  "operation": "kerfing",
+  "affect": "consistent"
+}

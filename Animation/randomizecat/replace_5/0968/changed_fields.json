@@ -1,0 +1,32 @@
+{
+  "sample_id": "0968",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "canopy",
+      "new": "vortex"
+    },
+    {
+      "field": "affect",
+      "old": "columnar",
+      "new": "gabled"
+    },
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "bridging"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "perpendicular"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

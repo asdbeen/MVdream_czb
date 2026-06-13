@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "roll",
+  "direction": "perpendicular",
+  "operation": "perforating",
+  "affect": "enveloping"
+}

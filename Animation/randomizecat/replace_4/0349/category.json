@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "roll",
+  "direction": "horizontal",
+  "operation": "intersecting",
+  "affect": "circular"
+}

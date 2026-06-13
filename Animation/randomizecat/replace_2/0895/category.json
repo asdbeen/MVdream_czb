@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "Lshape",
+  "direction": "cardinal",
+  "operation": "joining",
+  "affect": "framed"
+}

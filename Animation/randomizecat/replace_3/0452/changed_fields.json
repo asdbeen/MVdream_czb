@@ -1,0 +1,22 @@
+{
+  "sample_id": "0452",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "up"
+    },
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "intersecting"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

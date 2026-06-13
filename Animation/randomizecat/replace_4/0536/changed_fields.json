@@ -1,0 +1,27 @@
+{
+  "sample_id": "0536",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "columnar"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "omni"
+    },
+    {
+      "field": "operation",
+      "old": "undulating",
+      "new": "stretching"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "hypershape"
+    }
+  ]
+}

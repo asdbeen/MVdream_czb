@@ -1,0 +1,17 @@
+{
+  "sample_id": "0600",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "flooring",
+      "new": "tapered"
+    },
+    {
+      "field": "operation",
+      "old": "unfolding",
+      "new": "wrapping"
+    }
+  ]
+}

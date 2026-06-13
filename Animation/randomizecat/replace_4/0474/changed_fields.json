@@ -1,0 +1,27 @@
+{
+  "sample_id": "0474",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "discoid"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "undulating"
+    },
+    {
+      "field": "direction",
+      "old": "cardinal",
+      "new": "up"
+    },
+    {
+      "field": "volume",
+      "old": "pyramid",
+      "new": "roll"
+    }
+  ]
+}

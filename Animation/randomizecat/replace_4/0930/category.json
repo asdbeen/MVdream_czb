@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cuboid",
+  "direction": "perpendicular",
+  "operation": "seperating",
+  "affect": "shifted"
+}

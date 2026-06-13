@@ -1,0 +1,22 @@
+{
+  "sample_id": "0567",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "discontinuous"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "peeling"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "line"
+    }
+  ]
+}

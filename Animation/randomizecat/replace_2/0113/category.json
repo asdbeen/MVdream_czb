@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cube",
+  "direction": "cardinal",
+  "operation": "arraying",
+  "affect": "prismic"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0916",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "down"
+    },
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "pipe"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "bifurcating"
+    }
+  ]
+}

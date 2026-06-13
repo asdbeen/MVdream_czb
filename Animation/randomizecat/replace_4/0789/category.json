@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "courtyard",
+  "direction": "bi",
+  "operation": "zigzagging",
+  "affect": "dilated"
+}

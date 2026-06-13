@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "disk",
+  "direction": "cardinal",
+  "operation": "bending",
+  "affect": "diagonal"
+}

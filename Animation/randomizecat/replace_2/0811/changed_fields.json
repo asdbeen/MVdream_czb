@@ -1,0 +1,17 @@
+{
+  "sample_id": "0811",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "uni"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "conic"
+    }
+  ]
+}

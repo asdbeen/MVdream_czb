@@ -1,0 +1,27 @@
+{
+  "sample_id": "0792",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "waffling",
+      "new": "pleating"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "tripod"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "gridded",
+      "new": "colonnaded"
+    }
+  ]
+}

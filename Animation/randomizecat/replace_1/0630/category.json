@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "canopy",
+  "direction": "tri",
+  "operation": "folding",
+  "affect": "cornered"
+}

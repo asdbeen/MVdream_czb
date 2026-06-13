@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cylinder",
+  "direction": "down",
+  "operation": "pixelating",
+  "affect": "tapered"
+}

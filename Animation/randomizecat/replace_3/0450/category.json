@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "roll",
+  "direction": "uni",
+  "operation": "bending",
+  "affect": "patterned"
+}

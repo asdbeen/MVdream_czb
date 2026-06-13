@@ -1,0 +1,27 @@
+{
+  "sample_id": "0334",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "dashed"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "blob"
+    },
+    {
+      "field": "operation",
+      "old": "twisting",
+      "new": "compressing"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "bi"
+    }
+  ]
+}

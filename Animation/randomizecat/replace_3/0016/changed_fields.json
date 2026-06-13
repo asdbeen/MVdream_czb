@@ -1,0 +1,22 @@
+{
+  "sample_id": "0016",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "polyhedron"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "horizontal"
+    },
+    {
+      "field": "operation",
+      "old": "grading",
+      "new": "carving"
+    }
+  ]
+}

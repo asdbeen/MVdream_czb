@@ -1,0 +1,32 @@
+{
+  "sample_id": "0634",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "wedge",
+      "new": "gable"
+    },
+    {
+      "field": "operation",
+      "old": "subtracting",
+      "new": "oscillating"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "cardinal"
+    },
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "paneled"
+    }
+  ]
+}

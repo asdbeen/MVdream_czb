@@ -1,0 +1,32 @@
+{
+  "sample_id": "0601",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "ellipsoid"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "omni"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "folding"
+    },
+    {
+      "field": "affect",
+      "old": "waved",
+      "new": "convex"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

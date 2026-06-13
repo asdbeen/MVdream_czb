@@ -1,0 +1,27 @@
+{
+  "sample_id": "0695",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "omni"
+    },
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "polyhedron"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "pitching",
+      "new": "ripping"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0480",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "triple",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "compressing"
+    },
+    {
+      "field": "direction",
+      "old": "tri",
+      "new": "linear"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "disk"
+    }
+  ]
+}

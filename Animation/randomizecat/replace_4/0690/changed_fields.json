@@ -1,0 +1,27 @@
+{
+  "sample_id": "0690",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "cardinal",
+      "new": "up"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "tripod"
+    },
+    {
+      "field": "operation",
+      "old": "peeling",
+      "new": "subtracting"
+    },
+    {
+      "field": "affect",
+      "old": "paneled",
+      "new": "vortical"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0607",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "polar"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "gabled"
+    },
+    {
+      "field": "operation",
+      "old": "embedding",
+      "new": "splashing"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

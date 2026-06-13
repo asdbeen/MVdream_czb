@@ -1,0 +1,17 @@
+{
+  "sample_id": "0989",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "stripped"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "sphere",
+  "direction": "vertical",
+  "operation": "floating",
+  "affect": "conic"
+}

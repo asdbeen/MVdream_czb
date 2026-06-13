@@ -1,0 +1,17 @@
+{
+  "sample_id": "0580",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "rotational",
+      "new": "framed"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "cross"
+    }
+  ]
+}

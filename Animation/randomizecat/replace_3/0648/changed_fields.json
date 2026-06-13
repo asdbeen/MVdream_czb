@@ -1,0 +1,22 @@
+{
+  "sample_id": "0648",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "wedge"
+    },
+    {
+      "field": "affect",
+      "old": "crowned",
+      "new": "tapered"
+    },
+    {
+      "field": "direction",
+      "old": "radial",
+      "new": "tri"
+    }
+  ]
+}

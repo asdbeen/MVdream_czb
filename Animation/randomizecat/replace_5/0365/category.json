@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hexagonal",
+  "direction": "linear",
+  "operation": "connecting",
+  "affect": "gabled"
+}

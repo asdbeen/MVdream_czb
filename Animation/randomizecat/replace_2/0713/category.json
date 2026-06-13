@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "tube",
+  "direction": "polar",
+  "operation": "compressing",
+  "affect": "continuous"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "polyhedron",
+  "direction": "tri",
+  "operation": "voiding",
+  "affect": "curved"
+}

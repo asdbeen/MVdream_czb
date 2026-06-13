@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "Lshape",
+  "direction": "horizontal",
+  "operation": "oscillating",
+  "affect": "flooring"
+}

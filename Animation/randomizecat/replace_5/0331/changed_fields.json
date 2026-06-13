@@ -1,0 +1,32 @@
+{
+  "sample_id": "0331",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "voiding",
+      "new": "puncturing"
+    },
+    {
+      "field": "affect",
+      "old": "framed",
+      "new": "diagonal"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "polyhedron",
+      "new": "cone"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "random"
+    }
+  ]
+}

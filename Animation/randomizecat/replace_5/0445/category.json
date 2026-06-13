@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "line",
+  "direction": "parallel",
+  "operation": "grooving",
+  "affect": "faceted"
+}

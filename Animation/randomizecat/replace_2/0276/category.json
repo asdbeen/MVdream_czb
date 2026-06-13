@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cone",
+  "direction": "vertical",
+  "operation": "grading",
+  "affect": "crossed"
+}

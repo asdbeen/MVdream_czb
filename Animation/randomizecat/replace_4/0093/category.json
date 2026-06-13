@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "polyhedron",
+  "direction": "linear",
+  "operation": "joining",
+  "affect": "tentacular"
+}

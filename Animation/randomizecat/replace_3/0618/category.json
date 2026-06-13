@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "pipe",
+  "direction": "down",
+  "operation": "voiding",
+  "affect": "columnar"
+}

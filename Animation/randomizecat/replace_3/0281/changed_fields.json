@@ -1,0 +1,22 @@
+{
+  "sample_id": "0281",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "parallel"
+    },
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "notched"
+    },
+    {
+      "field": "operation",
+      "old": "intertwining",
+      "new": "overlapping"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pipe",
+  "direction": "up",
+  "operation": "arraying",
+  "affect": "gridded"
+}

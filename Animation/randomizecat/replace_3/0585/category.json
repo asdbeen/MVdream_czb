@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "wedge",
+  "direction": "omni",
+  "operation": "hovering",
+  "affect": "colonnaded"
+}

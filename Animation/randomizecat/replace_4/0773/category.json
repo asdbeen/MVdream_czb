@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cube",
+  "direction": "random",
+  "operation": "connecting",
+  "affect": "sunken"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "sphere",
+  "direction": "thin",
+  "operation": "peeling",
+  "affect": "organic"
+}

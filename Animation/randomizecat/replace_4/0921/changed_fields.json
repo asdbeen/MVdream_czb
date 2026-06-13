@@ -1,0 +1,27 @@
+{
+  "sample_id": "0921",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "voiding",
+      "new": "compressing"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "parallel"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "surface"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0440",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "discontinuous",
+      "new": "crossed"
+    },
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "kerfing"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "stellate"
+    }
+  ]
+}

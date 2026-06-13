@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hypershape",
+  "direction": "bi",
+  "operation": "curving",
+  "affect": "dashed"
+}

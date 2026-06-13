@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "pyramid",
+  "direction": "tri",
+  "operation": "bending",
+  "affect": "bundled"
+}

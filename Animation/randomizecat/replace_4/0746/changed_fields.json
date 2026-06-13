@@ -1,0 +1,27 @@
+{
+  "sample_id": "0746",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "grooving",
+      "new": "wrapping"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "disk"
+    },
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "irregular"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

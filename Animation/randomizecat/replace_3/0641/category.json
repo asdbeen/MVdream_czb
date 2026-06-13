@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "arch",
+  "direction": "bi",
+  "operation": "arraying",
+  "affect": "gridded"
+}

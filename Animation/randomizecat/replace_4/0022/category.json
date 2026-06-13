@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pyramid",
+  "direction": "perpendicular",
+  "operation": "ripping",
+  "affect": "hollow"
+}

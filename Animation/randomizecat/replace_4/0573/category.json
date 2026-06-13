@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "tube",
+  "direction": "parallel",
+  "operation": "overlapping",
+  "affect": "rotational"
+}

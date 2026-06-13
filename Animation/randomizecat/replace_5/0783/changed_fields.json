@@ -1,0 +1,32 @@
+{
+  "sample_id": "0783",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "perforating",
+      "new": "separating"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "perpendicular"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "gridded",
+      "new": "faceted"
+    },
+    {
+      "field": "volume",
+      "old": "canopy",
+      "new": "cylinder"
+    }
+  ]
+}

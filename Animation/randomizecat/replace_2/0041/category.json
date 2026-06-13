@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "capsule",
+  "direction": "horizontal",
+  "operation": "compressing",
+  "affect": "cantilevered"
+}

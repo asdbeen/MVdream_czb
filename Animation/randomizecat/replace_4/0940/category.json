@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hemisphere",
+  "direction": "perpendicular",
+  "operation": "embedding",
+  "affect": "patterned"
+}

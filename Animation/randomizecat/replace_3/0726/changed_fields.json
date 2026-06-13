@@ -1,0 +1,22 @@
+{
+  "sample_id": "0726",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "continuous"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "pyramid"
+    }
+  ]
+}

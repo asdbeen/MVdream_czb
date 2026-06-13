@@ -1,0 +1,32 @@
+{
+  "sample_id": "0443",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "circular",
+      "new": "notched"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "planar"
+    },
+    {
+      "field": "operation",
+      "old": "voiding",
+      "new": "separating"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "capsule"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

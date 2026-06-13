@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "pipe",
+  "direction": "random",
+  "operation": "arraying",
+  "affect": "continuous"
+}

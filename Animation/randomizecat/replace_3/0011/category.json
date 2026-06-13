@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cube",
+  "direction": "random",
+  "operation": "stretching",
+  "affect": "paneled"
+}

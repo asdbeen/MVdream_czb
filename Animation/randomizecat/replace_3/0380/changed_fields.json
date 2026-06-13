@@ -1,0 +1,22 @@
+{
+  "sample_id": "0380",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "parallel"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "hexagonal"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "round"
+    }
+  ]
+}

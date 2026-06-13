@@ -1,0 +1,32 @@
+{
+  "sample_id": "0002",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "contained"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "embedding"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "cardinal"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "hypershape"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

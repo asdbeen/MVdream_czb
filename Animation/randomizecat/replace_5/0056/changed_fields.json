@@ -1,0 +1,32 @@
+{
+  "sample_id": "0056",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "parallel"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "intertwining"
+    },
+    {
+      "field": "affect",
+      "old": "waved",
+      "new": "prismic"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "pyramid"
+    }
+  ]
+}

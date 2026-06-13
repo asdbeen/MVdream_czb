@@ -1,0 +1,32 @@
+{
+  "sample_id": "0090",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "tri"
+    },
+    {
+      "field": "operation",
+      "old": "floating",
+      "new": "grooving"
+    },
+    {
+      "field": "affect",
+      "old": "columnar",
+      "new": "tentacular"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "hypershape"
+    }
+  ]
+}

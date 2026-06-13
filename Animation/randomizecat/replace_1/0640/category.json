@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "donut",
+  "direction": "omni",
+  "operation": "grading",
+  "affect": "topographic"
+}

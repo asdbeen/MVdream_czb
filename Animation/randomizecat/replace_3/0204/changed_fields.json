@@ -1,0 +1,22 @@
+{
+  "sample_id": "0204",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "inflating",
+      "new": "containing"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "tripod"
+    }
+  ]
+}

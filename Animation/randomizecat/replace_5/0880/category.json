@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "glyph",
+  "direction": "random",
+  "operation": "scarving",
+  "affect": "stripped"
+}

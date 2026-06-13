@@ -1,0 +1,27 @@
+{
+  "sample_id": "0495",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "round",
+      "new": "paneled"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "spiraling",
+      "new": "packing"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "cone"
+    }
+  ]
+}

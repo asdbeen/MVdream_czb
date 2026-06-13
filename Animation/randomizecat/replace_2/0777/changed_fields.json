@@ -1,0 +1,17 @@
+{
+  "sample_id": "0777",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "columnar",
+      "new": "round"
+    },
+    {
+      "field": "direction",
+      "old": "tri",
+      "new": "centrifugal"
+    }
+  ]
+}

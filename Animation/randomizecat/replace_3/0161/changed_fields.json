@@ -1,0 +1,22 @@
+{
+  "sample_id": "0161",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "tripod"
+    },
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "slicing"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "single"
+    }
+  ]
+}

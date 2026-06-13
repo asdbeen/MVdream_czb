@@ -1,0 +1,22 @@
+{
+  "sample_id": "0159",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "hemisphere"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "bridging"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    }
+  ]
+}

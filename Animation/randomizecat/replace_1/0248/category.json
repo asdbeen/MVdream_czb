@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "courtyard",
+  "direction": "normal",
+  "operation": "pitching",
+  "affect": "inverted"
+}

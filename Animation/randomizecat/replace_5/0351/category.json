@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "canopy",
+  "direction": "random",
+  "operation": "twisting",
+  "affect": "flooring"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "Lshape",
+  "direction": "random",
+  "operation": "pitching",
+  "affect": "prismic"
+}

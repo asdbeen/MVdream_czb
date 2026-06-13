@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "polyhedron",
+  "direction": "horizontal",
+  "operation": "stretching",
+  "affect": "indented"
+}

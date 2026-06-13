@@ -1,0 +1,32 @@
+{
+  "sample_id": "0081",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "crumpling",
+      "new": "fractaling"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "canopy"
+    },
+    {
+      "field": "affect",
+      "old": "sunken",
+      "new": "crowned"
+    },
+    {
+      "field": "direction",
+      "old": "polar",
+      "new": "oblique"
+    }
+  ]
+}

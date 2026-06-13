@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "stellate",
+  "direction": "uni",
+  "operation": "containing",
+  "affect": "stripped"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hypershape",
+  "direction": "centrifugal",
+  "operation": "separating",
+  "affect": "convex"
+}

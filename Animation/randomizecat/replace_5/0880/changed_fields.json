@@ -1,0 +1,32 @@
+{
+  "sample_id": "0880",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "scarving"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "random"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "pyramid",
+      "new": "glyph"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "stripped"
+    }
+  ]
+}

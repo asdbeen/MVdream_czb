@@ -1,0 +1,27 @@
+{
+  "sample_id": "0202",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "columnar",
+      "new": "colonnaded"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "hovering",
+      "new": "floating"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "cross"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "tripod",
+  "direction": "cardinal",
+  "operation": "intersecting",
+  "affect": "pyramidal"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "arch",
+  "direction": "planar",
+  "operation": "folding",
+  "affect": "round"
+}

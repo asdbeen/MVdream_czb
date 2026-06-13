@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "capsule",
+  "direction": "normal",
+  "operation": "interlocking",
+  "affect": "shifted"
+}

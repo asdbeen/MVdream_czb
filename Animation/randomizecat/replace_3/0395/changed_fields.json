@@ -1,0 +1,22 @@
+{
+  "sample_id": "0395",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "round"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "donut"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "planar"
+    }
+  ]
+}

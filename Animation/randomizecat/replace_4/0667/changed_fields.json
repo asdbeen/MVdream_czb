@@ -1,0 +1,27 @@
+{
+  "sample_id": "0667",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "perpendicular",
+      "new": "normal"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "octahedral"
+    },
+    {
+      "field": "operation",
+      "old": "slitting",
+      "new": "grading"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "pyramid",
+  "direction": "omni",
+  "operation": "branching",
+  "affect": "rippled"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0165",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "perpendicular"
+    },
+    {
+      "field": "operation",
+      "old": "knotting",
+      "new": "bridging"
+    },
+    {
+      "field": "affect",
+      "old": "bundled",
+      "new": "anthropomorphic"
+    },
+    {
+      "field": "entity",
+      "old": "triple",
+      "new": "multiple"
+    }
+  ]
+}

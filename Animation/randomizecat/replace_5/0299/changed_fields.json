@@ -1,0 +1,32 @@
+{
+  "sample_id": "0299",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "indented",
+      "new": "sunken"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "zigzagging",
+      "new": "filleting"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "parallel"
+    },
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "sphere"
+    }
+  ]
+}

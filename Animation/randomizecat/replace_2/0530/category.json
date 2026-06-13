@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "Lshape",
+  "direction": "vertical",
+  "operation": "compressing",
+  "affect": "sawtooth"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "wedge",
+  "direction": "omni",
+  "operation": "floating",
+  "affect": "columnar"
+}

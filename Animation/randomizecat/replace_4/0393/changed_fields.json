@@ -1,0 +1,27 @@
+{
+  "sample_id": "0393",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "cross"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "degraded"
+    },
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "bending"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    }
+  ]
+}

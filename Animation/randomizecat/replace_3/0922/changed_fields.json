@@ -1,0 +1,22 @@
+{
+  "sample_id": "0922",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "Lshape"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "morphing"
+    },
+    {
+      "field": "affect",
+      "old": "discontinuous",
+      "new": "tilted"
+    }
+  ]
+}

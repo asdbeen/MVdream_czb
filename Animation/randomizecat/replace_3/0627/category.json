@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "sphere",
+  "direction": "perpendicular",
+  "operation": "wrapping",
+  "affect": "gradated"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "blob",
+  "direction": "cardinal",
+  "operation": "packing",
+  "affect": "sunken"
+}

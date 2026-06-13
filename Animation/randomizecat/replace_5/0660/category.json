@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "arch",
+  "direction": "cardinal",
+  "operation": "compressing",
+  "affect": "gabled"
+}

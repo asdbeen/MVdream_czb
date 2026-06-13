@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "octahedral",
+  "direction": "parallel",
+  "operation": "excavating",
+  "affect": "vaulted"
+}

@@ -1,0 +1,17 @@
+{
+  "sample_id": "0857",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "staggered"
+    },
+    {
+      "field": "volume",
+      "old": "wedge",
+      "new": "cylinder"
+    }
+  ]
+}

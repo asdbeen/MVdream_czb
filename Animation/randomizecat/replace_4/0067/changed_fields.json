@@ -1,0 +1,27 @@
+{
+  "sample_id": "0067",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "linear"
+    },
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "tapered"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "glyph"
+    }
+  ]
+}

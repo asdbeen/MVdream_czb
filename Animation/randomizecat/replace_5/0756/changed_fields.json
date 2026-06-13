@@ -1,0 +1,32 @@
+{
+  "sample_id": "0756",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "pixelating",
+      "new": "spiralling"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "patterned"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "thin"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "cuboid"
+    }
+  ]
+}

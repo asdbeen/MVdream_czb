@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "sphere",
+  "direction": "thin",
+  "operation": "branching",
+  "affect": "prismic"
+}

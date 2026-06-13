@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "hypershape",
+  "direction": "radial",
+  "operation": "slitting",
+  "affect": "enveloping"
+}

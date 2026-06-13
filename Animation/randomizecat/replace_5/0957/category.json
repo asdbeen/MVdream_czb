@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "hypershape",
+  "direction": "down",
+  "operation": "bifurcating",
+  "affect": "rotational"
+}

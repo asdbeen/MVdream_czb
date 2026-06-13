@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hypershape",
+  "direction": "bi",
+  "operation": "draping",
+  "affect": "porous"
+}

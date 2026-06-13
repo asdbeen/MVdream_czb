@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "ellipsoid",
+  "direction": "perpendicular",
+  "operation": "splashing",
+  "affect": "flooring"
+}

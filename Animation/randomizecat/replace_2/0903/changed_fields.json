@@ -1,0 +1,17 @@
+{
+  "sample_id": "0903",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "horizontal"
+    },
+    {
+      "field": "operation",
+      "old": "tapering",
+      "new": "separating"
+    }
+  ]
+}

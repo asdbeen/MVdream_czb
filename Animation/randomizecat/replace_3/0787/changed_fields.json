@@ -1,0 +1,22 @@
+{
+  "sample_id": "0787",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "prismic"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "horizontal"
+    },
+    {
+      "field": "operation",
+      "old": "bulging",
+      "new": "spiraing"
+    }
+  ]
+}

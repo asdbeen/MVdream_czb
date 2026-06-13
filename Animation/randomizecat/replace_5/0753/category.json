@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cuboid",
+  "direction": "up",
+  "operation": "morphing",
+  "affect": "dashed"
+}

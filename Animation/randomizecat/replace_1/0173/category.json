@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cuboid",
+  "direction": "horizontal",
+  "operation": "splitting",
+  "affect": "curved"
+}

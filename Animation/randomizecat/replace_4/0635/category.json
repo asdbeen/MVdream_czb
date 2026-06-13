@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "line",
+  "direction": "planar",
+  "operation": "packing",
+  "affect": "wired"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "vortex",
+  "direction": "random",
+  "operation": "oscillating",
+  "affect": "vaulted"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cross",
+  "direction": "linear",
+  "operation": "spiraing",
+  "affect": "gridded"
+}

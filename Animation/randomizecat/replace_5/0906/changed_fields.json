@@ -1,0 +1,32 @@
+{
+  "sample_id": "0906",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "donut"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "radial"
+    },
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "faceted"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "voiding"
+    }
+  ]
+}

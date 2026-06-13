@@ -1,0 +1,27 @@
+{
+  "sample_id": "0629",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "courtyard"
+    },
+    {
+      "field": "affect",
+      "old": "rotational",
+      "new": "vortical"
+    },
+    {
+      "field": "direction",
+      "old": "radial",
+      "new": "uni"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "slitting"
+    }
+  ]
+}

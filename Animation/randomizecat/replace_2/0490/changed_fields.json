@@ -1,0 +1,17 @@
+{
+  "sample_id": "0490",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "dilated",
+      "new": "circular"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "bulging"
+    }
+  ]
+}

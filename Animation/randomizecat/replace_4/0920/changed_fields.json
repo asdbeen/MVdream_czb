@@ -1,0 +1,27 @@
+{
+  "sample_id": "0920",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "asymmetrical",
+      "new": "dashed"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "omni"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "canopy"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "quadruple"
+    }
+  ]
+}

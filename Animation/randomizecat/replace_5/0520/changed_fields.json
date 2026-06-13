@@ -1,0 +1,32 @@
+{
+  "sample_id": "0520",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "anthropomorphic",
+      "new": "spherical"
+    },
+    {
+      "field": "volume",
+      "old": "hypershape",
+      "new": "hemisphere"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "bifurcating"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "uni"
+    }
+  ]
+}

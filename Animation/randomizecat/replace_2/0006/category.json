@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cylinder",
+  "direction": "polar",
+  "operation": "splitting",
+  "affect": "indented"
+}

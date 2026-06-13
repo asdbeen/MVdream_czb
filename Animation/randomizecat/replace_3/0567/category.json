@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "line",
+  "direction": "thin",
+  "operation": "peeling",
+  "affect": "discontinuous"
+}

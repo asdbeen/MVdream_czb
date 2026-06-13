@@ -1,0 +1,22 @@
+{
+  "sample_id": "0857",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "wedge",
+      "new": "cylinder"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "ripping"
+    },
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "spherical"
+    }
+  ]
+}

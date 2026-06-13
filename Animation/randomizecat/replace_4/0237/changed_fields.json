@@ -1,0 +1,27 @@
+{
+  "sample_id": "0237",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "canopy"
+    },
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "gabled"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "normal"
+    }
+  ]
+}

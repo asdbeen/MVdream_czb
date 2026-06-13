@@ -1,0 +1,32 @@
+{
+  "sample_id": "0949",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "fluting"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "radial"
+    },
+    {
+      "field": "volume",
+      "old": "cross",
+      "new": "ellipsoid"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "rolled"
+    }
+  ]
+}

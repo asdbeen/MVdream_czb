@@ -1,0 +1,32 @@
+{
+  "sample_id": "0231",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "leaning",
+      "new": "curving"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "stellate"
+    },
+    {
+      "field": "direction",
+      "old": "parallel",
+      "new": "horizontal"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "asymmetrical",
+      "new": "gridded"
+    }
+  ]
+}

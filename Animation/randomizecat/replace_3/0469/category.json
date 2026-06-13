@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "gable",
+  "direction": "planar",
+  "operation": "carving",
+  "affect": "inverted"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0812",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "opening",
+      "new": "cornered"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "vertical"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "twisting"
+    },
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "cross"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

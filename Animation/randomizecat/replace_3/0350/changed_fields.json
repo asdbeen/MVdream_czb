@@ -1,0 +1,22 @@
+{
+  "sample_id": "0350",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "anthropomorphic"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "spiraing"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

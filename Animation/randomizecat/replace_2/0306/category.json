@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "courtyard",
+  "direction": "cardinal",
+  "operation": "compressing",
+  "affect": "wired"
+}

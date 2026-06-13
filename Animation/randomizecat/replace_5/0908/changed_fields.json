@@ -1,0 +1,32 @@
+{
+  "sample_id": "0908",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "tri"
+    },
+    {
+      "field": "operation",
+      "old": "twisting",
+      "new": "seperating"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "continuous"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "canopy"
+    }
+  ]
+}

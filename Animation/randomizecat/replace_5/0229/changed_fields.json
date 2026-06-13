@@ -1,0 +1,32 @@
+{
+  "sample_id": "0229",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "tripod"
+    },
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "crumpling"
+    },
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "faceted"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "random"
+    }
+  ]
+}

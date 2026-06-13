@@ -1,0 +1,22 @@
+{
+  "sample_id": "0795",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "random"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "branching"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "courtyard",
+  "direction": "tri",
+  "operation": "arraying",
+  "affect": "hollow"
+}

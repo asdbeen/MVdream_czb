@@ -1,0 +1,22 @@
+{
+  "sample_id": "0604",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "polar"
+    },
+    {
+      "field": "operation",
+      "old": "undulating",
+      "new": "pixelating"
+    },
+    {
+      "field": "affect",
+      "old": "tapered",
+      "new": "cantilevered"
+    }
+  ]
+}

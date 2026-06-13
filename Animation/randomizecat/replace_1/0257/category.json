@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "disk",
+  "direction": "down",
+  "operation": "containing",
+  "affect": "vaulted"
+}

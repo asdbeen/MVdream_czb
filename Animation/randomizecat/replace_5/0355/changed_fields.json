@@ -1,0 +1,32 @@
+{
+  "sample_id": "0355",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "zigzagging",
+      "new": "grading"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "uni"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "line"
+    },
+    {
+      "field": "affect",
+      "old": "discoid",
+      "new": "vaulted"
+    }
+  ]
+}

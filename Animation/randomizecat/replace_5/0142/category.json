@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "line",
+  "direction": "centrifugal",
+  "operation": "joining",
+  "affect": "waved"
+}

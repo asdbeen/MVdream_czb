@@ -1,0 +1,27 @@
+{
+  "sample_id": "0219",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "vertical"
+    },
+    {
+      "field": "operation",
+      "old": "spiraling",
+      "new": "zigzagging"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "ellipsoid"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

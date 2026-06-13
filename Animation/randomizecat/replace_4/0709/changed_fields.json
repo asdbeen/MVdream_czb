@@ -1,0 +1,27 @@
+{
+  "sample_id": "0709",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "continuous",
+      "new": "stripped"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "tube"
+    },
+    {
+      "field": "operation",
+      "old": "undulating",
+      "new": "overlapping"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "pipe",
+  "direction": "oblique",
+  "operation": "wrapping",
+  "affect": "dilated"
+}

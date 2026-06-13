@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "donut",
+  "direction": "cardinal",
+  "operation": "interlocking",
+  "affect": "cubic"
+}

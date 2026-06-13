@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "lune",
+  "direction": "down",
+  "operation": "embedding",
+  "affect": "sawtooth"
+}

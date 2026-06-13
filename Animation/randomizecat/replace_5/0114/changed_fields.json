@@ -1,0 +1,32 @@
+{
+  "sample_id": "0114",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "polyhedron"
+    },
+    {
+      "field": "operation",
+      "old": "zigzagging",
+      "new": "packing"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "Lshaped"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "cardinal"
+    }
+  ]
+}

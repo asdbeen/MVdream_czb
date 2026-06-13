@@ -1,0 +1,17 @@
+{
+  "sample_id": "0082",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "hexagonal"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "embedding"
+    }
+  ]
+}

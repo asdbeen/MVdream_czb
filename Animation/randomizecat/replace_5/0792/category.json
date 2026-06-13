@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "polyhedron",
+  "direction": "tri",
+  "operation": "kerfing",
+  "affect": "sunken"
+}

@@ -1,0 +1,17 @@
+{
+  "sample_id": "0678",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "cardinal",
+      "new": "vertical"
+    },
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "undulating"
+    }
+  ]
+}

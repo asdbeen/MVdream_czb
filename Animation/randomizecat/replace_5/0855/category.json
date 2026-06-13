@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "Lshape",
+  "direction": "centrifugal",
+  "operation": "fractaling",
+  "affect": "wired"
+}

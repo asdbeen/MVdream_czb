@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "pipe",
+  "direction": "linear",
+  "operation": "bridging",
+  "affect": "rippled"
+}

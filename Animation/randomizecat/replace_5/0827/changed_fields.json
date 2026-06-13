@@ -1,0 +1,32 @@
+{
+  "sample_id": "0827",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "rippled"
+    },
+    {
+      "field": "operation",
+      "old": "connecting",
+      "new": "intersecting"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "centrifugal"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "octahedral"
+    }
+  ]
+}

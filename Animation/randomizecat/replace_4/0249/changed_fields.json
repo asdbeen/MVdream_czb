@@ -1,0 +1,27 @@
+{
+  "sample_id": "0249",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "twisting"
+    },
+    {
+      "field": "volume",
+      "old": "pyramid",
+      "new": "lune"
+    },
+    {
+      "field": "affect",
+      "old": "truncated",
+      "new": "discoid"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "centrifugal"
+    }
+  ]
+}

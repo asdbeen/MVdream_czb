@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "gable",
+  "direction": "thin",
+  "operation": "grading",
+  "affect": "enveloping"
+}

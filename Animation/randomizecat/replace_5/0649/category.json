@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "disk",
+  "direction": "normal",
+  "operation": "fluting",
+  "affect": "gridded"
+}

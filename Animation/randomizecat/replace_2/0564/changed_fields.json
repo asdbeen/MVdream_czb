@@ -1,0 +1,17 @@
+{
+  "sample_id": "0564",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "faceted"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "lune"
+    }
+  ]
+}

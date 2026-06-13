@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hypershape",
+  "direction": "omni",
+  "operation": "filleting",
+  "affect": "concave"
+}

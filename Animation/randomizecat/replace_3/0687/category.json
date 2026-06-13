@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pipe",
+  "direction": "planar",
+  "operation": "peeling",
+  "affect": "staggered"
+}

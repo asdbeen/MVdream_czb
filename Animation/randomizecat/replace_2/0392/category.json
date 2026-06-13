@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "wedge",
+  "direction": "uni",
+  "operation": "branching",
+  "affect": "rolled"
+}

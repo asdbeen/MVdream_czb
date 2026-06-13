@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "Lshape",
+  "direction": "radial",
+  "operation": "hovering",
+  "affect": "staggered"
+}

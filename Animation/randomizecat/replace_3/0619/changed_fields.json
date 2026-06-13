@@ -1,0 +1,22 @@
+{
+  "sample_id": "0619",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "rotational",
+      "new": "vaulted"
+    },
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "Lshape"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "tri"
+    }
+  ]
+}

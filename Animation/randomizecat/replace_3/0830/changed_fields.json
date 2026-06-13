@@ -1,0 +1,22 @@
+{
+  "sample_id": "0830",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "slicing"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "surface"
+    }
+  ]
+}

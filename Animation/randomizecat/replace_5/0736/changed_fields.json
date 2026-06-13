@@ -1,0 +1,32 @@
+{
+  "sample_id": "0736",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "vertical"
+    },
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "rolled"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "containing"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "disk"
+    }
+  ]
+}

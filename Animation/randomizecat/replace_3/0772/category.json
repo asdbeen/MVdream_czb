@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "courtyard",
+  "direction": "vertical",
+  "operation": "morphing",
+  "affect": "convex"
+}

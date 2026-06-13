@@ -1,0 +1,32 @@
+{
+  "sample_id": "0353",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "Lshape"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "omni"
+    },
+    {
+      "field": "affect",
+      "old": "diagonal",
+      "new": "cylindrical"
+    },
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "waffling"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cross",
+  "direction": "vertical",
+  "operation": "twisting",
+  "affect": "cornered"
+}

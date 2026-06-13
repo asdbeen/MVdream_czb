@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "pipe",
+  "direction": "horizontal",
+  "operation": "fractaling",
+  "affect": "round"
+}

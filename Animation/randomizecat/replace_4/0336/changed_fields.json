@@ -1,0 +1,27 @@
+{
+  "sample_id": "0336",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "centrifugal"
+    },
+    {
+      "field": "operation",
+      "old": "peeling",
+      "new": "splitting"
+    },
+    {
+      "field": "affect",
+      "old": "cornered",
+      "new": "conic"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

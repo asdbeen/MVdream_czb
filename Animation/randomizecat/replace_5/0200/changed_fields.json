@@ -1,0 +1,32 @@
+{
+  "sample_id": "0200",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "blob"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "pixelating"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "centrifugal"
+    },
+    {
+      "field": "affect",
+      "old": "sunken",
+      "new": "cylindrical"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

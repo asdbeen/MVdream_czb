@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "tube",
+  "direction": "radial",
+  "operation": "perforating",
+  "affect": "stripped"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0824",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "inflating"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "stellate"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "hollow"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "tri"
+    }
+  ]
+}

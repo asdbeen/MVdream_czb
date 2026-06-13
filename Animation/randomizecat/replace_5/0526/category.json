@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cross",
+  "direction": "polar",
+  "operation": "interlocking",
+  "affect": "cylindrical"
+}

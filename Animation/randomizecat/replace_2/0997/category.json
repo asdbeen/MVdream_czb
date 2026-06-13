@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "gable",
+  "direction": "normal",
+  "operation": "subtracting",
+  "affect": "porous"
+}

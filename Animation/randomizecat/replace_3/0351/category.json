@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hemisphere",
+  "direction": "tri",
+  "operation": "tangling",
+  "affect": "gridded"
+}

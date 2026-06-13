@@ -1,0 +1,27 @@
+{
+  "sample_id": "0940",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "discontinuous",
+      "new": "patterned"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "hemisphere"
+    },
+    {
+      "field": "operation",
+      "old": "morphing",
+      "new": "embedding"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

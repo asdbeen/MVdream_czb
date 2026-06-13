@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cube",
+  "direction": "radial",
+  "operation": "voiding",
+  "affect": "framed"
+}

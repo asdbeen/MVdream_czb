@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "pyramid",
+  "direction": "up",
+  "operation": "tangling",
+  "affect": "discoid"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0632",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "scarving"
+    },
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "gaping"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "glyph"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "bi"
+    }
+  ]
+}

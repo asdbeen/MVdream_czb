@@ -1,0 +1,32 @@
+{
+  "sample_id": "0918",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "cantilevered"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "random"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "zigzagging",
+      "new": "twisting"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "hexagonal"
+    }
+  ]
+}

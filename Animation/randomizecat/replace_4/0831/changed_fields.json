@@ -1,0 +1,27 @@
+{
+  "sample_id": "0831",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "pipe"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "radial"
+    },
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "bulging"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "arch",
+  "direction": "centrifugal",
+  "operation": "voiding",
+  "affect": "sunken"
+}

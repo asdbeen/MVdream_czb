@@ -1,0 +1,32 @@
+{
+  "sample_id": "0696",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "centrifugal"
+    },
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "undulating"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "single"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "polyhedron"
+    },
+    {
+      "field": "affect",
+      "old": "asymmetrical",
+      "new": "hollow"
+    }
+  ]
+}

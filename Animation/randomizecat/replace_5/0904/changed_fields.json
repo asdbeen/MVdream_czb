@@ -1,0 +1,32 @@
+{
+  "sample_id": "0904",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "radial"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "cube"
+    },
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "continuous"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "inflating"
+    }
+  ]
+}

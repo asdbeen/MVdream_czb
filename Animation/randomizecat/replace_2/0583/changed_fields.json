@@ -1,0 +1,17 @@
+{
+  "sample_id": "0583",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "random"
+    },
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "lune"
+    }
+  ]
+}

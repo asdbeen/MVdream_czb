@@ -1,0 +1,17 @@
+{
+  "sample_id": "0470",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "sawtooth"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "cone"
+    }
+  ]
+}

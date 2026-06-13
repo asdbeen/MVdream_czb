@@ -1,0 +1,32 @@
+{
+  "sample_id": "0417",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "uni"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "blob"
+    },
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "stretching"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "kinky",
+      "new": "spherical"
+    }
+  ]
+}

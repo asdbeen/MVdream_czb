@@ -1,0 +1,32 @@
+{
+  "sample_id": "0124",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "spherical",
+      "new": "paneled"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "tri"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "tube"
+    },
+    {
+      "field": "operation",
+      "old": "inflating",
+      "new": "filleting"
+    }
+  ]
+}

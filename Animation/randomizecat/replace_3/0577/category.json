@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "surface",
+  "direction": "up",
+  "operation": "carving",
+  "affect": "discontinuous"
+}

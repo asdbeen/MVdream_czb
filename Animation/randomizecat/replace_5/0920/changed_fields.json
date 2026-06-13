@@ -1,0 +1,32 @@
+{
+  "sample_id": "0920",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "planar"
+    },
+    {
+      "field": "affect",
+      "old": "asymmetrical",
+      "new": "spherical"
+    },
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "sagging"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "single"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "hexagonal"
+    }
+  ]
+}

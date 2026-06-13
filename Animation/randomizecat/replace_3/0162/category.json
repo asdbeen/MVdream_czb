@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "surface",
+  "direction": "down",
+  "operation": "joining",
+  "affect": "vaulted"
+}

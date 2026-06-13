@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "blob",
+  "direction": "down",
+  "operation": "draping",
+  "affect": "cubic"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0410",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "polar"
+    },
+    {
+      "field": "operation",
+      "old": "perforating",
+      "new": "tapering"
+    },
+    {
+      "field": "affect",
+      "old": "latticed",
+      "new": "waved"
+    }
+  ]
+}

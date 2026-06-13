@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "blob",
+  "direction": "linear",
+  "operation": "pleating",
+  "affect": "circular"
+}

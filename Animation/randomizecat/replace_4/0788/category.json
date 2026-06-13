@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hexagonal",
+  "direction": "normal",
+  "operation": "carving",
+  "affect": "truncated"
+}

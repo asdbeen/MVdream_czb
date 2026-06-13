@@ -1,0 +1,32 @@
+{
+  "sample_id": "0871",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "dilated",
+      "new": "waved"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "polar"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "surface"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "bulging"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    }
+  ]
+}

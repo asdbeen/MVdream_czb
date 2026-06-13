@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "gable",
+  "direction": "up",
+  "operation": "subtracting",
+  "affect": "domical"
+}

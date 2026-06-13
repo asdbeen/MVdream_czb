@@ -1,0 +1,32 @@
+{
+  "sample_id": "0158",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "perpendicular",
+      "new": "radial"
+    },
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "arch"
+    },
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "slicing"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "single"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "prismic"
+    }
+  ]
+}

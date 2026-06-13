@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "courtyard",
+  "direction": "radial",
+  "operation": "stacking",
+  "affect": "rotational"
+}

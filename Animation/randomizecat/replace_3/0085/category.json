@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cuboid",
+  "direction": "centrifugal",
+  "operation": "twisting",
+  "affect": "indented"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0811",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "crumpling",
+      "new": "branching"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "gable"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "vortical"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "down"
+    }
+  ]
+}

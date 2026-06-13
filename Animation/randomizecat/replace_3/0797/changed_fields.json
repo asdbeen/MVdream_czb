@@ -1,0 +1,22 @@
+{
+  "sample_id": "0797",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "blob"
+    },
+    {
+      "field": "affect",
+      "old": "gridded",
+      "new": "gradated"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "ellipsoid",
+  "direction": "horizontal",
+  "operation": "pitching",
+  "affect": "figural"
+}

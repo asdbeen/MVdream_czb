@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "donut",
+  "direction": "horizontal",
+  "operation": "looping",
+  "affect": "symmetrical"
+}

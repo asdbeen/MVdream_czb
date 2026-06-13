@@ -1,0 +1,32 @@
+{
+  "sample_id": "0689",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "centrifugal"
+    },
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "gradated"
+    },
+    {
+      "field": "operation",
+      "old": "morphing",
+      "new": "intersecting"
+    },
+    {
+      "field": "volume",
+      "old": "hypershape",
+      "new": "wedge"
+    }
+  ]
+}

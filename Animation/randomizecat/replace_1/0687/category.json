@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "sphere",
+  "direction": "polar",
+  "operation": "arraying",
+  "affect": "irregular"
+}

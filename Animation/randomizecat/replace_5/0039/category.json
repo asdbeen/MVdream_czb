@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "roll",
+  "direction": "thin",
+  "operation": "containing",
+  "affect": "crossed"
+}

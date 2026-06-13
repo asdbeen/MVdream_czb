@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "gable",
+  "direction": "centrifugal",
+  "operation": "tapering",
+  "affect": "gradated"
+}

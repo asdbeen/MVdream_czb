@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "canopy",
+  "direction": "bi",
+  "operation": "inflating",
+  "affect": "circular"
+}

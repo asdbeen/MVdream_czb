@@ -1,0 +1,27 @@
+{
+  "sample_id": "0688",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "undulating"
+    },
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "contained"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "donut"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

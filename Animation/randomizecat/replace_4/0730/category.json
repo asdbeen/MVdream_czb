@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "courtyard",
+  "direction": "random",
+  "operation": "spiraing",
+  "affect": "rolled"
+}

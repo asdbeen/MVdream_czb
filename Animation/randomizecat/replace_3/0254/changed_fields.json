@@ -1,0 +1,22 @@
+{
+  "sample_id": "0254",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "interlocking",
+      "new": "containing"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "cube"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "single"
+    }
+  ]
+}

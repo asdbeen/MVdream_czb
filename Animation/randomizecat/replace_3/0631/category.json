@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "arch",
+  "direction": "random",
+  "operation": "slitting",
+  "affect": "indented"
+}

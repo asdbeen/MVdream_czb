@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "sphere",
+  "direction": "radial",
+  "operation": "voiding",
+  "affect": "stripped"
+}

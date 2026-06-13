@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "octahedral",
+  "direction": "centrifugal",
+  "operation": "intersecting",
+  "affect": "rippled"
+}

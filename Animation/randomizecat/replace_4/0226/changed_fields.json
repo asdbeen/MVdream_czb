@@ -1,0 +1,27 @@
+{
+  "sample_id": "0226",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "hexagonal"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "cardinal"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "seperating"
+    }
+  ]
+}

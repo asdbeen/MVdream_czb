@@ -1,0 +1,27 @@
+{
+  "sample_id": "0881",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "embedding",
+      "new": "packing"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "cylinder"
+    },
+    {
+      "field": "affect",
+      "old": "sunken",
+      "new": "organic"
+    }
+  ]
+}

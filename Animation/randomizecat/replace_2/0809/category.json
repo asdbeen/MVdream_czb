@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "line",
+  "direction": "horizontal",
+  "operation": "arraying",
+  "affect": "waved"
+}

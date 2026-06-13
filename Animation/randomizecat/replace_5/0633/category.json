@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cone",
+  "direction": "omni",
+  "operation": "looping",
+  "affect": "topographic"
+}

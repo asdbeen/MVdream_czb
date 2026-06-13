@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "polyhedron",
+  "direction": "down",
+  "operation": "oscillating",
+  "affect": "cornered"
+}

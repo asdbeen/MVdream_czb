@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "donut",
+  "direction": "perpendicular",
+  "operation": "tapering",
+  "affect": "discontinuous"
+}

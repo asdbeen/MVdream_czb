@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "polyhedron",
+  "direction": "vertical",
+  "operation": "draping",
+  "affect": "cubic"
+}

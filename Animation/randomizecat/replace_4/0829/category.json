@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cross",
+  "direction": "horizontal",
+  "operation": "slicing",
+  "affect": "dashed"
+}

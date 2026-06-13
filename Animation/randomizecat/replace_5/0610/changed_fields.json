@@ -1,0 +1,32 @@
+{
+  "sample_id": "0610",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "circular",
+      "new": "convex"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "voiding",
+      "new": "looping"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "thin"
+    },
+    {
+      "field": "volume",
+      "old": "hypershape",
+      "new": "courtyard"
+    }
+  ]
+}

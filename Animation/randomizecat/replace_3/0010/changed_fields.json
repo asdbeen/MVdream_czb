@@ -1,0 +1,22 @@
+{
+  "sample_id": "0010",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "spherical",
+      "new": "rotational"
+    },
+    {
+      "field": "operation",
+      "old": "tangling",
+      "new": "morphing"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "parallel"
+    }
+  ]
+}

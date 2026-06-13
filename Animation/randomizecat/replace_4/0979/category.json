@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "polyhedron",
+  "direction": "omni",
+  "operation": "interlocking",
+  "affect": "faceted"
+}

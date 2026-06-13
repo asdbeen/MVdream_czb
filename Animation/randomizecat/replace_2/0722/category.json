@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "tube",
+  "direction": "bi",
+  "operation": "tapering",
+  "affect": "degraded"
+}

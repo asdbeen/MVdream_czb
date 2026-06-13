@@ -1,0 +1,22 @@
+{
+  "sample_id": "0996",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "notched"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "bi"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "ripping"
+    }
+  ]
+}

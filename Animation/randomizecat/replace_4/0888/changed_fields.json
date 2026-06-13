@@ -1,0 +1,27 @@
+{
+  "sample_id": "0888",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "connecting",
+      "new": "unfolding"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "lune"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "polar"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "triple"
+    }
+  ]
+}

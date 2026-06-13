@@ -1,0 +1,27 @@
+{
+  "sample_id": "0621",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "polar"
+    },
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "stretching"
+    },
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "gridded"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    }
+  ]
+}

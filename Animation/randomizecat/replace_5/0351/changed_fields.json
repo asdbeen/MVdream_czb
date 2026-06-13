@@ -1,0 +1,32 @@
+{
+  "sample_id": "0351",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "waffling",
+      "new": "twisting"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "random"
+    },
+    {
+      "field": "volume",
+      "old": "hemisphere",
+      "new": "canopy"
+    },
+    {
+      "field": "affect",
+      "old": "gridded",
+      "new": "flooring"
+    }
+  ]
+}

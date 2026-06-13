@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cross",
+  "direction": "down",
+  "operation": "spiraing",
+  "affect": "prismic"
+}

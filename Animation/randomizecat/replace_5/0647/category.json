@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "capsule",
+  "direction": "tri",
+  "operation": "joining",
+  "affect": "asymmetrical"
+}

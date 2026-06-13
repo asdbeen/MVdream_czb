@@ -1,0 +1,32 @@
+{
+  "sample_id": "0811",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "up"
+    },
+    {
+      "field": "operation",
+      "old": "crumpling",
+      "new": "fluting"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "canopy"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "spherical"
+    }
+  ]
+}

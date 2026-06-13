@@ -1,0 +1,22 @@
+{
+  "sample_id": "0784",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "centrifugal"
+    },
+    {
+      "field": "operation",
+      "old": "embedding",
+      "new": "splitting"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "blob"
+    }
+  ]
+}

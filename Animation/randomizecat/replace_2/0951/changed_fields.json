@@ -1,0 +1,17 @@
+{
+  "sample_id": "0951",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "canopy"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "pitching"
+    }
+  ]
+}

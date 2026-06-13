@@ -1,0 +1,27 @@
+{
+  "sample_id": "0338",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "stellate",
+      "new": "vortex"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "bi"
+    },
+    {
+      "field": "affect",
+      "old": "cornered",
+      "new": "discontinuous"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "donut",
+  "direction": "random",
+  "operation": "looping",
+  "affect": "stripped"
+}

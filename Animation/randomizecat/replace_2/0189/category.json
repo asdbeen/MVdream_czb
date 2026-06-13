@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "pipe",
+  "direction": "tri",
+  "operation": "packing",
+  "affect": "hollow"
+}

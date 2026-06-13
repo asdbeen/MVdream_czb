@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "gable",
+  "direction": "normal",
+  "operation": "perforating",
+  "affect": "gridded"
+}

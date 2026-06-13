@@ -1,0 +1,32 @@
+{
+  "sample_id": "0531",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "carving",
+      "new": "fractaling"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "oblique"
+    },
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "Lshaped"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "octahedral"
+    }
+  ]
+}

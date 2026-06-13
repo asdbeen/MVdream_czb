@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "line",
+  "direction": "radial",
+  "operation": "subtracting",
+  "affect": "Lshaped"
+}

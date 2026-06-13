@@ -1,0 +1,27 @@
+{
+  "sample_id": "0380",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "centrifugal"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "tripod"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "subtracting"
+    }
+  ]
+}

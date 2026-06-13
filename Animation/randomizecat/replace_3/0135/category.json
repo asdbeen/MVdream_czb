@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "tripod",
+  "direction": "perpendicular",
+  "operation": "fractaling",
+  "affect": "perimetral"
+}

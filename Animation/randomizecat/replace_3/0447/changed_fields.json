@@ -1,0 +1,22 @@
+{
+  "sample_id": "0447",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "intersecting"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "sphere"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "radial"
+    }
+  ]
+}

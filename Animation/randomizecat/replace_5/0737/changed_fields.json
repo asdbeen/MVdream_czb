@@ -1,0 +1,32 @@
+{
+  "sample_id": "0737",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "wedge"
+    },
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "spiraing"
+    },
+    {
+      "field": "affect",
+      "old": "dilated",
+      "new": "topographic"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "down"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    }
+  ]
+}

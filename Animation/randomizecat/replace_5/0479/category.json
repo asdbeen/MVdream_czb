@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hemisphere",
+  "direction": "perpendicular",
+  "operation": "ripping",
+  "affect": "cylindrical"
+}

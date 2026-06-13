@@ -1,0 +1,27 @@
+{
+  "sample_id": "0645",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "vertical"
+    },
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "irregular"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "knotting"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "hypershape"
+    }
+  ]
+}

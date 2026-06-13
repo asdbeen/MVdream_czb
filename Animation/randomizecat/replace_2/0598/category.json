@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "capsule",
+  "direction": "parallel",
+  "operation": "unfolding",
+  "affect": "paneled"
+}

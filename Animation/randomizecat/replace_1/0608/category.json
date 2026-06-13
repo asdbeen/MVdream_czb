@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "tube",
+  "direction": "linear",
+  "operation": "leaning",
+  "affect": "cubic"
+}

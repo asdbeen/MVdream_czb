@@ -1,0 +1,27 @@
+{
+  "sample_id": "0762",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "cylindrical",
+      "new": "enveloping"
+    },
+    {
+      "field": "volume",
+      "old": "blob",
+      "new": "sphere"
+    },
+    {
+      "field": "operation",
+      "old": "wrapping",
+      "new": "seperating"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    }
+  ]
+}

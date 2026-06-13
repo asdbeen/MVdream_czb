@@ -1,0 +1,27 @@
+{
+  "sample_id": "0703",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "cube"
+    },
+    {
+      "field": "operation",
+      "old": "inflating",
+      "new": "curving"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "inverted"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "up"
+    }
+  ]
+}

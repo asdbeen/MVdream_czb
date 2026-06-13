@@ -1,0 +1,22 @@
+{
+  "sample_id": "0860",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "cylinder"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "unfolding"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "random"
+    }
+  ]
+}

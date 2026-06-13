@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "arch",
+  "direction": "linear",
+  "operation": "splashing",
+  "affect": "dilated"
+}

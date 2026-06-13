@@ -1,0 +1,32 @@
+{
+  "sample_id": "0223",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "hollow"
+    },
+    {
+      "field": "volume",
+      "old": "hemisphere",
+      "new": "Lshape"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "omni"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "pitching"
+    }
+  ]
+}

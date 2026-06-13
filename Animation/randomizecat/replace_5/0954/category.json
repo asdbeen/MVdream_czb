@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "line",
+  "direction": "horizontal",
+  "operation": "grading",
+  "affect": "inserted"
+}

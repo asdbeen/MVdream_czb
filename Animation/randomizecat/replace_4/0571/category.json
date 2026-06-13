@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "tube",
+  "direction": "centrifugal",
+  "operation": "scarving",
+  "affect": "gaping"
+}

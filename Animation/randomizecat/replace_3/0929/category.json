@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cuboid",
+  "direction": "linear",
+  "operation": "grooving",
+  "affect": "asymmetrical"
+}

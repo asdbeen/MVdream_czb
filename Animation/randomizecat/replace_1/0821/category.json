@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cuboid",
+  "direction": "up",
+  "operation": "kerfing",
+  "affect": "tilted"
+}

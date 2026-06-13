@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "roll",
+  "direction": "linear",
+  "operation": "spiraling",
+  "affect": "organic"
+}

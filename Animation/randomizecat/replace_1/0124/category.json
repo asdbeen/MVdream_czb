@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "normal",
+  "operation": "folding",
+  "affect": "spherical"
+}

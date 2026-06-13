@@ -1,0 +1,22 @@
+{
+  "sample_id": "0451",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "cardinal"
+    },
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "hypershape"
+    },
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "branching"
+    }
+  ]
+}

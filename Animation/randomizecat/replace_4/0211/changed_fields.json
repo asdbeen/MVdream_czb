@@ -1,0 +1,27 @@
+{
+  "sample_id": "0211",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "centrifugal"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "pitching"
+    },
+    {
+      "field": "affect",
+      "old": "rotational",
+      "new": "patterned"
+    },
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "hypershape"
+    }
+  ]
+}

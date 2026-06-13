@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "octahedral",
+  "direction": "horizontal",
+  "operation": "pitching",
+  "affect": "rippled"
+}

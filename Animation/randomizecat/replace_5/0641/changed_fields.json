@@ -1,0 +1,32 @@
+{
+  "sample_id": "0641",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "Lshape"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "inverted"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "carving"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "linear"
+    }
+  ]
+}

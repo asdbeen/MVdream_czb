@@ -1,0 +1,32 @@
+{
+  "sample_id": "0295",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "hypershape"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "circular"
+    },
+    {
+      "field": "operation",
+      "old": "tapering",
+      "new": "leaning"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "planar"
+    }
+  ]
+}

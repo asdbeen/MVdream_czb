@@ -1,0 +1,27 @@
+{
+  "sample_id": "0822",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "continuous",
+      "new": "dashed"
+    },
+    {
+      "field": "volume",
+      "old": "surface",
+      "new": "cube"
+    },
+    {
+      "field": "operation",
+      "old": "twisting",
+      "new": "scaffolding"
+    }
+  ]
+}

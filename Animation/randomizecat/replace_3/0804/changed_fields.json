@@ -1,0 +1,22 @@
+{
+  "sample_id": "0804",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "hovering",
+      "new": "branching"
+    },
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "octahedral"
+    }
+  ]
+}

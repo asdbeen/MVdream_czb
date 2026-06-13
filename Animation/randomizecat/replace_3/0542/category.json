@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "tube",
+  "direction": "random",
+  "operation": "filleting",
+  "affect": "pyramidal"
+}

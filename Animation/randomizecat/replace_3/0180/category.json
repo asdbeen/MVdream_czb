@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hemisphere",
+  "direction": "random",
+  "operation": "carving",
+  "affect": "degraded"
+}

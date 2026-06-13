@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "courtyard",
+  "direction": "cardinal",
+  "operation": "spiraling",
+  "affect": "waved"
+}

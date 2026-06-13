@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "wedge",
+  "direction": "random",
+  "operation": "puncturing",
+  "affect": "prismic"
+}

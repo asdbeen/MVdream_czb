@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "lune",
+  "direction": "radial",
+  "operation": "leaning",
+  "affect": "staggered"
+}

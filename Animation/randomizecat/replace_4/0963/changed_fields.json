@@ -1,0 +1,27 @@
+{
+  "sample_id": "0963",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "degrading"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "ellipsoid"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "linear"
+    }
+  ]
+}

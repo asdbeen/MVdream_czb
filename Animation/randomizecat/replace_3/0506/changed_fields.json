@@ -1,0 +1,22 @@
+{
+  "sample_id": "0506",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "cardinal"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "floating"
+    },
+    {
+      "field": "affect",
+      "old": "discontinuous",
+      "new": "enveloping"
+    }
+  ]
+}

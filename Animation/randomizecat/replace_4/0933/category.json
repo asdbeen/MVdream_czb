@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "canopy",
+  "direction": "vertical",
+  "operation": "excavating",
+  "affect": "opening"
+}

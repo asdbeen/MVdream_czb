@@ -1,0 +1,22 @@
+{
+  "sample_id": "0085",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "parallel",
+      "new": "centrifugal"
+    },
+    {
+      "field": "affect",
+      "old": "asymmetrical",
+      "new": "indented"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "twisting"
+    }
+  ]
+}

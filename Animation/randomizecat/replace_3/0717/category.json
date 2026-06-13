@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "tripod",
+  "direction": "linear",
+  "operation": "stacking",
+  "affect": "dilated"
+}

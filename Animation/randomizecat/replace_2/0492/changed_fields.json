@@ -1,0 +1,17 @@
+{
+  "sample_id": "0492",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "prismic",
+      "new": "tilted"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "polar"
+    }
+  ]
+}

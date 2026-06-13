@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "lune",
+  "direction": "omni",
+  "operation": "subtracting",
+  "affect": "flooring"
+}

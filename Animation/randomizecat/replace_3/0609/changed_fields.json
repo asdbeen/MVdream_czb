@@ -1,0 +1,22 @@
+{
+  "sample_id": "0609",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "parallel"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "puncturing"
+    }
+  ]
+}

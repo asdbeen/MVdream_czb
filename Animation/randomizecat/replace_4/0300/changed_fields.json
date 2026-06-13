@@ -1,0 +1,27 @@
+{
+  "sample_id": "0300",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "single"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "polyhedron"
+    },
+    {
+      "field": "affect",
+      "old": "asymmetrical",
+      "new": "semicircular"
+    },
+    {
+      "field": "direction",
+      "old": "parallel",
+      "new": "down"
+    }
+  ]
+}

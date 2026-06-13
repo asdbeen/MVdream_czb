@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "octahedral",
+  "direction": "centrifugal",
+  "operation": "bending",
+  "affect": "cubic"
+}

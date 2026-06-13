@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "ellipsoid",
+  "direction": "thin",
+  "operation": "zigzagging",
+  "affect": "prismic"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0485",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "columnar",
+      "new": "tapered"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "centrifugal"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "blob"
+    },
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "knotting"
+    }
+  ]
+}

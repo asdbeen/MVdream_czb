@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "ellipsoid",
+  "direction": "thin",
+  "operation": "arraying",
+  "affect": "gaping"
+}

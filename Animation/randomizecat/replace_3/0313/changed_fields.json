@@ -1,0 +1,22 @@
+{
+  "sample_id": "0313",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "sphere"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "stripped"
+    },
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "wrapping"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0922",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "polyhedron"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "splashing"
+    },
+    {
+      "field": "affect",
+      "old": "discontinuous",
+      "new": "asymmetrical"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "courtyard",
+  "direction": "horizontal",
+  "operation": "packing",
+  "affect": "porous"
+}

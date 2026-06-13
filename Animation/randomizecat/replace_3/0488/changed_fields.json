@@ -1,0 +1,22 @@
+{
+  "sample_id": "0488",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "contained"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "stellate"
+    },
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "bifurcating"
+    }
+  ]
+}

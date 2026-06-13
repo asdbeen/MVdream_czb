@@ -1,0 +1,32 @@
+{
+  "sample_id": "0624",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "figural"
+    },
+    {
+      "field": "operation",
+      "old": "twisting",
+      "new": "wrapping"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "normal"
+    },
+    {
+      "field": "volume",
+      "old": "cross",
+      "new": "stellate"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0742",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "perimetral",
+      "new": "faceted"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "cone"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "linear"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "pleating"
+    }
+  ]
+}

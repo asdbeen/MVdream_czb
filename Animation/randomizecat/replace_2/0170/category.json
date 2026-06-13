@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "glyph",
+  "direction": "thin",
+  "operation": "overlapping",
+  "affect": "dashed"
+}

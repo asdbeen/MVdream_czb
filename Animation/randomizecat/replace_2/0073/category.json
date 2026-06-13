@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "parallel",
+  "operation": "inflating",
+  "affect": "stripped"
+}

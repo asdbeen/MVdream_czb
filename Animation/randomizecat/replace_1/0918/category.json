@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "tube",
+  "direction": "polar",
+  "operation": "zigzagging",
+  "affect": "notched"
+}

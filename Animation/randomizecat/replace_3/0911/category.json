@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "wedge",
+  "direction": "uni",
+  "operation": "peeling",
+  "affect": "opening"
+}

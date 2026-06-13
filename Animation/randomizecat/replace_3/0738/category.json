@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "stellate",
+  "direction": "down",
+  "operation": "folding",
+  "affect": "opening"
+}

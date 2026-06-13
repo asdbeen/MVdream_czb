@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "surface",
+  "direction": "omni",
+  "operation": "undulating",
+  "affect": "hollow"
+}

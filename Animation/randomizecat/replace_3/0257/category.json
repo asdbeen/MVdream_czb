@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hemisphere",
+  "direction": "down",
+  "operation": "leaning",
+  "affect": "truncated"
+}

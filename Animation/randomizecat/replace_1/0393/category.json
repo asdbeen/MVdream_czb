@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "sphere",
+  "direction": "planar",
+  "operation": "overlapping",
+  "affect": "porous"
+}

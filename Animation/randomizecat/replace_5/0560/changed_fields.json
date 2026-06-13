@@ -1,0 +1,32 @@
+{
+  "sample_id": "0560",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "sagging"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "bi"
+    },
+    {
+      "field": "affect",
+      "old": "spherical",
+      "new": "rotational"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "cross",
+      "new": "courtyard"
+    }
+  ]
+}

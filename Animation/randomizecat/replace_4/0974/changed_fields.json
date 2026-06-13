@@ -1,0 +1,27 @@
+{
+  "sample_id": "0974",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "notched"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "separating"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "stellate"
+    }
+  ]
+}

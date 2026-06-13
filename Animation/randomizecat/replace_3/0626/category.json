@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "Lshape",
+  "direction": "vertical",
+  "operation": "connecting",
+  "affect": "gaping"
+}

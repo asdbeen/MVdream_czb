@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cone",
+  "direction": "polar",
+  "operation": "seperating",
+  "affect": "curved"
+}

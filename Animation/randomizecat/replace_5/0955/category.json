@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "wedge",
+  "direction": "thin",
+  "operation": "bulging",
+  "affect": "hollow"
+}

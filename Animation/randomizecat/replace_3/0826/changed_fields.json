@@ -1,0 +1,22 @@
+{
+  "sample_id": "0826",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "random"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "hexagonal"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "knotting"
+    }
+  ]
+}

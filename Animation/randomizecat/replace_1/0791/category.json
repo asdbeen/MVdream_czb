@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "tube",
+  "direction": "perpendicular",
+  "operation": "scaffolding",
+  "affect": "rotational"
+}

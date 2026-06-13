@@ -1,0 +1,22 @@
+{
+  "sample_id": "0596",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "parallel"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "ellipsoid"
+    },
+    {
+      "field": "affect",
+      "old": "bundled",
+      "new": "patterned"
+    }
+  ]
+}

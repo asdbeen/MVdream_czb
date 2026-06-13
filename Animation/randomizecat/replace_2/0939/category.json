@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "tube",
+  "direction": "perpendicular",
+  "operation": "folding",
+  "affect": "round"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0367",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gridded",
+      "new": "wired"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "bifurcating"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "polar"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "gable"
+    }
+  ]
+}

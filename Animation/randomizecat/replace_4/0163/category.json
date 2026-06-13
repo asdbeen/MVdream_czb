@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cylinder",
+  "direction": "bi",
+  "operation": "grading",
+  "affect": "consistent"
+}

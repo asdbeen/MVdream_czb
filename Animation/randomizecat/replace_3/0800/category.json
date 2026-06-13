@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "hemisphere",
+  "direction": "planar",
+  "operation": "stretching",
+  "affect": "porous"
+}

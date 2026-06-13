@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cross",
+  "direction": "bi",
+  "operation": "ripping",
+  "affect": "notched"
+}

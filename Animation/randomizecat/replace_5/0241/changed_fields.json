@@ -1,0 +1,32 @@
+{
+  "sample_id": "0241",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "latticed"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "single"
+    },
+    {
+      "field": "direction",
+      "old": "radial",
+      "new": "random"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "overlapping"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "line"
+    }
+  ]
+}

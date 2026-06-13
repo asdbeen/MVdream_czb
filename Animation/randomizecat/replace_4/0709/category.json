@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "tube",
+  "direction": "oblique",
+  "operation": "overlapping",
+  "affect": "stripped"
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0686",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "up",
+      "new": "perpendicular"
+    },
+    {
+      "field": "affect",
+      "old": "concave",
+      "new": "gradated"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "Lshape"
+    }
+  ]
+}

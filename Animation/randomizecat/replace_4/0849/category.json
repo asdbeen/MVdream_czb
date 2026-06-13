@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "polyhedron",
+  "direction": "normal",
+  "operation": "pitching",
+  "affect": "sunken"
+}

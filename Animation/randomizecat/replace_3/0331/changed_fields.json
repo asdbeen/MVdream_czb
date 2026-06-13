@@ -1,0 +1,22 @@
+{
+  "sample_id": "0331",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "polar"
+    },
+    {
+      "field": "affect",
+      "old": "framed",
+      "new": "latticed"
+    },
+    {
+      "field": "volume",
+      "old": "polyhedron",
+      "new": "lune"
+    }
+  ]
+}

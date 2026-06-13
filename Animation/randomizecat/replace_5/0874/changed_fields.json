@@ -1,0 +1,32 @@
+{
+  "sample_id": "0874",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "roll"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "down"
+    },
+    {
+      "field": "affect",
+      "old": "indented",
+      "new": "columnar"
+    },
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "oscillating"
+    }
+  ]
+}

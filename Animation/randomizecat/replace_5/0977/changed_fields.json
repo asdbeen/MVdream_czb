@@ -1,0 +1,32 @@
+{
+  "sample_id": "0977",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "gable"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "tangling",
+      "new": "intersecting"
+    },
+    {
+      "field": "affect",
+      "old": "discontinuous",
+      "new": "inserted"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "planar"
+    }
+  ]
+}

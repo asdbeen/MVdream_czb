@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "capsule",
+  "direction": "up",
+  "operation": "inflating",
+  "affect": "shifted"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "courtyard",
+  "direction": "cardinal",
+  "operation": "morphing",
+  "affect": "gridded"
+}

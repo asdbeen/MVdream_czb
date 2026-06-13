@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "blob",
+  "direction": "normal",
+  "operation": "ripping",
+  "affect": "faceted"
+}

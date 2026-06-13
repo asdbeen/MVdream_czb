@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "pyramid",
+  "direction": "random",
+  "operation": "joining",
+  "affect": "concave"
+}

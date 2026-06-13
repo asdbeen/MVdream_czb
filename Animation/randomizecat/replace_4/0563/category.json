@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "canopy",
+  "direction": "radial",
+  "operation": "bending",
+  "affect": "enveloping"
+}

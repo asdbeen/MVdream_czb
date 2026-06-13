@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "donut",
+  "direction": "parallel",
+  "operation": "packing",
+  "affect": "faceted"
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0245",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "hemisphere"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "parallel"
+    },
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "bridging"
+    }
+  ]
+}

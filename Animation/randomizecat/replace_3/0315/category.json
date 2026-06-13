@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "surface",
+  "direction": "thin",
+  "operation": "wrapping",
+  "affect": "crowned"
+}

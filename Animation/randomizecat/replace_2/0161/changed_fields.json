@@ -1,0 +1,17 @@
+{
+  "sample_id": "0161",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "up",
+      "new": "uni"
+    },
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "spiralling"
+    }
+  ]
+}

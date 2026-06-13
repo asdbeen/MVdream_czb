@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "courtyard",
+  "direction": "down",
+  "operation": "leaning",
+  "affect": "crowned"
+}

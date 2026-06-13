@@ -1,0 +1,22 @@
+{
+  "sample_id": "0730",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "rolled",
+      "new": "kinky"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "tapering",
+      "new": "twisting"
+    }
+  ]
+}

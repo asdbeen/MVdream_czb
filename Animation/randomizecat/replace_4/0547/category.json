@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "polyhedron",
+  "direction": "perpendicular",
+  "operation": "bifurcating",
+  "affect": "dashed"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "donut",
+  "direction": "parallel",
+  "operation": "overlapping",
+  "affect": "cornered"
+}

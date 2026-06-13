@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cylinder",
+  "direction": "planar",
+  "operation": "degrading",
+  "affect": "perimetral"
+}

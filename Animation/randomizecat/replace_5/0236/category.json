@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "gable",
+  "direction": "cardinal",
+  "operation": "floating",
+  "affect": "enveloping"
+}

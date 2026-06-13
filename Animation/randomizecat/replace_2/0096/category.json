@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cuboid",
+  "direction": "tri",
+  "operation": "intersecting",
+  "affect": "flooring"
+}

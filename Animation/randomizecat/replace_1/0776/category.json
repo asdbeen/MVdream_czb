@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cuboid",
+  "direction": "linear",
+  "operation": "pixelating",
+  "affect": "tentacular"
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0468",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "triple",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "down"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "courtyard"
+    }
+  ]
+}

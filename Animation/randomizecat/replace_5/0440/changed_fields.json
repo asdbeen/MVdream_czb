@@ -1,0 +1,32 @@
+{
+  "sample_id": "0440",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "twisting"
+    },
+    {
+      "field": "affect",
+      "old": "discontinuous",
+      "new": "prismic"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "blob"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "normal"
+    }
+  ]
+}

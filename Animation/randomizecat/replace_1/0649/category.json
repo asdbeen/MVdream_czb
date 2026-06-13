@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "courtyard",
+  "direction": "thin",
+  "operation": "spiraling",
+  "affect": "staggered"
+}

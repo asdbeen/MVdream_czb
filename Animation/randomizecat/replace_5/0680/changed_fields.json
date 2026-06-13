@@ -1,0 +1,32 @@
+{
+  "sample_id": "0680",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "radial"
+    },
+    {
+      "field": "affect",
+      "old": "continuous",
+      "new": "waved"
+    },
+    {
+      "field": "volume",
+      "old": "surface",
+      "new": "hypershape"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "intersecting"
+    }
+  ]
+}

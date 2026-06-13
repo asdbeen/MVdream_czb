@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cylinder",
+  "direction": "polar",
+  "operation": "joining",
+  "affect": "organic"
+}

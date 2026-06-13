@@ -1,0 +1,32 @@
+{
+  "sample_id": "0374",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "pixelating"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "degraded"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "ellipsoid"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "down"
+    }
+  ]
+}

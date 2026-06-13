@@ -1,0 +1,17 @@
+{
+  "sample_id": "0301",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "hollow"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "roll"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0655",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "grading",
+      "new": "bending"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "hypershape"
+    },
+    {
+      "field": "affect",
+      "old": "topographic",
+      "new": "symmetrical"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "perpendicular"
+    }
+  ]
+}

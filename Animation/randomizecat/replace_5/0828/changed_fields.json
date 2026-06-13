@@ -1,0 +1,32 @@
+{
+  "sample_id": "0828",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "crowned",
+      "new": "semicircular"
+    },
+    {
+      "field": "operation",
+      "old": "splashing",
+      "new": "grooving"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "polyhedron"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "cardinal"
+    }
+  ]
+}

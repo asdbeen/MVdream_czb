@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hypershape",
+  "direction": "perpendicular",
+  "operation": "splitting",
+  "affect": "asymmetrical"
+}

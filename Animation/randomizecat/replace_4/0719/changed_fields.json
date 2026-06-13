@@ -1,0 +1,27 @@
+{
+  "sample_id": "0719",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "flooring",
+      "new": "rotational"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "seperating"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "tri"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0038",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "carving",
+      "new": "stretching"
+    },
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "truncated"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "stellate"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "perpendicular"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "pipe",
+  "direction": "uni",
+  "operation": "connecting",
+  "affect": "vaulted"
+}

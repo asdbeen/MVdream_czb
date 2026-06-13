@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "pyramid",
+  "direction": "oblique",
+  "operation": "bending",
+  "affect": "cantilevered"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0724",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "arch"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "pitching"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "omni"
+    }
+  ]
+}

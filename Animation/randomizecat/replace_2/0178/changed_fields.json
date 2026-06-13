@@ -1,0 +1,17 @@
+{
+  "sample_id": "0178",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "curved"
+    },
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "connecting"
+    }
+  ]
+}

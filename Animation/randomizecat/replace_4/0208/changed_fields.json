@@ -1,0 +1,27 @@
+{
+  "sample_id": "0208",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "kinky",
+      "new": "sawtooth"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "knotting"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "polar"
+    }
+  ]
+}

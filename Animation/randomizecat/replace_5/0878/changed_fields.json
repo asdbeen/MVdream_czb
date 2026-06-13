@@ -1,0 +1,32 @@
+{
+  "sample_id": "0878",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "ruled",
+      "new": "porous"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "oblique"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "canopy"
+    },
+    {
+      "field": "operation",
+      "old": "undulating",
+      "new": "separating"
+    }
+  ]
+}

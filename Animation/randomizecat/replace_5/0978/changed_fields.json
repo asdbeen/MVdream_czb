@@ -1,0 +1,32 @@
+{
+  "sample_id": "0978",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "overlapping"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "random"
+    },
+    {
+      "field": "affect",
+      "old": "stripped",
+      "new": "tentacular"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "donut"
+    }
+  ]
+}

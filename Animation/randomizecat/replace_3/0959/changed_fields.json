@@ -1,0 +1,22 @@
+{
+  "sample_id": "0959",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "gabled"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "tri"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "Lshape"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0775",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "pipe"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "leaning"
+    },
+    {
+      "field": "affect",
+      "old": "staggered",
+      "new": "crowned"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "radial"
+    }
+  ]
+}

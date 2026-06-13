@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "gable",
+  "direction": "perpendicular",
+  "operation": "seperating",
+  "affect": "tilted"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0696",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "seperating"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "cardinal"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "octahedral"
+    }
+  ]
+}

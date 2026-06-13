@@ -1,0 +1,27 @@
+{
+  "sample_id": "0594",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "horizontal"
+    },
+    {
+      "field": "volume",
+      "old": "gable",
+      "new": "hemisphere"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "subtracting",
+      "new": "bulging"
+    }
+  ]
+}

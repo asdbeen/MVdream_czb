@@ -1,0 +1,32 @@
+{
+  "sample_id": "0935",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "kinky"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "morphing"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "linear"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "canopy"
+    }
+  ]
+}

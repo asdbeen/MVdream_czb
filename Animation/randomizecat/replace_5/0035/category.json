@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cylinder",
+  "direction": "omni",
+  "operation": "overlapping",
+  "affect": "inverted"
+}

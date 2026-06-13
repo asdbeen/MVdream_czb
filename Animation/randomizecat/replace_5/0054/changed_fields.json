@@ -1,0 +1,32 @@
+{
+  "sample_id": "0054",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "sphere"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "oblique"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "unfolding",
+      "new": "scarving"
+    },
+    {
+      "field": "affect",
+      "old": "colonnaded",
+      "new": "gaping"
+    }
+  ]
+}

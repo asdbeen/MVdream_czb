@@ -1,0 +1,32 @@
+{
+  "sample_id": "0952",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "pyramid",
+      "new": "vortex"
+    },
+    {
+      "field": "direction",
+      "old": "cardinal",
+      "new": "oblique"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "pitching",
+      "new": "curving"
+    },
+    {
+      "field": "affect",
+      "old": "crowned",
+      "new": "curved"
+    }
+  ]
+}

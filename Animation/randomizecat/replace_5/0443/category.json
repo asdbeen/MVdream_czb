@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "capsule",
+  "direction": "planar",
+  "operation": "separating",
+  "affect": "notched"
+}

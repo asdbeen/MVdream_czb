@@ -1,0 +1,32 @@
+{
+  "sample_id": "0752",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "spiraling",
+      "new": "oscillating"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "cylinder"
+    },
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "vaulted"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "thin"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "gable",
+  "direction": "cardinal",
+  "operation": "interlocking",
+  "affect": "asymmetrical"
+}

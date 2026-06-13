@@ -1,0 +1,22 @@
+{
+  "sample_id": "0530",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "seperating"
+    },
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "notched"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "double"
+    }
+  ]
+}

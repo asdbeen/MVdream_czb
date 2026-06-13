@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "tripod",
+  "direction": "perpendicular",
+  "operation": "subtracting",
+  "affect": "asymmetrical"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "arch",
+  "direction": "down",
+  "operation": "intersecting",
+  "affect": "crowned"
+}

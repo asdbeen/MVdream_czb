@@ -1,0 +1,32 @@
+{
+  "sample_id": "0120",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "uni"
+    },
+    {
+      "field": "affect",
+      "old": "continuous",
+      "new": "semicircular"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "blob"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "connecting"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

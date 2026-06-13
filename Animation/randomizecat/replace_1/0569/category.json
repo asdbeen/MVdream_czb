@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cube",
+  "direction": "planar",
+  "operation": "connecting",
+  "affect": "perimetral"
+}

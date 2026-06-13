@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cone",
+  "direction": "uni",
+  "operation": "scarving",
+  "affect": "notched"
+}

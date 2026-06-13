@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "blob",
+  "direction": "perpendicular",
+  "operation": "zigzagging",
+  "affect": "cubic"
+}

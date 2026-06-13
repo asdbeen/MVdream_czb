@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "lune",
+  "direction": "normal",
+  "operation": "pitching",
+  "affect": "stripped"
+}

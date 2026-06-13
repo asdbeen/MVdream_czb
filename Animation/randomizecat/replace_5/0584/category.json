@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cross",
+  "direction": "cardinal",
+  "operation": "floating",
+  "affect": "perimetral"
+}

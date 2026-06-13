@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "vortex",
+  "direction": "parallel",
+  "operation": "sagging",
+  "affect": "faceted"
+}

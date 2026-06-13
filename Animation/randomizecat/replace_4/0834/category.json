@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "pipe",
+  "direction": "linear",
+  "operation": "inflating",
+  "affect": "dashed"
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0649",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "hexagonal"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "subtracting"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    }
+  ]
+}

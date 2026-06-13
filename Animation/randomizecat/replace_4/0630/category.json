@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "pipe",
+  "direction": "tri",
+  "operation": "scaffolding",
+  "affect": "porous"
+}

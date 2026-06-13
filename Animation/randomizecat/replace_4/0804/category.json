@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hexagonal",
+  "direction": "linear",
+  "operation": "packing",
+  "affect": "ruled"
+}

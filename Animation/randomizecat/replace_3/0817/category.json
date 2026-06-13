@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hypershape",
+  "direction": "thin",
+  "operation": "puncturing",
+  "affect": "cubic"
+}

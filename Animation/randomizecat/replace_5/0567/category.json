@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "wedge",
+  "direction": "random",
+  "operation": "perforating",
+  "affect": "curved"
+}

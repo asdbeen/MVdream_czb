@@ -1,0 +1,27 @@
+{
+  "sample_id": "0603",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "roll"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "stretching"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "centrifugal"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    }
+  ]
+}

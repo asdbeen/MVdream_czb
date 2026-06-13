@@ -1,0 +1,27 @@
+{
+  "sample_id": "0024",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "bridging"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "donut"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "cardinal"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

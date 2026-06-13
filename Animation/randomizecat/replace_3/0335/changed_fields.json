@@ -1,0 +1,22 @@
+{
+  "sample_id": "0335",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "capsule"
+    },
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "undulating"
+    },
+    {
+      "field": "direction",
+      "old": "parallel",
+      "new": "horizontal"
+    }
+  ]
+}

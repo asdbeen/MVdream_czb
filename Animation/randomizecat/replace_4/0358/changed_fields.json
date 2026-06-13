@@ -1,0 +1,27 @@
+{
+  "sample_id": "0358",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "perpendicular"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "stellate"
+    },
+    {
+      "field": "affect",
+      "old": "circular",
+      "new": "stripped"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

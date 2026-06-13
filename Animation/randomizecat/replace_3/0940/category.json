@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "donut",
+  "direction": "perpendicular",
+  "operation": "degrading",
+  "affect": "bundled"
+}

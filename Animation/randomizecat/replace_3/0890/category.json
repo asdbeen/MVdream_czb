@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "ellipsoid",
+  "direction": "uni",
+  "operation": "draping",
+  "affect": "columnar"
+}

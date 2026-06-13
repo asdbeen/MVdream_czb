@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cuboid",
+  "direction": "vertical",
+  "operation": "intersecting",
+  "affect": "gridded"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0072",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "cardinal",
+      "new": "linear"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "twisting"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "cone"
+    },
+    {
+      "field": "affect",
+      "old": "diagonal",
+      "new": "irregular"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "triple"
+    }
+  ]
+}

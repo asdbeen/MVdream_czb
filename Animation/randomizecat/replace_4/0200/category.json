@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "gable",
+  "direction": "planar",
+  "operation": "spiralling",
+  "affect": "diagonal"
+}

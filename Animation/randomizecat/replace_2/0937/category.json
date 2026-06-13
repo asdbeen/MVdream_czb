@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "tube",
+  "direction": "cardinal",
+  "operation": "bending",
+  "affect": "rippled"
+}

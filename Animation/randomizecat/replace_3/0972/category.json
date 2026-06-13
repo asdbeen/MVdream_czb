@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cube",
+  "direction": "polar",
+  "operation": "slicing",
+  "affect": "colonnaded"
+}

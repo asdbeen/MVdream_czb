@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "blob",
+  "direction": "planar",
+  "operation": "seperating",
+  "affect": "prismic"
+}

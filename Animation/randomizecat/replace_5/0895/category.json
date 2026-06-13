@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "roll",
+  "direction": "down",
+  "operation": "seperating",
+  "affect": "cylindrical"
+}

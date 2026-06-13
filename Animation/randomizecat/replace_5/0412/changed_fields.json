@@ -1,0 +1,32 @@
+{
+  "sample_id": "0412",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "stellate"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "inverted"
+    },
+    {
+      "field": "operation",
+      "old": "wrapping",
+      "new": "kerfing"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "random"
+    }
+  ]
+}

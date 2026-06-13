@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "pyramid",
+  "direction": "omni",
+  "operation": "undulating",
+  "affect": "irregular"
+}

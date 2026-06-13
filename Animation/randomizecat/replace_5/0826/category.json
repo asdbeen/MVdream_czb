@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "octahedral",
+  "direction": "normal",
+  "operation": "excavating",
+  "affect": "patterned"
+}

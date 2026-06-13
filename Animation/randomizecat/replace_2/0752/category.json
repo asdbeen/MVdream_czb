@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "octahedral",
+  "direction": "vertical",
+  "operation": "sagging",
+  "affect": "gaping"
+}

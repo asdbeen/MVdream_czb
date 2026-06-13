@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "tube",
+  "direction": "oblique",
+  "operation": "embedding",
+  "affect": "flooring"
+}

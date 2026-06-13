@@ -1,0 +1,17 @@
+{
+  "sample_id": "0694",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "perimetral"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    }
+  ]
+}

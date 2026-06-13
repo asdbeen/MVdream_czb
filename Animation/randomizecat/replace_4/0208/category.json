@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "tube",
+  "direction": "polar",
+  "operation": "knotting",
+  "affect": "sawtooth"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "1001",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "truncated"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "octahedral"
+    },
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "intertwining"
+    },
+    {
+      "field": "direction",
+      "old": "tri",
+      "new": "thin"
+    }
+  ]
+}

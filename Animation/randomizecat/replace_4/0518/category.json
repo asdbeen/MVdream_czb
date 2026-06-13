@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "ellipsoid",
+  "direction": "uni",
+  "operation": "bulging",
+  "affect": "vaulted"
+}

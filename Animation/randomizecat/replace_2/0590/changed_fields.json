@@ -1,0 +1,17 @@
+{
+  "sample_id": "0590",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "cornered",
+      "new": "discontinuous"
+    },
+    {
+      "field": "operation",
+      "old": "unfolding",
+      "new": "zigzagging"
+    }
+  ]
+}

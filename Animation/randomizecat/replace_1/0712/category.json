@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "arch",
+  "direction": "oblique",
+  "operation": "stacking",
+  "affect": "staggered"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pyramid",
+  "direction": "horizontal",
+  "operation": "zigzagging",
+  "affect": "gradated"
+}

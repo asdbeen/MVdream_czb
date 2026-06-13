@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "hypershape",
+  "direction": "cardinal",
+  "operation": "interlocking",
+  "affect": "enveloping"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "donut",
+  "direction": "oblique",
+  "operation": "sagging",
+  "affect": "topographic"
+}

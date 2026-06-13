@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "ellipsoid",
+  "direction": "tri",
+  "operation": "joining",
+  "affect": "hollow"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "sphere",
+  "direction": "horizontal",
+  "operation": "separating",
+  "affect": "shifted"
+}

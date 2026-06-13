@@ -1,0 +1,27 @@
+{
+  "sample_id": "0131",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "up",
+      "new": "uni"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "line"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "fluting"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "bundled"
+    }
+  ]
+}

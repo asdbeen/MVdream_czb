@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "Lshape",
+  "direction": "uni",
+  "operation": "voiding",
+  "affect": "conic"
+}

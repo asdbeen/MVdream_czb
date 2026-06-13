@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "polyhedron",
+  "direction": "perpendicular",
+  "operation": "crumpling",
+  "affect": "dilated"
+}

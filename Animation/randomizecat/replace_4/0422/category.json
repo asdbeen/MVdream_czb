@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cone",
+  "direction": "horizontal",
+  "operation": "pitching",
+  "affect": "concave"
+}

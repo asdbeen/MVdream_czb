@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "polyhedron",
+  "direction": "normal",
+  "operation": "spiralling",
+  "affect": "irregular"
+}

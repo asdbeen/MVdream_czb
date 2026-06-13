@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "vortex",
+  "direction": "uni",
+  "operation": "seperating",
+  "affect": "flooring"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "arch",
+  "direction": "linear",
+  "operation": "compressing",
+  "affect": "latticed"
+}

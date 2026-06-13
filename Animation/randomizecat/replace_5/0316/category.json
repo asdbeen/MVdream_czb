@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "blob",
+  "direction": "perpendicular",
+  "operation": "kerfing",
+  "affect": "columnar"
+}

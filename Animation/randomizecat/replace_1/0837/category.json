@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cone",
+  "direction": "up",
+  "operation": "bending",
+  "affect": "cantilevered"
+}

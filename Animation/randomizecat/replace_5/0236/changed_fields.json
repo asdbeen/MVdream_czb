@@ -1,0 +1,32 @@
+{
+  "sample_id": "0236",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "single"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "floating"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "cardinal"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "enveloping"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "gable"
+    }
+  ]
+}

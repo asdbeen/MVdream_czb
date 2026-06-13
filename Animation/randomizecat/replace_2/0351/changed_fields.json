@@ -1,0 +1,17 @@
+{
+  "sample_id": "0351",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "hemisphere",
+      "new": "gable"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "up"
+    }
+  ]
+}

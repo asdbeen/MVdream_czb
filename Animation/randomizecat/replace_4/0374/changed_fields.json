@@ -1,0 +1,27 @@
+{
+  "sample_id": "0374",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "hexagonal"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "planar"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "Lshaped"
+    }
+  ]
+}

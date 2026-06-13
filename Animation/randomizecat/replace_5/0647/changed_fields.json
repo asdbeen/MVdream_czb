@@ -1,0 +1,32 @@
+{
+  "sample_id": "0647",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "ruled",
+      "new": "asymmetrical"
+    },
+    {
+      "field": "operation",
+      "old": "morphing",
+      "new": "joining"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "tri"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "capsule"
+    }
+  ]
+}

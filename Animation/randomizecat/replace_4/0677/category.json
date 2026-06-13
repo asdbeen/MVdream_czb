@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "blob",
+  "direction": "perpendicular",
+  "operation": "spiraing",
+  "affect": "waved"
+}

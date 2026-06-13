@@ -1,0 +1,27 @@
+{
+  "sample_id": "0867",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "random"
+    },
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "discoid"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "carving"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    }
+  ]
+}

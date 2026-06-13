@@ -1,0 +1,27 @@
+{
+  "sample_id": "0884",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "uni"
+    },
+    {
+      "field": "operation",
+      "old": "oscillating",
+      "new": "containing"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "tilted"
+    }
+  ]
+}

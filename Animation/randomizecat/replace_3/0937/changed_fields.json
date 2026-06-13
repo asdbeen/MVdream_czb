@@ -1,0 +1,22 @@
+{
+  "sample_id": "0937",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "cardinal",
+      "new": "omni"
+    },
+    {
+      "field": "affect",
+      "old": "prismic",
+      "new": "porous"
+    }
+  ]
+}

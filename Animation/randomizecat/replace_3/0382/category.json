@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "polyhedron",
+  "direction": "vertical",
+  "operation": "intertwining",
+  "affect": "circular"
+}

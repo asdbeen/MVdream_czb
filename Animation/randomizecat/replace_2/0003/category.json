@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "hemisphere",
+  "direction": "polar",
+  "operation": "scarving",
+  "affect": "symmetrical"
+}

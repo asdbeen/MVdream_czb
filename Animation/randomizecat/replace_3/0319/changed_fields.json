@@ -1,0 +1,22 @@
+{
+  "sample_id": "0319",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "arch"
+    },
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "prismic"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0193",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "radial",
+      "new": "cardinal"
+    },
+    {
+      "field": "affect",
+      "old": "tilted",
+      "new": "opening"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "octahedral"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "slicing"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "hemisphere",
+  "direction": "centrifugal",
+  "operation": "intertwining",
+  "affect": "shifted"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0473",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "oblique"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "concave"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "pyramid"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "stacking"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0928",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "perforating"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "random"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "wedge"
+    }
+  ]
+}

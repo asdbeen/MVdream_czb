@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cuboid",
+  "direction": "centrifugal",
+  "operation": "crumpling",
+  "affect": "framed"
+}

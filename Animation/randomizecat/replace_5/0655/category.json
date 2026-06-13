@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "hypershape",
+  "direction": "perpendicular",
+  "operation": "bending",
+  "affect": "symmetrical"
+}

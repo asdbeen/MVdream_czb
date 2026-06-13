@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "sphere",
+  "direction": "tri",
+  "operation": "stacking",
+  "affect": "asymmetrical"
+}

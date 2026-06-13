@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pyramid",
+  "direction": "parallel",
+  "operation": "wrapping",
+  "affect": "enveloping"
+}

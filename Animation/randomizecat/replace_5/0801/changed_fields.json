@@ -1,0 +1,32 @@
+{
+  "sample_id": "0801",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "waved",
+      "new": "framed"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "bi"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "stellate"
+    },
+    {
+      "field": "operation",
+      "old": "fluting",
+      "new": "grading"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

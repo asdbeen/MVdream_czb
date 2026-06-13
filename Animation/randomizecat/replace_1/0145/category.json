@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "tube",
+  "direction": "radial",
+  "operation": "seperating",
+  "affect": "tilted"
+}

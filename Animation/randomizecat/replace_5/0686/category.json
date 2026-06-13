@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "sphere",
+  "direction": "uni",
+  "operation": "degrading",
+  "affect": "indented"
+}

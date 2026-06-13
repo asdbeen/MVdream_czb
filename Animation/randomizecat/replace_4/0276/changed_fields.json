@@ -1,0 +1,27 @@
+{
+  "sample_id": "0276",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "voiding"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "disk"
+    },
+    {
+      "field": "affect",
+      "old": "kinky",
+      "new": "bundled"
+    }
+  ]
+}

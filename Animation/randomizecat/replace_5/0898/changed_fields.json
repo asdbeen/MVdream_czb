@@ -1,0 +1,32 @@
+{
+  "sample_id": "0898",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "twisting"
+    },
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "vortex"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "colonnaded"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "parallel"
+    }
+  ]
+}

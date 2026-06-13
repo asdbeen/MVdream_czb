@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hemisphere",
+  "direction": "normal",
+  "operation": "leaning",
+  "affect": "dashed"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "arch",
+  "direction": "radial",
+  "operation": "slicing",
+  "affect": "prismic"
+}

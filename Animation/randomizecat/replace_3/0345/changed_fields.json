@@ -1,0 +1,22 @@
+{
+  "sample_id": "0345",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "hypershape"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "radial"
+    },
+    {
+      "field": "affect",
+      "old": "figural",
+      "new": "degraded"
+    }
+  ]
+}

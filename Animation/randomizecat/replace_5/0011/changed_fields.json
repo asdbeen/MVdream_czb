@@ -1,0 +1,32 @@
+{
+  "sample_id": "0011",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "unfolding",
+      "new": "stretching"
+    },
+    {
+      "field": "affect",
+      "old": "paneled",
+      "new": "latticed"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "octahedral"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "parallel"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

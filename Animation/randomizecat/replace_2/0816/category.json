@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cylinder",
+  "direction": "centrifugal",
+  "operation": "voiding",
+  "affect": "circular"
+}

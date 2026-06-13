@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "pyramid",
+  "direction": "omni",
+  "operation": "overlapping",
+  "affect": "rotational"
+}

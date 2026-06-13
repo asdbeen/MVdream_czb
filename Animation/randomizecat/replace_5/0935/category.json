@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "canopy",
+  "direction": "linear",
+  "operation": "morphing",
+  "affect": "kinky"
+}

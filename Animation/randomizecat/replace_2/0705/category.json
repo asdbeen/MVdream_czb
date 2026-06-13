@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "canopy",
+  "direction": "thin",
+  "operation": "zigzagging",
+  "affect": "crossed"
+}

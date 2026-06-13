@@ -1,0 +1,22 @@
+{
+  "sample_id": "0660",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "separating",
+      "new": "connecting"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "sawtooth",
+      "new": "inserted"
+    }
+  ]
+}

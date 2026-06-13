@@ -1,0 +1,22 @@
+{
+  "sample_id": "0003",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "bi"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "intertwining"
+    }
+  ]
+}

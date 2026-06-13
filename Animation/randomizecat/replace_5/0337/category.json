@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "tripod",
+  "direction": "planar",
+  "operation": "kerfing",
+  "affect": "vaulted"
+}

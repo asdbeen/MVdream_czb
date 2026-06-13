@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cuboid",
+  "direction": "centrifugal",
+  "operation": "undulating",
+  "affect": "ruled"
+}

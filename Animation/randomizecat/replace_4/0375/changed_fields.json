@@ -1,0 +1,27 @@
+{
+  "sample_id": "0375",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "crossed",
+      "new": "convex"
+    },
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "seperating"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "parallel"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "polyhedron"
+    }
+  ]
+}

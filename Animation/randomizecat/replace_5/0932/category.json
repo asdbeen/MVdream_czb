@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "sphere",
+  "direction": "tri",
+  "operation": "bridging",
+  "affect": "curved"
+}

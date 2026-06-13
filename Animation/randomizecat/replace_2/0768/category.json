@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "tube",
+  "direction": "vertical",
+  "operation": "fractaling",
+  "affect": "gridded"
+}

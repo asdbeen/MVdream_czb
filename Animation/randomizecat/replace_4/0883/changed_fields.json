@@ -1,0 +1,27 @@
+{
+  "sample_id": "0883",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "tilted",
+      "new": "vaulted"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "single"
+    },
+    {
+      "field": "direction",
+      "old": "perpendicular",
+      "new": "thin"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "canopy"
+    }
+  ]
+}

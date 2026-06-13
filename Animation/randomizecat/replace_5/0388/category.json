@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cube",
+  "direction": "vertical",
+  "operation": "packing",
+  "affect": "anthropomorphic"
+}

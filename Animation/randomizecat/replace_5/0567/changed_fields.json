@@ -1,0 +1,32 @@
+{
+  "sample_id": "0567",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "wedge"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "random"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "perforating"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "curved"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

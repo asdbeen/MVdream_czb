@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hexagonal",
+  "direction": "random",
+  "operation": "compressing",
+  "affect": "consistent"
+}

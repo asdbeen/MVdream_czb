@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hemisphere",
+  "direction": "linear",
+  "operation": "splitting",
+  "affect": "perimetral"
+}

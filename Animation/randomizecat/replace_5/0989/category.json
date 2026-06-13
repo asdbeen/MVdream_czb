@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "roll",
+  "direction": "planar",
+  "operation": "excavating",
+  "affect": "consistent"
+}

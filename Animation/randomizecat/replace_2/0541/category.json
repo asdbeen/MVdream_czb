@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "disk",
+  "direction": "up",
+  "operation": "slicing",
+  "affect": "cantilevered"
+}

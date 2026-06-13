@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "blob",
+  "direction": "oblique",
+  "operation": "undulating",
+  "affect": "semicircular"
+}

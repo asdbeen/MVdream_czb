@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "octahedral",
+  "direction": "cardinal",
+  "operation": "tangling",
+  "affect": "vaulted"
+}

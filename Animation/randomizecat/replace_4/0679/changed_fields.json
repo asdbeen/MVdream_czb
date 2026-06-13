@@ -1,0 +1,27 @@
+{
+  "sample_id": "0679",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "hovering",
+      "new": "crumpling"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "colonnaded",
+      "new": "wired"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "normal"
+    }
+  ]
+}

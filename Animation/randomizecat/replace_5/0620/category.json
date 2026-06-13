@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hypershape",
+  "direction": "uni",
+  "operation": "compressing",
+  "affect": "gridded"
+}

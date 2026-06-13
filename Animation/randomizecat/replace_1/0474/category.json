@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "pyramid",
+  "direction": "cardinal",
+  "operation": "draping",
+  "affect": "hollow"
+}

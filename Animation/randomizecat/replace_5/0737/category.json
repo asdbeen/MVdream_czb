@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "wedge",
+  "direction": "down",
+  "operation": "spiraing",
+  "affect": "topographic"
+}

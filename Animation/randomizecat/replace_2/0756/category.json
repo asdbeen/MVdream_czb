@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "donut",
+  "direction": "vertical",
+  "operation": "pixelating",
+  "affect": "hollow"
+}

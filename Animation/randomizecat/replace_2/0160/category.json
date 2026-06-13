@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cube",
+  "direction": "omni",
+  "operation": "branching",
+  "affect": "cornered"
+}

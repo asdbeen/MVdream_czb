@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cylinder",
+  "direction": "horizontal",
+  "operation": "arraying",
+  "affect": "waved"
+}

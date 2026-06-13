@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pipe",
+  "direction": "centrifugal",
+  "operation": "looping",
+  "affect": "gradated"
+}

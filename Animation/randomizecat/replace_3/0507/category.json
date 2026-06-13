@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cylinder",
+  "direction": "vertical",
+  "operation": "carving",
+  "affect": "dashed"
+}

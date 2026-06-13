@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "pyramid",
+  "direction": "thin",
+  "operation": "stacking",
+  "affect": "irregular"
+}

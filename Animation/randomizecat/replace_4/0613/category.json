@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "courtyard",
+  "direction": "radial",
+  "operation": "tangling",
+  "affect": "enveloping"
+}

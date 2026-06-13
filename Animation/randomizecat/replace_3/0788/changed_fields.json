@@ -1,0 +1,22 @@
+{
+  "sample_id": "0788",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "concave",
+      "new": "round"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "down"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "lune"
+    }
+  ]
+}

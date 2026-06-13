@@ -1,0 +1,22 @@
+{
+  "sample_id": "0698",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "circular"
+    },
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "disk"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "quadruple"
+    }
+  ]
+}

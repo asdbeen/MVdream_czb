@@ -1,0 +1,27 @@
+{
+  "sample_id": "0290",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "oblique"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "hypershape"
+    },
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "rippled"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

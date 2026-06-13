@@ -1,0 +1,27 @@
+{
+  "sample_id": "0874",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "donut"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "uni"
+    },
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "twisting"
+    },
+    {
+      "field": "affect",
+      "old": "indented",
+      "new": "irregular"
+    }
+  ]
+}

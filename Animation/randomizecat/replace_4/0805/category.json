@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pipe",
+  "direction": "tri",
+  "operation": "looping",
+  "affect": "patterned"
+}

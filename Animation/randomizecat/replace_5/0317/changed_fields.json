@@ -1,0 +1,32 @@
+{
+  "sample_id": "0317",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "discontinuous",
+      "new": "sawtooth"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "cone"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "up"
+    },
+    {
+      "field": "operation",
+      "old": "slicing",
+      "new": "morphing"
+    }
+  ]
+}

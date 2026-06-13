@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "lune",
+  "direction": "up",
+  "operation": "filleting",
+  "affect": "rotational"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "Lshape",
+  "direction": "up",
+  "operation": "grooving",
+  "affect": "porous"
+}

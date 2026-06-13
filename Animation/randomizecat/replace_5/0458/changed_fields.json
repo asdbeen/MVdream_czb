@@ -1,0 +1,32 @@
+{
+  "sample_id": "0458",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "up"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "quadruple"
+    },
+    {
+      "field": "affect",
+      "old": "concave",
+      "new": "perimetral"
+    },
+    {
+      "field": "operation",
+      "old": "leaning",
+      "new": "spiraing"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "pyramid"
+    }
+  ]
+}

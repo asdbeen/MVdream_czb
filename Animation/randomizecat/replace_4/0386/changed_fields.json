@@ -1,0 +1,27 @@
+{
+  "sample_id": "0386",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "cardinal",
+      "new": "perpendicular"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "capsule"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "indented"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

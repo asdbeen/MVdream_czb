@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hemisphere",
+  "direction": "normal",
+  "operation": "arraying",
+  "affect": "rippled"
+}

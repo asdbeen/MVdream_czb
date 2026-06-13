@@ -1,0 +1,17 @@
+{
+  "sample_id": "0748",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "cornered",
+      "new": "tapered"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "tangling"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "octahedral",
+  "direction": "random",
+  "operation": "folding",
+  "affect": "vaulted"
+}

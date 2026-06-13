@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "wedge",
+  "direction": "vertical",
+  "operation": "scarving",
+  "affect": "spherical"
+}

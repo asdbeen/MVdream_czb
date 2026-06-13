@@ -1,0 +1,32 @@
+{
+  "sample_id": "0480",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "surface"
+    },
+    {
+      "field": "direction",
+      "old": "tri",
+      "new": "up"
+    },
+    {
+      "field": "affect",
+      "old": "round",
+      "new": "paneled"
+    },
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "connecting"
+    },
+    {
+      "field": "entity",
+      "old": "triple",
+      "new": "quadruple"
+    }
+  ]
+}

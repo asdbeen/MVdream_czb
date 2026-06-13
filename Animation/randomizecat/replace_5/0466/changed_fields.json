@@ -1,0 +1,32 @@
+{
+  "sample_id": "0466",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "indented",
+      "new": "diagonal"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "centrifugal"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "cube"
+    },
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "scarving"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cross",
+  "direction": "uni",
+  "operation": "carving",
+  "affect": "discontinuous"
+}

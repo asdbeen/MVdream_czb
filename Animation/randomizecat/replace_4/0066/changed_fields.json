@@ -1,0 +1,27 @@
+{
+  "sample_id": "0066",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "degrading"
+    },
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "canopy"
+    },
+    {
+      "field": "affect",
+      "old": "dilated",
+      "new": "gridded"
+    },
+    {
+      "field": "direction",
+      "old": "radial",
+      "new": "bi"
+    }
+  ]
+}

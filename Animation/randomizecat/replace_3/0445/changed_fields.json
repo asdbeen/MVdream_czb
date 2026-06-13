@@ -1,0 +1,22 @@
+{
+  "sample_id": "0445",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "centrifugal"
+    },
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "sawtooth"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "carving"
+    }
+  ]
+}

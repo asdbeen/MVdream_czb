@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cube",
+  "direction": "centrifugal",
+  "operation": "splitting",
+  "affect": "conic"
+}

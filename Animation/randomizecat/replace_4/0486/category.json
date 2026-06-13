@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cylinder",
+  "direction": "omni",
+  "operation": "bifurcating",
+  "affect": "crowned"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "pipe",
+  "direction": "vertical",
+  "operation": "intersecting",
+  "affect": "indented"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cone",
+  "direction": "vertical",
+  "operation": "pixelating",
+  "affect": "framed"
+}

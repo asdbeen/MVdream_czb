@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "pyramid",
+  "direction": "horizontal",
+  "operation": "bifurcating",
+  "affect": "continuous"
+}

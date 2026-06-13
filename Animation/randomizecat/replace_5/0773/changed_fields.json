@@ -1,0 +1,32 @@
+{
+  "sample_id": "0773",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "sunken",
+      "new": "notched"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "thin"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "crumpling"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "disk"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

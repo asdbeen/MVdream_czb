@@ -1,0 +1,32 @@
+{
+  "sample_id": "0153",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "pyramid"
+    },
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "sagging"
+    },
+    {
+      "field": "affect",
+      "old": "continuous",
+      "new": "ruled"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "bi"
+    }
+  ]
+}

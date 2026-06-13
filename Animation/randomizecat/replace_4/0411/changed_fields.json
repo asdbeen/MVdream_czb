@@ -1,0 +1,27 @@
+{
+  "sample_id": "0411",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "figural"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "stellate"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "random"
+    }
+  ]
+}

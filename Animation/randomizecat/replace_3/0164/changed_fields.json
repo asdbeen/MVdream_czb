@@ -1,0 +1,22 @@
+{
+  "sample_id": "0164",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "omni"
+    },
+    {
+      "field": "operation",
+      "old": "fractaling",
+      "new": "compressing"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "sample_id": "0253",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "tube"
+    },
+    {
+      "field": "operation",
+      "old": "peeling",
+      "new": "twisting"
+    }
+  ]
+}

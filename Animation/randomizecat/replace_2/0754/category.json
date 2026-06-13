@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cuboid",
+  "direction": "radial",
+  "operation": "branching",
+  "affect": "degraded"
+}

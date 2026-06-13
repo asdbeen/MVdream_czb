@@ -1,0 +1,22 @@
+{
+  "sample_id": "0540",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "planar"
+    },
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "circular"
+    },
+    {
+      "field": "operation",
+      "old": "wrapping",
+      "new": "bulging"
+    }
+  ]
+}

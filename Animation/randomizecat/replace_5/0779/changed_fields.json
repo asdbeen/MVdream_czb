@@ -1,0 +1,32 @@
+{
+  "sample_id": "0779",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "grading"
+    },
+    {
+      "field": "affect",
+      "old": "flooring",
+      "new": "pyramidal"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "radial"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "surface"
+    }
+  ]
+}

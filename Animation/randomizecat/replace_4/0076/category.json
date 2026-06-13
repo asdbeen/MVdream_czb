@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "capsule",
+  "direction": "uni",
+  "operation": "degrading",
+  "affect": "gradated"
+}

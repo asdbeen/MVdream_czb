@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "ellipsoid",
+  "direction": "random",
+  "operation": "seperating",
+  "affect": "perimetral"
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0605",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "hovering",
+      "new": "joining"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "omni"
+    }
+  ]
+}

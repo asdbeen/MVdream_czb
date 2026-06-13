@@ -1,0 +1,23 @@
+{
+  "source_root": "/home/chenzebin/MVdream_czb/customized_simple_dataset_tagVersion_simplified/data",
+  "mapping_path": "/home/chenzebin/MVdream_czb/1001 BUILDING FORMS_Dataset_rewrite_value_index.json",
+  "output_root": "/home/chenzebin/MVdream_czb/Animation/randomizecat",
+  "total_samples": 1001,
+  "variants": {
+    "replace_1": {
+      "samples_written": 1001
+    },
+    "replace_2": {
+      "samples_written": 1001
+    },
+    "replace_3": {
+      "samples_written": 1001
+    },
+    "replace_4": {
+      "samples_written": 1001
+    },
+    "replace_5": {
+      "samples_written": 1001
+    }
+  }
+}

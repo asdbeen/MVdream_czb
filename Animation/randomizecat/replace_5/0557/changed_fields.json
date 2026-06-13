@@ -1,0 +1,32 @@
+{
+  "sample_id": "0557",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "cone"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "oscillating",
+      "new": "crumpling"
+    },
+    {
+      "field": "affect",
+      "old": "pyramidal",
+      "new": "Lshaped"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "cardinal"
+    }
+  ]
+}

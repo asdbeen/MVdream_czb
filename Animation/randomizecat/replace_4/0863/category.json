@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "Lshape",
+  "direction": "random",
+  "operation": "compressing",
+  "affect": "sunken"
+}

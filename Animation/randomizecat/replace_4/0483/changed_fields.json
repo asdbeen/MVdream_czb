@@ -1,0 +1,27 @@
+{
+  "sample_id": "0483",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "hypershape"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "parallel"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "scarving"
+    },
+    {
+      "field": "affect",
+      "old": "bundled",
+      "new": "figural"
+    }
+  ]
+}

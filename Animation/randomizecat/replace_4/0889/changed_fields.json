@@ -1,0 +1,27 @@
+{
+  "sample_id": "0889",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "cube"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "round"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "bulging"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    }
+  ]
+}

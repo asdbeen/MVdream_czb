@@ -1,0 +1,22 @@
+{
+  "sample_id": "0284",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "flooring",
+      "new": "domical"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "tripod"
+    }
+  ]
+}

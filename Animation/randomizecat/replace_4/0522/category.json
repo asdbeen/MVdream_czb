@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cube",
+  "direction": "perpendicular",
+  "operation": "bending",
+  "affect": "prismic"
+}

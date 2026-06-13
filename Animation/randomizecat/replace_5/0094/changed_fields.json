@@ -1,0 +1,32 @@
+{
+  "sample_id": "0094",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "blob"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "voiding"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "colonnaded"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "omni"
+    }
+  ]
+}

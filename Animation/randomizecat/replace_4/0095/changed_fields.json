@@ -1,0 +1,27 @@
+{
+  "sample_id": "0095",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "wedge",
+      "new": "cylinder"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "gridded"
+    },
+    {
+      "field": "direction",
+      "old": "cardinal",
+      "new": "centrifugal"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "1000",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "oscillating",
+      "new": "inflating"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "cross"
+    }
+  ]
+}

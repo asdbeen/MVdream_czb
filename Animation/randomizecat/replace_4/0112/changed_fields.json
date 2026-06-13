@@ -1,0 +1,27 @@
+{
+  "sample_id": "0112",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "containing"
+    },
+    {
+      "field": "volume",
+      "old": "blob",
+      "new": "stellate"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "affect",
+      "old": "prismic",
+      "new": "sunken"
+    }
+  ]
+}

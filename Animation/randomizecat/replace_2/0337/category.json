@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "sphere",
+  "direction": "up",
+  "operation": "spiraling",
+  "affect": "tentacular"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cone",
+  "direction": "thin",
+  "operation": "unfolding",
+  "affect": "dashed"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "tube",
+  "direction": "thin",
+  "operation": "pixelating",
+  "affect": "sawtooth"
+}

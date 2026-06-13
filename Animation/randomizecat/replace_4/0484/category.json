@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "capsule",
+  "direction": "centrifugal",
+  "operation": "ripping",
+  "affect": "vortical"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0275",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "rotational",
+      "new": "crossed"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "leaning",
+      "new": "hovering"
+    },
+    {
+      "field": "direction",
+      "old": "radial",
+      "new": "perpendicular"
+    },
+    {
+      "field": "volume",
+      "old": "lune",
+      "new": "tripod"
+    }
+  ]
+}

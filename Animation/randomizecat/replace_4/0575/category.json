@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "Lshape",
+  "direction": "random",
+  "operation": "intertwining",
+  "affect": "wired"
+}

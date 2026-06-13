@@ -1,0 +1,22 @@
+{
+  "sample_id": "0637",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "concave",
+      "new": "paneled"
+    },
+    {
+      "field": "volume",
+      "old": "cross",
+      "new": "cylinder"
+    },
+    {
+      "field": "operation",
+      "old": "subtracting",
+      "new": "wrapping"
+    }
+  ]
+}

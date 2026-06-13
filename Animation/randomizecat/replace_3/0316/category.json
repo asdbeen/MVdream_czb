@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "disk",
+  "direction": "horizontal",
+  "operation": "stretching",
+  "affect": "irregular"
+}

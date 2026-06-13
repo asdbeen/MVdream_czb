@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "surface",
+  "direction": "uni",
+  "operation": "unfolding",
+  "affect": "dashed"
+}

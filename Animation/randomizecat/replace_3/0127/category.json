@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cone",
+  "direction": "omni",
+  "operation": "bifurcating",
+  "affect": "organic"
+}

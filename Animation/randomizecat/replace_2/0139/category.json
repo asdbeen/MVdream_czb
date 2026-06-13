@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "polyhedron",
+  "direction": "omni",
+  "operation": "packing",
+  "affect": "gradated"
+}

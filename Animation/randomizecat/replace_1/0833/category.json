@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "tube",
+  "direction": "horizontal",
+  "operation": "seperating",
+  "affect": "spherical"
+}

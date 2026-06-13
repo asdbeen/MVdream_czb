@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "roll",
+  "direction": "vertical",
+  "operation": "perforating",
+  "affect": "columnar"
+}

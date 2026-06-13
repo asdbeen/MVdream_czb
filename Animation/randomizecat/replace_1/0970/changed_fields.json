@@ -1,0 +1,12 @@
+{
+  "sample_id": "0970",
+  "replace_count": 1,
+  "changed_count": 1,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "gable",
+      "new": "disk"
+    }
+  ]
+}

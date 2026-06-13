@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "line",
+  "direction": "perpendicular",
+  "operation": "sagging",
+  "affect": "flooring"
+}

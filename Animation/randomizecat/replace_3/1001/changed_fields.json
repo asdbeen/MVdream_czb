@@ -1,0 +1,22 @@
+{
+  "sample_id": "1001",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "sagging"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "cuboid"
+    },
+    {
+      "field": "entity",
+      "old": "triple",
+      "new": "quadruple"
+    }
+  ]
+}

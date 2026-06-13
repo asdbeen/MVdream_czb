@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "ellipsoid",
+  "direction": "omni",
+  "operation": "interlocking",
+  "affect": "inserted"
+}

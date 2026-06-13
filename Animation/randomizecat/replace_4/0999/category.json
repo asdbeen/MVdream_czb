@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "arch",
+  "direction": "up",
+  "operation": "branching",
+  "affect": "domical"
+}

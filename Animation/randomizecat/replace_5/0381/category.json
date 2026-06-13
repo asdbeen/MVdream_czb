@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "polyhedron",
+  "direction": "normal",
+  "operation": "hovering",
+  "affect": "gaping"
+}

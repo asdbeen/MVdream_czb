@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "courtyard",
+  "direction": "random",
+  "operation": "scaffolding",
+  "affect": "cylindrical"
+}

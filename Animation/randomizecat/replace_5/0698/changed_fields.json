@@ -1,0 +1,32 @@
+{
+  "sample_id": "0698",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "planar"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "topographic"
+    },
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "hexagonal"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "fluting"
+    }
+  ]
+}

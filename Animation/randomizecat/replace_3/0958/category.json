@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "wedge",
+  "direction": "omni",
+  "operation": "stacking",
+  "affect": "domical"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0363",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "wedge",
+      "new": "vortex"
+    },
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "asymmetrical"
+    },
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "parallel"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

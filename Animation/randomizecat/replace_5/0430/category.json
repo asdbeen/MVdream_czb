@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cross",
+  "direction": "up",
+  "operation": "embedding",
+  "affect": "prismic"
+}

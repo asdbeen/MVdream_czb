@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "pipe",
+  "direction": "planar",
+  "operation": "excavating",
+  "affect": "gaping"
+}

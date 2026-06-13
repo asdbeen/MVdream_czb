@@ -1,0 +1,32 @@
+{
+  "sample_id": "0062",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "branching"
+    },
+    {
+      "field": "affect",
+      "old": "discontinuous",
+      "new": "irregular"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "linear"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "roll"
+    }
+  ]
+}

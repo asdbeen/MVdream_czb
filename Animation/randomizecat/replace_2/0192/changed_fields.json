@@ -1,0 +1,17 @@
+{
+  "sample_id": "0192",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "crumpling",
+      "new": "curving"
+    },
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "cube"
+    }
+  ]
+}

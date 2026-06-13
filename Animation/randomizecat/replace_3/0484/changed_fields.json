@@ -1,0 +1,22 @@
+{
+  "sample_id": "0484",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "concave",
+      "new": "pyramidal"
+    },
+    {
+      "field": "operation",
+      "old": "leaning",
+      "new": "pleating"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "roll"
+    }
+  ]
+}

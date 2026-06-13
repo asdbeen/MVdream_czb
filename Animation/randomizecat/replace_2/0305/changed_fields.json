@@ -1,0 +1,17 @@
+{
+  "sample_id": "0305",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "vortex"
+    },
+    {
+      "field": "affect",
+      "old": "staggered",
+      "new": "rippled"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "sphere",
+  "direction": "planar",
+  "operation": "compressing",
+  "affect": "bundled"
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0022",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "centrifugal"
+    },
+    {
+      "field": "volume",
+      "old": "octahedral",
+      "new": "glyph"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "gradated"
+    }
+  ]
+}

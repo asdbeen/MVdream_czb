@@ -1,0 +1,32 @@
+{
+  "sample_id": "0179",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "fluting"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "normal"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "donut"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "gradated"
+    }
+  ]
+}

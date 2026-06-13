@@ -1,0 +1,32 @@
+{
+  "sample_id": "0768",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "octahedral"
+    },
+    {
+      "field": "operation",
+      "old": "subtracting",
+      "new": "pitching"
+    },
+    {
+      "field": "affect",
+      "old": "gridded",
+      "new": "rippled"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "horizontal"
+    }
+  ]
+}

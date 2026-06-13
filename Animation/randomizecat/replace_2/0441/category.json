@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "Lshape",
+  "direction": "perpendicular",
+  "operation": "intersecting",
+  "affect": "cubic"
+}

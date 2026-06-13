@@ -1,0 +1,32 @@
+{
+  "sample_id": "0376",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "hypershape"
+    },
+    {
+      "field": "operation",
+      "old": "pixelating",
+      "new": "stretching"
+    },
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "cardinal"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "kinky"
+    }
+  ]
+}

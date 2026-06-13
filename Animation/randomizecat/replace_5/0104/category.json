@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "line",
+  "direction": "radial",
+  "operation": "inflating",
+  "affect": "round"
+}

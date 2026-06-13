@@ -1,0 +1,32 @@
+{
+  "sample_id": "0337",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "tripod"
+    },
+    {
+      "field": "direction",
+      "old": "up",
+      "new": "planar"
+    },
+    {
+      "field": "operation",
+      "old": "spiraling",
+      "new": "kerfing"
+    },
+    {
+      "field": "affect",
+      "old": "tentacular",
+      "new": "vaulted"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "polyhedron",
+  "direction": "vertical",
+  "operation": "sagging",
+  "affect": "flooring"
+}

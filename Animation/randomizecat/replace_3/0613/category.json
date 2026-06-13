@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "courtyard",
+  "direction": "horizontal",
+  "operation": "scarving",
+  "affect": "columnar"
+}

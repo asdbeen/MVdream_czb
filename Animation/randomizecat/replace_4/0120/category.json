@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "tube",
+  "direction": "radial",
+  "operation": "filleting",
+  "affect": "waved"
+}

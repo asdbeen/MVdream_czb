@@ -1,0 +1,17 @@
+{
+  "sample_id": "0361",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "opening",
+      "new": "asymmetrical"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "surface"
+    }
+  ]
+}

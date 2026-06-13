@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "polyhedron",
+  "direction": "thin",
+  "operation": "branching",
+  "affect": "porous"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "Lshape",
+  "direction": "cardinal",
+  "operation": "stacking",
+  "affect": "semicircular"
+}

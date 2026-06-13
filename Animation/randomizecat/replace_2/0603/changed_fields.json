@@ -1,0 +1,17 @@
+{
+  "sample_id": "0603",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "domical",
+      "new": "rotational"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "bi"
+    }
+  ]
+}

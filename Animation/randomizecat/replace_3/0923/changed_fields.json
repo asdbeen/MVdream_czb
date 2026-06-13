@@ -1,0 +1,22 @@
+{
+  "sample_id": "0923",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "centrifugal",
+      "new": "vertical"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "hexagonal"
+    },
+    {
+      "field": "affect",
+      "old": "rotational",
+      "new": "notched"
+    }
+  ]
+}

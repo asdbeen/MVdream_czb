@@ -1,0 +1,32 @@
+{
+  "sample_id": "0315",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "bundled"
+    },
+    {
+      "field": "operation",
+      "old": "wrapping",
+      "new": "splashing"
+    },
+    {
+      "field": "direction",
+      "old": "cardinal",
+      "new": "tri"
+    },
+    {
+      "field": "volume",
+      "old": "surface",
+      "new": "pipe"
+    },
+    {
+      "field": "entity",
+      "old": "triple",
+      "new": "double"
+    }
+  ]
+}

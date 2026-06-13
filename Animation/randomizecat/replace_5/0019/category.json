@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "sphere",
+  "direction": "up",
+  "operation": "oscillating",
+  "affect": "faceted"
+}

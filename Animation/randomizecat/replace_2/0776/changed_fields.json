@@ -1,0 +1,17 @@
+{
+  "sample_id": "0776",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "dilated"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "normal"
+    }
+  ]
+}

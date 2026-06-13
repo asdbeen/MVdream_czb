@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "courtyard",
+  "direction": "horizontal",
+  "operation": "grading",
+  "affect": "topographic"
+}

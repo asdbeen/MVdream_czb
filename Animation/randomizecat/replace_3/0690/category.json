@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hexagonal",
+  "direction": "up",
+  "operation": "peeling",
+  "affect": "contained"
+}

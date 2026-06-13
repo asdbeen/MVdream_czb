@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "tripod",
+  "direction": "normal",
+  "operation": "spiraling",
+  "affect": "perimetral"
+}

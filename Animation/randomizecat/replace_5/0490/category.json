@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "ellipsoid",
+  "direction": "planar",
+  "operation": "interlocking",
+  "affect": "consistent"
+}

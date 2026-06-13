@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "tube",
+  "direction": "linear",
+  "operation": "zigzagging",
+  "affect": "indented"
+}

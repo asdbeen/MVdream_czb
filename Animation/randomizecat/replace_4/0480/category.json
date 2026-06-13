@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "disk",
+  "direction": "linear",
+  "operation": "compressing",
+  "affect": "round"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0297",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "anthropomorphic"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "courtyard"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "up"
+    }
+  ]
+}

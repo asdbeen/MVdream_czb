@@ -1,0 +1,22 @@
+{
+  "sample_id": "0562",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "hypershape"
+    },
+    {
+      "field": "affect",
+      "old": "crossed",
+      "new": "shifted"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    }
+  ]
+}

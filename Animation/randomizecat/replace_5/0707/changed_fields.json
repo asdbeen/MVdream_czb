@@ -1,0 +1,32 @@
+{
+  "sample_id": "0707",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "dilated",
+      "new": "vaulted"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "down"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "twisting"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "cylinder"
+    }
+  ]
+}

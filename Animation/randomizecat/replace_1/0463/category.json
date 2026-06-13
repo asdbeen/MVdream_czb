@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "sphere",
+  "direction": "vertical",
+  "operation": "seperating",
+  "affect": "vortical"
+}

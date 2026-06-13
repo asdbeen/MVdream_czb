@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "canopy",
+  "direction": "radial",
+  "operation": "seperating",
+  "affect": "sunken"
+}

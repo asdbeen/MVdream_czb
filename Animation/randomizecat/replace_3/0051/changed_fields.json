@@ -1,0 +1,22 @@
+{
+  "sample_id": "0051",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "colonnaded"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "pipe"
+    },
+    {
+      "field": "operation",
+      "old": "voiding",
+      "new": "tangling"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0879",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "cube"
+    },
+    {
+      "field": "operation",
+      "old": "connecting",
+      "new": "puncturing"
+    },
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "porous"
+    },
+    {
+      "field": "entity",
+      "old": "triple",
+      "new": "single"
+    }
+  ]
+}

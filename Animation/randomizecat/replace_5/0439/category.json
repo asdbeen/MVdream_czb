@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "gable",
+  "direction": "cardinal",
+  "operation": "wrapping",
+  "affect": "prismic"
+}

@@ -1,0 +1,17 @@
+{
+  "sample_id": "0416",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "tapering",
+      "new": "grooving"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

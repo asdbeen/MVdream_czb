@@ -1,0 +1,32 @@
+{
+  "sample_id": "0947",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "oblique"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "glyph"
+    },
+    {
+      "field": "affect",
+      "old": "gridded",
+      "new": "vaulted"
+    },
+    {
+      "field": "operation",
+      "old": "waffling",
+      "new": "grooving"
+    }
+  ]
+}

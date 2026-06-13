@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hypershape",
+  "direction": "planar",
+  "operation": "kerfing",
+  "affect": "consistent"
+}

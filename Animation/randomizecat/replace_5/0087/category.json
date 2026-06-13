@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "arch",
+  "direction": "normal",
+  "operation": "intertwining",
+  "affect": "discontinuous"
+}

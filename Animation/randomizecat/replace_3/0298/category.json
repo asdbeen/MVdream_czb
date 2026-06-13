@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "ellipsoid",
+  "direction": "polar",
+  "operation": "arraying",
+  "affect": "dilated"
+}

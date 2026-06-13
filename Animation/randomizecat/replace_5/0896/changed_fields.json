@@ -1,0 +1,32 @@
+{
+  "sample_id": "0896",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "staggered",
+      "new": "flooring"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "glyph"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "excavating"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "uni"
+    }
+  ]
+}

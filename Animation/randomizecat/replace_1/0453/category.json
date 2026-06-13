@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "tripod",
+  "direction": "bi",
+  "operation": "spiraling",
+  "affect": "conic"
+}

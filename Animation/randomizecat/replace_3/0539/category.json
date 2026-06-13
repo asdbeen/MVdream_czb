@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "tripod",
+  "direction": "linear",
+  "operation": "zigzagging",
+  "affect": "asymmetrical"
+}

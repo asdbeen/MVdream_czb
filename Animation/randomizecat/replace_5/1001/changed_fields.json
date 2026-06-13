@@ -1,0 +1,32 @@
+{
+  "sample_id": "1001",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "ellipsoid"
+    },
+    {
+      "field": "direction",
+      "old": "tri",
+      "new": "bi"
+    },
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "slicing"
+    },
+    {
+      "field": "entity",
+      "old": "triple",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "spherical"
+    }
+  ]
+}

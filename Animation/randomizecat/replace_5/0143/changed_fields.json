@@ -1,0 +1,32 @@
+{
+  "sample_id": "0143",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "triple",
+      "new": "quadruple"
+    },
+    {
+      "field": "affect",
+      "old": "rotational",
+      "new": "cantilevered"
+    },
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "pitching"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "bi"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "hypershape"
+    }
+  ]
+}

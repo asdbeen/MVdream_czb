@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "blob",
+  "direction": "horizontal",
+  "operation": "subtracting",
+  "affect": "faceted"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cuboid",
+  "direction": "polar",
+  "operation": "undulating",
+  "affect": "convex"
+}

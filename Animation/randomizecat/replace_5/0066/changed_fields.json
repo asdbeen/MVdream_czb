@@ -1,0 +1,32 @@
+{
+  "sample_id": "0066",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "radial",
+      "new": "oblique"
+    },
+    {
+      "field": "affect",
+      "old": "dilated",
+      "new": "latticed"
+    },
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "hexagonal"
+    },
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "curving"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "gable",
+  "direction": "vertical",
+  "operation": "arraying",
+  "affect": "gradated"
+}

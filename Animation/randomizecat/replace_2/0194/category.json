@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "arch",
+  "direction": "down",
+  "operation": "tapering",
+  "affect": "vaulted"
+}

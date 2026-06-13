@@ -1,0 +1,32 @@
+{
+  "sample_id": "0810",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "paneled"
+    },
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "cross"
+    },
+    {
+      "field": "direction",
+      "old": "cardinal",
+      "new": "omni"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "kerfing"
+    }
+  ]
+}

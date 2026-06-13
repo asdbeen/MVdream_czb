@@ -1,0 +1,27 @@
+{
+  "sample_id": "0189",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "hemisphere"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "horizontal"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "splashing"
+    }
+  ]
+}

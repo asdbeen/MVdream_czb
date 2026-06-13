@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cuboid",
+  "direction": "linear",
+  "operation": "spiraling",
+  "affect": "shifted"
+}

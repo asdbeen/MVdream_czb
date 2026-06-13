@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "tube",
+  "direction": "random",
+  "operation": "folding",
+  "affect": "dilated"
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0226",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "tapered",
+      "new": "discontinuous"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "sagging"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "cardinal"
+    }
+  ]
+}

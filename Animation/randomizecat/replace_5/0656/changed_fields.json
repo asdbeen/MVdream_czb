@@ -1,0 +1,32 @@
+{
+  "sample_id": "0656",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "continuous"
+    },
+    {
+      "field": "operation",
+      "old": "undulating",
+      "new": "embedding"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "bi"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "cross"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "pyramid",
+  "direction": "vertical",
+  "operation": "fractaling",
+  "affect": "asymmetrical"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "glyph",
+  "direction": "down",
+  "operation": "degrading",
+  "affect": "perimetral"
+}

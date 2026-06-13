@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "wedge",
+  "direction": "normal",
+  "operation": "pitching",
+  "affect": "curved"
+}

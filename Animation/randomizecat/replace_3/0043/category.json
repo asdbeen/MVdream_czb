@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "tube",
+  "direction": "normal",
+  "operation": "subtracting",
+  "affect": "patterned"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cuboid",
+  "direction": "random",
+  "operation": "joining",
+  "affect": "rippled"
+}

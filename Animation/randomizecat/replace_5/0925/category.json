@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cylinder",
+  "direction": "uni",
+  "operation": "inflating",
+  "affect": "dilated"
+}

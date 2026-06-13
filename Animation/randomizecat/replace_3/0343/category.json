@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cylinder",
+  "direction": "down",
+  "operation": "branching",
+  "affect": "patterned"
+}

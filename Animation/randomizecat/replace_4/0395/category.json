@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cylinder",
+  "direction": "planar",
+  "operation": "stretching",
+  "affect": "crossed"
+}

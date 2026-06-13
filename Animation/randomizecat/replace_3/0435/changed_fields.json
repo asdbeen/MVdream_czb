@@ -1,0 +1,22 @@
+{
+  "sample_id": "0435",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "spherical",
+      "new": "symmetrical"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "horizontal"
+    },
+    {
+      "field": "volume",
+      "old": "tripod",
+      "new": "sphere"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "surface",
+  "direction": "cardinal",
+  "operation": "interlocking",
+  "affect": "cubic"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0138",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "oblique"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "cylinder"
+    },
+    {
+      "field": "affect",
+      "old": "paneled",
+      "new": "notched"
+    },
+    {
+      "field": "operation",
+      "old": "peeling",
+      "new": "morphing"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

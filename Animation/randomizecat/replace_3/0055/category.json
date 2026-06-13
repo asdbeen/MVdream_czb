@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "hemisphere",
+  "direction": "down",
+  "operation": "branching",
+  "affect": "columnar"
+}

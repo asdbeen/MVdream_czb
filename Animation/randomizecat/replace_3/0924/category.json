@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "roll",
+  "direction": "radial",
+  "operation": "grading",
+  "affect": "discontinuous"
+}

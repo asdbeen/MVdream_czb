@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "sphere",
+  "direction": "normal",
+  "operation": "crumpling",
+  "affect": "gabled"
+}

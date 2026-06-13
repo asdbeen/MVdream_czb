@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "courtyard",
+  "direction": "linear",
+  "operation": "branching",
+  "affect": "paneled"
+}

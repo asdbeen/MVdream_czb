@@ -1,0 +1,27 @@
+{
+  "sample_id": "0314",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "cross"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "planar"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "flooring"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    }
+  ]
+}

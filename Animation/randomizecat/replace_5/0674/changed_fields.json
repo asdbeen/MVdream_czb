@@ -1,0 +1,32 @@
+{
+  "sample_id": "0674",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "bundled",
+      "new": "cantilevered"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "thin"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "pitching"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "surface"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    }
+  ]
+}

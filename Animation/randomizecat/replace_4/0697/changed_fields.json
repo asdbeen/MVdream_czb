@@ -1,0 +1,27 @@
+{
+  "sample_id": "0697",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cross",
+      "new": "gable"
+    },
+    {
+      "field": "affect",
+      "old": "tilted",
+      "new": "conic"
+    },
+    {
+      "field": "operation",
+      "old": "twisting",
+      "new": "interlocking"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "omni"
+    }
+  ]
+}

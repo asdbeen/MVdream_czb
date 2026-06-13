@@ -1,0 +1,22 @@
+{
+  "sample_id": "0608",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "thin"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "grading"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    }
+  ]
+}

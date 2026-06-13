@@ -1,0 +1,17 @@
+{
+  "sample_id": "0655",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "bi"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "tripod"
+    }
+  ]
+}

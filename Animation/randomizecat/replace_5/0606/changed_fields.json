@@ -1,0 +1,32 @@
+{
+  "sample_id": "0606",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "octahedral"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "down"
+    },
+    {
+      "field": "affect",
+      "old": "Lshaped",
+      "new": "gaping"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "interlocking",
+      "new": "compressing"
+    }
+  ]
+}

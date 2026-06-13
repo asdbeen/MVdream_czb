@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "capsule",
+  "direction": "polar",
+  "operation": "stacking",
+  "affect": "domical"
+}

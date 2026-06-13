@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "arch",
+  "direction": "down",
+  "operation": "morphing",
+  "affect": "vaulted"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0781",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "leaning"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "courtyard"
+    },
+    {
+      "field": "affect",
+      "old": "staggered",
+      "new": "patterned"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "parallel"
+    }
+  ]
+}

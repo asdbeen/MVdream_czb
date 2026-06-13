@@ -1,0 +1,32 @@
+{
+  "sample_id": "0421",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "up"
+    },
+    {
+      "field": "operation",
+      "old": "slicing",
+      "new": "spiraling"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "lune"
+    },
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "dilated"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

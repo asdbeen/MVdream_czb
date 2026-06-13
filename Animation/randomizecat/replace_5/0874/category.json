@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "roll",
+  "direction": "down",
+  "operation": "oscillating",
+  "affect": "columnar"
+}

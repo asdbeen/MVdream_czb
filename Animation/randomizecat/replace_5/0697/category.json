@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "tripod",
+  "direction": "planar",
+  "operation": "degrading",
+  "affect": "domical"
+}

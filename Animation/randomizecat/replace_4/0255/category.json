@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "pipe",
+  "direction": "tri",
+  "operation": "subtracting",
+  "affect": "ruled"
+}

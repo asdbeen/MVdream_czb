@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "sphere",
+  "direction": "thin",
+  "operation": "oscillating",
+  "affect": "sawtooth"
+}

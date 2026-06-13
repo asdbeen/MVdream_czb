@@ -1,0 +1,27 @@
+{
+  "sample_id": "0870",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "thin"
+    },
+    {
+      "field": "operation",
+      "old": "perforating",
+      "new": "grading"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "wedge"
+    },
+    {
+      "field": "affect",
+      "old": "gridded",
+      "new": "latticed"
+    }
+  ]
+}

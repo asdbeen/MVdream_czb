@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "ellipsoid",
+  "direction": "planar",
+  "operation": "pleating",
+  "affect": "tilted"
+}

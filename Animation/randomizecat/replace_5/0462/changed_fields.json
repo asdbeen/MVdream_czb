@@ -1,0 +1,32 @@
+{
+  "sample_id": "0462",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "crumpling",
+      "new": "bulging"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "lune"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "tapered"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "random"
+    }
+  ]
+}

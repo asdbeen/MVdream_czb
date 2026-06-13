@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "polyhedron",
+  "direction": "uni",
+  "operation": "packing",
+  "affect": "gridded"
+}

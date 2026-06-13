@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cuboid",
+  "direction": "vertical",
+  "operation": "puncturing",
+  "affect": "hollow"
+}

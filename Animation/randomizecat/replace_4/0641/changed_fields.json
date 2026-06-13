@@ -1,0 +1,27 @@
+{
+  "sample_id": "0641",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "polar"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "wired"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "spiraling"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    }
+  ]
+}

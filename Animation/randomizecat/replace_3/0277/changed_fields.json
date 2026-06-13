@@ -1,0 +1,22 @@
+{
+  "sample_id": "0277",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "degrading"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "cross"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

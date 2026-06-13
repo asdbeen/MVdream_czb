@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "capsule",
+  "direction": "omni",
+  "operation": "bulging",
+  "affect": "wired"
+}

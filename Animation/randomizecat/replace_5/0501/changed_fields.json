@@ -1,0 +1,32 @@
+{
+  "sample_id": "0501",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "perpendicular",
+      "new": "random"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "enveloping"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "tripod"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "inflating"
+    }
+  ]
+}

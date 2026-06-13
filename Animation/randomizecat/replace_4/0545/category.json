@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "blob",
+  "direction": "thin",
+  "operation": "twisting",
+  "affect": "opening"
+}

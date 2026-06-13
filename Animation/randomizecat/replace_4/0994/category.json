@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "pyramid",
+  "direction": "parallel",
+  "operation": "peeling",
+  "affect": "irregular"
+}

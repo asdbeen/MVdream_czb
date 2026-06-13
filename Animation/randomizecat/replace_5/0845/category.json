@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "disk",
+  "direction": "tri",
+  "operation": "splitting",
+  "affect": "gridded"
+}

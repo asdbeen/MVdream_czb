@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cylinder",
+  "direction": "radial",
+  "operation": "peeling",
+  "affect": "enveloping"
+}

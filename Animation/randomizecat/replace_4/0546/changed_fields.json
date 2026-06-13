@@ -1,0 +1,27 @@
+{
+  "sample_id": "0546",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "thin"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "surface"
+    },
+    {
+      "field": "affect",
+      "old": "wired",
+      "new": "tentacular"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cuboid",
+  "direction": "vertical",
+  "operation": "compressing",
+  "affect": "convex"
+}

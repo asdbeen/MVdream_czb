@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "vortex",
+  "direction": "tri",
+  "operation": "undulating",
+  "affect": "flooring"
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0407",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "peeling"
+    },
+    {
+      "field": "affect",
+      "old": "perimetral",
+      "new": "anthropomorphic"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    }
+  ]
+}

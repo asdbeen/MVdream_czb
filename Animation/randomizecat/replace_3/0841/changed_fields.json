@@ -1,0 +1,22 @@
+{
+  "sample_id": "0841",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "polar"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "arch"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "slicing"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0333",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "inflating",
+      "new": "grading"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "gradated"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "radial"
+    }
+  ]
+}

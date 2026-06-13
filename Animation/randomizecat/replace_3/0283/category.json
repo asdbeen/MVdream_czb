@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "Lshape",
+  "direction": "omni",
+  "operation": "overlapping",
+  "affect": "truncated"
+}

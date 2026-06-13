@@ -1,0 +1,32 @@
+{
+  "sample_id": "0311",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "spherical",
+      "new": "opening"
+    },
+    {
+      "field": "direction",
+      "old": "up",
+      "new": "linear"
+    },
+    {
+      "field": "volume",
+      "old": "canopy",
+      "new": "tube"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "bridging"
+    }
+  ]
+}

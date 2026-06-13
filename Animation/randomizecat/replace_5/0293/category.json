@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "roll",
+  "direction": "horizontal",
+  "operation": "embedding",
+  "affect": "cantilevered"
+}

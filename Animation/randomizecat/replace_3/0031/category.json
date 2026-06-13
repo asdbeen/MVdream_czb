@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "blob",
+  "direction": "down",
+  "operation": "embedding",
+  "affect": "opening"
+}

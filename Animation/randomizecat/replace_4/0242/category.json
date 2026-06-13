@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "tripod",
+  "direction": "omni",
+  "operation": "spiraing",
+  "affect": "wired"
+}

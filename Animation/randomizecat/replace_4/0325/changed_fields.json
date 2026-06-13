@@ -1,0 +1,27 @@
+{
+  "sample_id": "0325",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "thin"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "vortex"
+    },
+    {
+      "field": "operation",
+      "old": "undulating",
+      "new": "subtracting"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "crossed"
+    }
+  ]
+}

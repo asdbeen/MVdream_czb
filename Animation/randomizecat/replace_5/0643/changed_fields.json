@@ -1,0 +1,32 @@
+{
+  "sample_id": "0643",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "flooring",
+      "new": "hollow"
+    },
+    {
+      "field": "volume",
+      "old": "capsule",
+      "new": "gable"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "bi"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "voiding"
+    }
+  ]
+}

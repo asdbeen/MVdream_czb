@@ -1,0 +1,32 @@
+{
+  "sample_id": "0074",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "octahedral",
+      "new": "hypershape"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "single"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "columnar"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "puncturing"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "linear"
+    }
+  ]
+}

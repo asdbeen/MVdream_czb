@@ -1,0 +1,32 @@
+{
+  "sample_id": "0284",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "lune"
+    },
+    {
+      "field": "affect",
+      "old": "flooring",
+      "new": "discontinuous"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "hovering",
+      "new": "stretching"
+    },
+    {
+      "field": "direction",
+      "old": "radial",
+      "new": "up"
+    }
+  ]
+}

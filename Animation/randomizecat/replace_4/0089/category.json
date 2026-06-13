@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cone",
+  "direction": "random",
+  "operation": "containing",
+  "affect": "patterned"
+}

@@ -1,0 +1,17 @@
+{
+  "sample_id": "0388",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "perpendicular"
+    },
+    {
+      "field": "operation",
+      "old": "intertwining",
+      "new": "spiralling"
+    }
+  ]
+}

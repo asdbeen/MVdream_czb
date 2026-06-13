@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "tube",
+  "direction": "normal",
+  "operation": "containing",
+  "affect": "vaulted"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "pipe",
+  "direction": "uni",
+  "operation": "bulging",
+  "affect": "dilated"
+}

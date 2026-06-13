@@ -1,0 +1,27 @@
+{
+  "sample_id": "0158",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "splashing"
+    },
+    {
+      "field": "direction",
+      "old": "perpendicular",
+      "new": "down"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "rolled"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "multiple"
+    }
+  ]
+}

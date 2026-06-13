@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pipe",
+  "direction": "random",
+  "operation": "packing",
+  "affect": "conic"
+}

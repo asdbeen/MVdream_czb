@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "pyramid",
+  "direction": "vertical",
+  "operation": "pitching",
+  "affect": "crowned"
+}

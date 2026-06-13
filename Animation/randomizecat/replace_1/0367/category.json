@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cuboid",
+  "direction": "horizontal",
+  "operation": "intersecting",
+  "affect": "gridded"
+}

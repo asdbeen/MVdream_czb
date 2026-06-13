@@ -1,0 +1,32 @@
+{
+  "sample_id": "0792",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "polyhedron"
+    },
+    {
+      "field": "affect",
+      "old": "gridded",
+      "new": "sunken"
+    },
+    {
+      "field": "operation",
+      "old": "waffling",
+      "new": "kerfing"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "tri"
+    }
+  ]
+}

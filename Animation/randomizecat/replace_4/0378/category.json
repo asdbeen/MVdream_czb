@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cuboid",
+  "direction": "tri",
+  "operation": "intersecting",
+  "affect": "pyramidal"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0108",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "voiding",
+      "new": "slicing"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "down"
+    },
+    {
+      "field": "affect",
+      "old": "faceted",
+      "new": "discoid"
+    },
+    {
+      "field": "volume",
+      "old": "hypershape",
+      "new": "hexagonal"
+    }
+  ]
+}

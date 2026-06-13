@@ -1,0 +1,27 @@
+{
+  "sample_id": "0726",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "waffling",
+      "new": "hovering"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "disk"
+    },
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "conic"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "normal"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cylinder",
+  "direction": "random",
+  "operation": "subtracting",
+  "affect": "concave"
+}

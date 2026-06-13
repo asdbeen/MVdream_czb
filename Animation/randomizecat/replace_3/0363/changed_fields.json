@@ -1,0 +1,22 @@
+{
+  "sample_id": "0363",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "wedge",
+      "new": "arch"
+    },
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "perpendicular"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

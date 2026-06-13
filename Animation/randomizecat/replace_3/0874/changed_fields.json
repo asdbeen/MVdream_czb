@@ -1,0 +1,22 @@
+{
+  "sample_id": "0874",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "up"
+    },
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "splitting"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "donut"
+    }
+  ]
+}

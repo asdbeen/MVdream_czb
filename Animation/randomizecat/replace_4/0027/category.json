@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "courtyard",
+  "direction": "vertical",
+  "operation": "fractaling",
+  "affect": "latticed"
+}

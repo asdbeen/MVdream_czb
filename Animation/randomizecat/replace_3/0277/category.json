@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cross",
+  "direction": "normal",
+  "operation": "degrading",
+  "affect": "irregular"
+}

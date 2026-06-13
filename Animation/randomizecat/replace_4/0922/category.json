@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "polyhedron",
+  "direction": "bi",
+  "operation": "splashing",
+  "affect": "asymmetrical"
+}

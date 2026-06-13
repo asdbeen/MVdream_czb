@@ -1,0 +1,17 @@
+{
+  "sample_id": "0194",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "tapering"
+    }
+  ]
+}

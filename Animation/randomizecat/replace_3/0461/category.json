@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "ellipsoid",
+  "direction": "linear",
+  "operation": "draping",
+  "affect": "Lshaped"
+}

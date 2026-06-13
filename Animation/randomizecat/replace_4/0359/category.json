@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cone",
+  "direction": "centrifugal",
+  "operation": "curving",
+  "affect": "pyramidal"
+}

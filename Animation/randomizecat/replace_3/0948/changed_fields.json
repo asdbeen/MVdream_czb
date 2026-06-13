@@ -1,0 +1,22 @@
+{
+  "sample_id": "0948",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "ellipsoid"
+    },
+    {
+      "field": "operation",
+      "old": "kerfing",
+      "new": "carving"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

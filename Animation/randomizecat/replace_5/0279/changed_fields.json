@@ -1,0 +1,32 @@
+{
+  "sample_id": "0279",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "staggered",
+      "new": "anthropomorphic"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "waffling"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "pyramid"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "parallel"
+    }
+  ]
+}

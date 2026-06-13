@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "ellipsoid",
+  "direction": "normal",
+  "operation": "embedding",
+  "affect": "cantilevered"
+}

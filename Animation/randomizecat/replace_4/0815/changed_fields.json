@@ -1,0 +1,27 @@
+{
+  "sample_id": "0815",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "waved",
+      "new": "gridded"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "perpendicular"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "kerfing"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    }
+  ]
+}

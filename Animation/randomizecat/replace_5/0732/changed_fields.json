@@ -1,0 +1,32 @@
+{
+  "sample_id": "0732",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "wedge"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "pixelating"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "oblique"
+    },
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "shifted"
+    }
+  ]
+}

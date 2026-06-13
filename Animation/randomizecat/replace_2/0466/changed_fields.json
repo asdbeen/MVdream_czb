@@ -1,0 +1,17 @@
+{
+  "sample_id": "0466",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "uni"
+    },
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "oscillating"
+    }
+  ]
+}

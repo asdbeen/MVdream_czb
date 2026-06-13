@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "normal",
+  "operation": "bending",
+  "affect": "opening"
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0434",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "cuboid"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "excavating"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

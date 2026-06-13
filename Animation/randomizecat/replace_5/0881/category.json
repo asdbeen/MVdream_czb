@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "line",
+  "direction": "omni",
+  "operation": "inflating",
+  "affect": "cantilevered"
+}

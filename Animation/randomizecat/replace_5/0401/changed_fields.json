@@ -1,0 +1,32 @@
+{
+  "sample_id": "0401",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "spherical"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "surface",
+      "new": "hexagonal"
+    },
+    {
+      "field": "operation",
+      "old": "inflating",
+      "new": "oscillating"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "centrifugal"
+    }
+  ]
+}

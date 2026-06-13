@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "surface",
+  "direction": "radial",
+  "operation": "excavating",
+  "affect": "colonnaded"
+}

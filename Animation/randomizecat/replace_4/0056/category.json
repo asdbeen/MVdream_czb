@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "Lshape",
+  "direction": "uni",
+  "operation": "seperating",
+  "affect": "crowned"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "tube",
+  "direction": "planar",
+  "operation": "folding",
+  "affect": "cantilevered"
+}

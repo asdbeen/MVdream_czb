@@ -1,0 +1,32 @@
+{
+  "sample_id": "0225",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "disk"
+    },
+    {
+      "field": "affect",
+      "old": "tentacular",
+      "new": "circular"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "polar"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "bifurcating",
+      "new": "grooving"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0262",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "cardinal",
+      "new": "vertical"
+    },
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "dashed"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "blob",
+      "new": "capsule"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "filleting"
+    }
+  ]
+}

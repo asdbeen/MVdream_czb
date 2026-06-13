@@ -1,0 +1,22 @@
+{
+  "sample_id": "0990",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "tripod"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "affect",
+      "old": "tilted",
+      "new": "symmetrical"
+    }
+  ]
+}

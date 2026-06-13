@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hexagonal",
+  "direction": "planar",
+  "operation": "sagging",
+  "affect": "framed"
+}

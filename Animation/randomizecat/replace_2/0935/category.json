@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "capsule",
+  "direction": "bi",
+  "operation": "spiraing",
+  "affect": "porous"
+}

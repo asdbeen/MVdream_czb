@@ -1,0 +1,32 @@
+{
+  "sample_id": "0845",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "indented",
+      "new": "gridded"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "tri"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "disk"
+    },
+    {
+      "field": "operation",
+      "old": "grooving",
+      "new": "splitting"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

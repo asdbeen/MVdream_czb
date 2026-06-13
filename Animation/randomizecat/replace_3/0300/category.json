@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "pipe",
+  "direction": "planar",
+  "operation": "seperating",
+  "affect": "asymmetrical"
+}

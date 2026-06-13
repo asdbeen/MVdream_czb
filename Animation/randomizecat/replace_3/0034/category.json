@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cuboid",
+  "direction": "perpendicular",
+  "operation": "branching",
+  "affect": "conic"
+}

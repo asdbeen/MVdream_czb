@@ -1,0 +1,27 @@
+{
+  "sample_id": "0058",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "ellipsoid"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "centrifugal"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "bridging"
+    },
+    {
+      "field": "affect",
+      "old": "curved",
+      "new": "anthropomorphic"
+    }
+  ]
+}

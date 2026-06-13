@@ -1,0 +1,32 @@
+{
+  "sample_id": "0027",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "blob",
+      "new": "vortex"
+    },
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "vaulted"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "oscillating"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "random"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0270",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "floating"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "polar"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "polyhedron"
+    },
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "gabled"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "sample_id": "0004",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "slicing"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "pipe"
+    }
+  ]
+}

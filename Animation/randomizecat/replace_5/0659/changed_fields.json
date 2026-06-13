@@ -1,0 +1,32 @@
+{
+  "sample_id": "0659",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "sphere"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "parallel"
+    },
+    {
+      "field": "affect",
+      "old": "tentacular",
+      "new": "Lshaped"
+    },
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "arraying"
+    }
+  ]
+}

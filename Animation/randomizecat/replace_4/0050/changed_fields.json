@@ -1,0 +1,27 @@
+{
+  "sample_id": "0050",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "asymmetrical"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "thin"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "cone"
+    },
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "fractaling"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0019",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "sphere"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "oscillating"
+    },
+    {
+      "field": "affect",
+      "old": "staggered",
+      "new": "faceted"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "up"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    }
+  ]
+}

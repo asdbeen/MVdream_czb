@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "canopy",
+  "direction": "vertical",
+  "operation": "branching",
+  "affect": "columnar"
+}

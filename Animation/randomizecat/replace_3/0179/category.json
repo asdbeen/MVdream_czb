@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "pipe",
+  "direction": "random",
+  "operation": "leaning",
+  "affect": "hollow"
+}

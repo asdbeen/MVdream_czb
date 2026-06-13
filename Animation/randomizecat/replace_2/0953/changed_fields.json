@@ -1,0 +1,17 @@
+{
+  "sample_id": "0953",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gabled",
+      "new": "wired"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "grooving"
+    }
+  ]
+}

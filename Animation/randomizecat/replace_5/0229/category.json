@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "tripod",
+  "direction": "random",
+  "operation": "crumpling",
+  "affect": "faceted"
+}

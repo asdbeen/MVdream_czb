@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "ellipsoid",
+  "direction": "omni",
+  "operation": "folding",
+  "affect": "convex"
+}

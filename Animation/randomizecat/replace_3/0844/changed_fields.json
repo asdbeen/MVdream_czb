@@ -1,0 +1,22 @@
+{
+  "sample_id": "0844",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "polar",
+      "new": "perpendicular"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "hypershape"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "knotting"
+    }
+  ]
+}

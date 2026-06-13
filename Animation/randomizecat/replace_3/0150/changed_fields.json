@@ -1,0 +1,22 @@
+{
+  "sample_id": "0150",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "polyhedron"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "radial"
+    }
+  ]
+}

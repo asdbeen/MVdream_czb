@@ -1,0 +1,32 @@
+{
+  "sample_id": "0010",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "tangling",
+      "new": "scaffolding"
+    },
+    {
+      "field": "affect",
+      "old": "spherical",
+      "new": "anthropomorphic"
+    },
+    {
+      "field": "volume",
+      "old": "canopy",
+      "new": "surface"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "uni"
+    }
+  ]
+}

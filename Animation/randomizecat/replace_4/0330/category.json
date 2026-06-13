@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "octahedral",
+  "direction": "parallel",
+  "operation": "filleting",
+  "affect": "dilated"
+}

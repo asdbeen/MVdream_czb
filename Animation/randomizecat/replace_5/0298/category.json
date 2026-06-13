@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "canopy",
+  "direction": "random",
+  "operation": "folding",
+  "affect": "tilted"
+}

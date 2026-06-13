@@ -1,0 +1,22 @@
+{
+  "sample_id": "0471",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "waved",
+      "new": "hollow"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "thin"
+    },
+    {
+      "field": "operation",
+      "old": "morphing",
+      "new": "spiraing"
+    }
+  ]
+}

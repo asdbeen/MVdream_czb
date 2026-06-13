@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "sphere",
+  "direction": "omni",
+  "operation": "connecting",
+  "affect": "irregular"
+}

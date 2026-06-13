@@ -1,0 +1,32 @@
+{
+  "sample_id": "0014",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "shifted"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "bi"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "donut"
+    },
+    {
+      "field": "operation",
+      "old": "perforating",
+      "new": "pitching"
+    }
+  ]
+}

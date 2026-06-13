@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "gable",
+  "direction": "vertical",
+  "operation": "pitching",
+  "affect": "asymmetrical"
+}

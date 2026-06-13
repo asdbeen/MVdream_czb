@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hexagonal",
+  "direction": "planar",
+  "operation": "intersecting",
+  "affect": "prismic"
+}

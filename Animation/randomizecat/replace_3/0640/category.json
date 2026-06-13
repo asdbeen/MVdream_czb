@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "pipe",
+  "direction": "vertical",
+  "operation": "grading",
+  "affect": "topographic"
+}

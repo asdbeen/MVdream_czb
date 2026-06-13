@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cone",
+  "direction": "uni",
+  "operation": "packing",
+  "affect": "hollow"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "glyph",
+  "direction": "horizontal",
+  "operation": "peeling",
+  "affect": "vaulted"
+}

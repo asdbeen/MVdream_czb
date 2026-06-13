@@ -1,0 +1,17 @@
+{
+  "sample_id": "0698",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "vertical"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "topographic"
+    }
+  ]
+}

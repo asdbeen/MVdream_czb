@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "pipe",
+  "direction": "vertical",
+  "operation": "tangling",
+  "affect": "domical"
+}

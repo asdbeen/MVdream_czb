@@ -1,0 +1,27 @@
+{
+  "sample_id": "0563",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "radial"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "canopy"
+    },
+    {
+      "field": "operation",
+      "old": "unfolding",
+      "new": "bending"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "quadruple"
+    }
+  ]
+}

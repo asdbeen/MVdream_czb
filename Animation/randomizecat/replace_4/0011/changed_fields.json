@@ -1,0 +1,27 @@
+{
+  "sample_id": "0011",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "paneled",
+      "new": "opening"
+    },
+    {
+      "field": "operation",
+      "old": "unfolding",
+      "new": "pleating"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "polar"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "glyph",
+  "direction": "cardinal",
+  "operation": "tangling",
+  "affect": "truncated"
+}

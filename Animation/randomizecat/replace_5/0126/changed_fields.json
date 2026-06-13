@@ -1,0 +1,32 @@
+{
+  "sample_id": "0126",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "discontinuous",
+      "new": "figural"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "polyhedron"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "voiding"
+    },
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "linear"
+    }
+  ]
+}

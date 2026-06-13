@@ -1,0 +1,27 @@
+{
+  "sample_id": "0155",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "grading",
+      "new": "embedding"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "cone"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "up"
+    }
+  ]
+}

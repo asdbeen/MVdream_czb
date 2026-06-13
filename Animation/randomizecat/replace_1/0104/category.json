@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "pyramid",
+  "direction": "random",
+  "operation": "seperating",
+  "affect": "truncated"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "ellipsoid",
+  "direction": "thin",
+  "operation": "slicing",
+  "affect": "truncated"
+}

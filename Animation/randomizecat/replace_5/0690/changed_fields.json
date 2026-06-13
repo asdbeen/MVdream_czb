@@ -1,0 +1,32 @@
+{
+  "sample_id": "0690",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "paneled",
+      "new": "enveloping"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "line"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "peeling",
+      "new": "excavating"
+    },
+    {
+      "field": "direction",
+      "old": "cardinal",
+      "new": "perpendicular"
+    }
+  ]
+}

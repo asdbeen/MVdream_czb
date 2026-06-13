@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "sphere",
+  "direction": "omni",
+  "operation": "branching",
+  "affect": "colonnaded"
+}

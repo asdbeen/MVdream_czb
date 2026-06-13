@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "oblique",
+  "operation": "scaffolding",
+  "affect": "colonnaded"
+}

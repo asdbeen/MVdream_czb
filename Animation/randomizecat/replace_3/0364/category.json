@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cube",
+  "direction": "horizontal",
+  "operation": "spiraing",
+  "affect": "domical"
+}

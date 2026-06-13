@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hemisphere",
+  "direction": "linear",
+  "operation": "arraying",
+  "affect": "porous"
+}

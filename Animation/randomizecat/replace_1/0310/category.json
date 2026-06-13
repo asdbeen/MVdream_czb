@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cube",
+  "direction": "down",
+  "operation": "sagging",
+  "affect": "convex"
+}

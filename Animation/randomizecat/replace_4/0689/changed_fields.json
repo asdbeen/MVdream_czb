@@ -1,0 +1,27 @@
+{
+  "sample_id": "0689",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "polar"
+    },
+    {
+      "field": "operation",
+      "old": "morphing",
+      "new": "bifurcating"
+    },
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "contained"
+    },
+    {
+      "field": "volume",
+      "old": "hypershape",
+      "new": "courtyard"
+    }
+  ]
+}

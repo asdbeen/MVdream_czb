@@ -1,0 +1,32 @@
+{
+  "sample_id": "0380",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "cardinal"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "capsule"
+    },
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "intertwining"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "waved"
+    }
+  ]
+}

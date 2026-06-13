@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "disk",
+  "direction": "cardinal",
+  "operation": "voiding",
+  "affect": "crowned"
+}

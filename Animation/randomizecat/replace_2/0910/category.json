@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "tube",
+  "direction": "linear",
+  "operation": "zigzagging",
+  "affect": "shifted"
+}

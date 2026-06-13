@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "tripod",
+  "direction": "polar",
+  "operation": "tapering",
+  "affect": "bundled"
+}

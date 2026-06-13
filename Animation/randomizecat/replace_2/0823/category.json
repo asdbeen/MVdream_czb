@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "wedge",
+  "direction": "omni",
+  "operation": "branching",
+  "affect": "columnar"
+}

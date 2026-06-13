@@ -1,0 +1,32 @@
+{
+  "sample_id": "0939",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "discoid",
+      "new": "hollow"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "cross"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "down"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "spiraing"
+    }
+  ]
+}

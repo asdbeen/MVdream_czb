@@ -1,0 +1,27 @@
+{
+  "sample_id": "0341",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "surface"
+    },
+    {
+      "field": "operation",
+      "old": "sagging",
+      "new": "folding"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "radial"
+    },
+    {
+      "field": "affect",
+      "old": "opening",
+      "new": "Lshaped"
+    }
+  ]
+}

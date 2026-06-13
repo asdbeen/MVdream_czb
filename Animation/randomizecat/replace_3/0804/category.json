@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "octahedral",
+  "direction": "horizontal",
+  "operation": "branching",
+  "affect": "cantilevered"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0542",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "tapering"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "stellate"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "perpendicular"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "columnar"
+    }
+  ]
+}

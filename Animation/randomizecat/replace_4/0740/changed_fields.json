@@ -1,0 +1,27 @@
+{
+  "sample_id": "0740",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "bi"
+    },
+    {
+      "field": "operation",
+      "old": "spiraling",
+      "new": "undulating"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "arch"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

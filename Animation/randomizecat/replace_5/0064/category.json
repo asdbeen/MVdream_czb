@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hemisphere",
+  "direction": "tri",
+  "operation": "connecting",
+  "affect": "continuous"
+}

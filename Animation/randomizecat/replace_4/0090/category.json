@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "vortex",
+  "direction": "centrifugal",
+  "operation": "folding",
+  "affect": "columnar"
+}

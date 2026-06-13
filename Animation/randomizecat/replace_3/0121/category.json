@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "sphere",
+  "direction": "horizontal",
+  "operation": "kerfing",
+  "affect": "notched"
+}

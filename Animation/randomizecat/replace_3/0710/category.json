@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "capsule",
+  "direction": "vertical",
+  "operation": "spiralling",
+  "affect": "bundled"
+}

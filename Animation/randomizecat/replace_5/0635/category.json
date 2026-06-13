@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cylinder",
+  "direction": "perpendicular",
+  "operation": "separating",
+  "affect": "spherical"
+}

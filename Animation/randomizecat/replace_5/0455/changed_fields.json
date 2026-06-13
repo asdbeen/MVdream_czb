@@ -1,0 +1,32 @@
+{
+  "sample_id": "0455",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "cylinder"
+    },
+    {
+      "field": "affect",
+      "old": "wired",
+      "new": "inserted"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "tri"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "intersecting"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "octahedral",
+  "direction": "bi",
+  "operation": "interlocking",
+  "affect": "cubic"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hexagonal",
+  "direction": "radial",
+  "operation": "interlocking",
+  "affect": "shifted"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "surface",
+  "direction": "bi",
+  "operation": "tangling",
+  "affect": "gabled"
+}

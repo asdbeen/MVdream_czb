@@ -1,0 +1,27 @@
+{
+  "sample_id": "0610",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "circular",
+      "new": "dilated"
+    },
+    {
+      "field": "operation",
+      "old": "voiding",
+      "new": "floating"
+    },
+    {
+      "field": "volume",
+      "old": "hypershape",
+      "new": "pyramid"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "radial"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "capsule",
+  "direction": "radial",
+  "operation": "bifurcating",
+  "affect": "columnar"
+}

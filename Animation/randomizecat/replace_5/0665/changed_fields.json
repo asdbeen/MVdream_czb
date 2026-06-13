@@ -1,0 +1,32 @@
+{
+  "sample_id": "0665",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "carving"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "random"
+    },
+    {
+      "field": "affect",
+      "old": "staggered",
+      "new": "tapered"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "lune"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    }
+  ]
+}

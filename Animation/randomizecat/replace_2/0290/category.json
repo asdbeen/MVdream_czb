@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "donut",
+  "direction": "uni",
+  "operation": "morphing",
+  "affect": "concave"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0213",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "random"
+    },
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "consistent"
+    },
+    {
+      "field": "operation",
+      "old": "carving",
+      "new": "compressing"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "hexagonal"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

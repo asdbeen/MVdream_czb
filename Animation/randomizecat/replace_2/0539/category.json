@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "gable",
+  "direction": "linear",
+  "operation": "joining",
+  "affect": "sawtooth"
+}

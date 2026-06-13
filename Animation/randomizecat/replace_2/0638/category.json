@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "sphere",
+  "direction": "vertical",
+  "operation": "hovering",
+  "affect": "gabled"
+}

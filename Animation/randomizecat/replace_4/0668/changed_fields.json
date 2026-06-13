@@ -1,0 +1,27 @@
+{
+  "sample_id": "0668",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "grading",
+      "new": "separating"
+    },
+    {
+      "field": "affect",
+      "old": "topographic",
+      "new": "cantilevered"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "canopy"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

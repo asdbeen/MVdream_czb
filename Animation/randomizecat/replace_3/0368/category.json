@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "courtyard",
+  "direction": "thin",
+  "operation": "spiraing",
+  "affect": "vaulted"
+}

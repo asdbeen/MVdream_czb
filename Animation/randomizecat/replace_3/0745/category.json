@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "ellipsoid",
+  "direction": "bi",
+  "operation": "grading",
+  "affect": "discoid"
+}

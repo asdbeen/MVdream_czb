@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "courtyard",
+  "direction": "thin",
+  "operation": "looping",
+  "affect": "convex"
+}

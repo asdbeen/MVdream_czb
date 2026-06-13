@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cone",
+  "direction": "cardinal",
+  "operation": "twisting",
+  "affect": "opening"
+}

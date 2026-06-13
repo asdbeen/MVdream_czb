@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "courtyard",
+  "direction": "bi",
+  "operation": "sagging",
+  "affect": "rotational"
+}

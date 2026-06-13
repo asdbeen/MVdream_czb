@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "disk",
+  "direction": "polar",
+  "operation": "grooving",
+  "affect": "circular"
+}

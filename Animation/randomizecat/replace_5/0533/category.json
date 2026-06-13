@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "polyhedron",
+  "direction": "thin",
+  "operation": "pleating",
+  "affect": "convex"
+}

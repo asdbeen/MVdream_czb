@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pipe",
+  "direction": "linear",
+  "operation": "packing",
+  "affect": "staggered"
+}

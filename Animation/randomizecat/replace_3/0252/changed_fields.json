@@ -1,0 +1,22 @@
+{
+  "sample_id": "0252",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "roll"
+    },
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "indented"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

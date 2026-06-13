@@ -1,0 +1,22 @@
+{
+  "sample_id": "0102",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "up"
+    },
+    {
+      "field": "affect",
+      "old": "gabled",
+      "new": "consistent"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "roll"
+    }
+  ]
+}

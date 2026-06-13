@@ -1,0 +1,17 @@
+{
+  "sample_id": "0514",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "octahedral"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "normal"
+    }
+  ]
+}

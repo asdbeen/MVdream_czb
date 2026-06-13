@@ -1,0 +1,17 @@
+{
+  "sample_id": "0521",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "linear"
+    },
+    {
+      "field": "affect",
+      "old": "sunken",
+      "new": "faceted"
+    }
+  ]
+}

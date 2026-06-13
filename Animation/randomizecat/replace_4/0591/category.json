@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "canopy",
+  "direction": "tri",
+  "operation": "intersecting",
+  "affect": "continuous"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "octahedral",
+  "direction": "polar",
+  "operation": "embedding",
+  "affect": "diagonal"
+}

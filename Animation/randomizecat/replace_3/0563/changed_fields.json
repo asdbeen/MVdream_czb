@@ -1,0 +1,22 @@
+{
+  "sample_id": "0563",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "polar"
+    },
+    {
+      "field": "operation",
+      "old": "unfolding",
+      "new": "intertwining"
+    }
+  ]
+}

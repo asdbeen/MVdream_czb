@@ -1,0 +1,27 @@
+{
+  "sample_id": "0103",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "sawtooth",
+      "new": "shifted"
+    },
+    {
+      "field": "operation",
+      "old": "voiding",
+      "new": "bulging"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "up"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "glyph"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0575",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "crumpling",
+      "new": "intertwining"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "random"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "wired"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

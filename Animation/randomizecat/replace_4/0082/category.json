@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "line",
+  "direction": "perpendicular",
+  "operation": "scarving",
+  "affect": "round"
+}

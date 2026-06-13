@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "tube",
+  "direction": "linear",
+  "operation": "peeling",
+  "affect": "perimetral"
+}

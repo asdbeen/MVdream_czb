@@ -1,0 +1,32 @@
+{
+  "sample_id": "0611",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "parallel"
+    },
+    {
+      "field": "operation",
+      "old": "twisting",
+      "new": "overlapping"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "disk"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "opening",
+      "new": "domical"
+    }
+  ]
+}

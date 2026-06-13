@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "octahedral",
+  "direction": "oblique",
+  "operation": "fractaling",
+  "affect": "Lshaped"
+}

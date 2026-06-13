@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "wedge",
+  "direction": "parallel",
+  "operation": "seperating",
+  "affect": "gabled"
+}

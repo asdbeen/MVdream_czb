@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "disk",
+  "direction": "omni",
+  "operation": "wrapping",
+  "affect": "vortical"
+}

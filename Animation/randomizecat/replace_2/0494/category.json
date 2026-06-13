@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "surface",
+  "direction": "horizontal",
+  "operation": "draping",
+  "affect": "enveloping"
+}

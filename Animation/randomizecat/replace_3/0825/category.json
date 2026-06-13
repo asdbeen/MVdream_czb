@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "polyhedron",
+  "direction": "horizontal",
+  "operation": "packing",
+  "affect": "irregular"
+}

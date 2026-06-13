@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cross",
+  "direction": "cardinal",
+  "operation": "zigzagging",
+  "affect": "curved"
+}

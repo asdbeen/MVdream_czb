@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pipe",
+  "direction": "down",
+  "operation": "pleating",
+  "affect": "truncated"
+}

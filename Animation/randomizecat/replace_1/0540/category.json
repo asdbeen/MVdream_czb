@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "blob",
+  "direction": "random",
+  "operation": "wrapping",
+  "affect": "cubic"
+}

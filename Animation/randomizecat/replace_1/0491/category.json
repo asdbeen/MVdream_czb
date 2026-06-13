@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cube",
+  "direction": "uni",
+  "operation": "splitting",
+  "affect": "notched"
+}

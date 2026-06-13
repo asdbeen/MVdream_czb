@@ -1,0 +1,12 @@
+{
+  "sample_id": "0053",
+  "replace_count": 1,
+  "changed_count": 1,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "wired",
+      "new": "inverted"
+    }
+  ]
+}

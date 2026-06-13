@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "capsule",
+  "direction": "vertical",
+  "operation": "unfolding",
+  "affect": "spherical"
+}

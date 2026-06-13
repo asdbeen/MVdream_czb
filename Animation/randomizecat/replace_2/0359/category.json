@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "courtyard",
+  "direction": "planar",
+  "operation": "curving",
+  "affect": "cantilevered"
+}

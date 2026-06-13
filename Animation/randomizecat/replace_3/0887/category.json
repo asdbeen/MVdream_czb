@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hexagonal",
+  "direction": "planar",
+  "operation": "pitching",
+  "affect": "tentacular"
+}

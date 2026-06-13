@@ -1,0 +1,22 @@
+{
+  "sample_id": "0066",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "affect",
+      "old": "dilated",
+      "new": "ruled"
+    },
+    {
+      "field": "direction",
+      "old": "radial",
+      "new": "parallel"
+    }
+  ]
+}

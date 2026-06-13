@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "pipe",
+  "direction": "oblique",
+  "operation": "floating",
+  "affect": "ruled"
+}

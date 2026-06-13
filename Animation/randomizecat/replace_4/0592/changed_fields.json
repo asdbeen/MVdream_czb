@@ -1,0 +1,27 @@
+{
+  "sample_id": "0592",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "planar"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "gaping"
+    },
+    {
+      "field": "operation",
+      "old": "unfolding",
+      "new": "compressing"
+    }
+  ]
+}

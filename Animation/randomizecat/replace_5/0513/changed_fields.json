@@ -1,0 +1,32 @@
+{
+  "sample_id": "0513",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "discontinuous",
+      "new": "crowned"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "uni"
+    },
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "oscillating"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "vortex"
+    }
+  ]
+}

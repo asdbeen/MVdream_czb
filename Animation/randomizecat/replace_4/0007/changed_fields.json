@@ -1,0 +1,27 @@
+{
+  "sample_id": "0007",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "oblique"
+    },
+    {
+      "field": "operation",
+      "old": "stretching",
+      "new": "filleting"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "roll"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

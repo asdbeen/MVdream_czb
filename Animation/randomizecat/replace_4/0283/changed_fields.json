@@ -1,0 +1,27 @@
+{
+  "sample_id": "0283",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "arch"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "excavating"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "affect",
+      "old": "truncated",
+      "new": "rotational"
+    }
+  ]
+}

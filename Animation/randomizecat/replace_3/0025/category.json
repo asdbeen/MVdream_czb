@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "canopy",
+  "direction": "omni",
+  "operation": "unfolding",
+  "affect": "vortical"
+}

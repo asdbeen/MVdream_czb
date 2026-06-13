@@ -1,0 +1,32 @@
+{
+  "sample_id": "0367",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "pipe"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "uni"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "gridded",
+      "new": "dashed"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "seperating"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "blob",
+  "direction": "vertical",
+  "operation": "curving",
+  "affect": "stripped"
+}

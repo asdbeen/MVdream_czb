@@ -1,0 +1,27 @@
+{
+  "sample_id": "0491",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "symmetrical"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "bi"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "peeling"
+    }
+  ]
+}

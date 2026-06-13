@@ -1,0 +1,27 @@
+{
+  "sample_id": "0887",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "gable"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "up"
+    },
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "stacking"
+    }
+  ]
+}

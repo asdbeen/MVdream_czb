@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "sphere",
+  "direction": "thin",
+  "operation": "floating",
+  "affect": "Lshaped"
+}

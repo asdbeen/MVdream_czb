@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "Lshape",
+  "direction": "linear",
+  "operation": "compressing",
+  "affect": "bundled"
+}

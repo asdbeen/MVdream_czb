@@ -1,0 +1,32 @@
+{
+  "sample_id": "0407",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "radial"
+    },
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "compressing"
+    },
+    {
+      "field": "affect",
+      "old": "perimetral",
+      "new": "rippled"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "surface"
+    }
+  ]
+}

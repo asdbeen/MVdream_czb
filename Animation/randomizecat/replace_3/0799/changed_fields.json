@@ -1,0 +1,22 @@
+{
+  "sample_id": "0799",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "single"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "sawtooth"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "disk"
+    }
+  ]
+}

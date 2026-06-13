@@ -1,0 +1,32 @@
+{
+  "sample_id": "0206",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "gable"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "peeling",
+      "new": "spiraling"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "rolled"
+    },
+    {
+      "field": "direction",
+      "old": "centrifugal",
+      "new": "bi"
+    }
+  ]
+}

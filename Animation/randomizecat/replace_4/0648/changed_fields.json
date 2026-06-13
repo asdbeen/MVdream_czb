@@ -1,0 +1,27 @@
+{
+  "sample_id": "0648",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "interlocking",
+      "new": "arraying"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "affect",
+      "old": "crowned",
+      "new": "wired"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "cylinder"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cross",
+  "direction": "cardinal",
+  "operation": "pixelating",
+  "affect": "enveloping"
+}

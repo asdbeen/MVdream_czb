@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hypershape",
+  "direction": "uni",
+  "operation": "bending",
+  "affect": "sunken"
+}

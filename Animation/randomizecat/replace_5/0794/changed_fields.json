@@ -1,0 +1,32 @@
+{
+  "sample_id": "0794",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "Lshape"
+    },
+    {
+      "field": "affect",
+      "old": "waved",
+      "new": "sunken"
+    },
+    {
+      "field": "operation",
+      "old": "embedding",
+      "new": "floating"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "down"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

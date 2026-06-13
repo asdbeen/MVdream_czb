@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cross",
+  "direction": "centrifugal",
+  "operation": "floating",
+  "affect": "colonnaded"
+}

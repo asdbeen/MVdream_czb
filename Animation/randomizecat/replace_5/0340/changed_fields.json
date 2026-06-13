@@ -1,0 +1,32 @@
+{
+  "sample_id": "0340",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "cone"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "perpendicular"
+    },
+    {
+      "field": "operation",
+      "old": "slicing",
+      "new": "curving"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "affect",
+      "old": "discontinuous",
+      "new": "vortical"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0155",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "grading",
+      "new": "scaffolding"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "vortex"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "vertical"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "tilted"
+    }
+  ]
+}

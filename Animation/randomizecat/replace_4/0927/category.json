@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "hexagonal",
+  "direction": "polar",
+  "operation": "carving",
+  "affect": "symmetrical"
+}

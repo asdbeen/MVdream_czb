@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "pyramid",
+  "direction": "bi",
+  "operation": "sagging",
+  "affect": "ruled"
+}

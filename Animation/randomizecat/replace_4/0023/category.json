@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "hypershape",
+  "direction": "uni",
+  "operation": "carving",
+  "affect": "gridded"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0212",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "slitting",
+      "new": "pixelating"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "thin"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "gaping"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "lune"
+    }
+  ]
+}

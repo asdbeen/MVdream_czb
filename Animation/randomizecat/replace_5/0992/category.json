@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "wedge",
+  "direction": "planar",
+  "operation": "carving",
+  "affect": "wired"
+}

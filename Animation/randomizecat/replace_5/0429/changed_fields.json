@@ -1,0 +1,32 @@
+{
+  "sample_id": "0429",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "truncated"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "glyph"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "tangling"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "cardinal"
+    }
+  ]
+}

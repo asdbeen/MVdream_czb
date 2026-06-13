@@ -1,0 +1,32 @@
+{
+  "sample_id": "0561",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "radial"
+    },
+    {
+      "field": "operation",
+      "old": "spiraling",
+      "new": "floating"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "figural"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "stellate"
+    }
+  ]
+}

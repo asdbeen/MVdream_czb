@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "vortex",
+  "direction": "omni",
+  "operation": "arraying",
+  "affect": "columnar"
+}

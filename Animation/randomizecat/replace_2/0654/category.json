@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hemisphere",
+  "direction": "bi",
+  "operation": "pixelating",
+  "affect": "irregular"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0999",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "arch"
+    },
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "zigzagging"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "uni"
+    },
+    {
+      "field": "affect",
+      "old": "wired",
+      "new": "waved"
+    }
+  ]
+}

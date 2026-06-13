@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "donut",
+  "direction": "tri",
+  "operation": "carving",
+  "affect": "dashed"
+}

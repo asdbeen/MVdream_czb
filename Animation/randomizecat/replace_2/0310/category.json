@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "stellate",
+  "direction": "down",
+  "operation": "hovering",
+  "affect": "convex"
+}

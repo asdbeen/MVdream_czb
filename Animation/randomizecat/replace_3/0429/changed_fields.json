@@ -1,0 +1,22 @@
+{
+  "sample_id": "0429",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "vaulted"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "cone"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "sagging"
+    }
+  ]
+}

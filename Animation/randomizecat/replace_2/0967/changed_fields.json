@@ -1,0 +1,17 @@
+{
+  "sample_id": "0967",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "triple",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "gable"
+    }
+  ]
+}

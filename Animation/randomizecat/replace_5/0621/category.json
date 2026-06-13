@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "sphere",
+  "direction": "oblique",
+  "operation": "degrading",
+  "affect": "crowned"
+}

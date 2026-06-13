@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "wedge",
+  "direction": "horizontal",
+  "operation": "arraying",
+  "affect": "staggered"
+}

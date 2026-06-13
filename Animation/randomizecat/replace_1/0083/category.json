@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "octahedral",
+  "direction": "omni",
+  "operation": "zigzagging",
+  "affect": "stripped"
+}

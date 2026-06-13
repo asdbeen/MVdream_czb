@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "arch",
+  "direction": "horizontal",
+  "operation": "compressing",
+  "affect": "framed"
+}

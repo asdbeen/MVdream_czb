@@ -1,0 +1,32 @@
+{
+  "sample_id": "0785",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "packing"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "cantilevered"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "disk"
+    },
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "up"
+    }
+  ]
+}

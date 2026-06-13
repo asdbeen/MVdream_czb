@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cylinder",
+  "direction": "up",
+  "operation": "grooving",
+  "affect": "organic"
+}

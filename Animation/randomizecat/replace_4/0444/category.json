@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "blob",
+  "direction": "polar",
+  "operation": "grooving",
+  "affect": "degraded"
+}

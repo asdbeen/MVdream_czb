@@ -1,0 +1,22 @@
+{
+  "sample_id": "0622",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "donut"
+    },
+    {
+      "field": "operation",
+      "old": "interlocking",
+      "new": "perforating"
+    }
+  ]
+}

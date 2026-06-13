@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "Lshape",
+  "direction": "normal",
+  "operation": "seperating",
+  "affect": "tilted"
+}

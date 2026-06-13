@@ -1,0 +1,32 @@
+{
+  "sample_id": "0512",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "lune",
+      "new": "wedge"
+    },
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "hovering"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "faceted"
+    },
+    {
+      "field": "direction",
+      "old": "radial",
+      "new": "centrifugal"
+    },
+    {
+      "field": "entity",
+      "old": "triple",
+      "new": "single"
+    }
+  ]
+}

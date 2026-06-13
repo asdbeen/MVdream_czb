@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "vortex",
+  "direction": "bi",
+  "operation": "knotting",
+  "affect": "discontinuous"
+}

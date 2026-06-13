@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cross",
+  "direction": "linear",
+  "operation": "filleting",
+  "affect": "cantilevered"
+}

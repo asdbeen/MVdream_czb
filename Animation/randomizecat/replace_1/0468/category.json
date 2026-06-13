@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cuboid",
+  "direction": "omni",
+  "operation": "overlapping",
+  "affect": "rotational"
+}

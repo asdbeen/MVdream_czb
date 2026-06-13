@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "stellate",
+  "direction": "normal",
+  "operation": "seperating",
+  "affect": "gabled"
+}

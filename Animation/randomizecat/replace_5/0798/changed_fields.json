@@ -1,0 +1,32 @@
+{
+  "sample_id": "0798",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "down"
+    },
+    {
+      "field": "operation",
+      "old": "embedding",
+      "new": "spiralling"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "cross"
+    },
+    {
+      "field": "affect",
+      "old": "rippled",
+      "new": "prismic"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "lune",
+  "direction": "oblique",
+  "operation": "intersecting",
+  "affect": "vaulted"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cone",
+  "direction": "linear",
+  "operation": "twisting",
+  "affect": "irregular"
+}

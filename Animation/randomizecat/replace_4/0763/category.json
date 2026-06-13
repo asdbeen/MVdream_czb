@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "hypershape",
+  "direction": "normal",
+  "operation": "perforating",
+  "affect": "convex"
+}

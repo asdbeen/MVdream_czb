@@ -1,0 +1,27 @@
+{
+  "sample_id": "0980",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "undulating",
+      "new": "excavating"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "parallel"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "lune"
+    }
+  ]
+}

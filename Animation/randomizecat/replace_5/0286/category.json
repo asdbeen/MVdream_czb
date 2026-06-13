@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "glyph",
+  "direction": "tri",
+  "operation": "crumpling",
+  "affect": "kinky"
+}

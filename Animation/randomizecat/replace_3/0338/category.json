@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cone",
+  "direction": "omni",
+  "operation": "bending",
+  "affect": "bundled"
+}

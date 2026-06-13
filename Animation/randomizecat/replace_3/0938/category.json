@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "pyramid",
+  "direction": "planar",
+  "operation": "pixelating",
+  "affect": "stripped"
+}

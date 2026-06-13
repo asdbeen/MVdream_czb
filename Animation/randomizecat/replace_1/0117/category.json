@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "blob",
+  "direction": "oblique",
+  "operation": "looping",
+  "affect": "faceted"
+}

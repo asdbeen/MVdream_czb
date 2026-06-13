@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hypershape",
+  "direction": "perpendicular",
+  "operation": "knotting",
+  "affect": "opening"
+}

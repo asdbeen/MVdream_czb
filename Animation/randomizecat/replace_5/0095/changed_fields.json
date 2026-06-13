@@ -1,0 +1,32 @@
+{
+  "sample_id": "0095",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "cardinal",
+      "new": "planar"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "hollow"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "wedge",
+      "new": "canopy"
+    },
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "containing"
+    }
+  ]
+}

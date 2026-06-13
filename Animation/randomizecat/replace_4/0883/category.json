@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "canopy",
+  "direction": "thin",
+  "operation": "intersecting",
+  "affect": "vaulted"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "hexagonal",
+  "direction": "oblique",
+  "operation": "bridging",
+  "affect": "spherical"
+}

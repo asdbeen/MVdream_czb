@@ -1,0 +1,27 @@
+{
+  "sample_id": "0934",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "curved"
+    },
+    {
+      "field": "operation",
+      "old": "voiding",
+      "new": "crumpling"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "tri"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "tripod"
+    }
+  ]
+}

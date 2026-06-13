@@ -1,0 +1,22 @@
+{
+  "sample_id": "0962",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "spiralling"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "up"
+    },
+    {
+      "field": "affect",
+      "old": "rippled",
+      "new": "patterned"
+    }
+  ]
+}

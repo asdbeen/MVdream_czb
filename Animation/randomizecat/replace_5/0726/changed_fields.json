@@ -1,0 +1,32 @@
+{
+  "sample_id": "0726",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "asymmetrical"
+    },
+    {
+      "field": "operation",
+      "old": "waffling",
+      "new": "zigzagging"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "linear"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "glyph"
+    }
+  ]
+}

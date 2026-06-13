@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "arch",
+  "direction": "polar",
+  "operation": "undulating",
+  "affect": "dashed"
+}

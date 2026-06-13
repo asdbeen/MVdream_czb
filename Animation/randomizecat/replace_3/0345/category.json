@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hypershape",
+  "direction": "radial",
+  "operation": "perforating",
+  "affect": "degraded"
+}

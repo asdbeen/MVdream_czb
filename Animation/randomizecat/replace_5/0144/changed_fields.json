@@ -1,0 +1,32 @@
+{
+  "sample_id": "0144",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "perpendicular"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "hypershape",
+      "new": "line"
+    },
+    {
+      "field": "operation",
+      "old": "pixelating",
+      "new": "sagging"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "flooring"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0744",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "tentacular",
+      "new": "kinky"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "canopy"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "radial"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "intersecting"
+    }
+  ]
+}

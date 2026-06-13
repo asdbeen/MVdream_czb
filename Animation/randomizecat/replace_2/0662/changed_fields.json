@@ -1,0 +1,17 @@
+{
+  "sample_id": "0662",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "stretching",
+      "new": "packing"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "normal"
+    }
+  ]
+}

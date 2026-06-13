@@ -1,0 +1,17 @@
+{
+  "sample_id": "0805",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "up"
+    },
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "arraying"
+    }
+  ]
+}

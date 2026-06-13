@@ -1,0 +1,27 @@
+{
+  "sample_id": "0972",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "blob"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "oblique"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "hovering",
+      "new": "looping"
+    }
+  ]
+}

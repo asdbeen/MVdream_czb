@@ -1,0 +1,32 @@
+{
+  "sample_id": "0190",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "inverted",
+      "new": "porous"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "up"
+    },
+    {
+      "field": "operation",
+      "old": "pitching",
+      "new": "grooving"
+    },
+    {
+      "field": "volume",
+      "old": "gable",
+      "new": "Lshape"
+    }
+  ]
+}

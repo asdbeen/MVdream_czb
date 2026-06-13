@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "disk",
+  "direction": "vertical",
+  "operation": "spiraling",
+  "affect": "bundled"
+}

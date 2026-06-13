@@ -1,0 +1,17 @@
+{
+  "sample_id": "0415",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "sunken"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "tangling"
+    }
+  ]
+}

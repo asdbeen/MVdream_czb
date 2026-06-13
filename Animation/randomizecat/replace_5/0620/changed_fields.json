@@ -1,0 +1,32 @@
+{
+  "sample_id": "0620",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "hypershape"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "gridded"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "uni"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "peeling",
+      "new": "compressing"
+    }
+  ]
+}

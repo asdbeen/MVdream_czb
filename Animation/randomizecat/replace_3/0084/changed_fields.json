@@ -1,0 +1,22 @@
+{
+  "sample_id": "0084",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "perforating",
+      "new": "zigzagging"
+    },
+    {
+      "field": "affect",
+      "old": "columnar",
+      "new": "topographic"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "omni"
+    }
+  ]
+}

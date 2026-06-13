@@ -1,0 +1,32 @@
+{
+  "sample_id": "0339",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "perpendicular",
+      "new": "random"
+    },
+    {
+      "field": "affect",
+      "old": "tilted",
+      "new": "tentacular"
+    },
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "bridging"
+    },
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "glyph"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "triple"
+    }
+  ]
+}

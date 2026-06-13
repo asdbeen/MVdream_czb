@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hypershape",
+  "direction": "linear",
+  "operation": "grading",
+  "affect": "symmetrical"
+}

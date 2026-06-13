@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "octahedral",
+  "direction": "radial",
+  "operation": "grading",
+  "affect": "crowned"
+}

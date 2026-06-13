@@ -1,0 +1,32 @@
+{
+  "sample_id": "0260",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "discontinuous"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "fluting"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "pyramid"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "cardinal",
+      "new": "perpendicular"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cylinder",
+  "direction": "omni",
+  "operation": "packing",
+  "affect": "convex"
+}

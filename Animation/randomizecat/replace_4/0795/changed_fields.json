@@ -1,0 +1,27 @@
+{
+  "sample_id": "0795",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "overlapping"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "cross"
+    },
+    {
+      "field": "affect",
+      "old": "asymmetrical",
+      "new": "gradated"
+    }
+  ]
+}

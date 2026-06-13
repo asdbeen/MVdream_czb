@@ -1,0 +1,32 @@
+{
+  "sample_id": "0683",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "line"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "tri",
+      "new": "radial"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "packing"
+    },
+    {
+      "field": "affect",
+      "old": "opening",
+      "new": "notched"
+    }
+  ]
+}

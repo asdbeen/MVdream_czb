@@ -1,0 +1,22 @@
+{
+  "sample_id": "0715",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gabled",
+      "new": "cylindrical"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "oblique"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "perforating"
+    }
+  ]
+}

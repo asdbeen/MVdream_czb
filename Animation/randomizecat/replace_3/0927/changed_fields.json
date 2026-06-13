@@ -1,0 +1,22 @@
+{
+  "sample_id": "0927",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "carving",
+      "new": "leaning"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "parallel"
+    },
+    {
+      "field": "affect",
+      "old": "degraded",
+      "new": "Lshaped"
+    }
+  ]
+}

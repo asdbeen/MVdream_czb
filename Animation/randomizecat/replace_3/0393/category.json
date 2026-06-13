@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cuboid",
+  "direction": "tri",
+  "operation": "overlapping",
+  "affect": "sunken"
+}

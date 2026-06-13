@@ -1,0 +1,17 @@
+{
+  "sample_id": "0908",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "cubic"
+    },
+    {
+      "field": "operation",
+      "old": "twisting",
+      "new": "spiraling"
+    }
+  ]
+}

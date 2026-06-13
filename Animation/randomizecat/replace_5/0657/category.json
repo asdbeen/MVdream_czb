@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cone",
+  "direction": "normal",
+  "operation": "splashing",
+  "affect": "inverted"
+}

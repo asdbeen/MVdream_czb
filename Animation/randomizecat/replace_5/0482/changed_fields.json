@@ -1,0 +1,32 @@
+{
+  "sample_id": "0482",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "round"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "thin"
+    },
+    {
+      "field": "volume",
+      "old": "surface",
+      "new": "hemisphere"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "bridging"
+    }
+  ]
+}

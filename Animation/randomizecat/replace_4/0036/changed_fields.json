@@ -1,0 +1,27 @@
+{
+  "sample_id": "0036",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "contained"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "tri"
+    },
+    {
+      "field": "volume",
+      "old": "cross",
+      "new": "sphere"
+    },
+    {
+      "field": "operation",
+      "old": "wrapping",
+      "new": "peeling"
+    }
+  ]
+}

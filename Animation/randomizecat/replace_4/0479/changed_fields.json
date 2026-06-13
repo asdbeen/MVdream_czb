@@ -1,0 +1,27 @@
+{
+  "sample_id": "0479",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "vortex"
+    },
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "stretching"
+    },
+    {
+      "field": "direction",
+      "old": "up",
+      "new": "polar"
+    }
+  ]
+}

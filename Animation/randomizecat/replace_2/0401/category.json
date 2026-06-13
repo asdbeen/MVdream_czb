@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "Lshape",
+  "direction": "tri",
+  "operation": "inflating",
+  "affect": "cantilevered"
+}

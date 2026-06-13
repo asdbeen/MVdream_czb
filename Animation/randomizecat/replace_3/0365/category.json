@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "roll",
+  "direction": "bi",
+  "operation": "leaning",
+  "affect": "vaulted"
+}

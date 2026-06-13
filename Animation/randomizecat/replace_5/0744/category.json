@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "canopy",
+  "direction": "radial",
+  "operation": "intersecting",
+  "affect": "kinky"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "line",
+  "direction": "planar",
+  "operation": "undulating",
+  "affect": "irregular"
+}

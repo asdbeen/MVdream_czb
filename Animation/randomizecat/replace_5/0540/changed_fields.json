@@ -1,0 +1,32 @@
+{
+  "sample_id": "0540",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "radial"
+    },
+    {
+      "field": "volume",
+      "old": "blob",
+      "new": "donut"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "tilted"
+    },
+    {
+      "field": "operation",
+      "old": "wrapping",
+      "new": "sagging"
+    }
+  ]
+}

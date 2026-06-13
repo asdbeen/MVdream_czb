@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cone",
+  "direction": "perpendicular",
+  "operation": "filleting",
+  "affect": "vaulted"
+}

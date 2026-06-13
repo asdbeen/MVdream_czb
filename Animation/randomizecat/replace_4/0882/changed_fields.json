@@ -1,0 +1,27 @@
+{
+  "sample_id": "0882",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "pleating",
+      "new": "intertwining"
+    },
+    {
+      "field": "volume",
+      "old": "pyramid",
+      "new": "polyhedron"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "paneled"
+    },
+    {
+      "field": "entity",
+      "old": "triple",
+      "new": "quadruple"
+    }
+  ]
+}

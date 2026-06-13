@@ -1,0 +1,27 @@
+{
+  "sample_id": "0954",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "discontinuous",
+      "new": "crossed"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "roll"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "knotting",
+      "new": "slitting"
+    }
+  ]
+}

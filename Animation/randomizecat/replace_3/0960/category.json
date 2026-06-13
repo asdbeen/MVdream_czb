@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "lune",
+  "direction": "normal",
+  "operation": "splashing",
+  "affect": "gabled"
+}

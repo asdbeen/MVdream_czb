@@ -1,0 +1,27 @@
+{
+  "sample_id": "0485",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "grooving"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "ellipsoid"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "columnar",
+      "new": "opening"
+    }
+  ]
+}

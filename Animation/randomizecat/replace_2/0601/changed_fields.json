@@ -1,0 +1,17 @@
+{
+  "sample_id": "0601",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "oblique"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "fractaling"
+    }
+  ]
+}

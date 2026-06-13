@@ -1,0 +1,22 @@
+{
+  "sample_id": "0961",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "omni"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "hypershape"
+    },
+    {
+      "field": "operation",
+      "old": "grading",
+      "new": "morphing"
+    }
+  ]
+}

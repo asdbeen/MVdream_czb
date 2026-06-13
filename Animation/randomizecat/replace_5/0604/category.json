@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cylinder",
+  "direction": "perpendicular",
+  "operation": "spiraling",
+  "affect": "Lshaped"
+}

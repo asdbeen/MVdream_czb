@@ -1,0 +1,22 @@
+{
+  "sample_id": "0273",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "knotting"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "capsule"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    }
+  ]
+}

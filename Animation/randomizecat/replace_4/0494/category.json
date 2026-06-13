@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "surface",
+  "direction": "polar",
+  "operation": "tapering",
+  "affect": "asymmetrical"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0196",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gabled",
+      "new": "cantilevered"
+    },
+    {
+      "field": "operation",
+      "old": "pitching",
+      "new": "spiraing"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "bi"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "wedge"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

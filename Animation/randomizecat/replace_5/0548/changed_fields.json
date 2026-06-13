@@ -1,0 +1,32 @@
+{
+  "sample_id": "0548",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "curved"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "blob"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "tri"
+    },
+    {
+      "field": "operation",
+      "old": "zigzagging",
+      "new": "tapering"
+    }
+  ]
+}

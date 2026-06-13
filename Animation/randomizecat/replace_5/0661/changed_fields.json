@@ -1,0 +1,32 @@
+{
+  "sample_id": "0661",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "cardinal"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "line"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "staggered"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "pleating"
+    }
+  ]
+}

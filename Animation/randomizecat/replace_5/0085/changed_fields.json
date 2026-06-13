@@ -1,0 +1,32 @@
+{
+  "sample_id": "0085",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "interlocking"
+    },
+    {
+      "field": "direction",
+      "old": "parallel",
+      "new": "polar"
+    },
+    {
+      "field": "affect",
+      "old": "asymmetrical",
+      "new": "conic"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "stellate"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "quadruple"
+    }
+  ]
+}

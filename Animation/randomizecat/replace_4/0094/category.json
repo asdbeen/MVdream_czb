@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "donut",
+  "direction": "down",
+  "operation": "seperating",
+  "affect": "cornered"
+}

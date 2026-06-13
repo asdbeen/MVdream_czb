@@ -1,0 +1,32 @@
+{
+  "sample_id": "0934",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "surface"
+    },
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "truncated"
+    },
+    {
+      "field": "operation",
+      "old": "voiding",
+      "new": "stacking"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "uni"
+    }
+  ]
+}

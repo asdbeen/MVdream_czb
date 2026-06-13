@@ -1,0 +1,32 @@
+{
+  "sample_id": "0974",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "morphing"
+    },
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "oblique"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "vortex"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "organic"
+    }
+  ]
+}

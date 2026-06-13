@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "ellipsoid",
+  "direction": "horizontal",
+  "operation": "crumpling",
+  "affect": "contained"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0478",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "anthropomorphic"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "ellipsoid"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "pleating"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "uni"
+    }
+  ]
+}

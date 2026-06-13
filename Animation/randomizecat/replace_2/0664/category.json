@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cylinder",
+  "direction": "radial",
+  "operation": "degrading",
+  "affect": "sunken"
+}

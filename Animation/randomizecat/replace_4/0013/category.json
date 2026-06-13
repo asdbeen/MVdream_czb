@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "tripod",
+  "direction": "uni",
+  "operation": "crumpling",
+  "affect": "tapered"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0150",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "surface"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "random"
+    },
+    {
+      "field": "affect",
+      "old": "tentacular",
+      "new": "discontinuous"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "degrading"
+    }
+  ]
+}

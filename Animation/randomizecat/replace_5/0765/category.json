@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "Lshape",
+  "direction": "up",
+  "operation": "puncturing",
+  "affect": "tilted"
+}

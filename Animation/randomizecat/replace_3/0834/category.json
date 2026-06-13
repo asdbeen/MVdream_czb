@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "ellipsoid",
+  "direction": "thin",
+  "operation": "compressing",
+  "affect": "degraded"
+}

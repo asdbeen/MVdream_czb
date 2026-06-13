@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "donut",
+  "direction": "planar",
+  "operation": "overlapping",
+  "affect": "opening"
+}

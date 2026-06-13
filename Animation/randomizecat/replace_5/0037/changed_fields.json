@@ -1,0 +1,32 @@
+{
+  "sample_id": "0037",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "waved"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "puncturing"
+    },
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "roll"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "perpendicular"
+    }
+  ]
+}

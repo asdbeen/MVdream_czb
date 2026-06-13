@@ -1,0 +1,32 @@
+{
+  "sample_id": "0003",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "symmetrical",
+      "new": "discontinuous"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "tri"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "hemisphere",
+      "new": "surface"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "zigzagging"
+    }
+  ]
+}

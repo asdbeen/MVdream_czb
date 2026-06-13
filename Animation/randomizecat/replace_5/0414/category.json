@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cylinder",
+  "direction": "vertical",
+  "operation": "splashing",
+  "affect": "rotational"
+}

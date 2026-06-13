@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cuboid",
+  "direction": "random",
+  "operation": "grooving",
+  "affect": "cantilevered"
+}

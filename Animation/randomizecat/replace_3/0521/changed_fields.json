@@ -1,0 +1,22 @@
+{
+  "sample_id": "0521",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "tri"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "pipe"
+    },
+    {
+      "field": "affect",
+      "old": "sunken",
+      "new": "faceted"
+    }
+  ]
+}

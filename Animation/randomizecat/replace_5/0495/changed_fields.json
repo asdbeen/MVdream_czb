@@ -1,0 +1,32 @@
+{
+  "sample_id": "0495",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "radial"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "spiraling",
+      "new": "connecting"
+    },
+    {
+      "field": "affect",
+      "old": "round",
+      "new": "bundled"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "octahedral"
+    }
+  ]
+}

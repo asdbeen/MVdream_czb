@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cylinder",
+  "direction": "horizontal",
+  "operation": "pitching",
+  "affect": "stripped"
+}

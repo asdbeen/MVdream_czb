@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "glyph",
+  "direction": "up",
+  "operation": "peeling",
+  "affect": "cubic"
+}

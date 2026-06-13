@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "courtyard",
+  "direction": "thin",
+  "operation": "containing",
+  "affect": "porous"
+}

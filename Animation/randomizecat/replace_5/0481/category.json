@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hemisphere",
+  "direction": "thin",
+  "operation": "perforating",
+  "affect": "prismic"
+}

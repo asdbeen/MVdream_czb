@@ -1,0 +1,27 @@
+{
+  "sample_id": "0447",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "unfolding"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "figural"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "bi"
+    }
+  ]
+}

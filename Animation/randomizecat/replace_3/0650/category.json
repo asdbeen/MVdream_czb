@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "canopy",
+  "direction": "oblique",
+  "operation": "voiding",
+  "affect": "symmetrical"
+}

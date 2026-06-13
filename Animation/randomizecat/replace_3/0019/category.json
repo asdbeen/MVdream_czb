@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pyramid",
+  "direction": "random",
+  "operation": "stacking",
+  "affect": "columnar"
+}

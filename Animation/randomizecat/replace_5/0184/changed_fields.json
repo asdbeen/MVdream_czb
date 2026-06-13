@@ -1,0 +1,32 @@
+{
+  "sample_id": "0184",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "pyramid",
+      "new": "ellipsoid"
+    },
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "ripping"
+    },
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "hollow"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "single"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "tri"
+    }
+  ]
+}

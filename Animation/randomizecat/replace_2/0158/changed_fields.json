@@ -1,0 +1,17 @@
+{
+  "sample_id": "0158",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "curved"
+    },
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "hemisphere"
+    }
+  ]
+}

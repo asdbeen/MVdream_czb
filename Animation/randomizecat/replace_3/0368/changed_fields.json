@@ -1,0 +1,22 @@
+{
+  "sample_id": "0368",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "rotational",
+      "new": "vaulted"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "spiraing"
+    }
+  ]
+}

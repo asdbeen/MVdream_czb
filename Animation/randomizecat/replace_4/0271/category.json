@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cylinder",
+  "direction": "polar",
+  "operation": "twisting",
+  "affect": "hollow"
+}

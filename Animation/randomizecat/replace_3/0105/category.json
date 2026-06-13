@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "line",
+  "direction": "planar",
+  "operation": "subtracting",
+  "affect": "truncated"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "hypershape",
+  "direction": "tri",
+  "operation": "embedding",
+  "affect": "semicircular"
+}

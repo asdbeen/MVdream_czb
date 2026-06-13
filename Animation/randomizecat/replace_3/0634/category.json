@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "wedge",
+  "direction": "cardinal",
+  "operation": "hovering",
+  "affect": "gaping"
+}

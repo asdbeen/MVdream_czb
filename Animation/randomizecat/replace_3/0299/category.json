@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "courtyard",
+  "direction": "vertical",
+  "operation": "zigzagging",
+  "affect": "inserted"
+}

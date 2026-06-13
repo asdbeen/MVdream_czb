@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "lune",
+  "direction": "polar",
+  "operation": "bridging",
+  "affect": "symmetrical"
+}

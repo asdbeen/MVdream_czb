@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "wedge",
+  "direction": "omni",
+  "operation": "leaning",
+  "affect": "round"
+}

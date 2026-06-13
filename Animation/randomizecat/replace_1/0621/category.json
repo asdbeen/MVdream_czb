@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pipe",
+  "direction": "perpendicular",
+  "operation": "branching",
+  "affect": "organic"
+}

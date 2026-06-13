@@ -1,0 +1,22 @@
+{
+  "sample_id": "0846",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "polyhedron",
+      "new": "lune"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "down"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    }
+  ]
+}

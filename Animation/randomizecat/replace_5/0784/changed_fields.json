@@ -1,0 +1,32 @@
+{
+  "sample_id": "0784",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "tri"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "courtyard"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "cubic"
+    },
+    {
+      "field": "operation",
+      "old": "embedding",
+      "new": "kerfing"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

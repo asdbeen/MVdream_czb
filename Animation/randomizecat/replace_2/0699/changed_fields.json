@@ -1,0 +1,17 @@
+{
+  "sample_id": "0699",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "lune"
+    },
+    {
+      "field": "operation",
+      "old": "carving",
+      "new": "subtracting"
+    }
+  ]
+}

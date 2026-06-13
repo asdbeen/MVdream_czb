@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "Lshape",
+  "direction": "bi",
+  "operation": "spiraing",
+  "affect": "dilated"
+}

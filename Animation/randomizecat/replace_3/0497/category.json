@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cube",
+  "direction": "uni",
+  "operation": "draping",
+  "affect": "irregular"
+}

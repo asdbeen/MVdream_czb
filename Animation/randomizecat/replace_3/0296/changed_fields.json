@@ -1,0 +1,22 @@
+{
+  "sample_id": "0296",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "lune"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "wrapping"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "thin"
+    }
+  ]
+}

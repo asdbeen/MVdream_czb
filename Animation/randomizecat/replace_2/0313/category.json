@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "surface",
+  "direction": "down",
+  "operation": "intersecting",
+  "affect": "porous"
+}

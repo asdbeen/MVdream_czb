@@ -1,0 +1,27 @@
+{
+  "sample_id": "0490",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "dilated",
+      "new": "round"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "horizontal"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "splitting"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0559",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "tripod",
+      "new": "courtyard"
+    },
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "peeling"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "gable",
+  "direction": "down",
+  "operation": "subtracting",
+  "affect": "shifted"
+}

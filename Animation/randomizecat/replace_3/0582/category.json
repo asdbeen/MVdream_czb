@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "tube",
+  "direction": "random",
+  "operation": "folding",
+  "affect": "rotational"
+}

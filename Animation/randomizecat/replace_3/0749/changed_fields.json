@@ -1,0 +1,22 @@
+{
+  "sample_id": "0749",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "dashed"
+    },
+    {
+      "field": "operation",
+      "old": "inflating",
+      "new": "unfolding"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "uni"
+    }
+  ]
+}

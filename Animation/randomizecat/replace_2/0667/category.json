@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "vortex",
+  "direction": "perpendicular",
+  "operation": "slitting",
+  "affect": "ruled"
+}

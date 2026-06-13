@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "line",
+  "direction": "random",
+  "operation": "overlapping",
+  "affect": "latticed"
+}

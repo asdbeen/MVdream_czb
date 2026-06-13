@@ -1,0 +1,32 @@
+{
+  "sample_id": "0287",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "perpendicular"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "hovering"
+    },
+    {
+      "field": "volume",
+      "old": "hexagonal",
+      "new": "capsule"
+    },
+    {
+      "field": "affect",
+      "old": "dilated",
+      "new": "tapered"
+    }
+  ]
+}

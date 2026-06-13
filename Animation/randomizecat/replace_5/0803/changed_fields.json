@@ -1,0 +1,32 @@
+{
+  "sample_id": "0803",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "pipe"
+    },
+    {
+      "field": "affect",
+      "old": "bundled",
+      "new": "continuous"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "random"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "arraying"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    }
+  ]
+}

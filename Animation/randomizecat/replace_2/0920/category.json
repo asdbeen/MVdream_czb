@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "pipe",
+  "direction": "normal",
+  "operation": "joining",
+  "affect": "asymmetrical"
+}

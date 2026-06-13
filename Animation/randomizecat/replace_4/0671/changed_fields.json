@@ -1,0 +1,27 @@
+{
+  "sample_id": "0671",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "convex",
+      "new": "kinky"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "courtyard"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "carving",
+      "new": "puncturing"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0193",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "voiding"
+    },
+    {
+      "field": "direction",
+      "old": "radial",
+      "new": "normal"
+    }
+  ]
+}

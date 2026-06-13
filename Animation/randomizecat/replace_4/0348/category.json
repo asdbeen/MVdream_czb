@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "surface",
+  "direction": "uni",
+  "operation": "pleating",
+  "affect": "sunken"
+}

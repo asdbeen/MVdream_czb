@@ -1,0 +1,32 @@
+{
+  "sample_id": "0917",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "twisting",
+      "new": "scarving"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "octahedral"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "down"
+    },
+    {
+      "field": "affect",
+      "old": "waved",
+      "new": "gridded"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "hexagonal",
+  "direction": "perpendicular",
+  "operation": "degrading",
+  "affect": "topographic"
+}

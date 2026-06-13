@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "thin",
+  "operation": "spiraing",
+  "affect": "topographic"
+}

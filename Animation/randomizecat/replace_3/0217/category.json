@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "canopy",
+  "direction": "vertical",
+  "operation": "degrading",
+  "affect": "kinky"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pyramid",
+  "direction": "parallel",
+  "operation": "scaffolding",
+  "affect": "dilated"
+}

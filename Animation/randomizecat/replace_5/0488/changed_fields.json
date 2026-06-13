@@ -1,0 +1,32 @@
+{
+  "sample_id": "0488",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "up"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "pipe"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "carving"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "sunken"
+    }
+  ]
+}

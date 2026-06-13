@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "pyramid",
+  "direction": "centrifugal",
+  "operation": "stretching",
+  "affect": "latticed"
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0598",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "unfolding",
+      "new": "spiraing"
+    },
+    {
+      "field": "affect",
+      "old": "paneled",
+      "new": "hollow"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "wedge"
+    }
+  ]
+}

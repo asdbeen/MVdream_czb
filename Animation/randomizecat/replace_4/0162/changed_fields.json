@@ -1,0 +1,27 @@
+{
+  "sample_id": "0162",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "gaping"
+    },
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "uni"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "surface"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "slitting"
+    }
+  ]
+}

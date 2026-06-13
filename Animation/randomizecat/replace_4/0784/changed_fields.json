@@ -1,0 +1,27 @@
+{
+  "sample_id": "0784",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "conic"
+    },
+    {
+      "field": "operation",
+      "old": "embedding",
+      "new": "intersecting"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "tri"
+    }
+  ]
+}

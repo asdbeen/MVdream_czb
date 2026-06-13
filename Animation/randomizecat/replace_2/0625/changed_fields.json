@@ -1,0 +1,17 @@
+{
+  "sample_id": "0625",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "tapered"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "polar"
+    }
+  ]
+}

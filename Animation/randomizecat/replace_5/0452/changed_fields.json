@@ -1,0 +1,32 @@
+{
+  "sample_id": "0452",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "horizontal"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "containing"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "canopy"
+    },
+    {
+      "field": "affect",
+      "old": "cornered",
+      "new": "stripped"
+    }
+  ]
+}

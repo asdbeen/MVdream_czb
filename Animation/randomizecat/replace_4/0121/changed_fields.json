@@ -1,0 +1,27 @@
+{
+  "sample_id": "0121",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "carving",
+      "new": "grooving"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "cylinder"
+    },
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "bundled"
+    }
+  ]
+}

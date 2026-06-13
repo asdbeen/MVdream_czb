@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cylinder",
+  "direction": "vertical",
+  "operation": "carving",
+  "affect": "porous"
+}

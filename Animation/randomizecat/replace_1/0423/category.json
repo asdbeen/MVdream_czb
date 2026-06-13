@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "arch",
+  "direction": "planar",
+  "operation": "voiding",
+  "affect": "organic"
+}

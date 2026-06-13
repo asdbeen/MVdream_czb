@@ -1,0 +1,22 @@
+{
+  "sample_id": "0681",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "waved",
+      "new": "discontinuous"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "bifurcating"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "centrifugal"
+    }
+  ]
+}

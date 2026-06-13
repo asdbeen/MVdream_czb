@@ -1,0 +1,32 @@
+{
+  "sample_id": "0454",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "oblique"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "curved",
+      "new": "tapered"
+    },
+    {
+      "field": "operation",
+      "old": "slitting",
+      "new": "scaffolding"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "wedge"
+    }
+  ]
+}

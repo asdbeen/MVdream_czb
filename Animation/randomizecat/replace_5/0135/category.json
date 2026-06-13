@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "capsule",
+  "direction": "random",
+  "operation": "undulating",
+  "affect": "latticed"
+}

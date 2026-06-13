@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "gable",
+  "direction": "planar",
+  "operation": "intersecting",
+  "affect": "inserted"
+}

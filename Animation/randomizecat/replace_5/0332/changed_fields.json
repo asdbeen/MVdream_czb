@@ -1,0 +1,32 @@
+{
+  "sample_id": "0332",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "blob"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "bi"
+    },
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "subtracting"
+    },
+    {
+      "field": "affect",
+      "old": "patterned",
+      "new": "domical"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

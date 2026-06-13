@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "donut",
+  "direction": "radial",
+  "operation": "zigzagging",
+  "affect": "discontinuous"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "disk",
+  "direction": "normal",
+  "operation": "folding",
+  "affect": "pyramidal"
+}

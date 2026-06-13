@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "line",
+  "direction": "polar",
+  "operation": "wrapping",
+  "affect": "conic"
+}

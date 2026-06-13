@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hexagonal",
+  "direction": "random",
+  "operation": "undulating",
+  "affect": "concave"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0781",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "bridging"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "affect",
+      "old": "staggered",
+      "new": "prismic"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "thin"
+    }
+  ]
+}

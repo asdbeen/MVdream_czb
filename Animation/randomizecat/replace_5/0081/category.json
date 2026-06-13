@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "canopy",
+  "direction": "oblique",
+  "operation": "fractaling",
+  "affect": "crowned"
+}

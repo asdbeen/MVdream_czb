@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "surface",
+  "direction": "thin",
+  "operation": "pitching",
+  "affect": "cantilevered"
+}

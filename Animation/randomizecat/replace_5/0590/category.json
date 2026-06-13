@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "hemisphere",
+  "direction": "random",
+  "operation": "kerfing",
+  "affect": "irregular"
+}

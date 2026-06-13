@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "capsule",
+  "direction": "planar",
+  "operation": "fluting",
+  "affect": "symmetrical"
+}

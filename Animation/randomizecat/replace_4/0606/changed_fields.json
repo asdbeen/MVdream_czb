@@ -1,0 +1,27 @@
+{
+  "sample_id": "0606",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "interlocking",
+      "new": "folding"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "radial"
+    },
+    {
+      "field": "affect",
+      "old": "Lshaped",
+      "new": "degraded"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    }
+  ]
+}

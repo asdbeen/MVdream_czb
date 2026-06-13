@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cuboid",
+  "direction": "centrifugal",
+  "operation": "ripping",
+  "affect": "inverted"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "Lshape",
+  "direction": "uni",
+  "operation": "pitching",
+  "affect": "round"
+}

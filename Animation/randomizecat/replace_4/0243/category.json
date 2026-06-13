@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cylinder",
+  "direction": "parallel",
+  "operation": "branching",
+  "affect": "vortical"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "tube",
+  "direction": "omni",
+  "operation": "floating",
+  "affect": "tilted"
+}

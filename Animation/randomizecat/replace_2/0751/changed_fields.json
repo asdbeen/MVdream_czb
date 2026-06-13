@@ -1,0 +1,17 @@
+{
+  "sample_id": "0751",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "ellipsoid"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "down"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0286",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "tri"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "glyph"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "crumpling"
+    },
+    {
+      "field": "affect",
+      "old": "wired",
+      "new": "kinky"
+    }
+  ]
+}

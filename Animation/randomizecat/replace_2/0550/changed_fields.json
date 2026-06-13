@@ -1,0 +1,17 @@
+{
+  "sample_id": "0550",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "contained",
+      "new": "tilted"
+    },
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "slicing"
+    }
+  ]
+}

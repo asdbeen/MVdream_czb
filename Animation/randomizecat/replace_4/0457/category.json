@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "line",
+  "direction": "parallel",
+  "operation": "joining",
+  "affect": "round"
+}

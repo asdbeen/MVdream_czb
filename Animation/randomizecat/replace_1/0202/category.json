@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "donut",
+  "direction": "centrifugal",
+  "operation": "hovering",
+  "affect": "conic"
+}

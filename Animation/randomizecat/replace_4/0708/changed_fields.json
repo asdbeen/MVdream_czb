@@ -1,0 +1,27 @@
+{
+  "sample_id": "0708",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "omni"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "pleating",
+      "new": "interlocking"
+    },
+    {
+      "field": "affect",
+      "old": "cornered",
+      "new": "sunken"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0841",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "floating"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "tube"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "affect",
+      "old": "dilated",
+      "new": "framed"
+    }
+  ]
+}

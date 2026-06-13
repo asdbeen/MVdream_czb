@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cone",
+  "direction": "centrifugal",
+  "operation": "joining",
+  "affect": "perimetral"
+}

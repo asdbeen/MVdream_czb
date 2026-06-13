@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hemisphere",
+  "direction": "omni",
+  "operation": "undulating",
+  "affect": "discontinuous"
+}

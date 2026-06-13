@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "disk",
+  "direction": "random",
+  "operation": "intersecting",
+  "affect": "perimetral"
+}

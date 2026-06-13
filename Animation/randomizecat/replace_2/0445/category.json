@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "disk",
+  "direction": "random",
+  "operation": "spiraling",
+  "affect": "cubic"
+}

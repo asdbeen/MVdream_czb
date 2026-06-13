@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "Lshape",
+  "direction": "bi",
+  "operation": "knotting",
+  "affect": "gradated"
+}

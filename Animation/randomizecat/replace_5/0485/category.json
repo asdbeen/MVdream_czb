@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "blob",
+  "direction": "centrifugal",
+  "operation": "knotting",
+  "affect": "tapered"
+}

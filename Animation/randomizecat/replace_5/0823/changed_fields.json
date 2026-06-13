@@ -1,0 +1,32 @@
+{
+  "sample_id": "0823",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "tube"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "radial"
+    },
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "embedding"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "columnar",
+      "new": "bundled"
+    }
+  ]
+}

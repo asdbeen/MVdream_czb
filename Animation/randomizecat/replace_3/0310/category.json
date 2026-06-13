@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "uni",
+  "operation": "intersecting",
+  "affect": "concave"
+}

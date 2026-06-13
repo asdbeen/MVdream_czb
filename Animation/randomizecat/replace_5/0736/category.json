@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "disk",
+  "direction": "vertical",
+  "operation": "containing",
+  "affect": "rolled"
+}

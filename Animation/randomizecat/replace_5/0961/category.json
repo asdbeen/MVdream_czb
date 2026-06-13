@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "capsule",
+  "direction": "centrifugal",
+  "operation": "draping",
+  "affect": "rippled"
+}

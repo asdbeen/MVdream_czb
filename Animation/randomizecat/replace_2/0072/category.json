@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "roll",
+  "direction": "cardinal",
+  "operation": "bending",
+  "affect": "diagonal"
+}

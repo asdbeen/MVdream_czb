@@ -1,0 +1,27 @@
+{
+  "sample_id": "0861",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "lune"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "uni"
+    },
+    {
+      "field": "affect",
+      "old": "spherical",
+      "new": "gradated"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "separating"
+    }
+  ]
+}

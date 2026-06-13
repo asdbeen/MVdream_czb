@@ -1,0 +1,32 @@
+{
+  "sample_id": "0916",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "capsule"
+    },
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "discoid"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "zigzagging"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "omni"
+    }
+  ]
+}

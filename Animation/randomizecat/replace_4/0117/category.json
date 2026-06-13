@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hemisphere",
+  "direction": "uni",
+  "operation": "looping",
+  "affect": "wired"
+}

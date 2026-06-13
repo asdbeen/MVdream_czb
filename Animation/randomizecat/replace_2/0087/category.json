@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "planar",
+  "operation": "tangling",
+  "affect": "notched"
+}

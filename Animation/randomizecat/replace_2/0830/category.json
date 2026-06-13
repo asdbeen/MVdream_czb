@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "tube",
+  "direction": "vertical",
+  "operation": "intersecting",
+  "affect": "curved"
+}

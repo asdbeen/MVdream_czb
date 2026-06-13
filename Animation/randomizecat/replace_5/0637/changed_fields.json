@@ -1,0 +1,32 @@
+{
+  "sample_id": "0637",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "down"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "concave",
+      "new": "degraded"
+    },
+    {
+      "field": "volume",
+      "old": "cross",
+      "new": "arch"
+    },
+    {
+      "field": "operation",
+      "old": "subtracting",
+      "new": "undulating"
+    }
+  ]
+}

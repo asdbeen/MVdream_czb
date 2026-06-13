@@ -1,0 +1,32 @@
+{
+  "sample_id": "0288",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "waved",
+      "new": "rotational"
+    },
+    {
+      "field": "volume",
+      "old": "surface",
+      "new": "blob"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "uni"
+    },
+    {
+      "field": "operation",
+      "old": "containing",
+      "new": "filleting"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0706",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "Lshape"
+    },
+    {
+      "field": "operation",
+      "old": "undulating",
+      "new": "pitching"
+    }
+  ]
+}

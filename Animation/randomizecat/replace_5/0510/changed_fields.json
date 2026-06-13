@@ -1,0 +1,32 @@
+{
+  "sample_id": "0510",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "interlocking",
+      "new": "connecting"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "kinky",
+      "new": "convex"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "surface"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "perpendicular"
+    }
+  ]
+}

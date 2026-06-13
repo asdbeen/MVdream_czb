@@ -1,0 +1,32 @@
+{
+  "sample_id": "0591",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "wrapping",
+      "new": "interlocking"
+    },
+    {
+      "field": "affect",
+      "old": "continuous",
+      "new": "inserted"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "radial"
+    },
+    {
+      "field": "volume",
+      "old": "surface",
+      "new": "cuboid"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

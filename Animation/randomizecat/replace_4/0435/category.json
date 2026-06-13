@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "tripod",
+  "direction": "radial",
+  "operation": "inflating",
+  "affect": "continuous"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hemisphere",
+  "direction": "normal",
+  "operation": "hovering",
+  "affect": "columnar"
+}

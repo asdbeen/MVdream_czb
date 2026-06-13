@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cross",
+  "direction": "cardinal",
+  "operation": "joining",
+  "affect": "continuous"
+}

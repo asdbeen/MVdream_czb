@@ -1,0 +1,27 @@
+{
+  "sample_id": "0627",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "radial"
+    },
+    {
+      "field": "operation",
+      "old": "degrading",
+      "new": "tangling"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "cone"
+    },
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "flooring"
+    }
+  ]
+}

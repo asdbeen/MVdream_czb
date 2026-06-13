@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "surface",
+  "direction": "radial",
+  "operation": "slicing",
+  "affect": "round"
+}

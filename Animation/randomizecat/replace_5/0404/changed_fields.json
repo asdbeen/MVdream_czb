@@ -1,0 +1,32 @@
+{
+  "sample_id": "0404",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "normal"
+    },
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "hemisphere"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "dashed"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "leaning"
+    }
+  ]
+}

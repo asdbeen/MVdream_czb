@@ -1,0 +1,32 @@
+{
+  "sample_id": "0175",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "rotational",
+      "new": "rolled"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "glyph"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "oblique"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "kerfing"
+    }
+  ]
+}

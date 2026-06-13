@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "wedge",
+  "direction": "centrifugal",
+  "operation": "twisting",
+  "affect": "diagonal"
+}

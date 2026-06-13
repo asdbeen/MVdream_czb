@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "surface",
+  "direction": "cardinal",
+  "operation": "intertwining",
+  "affect": "degraded"
+}

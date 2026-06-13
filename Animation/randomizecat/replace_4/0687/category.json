@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "capsule",
+  "direction": "radial",
+  "operation": "arraying",
+  "affect": "framed"
+}

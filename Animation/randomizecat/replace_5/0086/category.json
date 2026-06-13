@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hexagonal",
+  "direction": "vertical",
+  "operation": "overlapping",
+  "affect": "dashed"
+}

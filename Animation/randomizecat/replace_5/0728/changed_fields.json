@@ -1,0 +1,32 @@
+{
+  "sample_id": "0728",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "single"
+    },
+    {
+      "field": "volume",
+      "old": "tripod",
+      "new": "donut"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "oblique"
+    },
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "ripping"
+    },
+    {
+      "field": "affect",
+      "old": "asymmetrical",
+      "new": "rippled"
+    }
+  ]
+}

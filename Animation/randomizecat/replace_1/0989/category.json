@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cylinder",
+  "direction": "bi",
+  "operation": "branching",
+  "affect": "gaping"
+}

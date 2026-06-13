@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "disk",
+  "direction": "up",
+  "operation": "slicing",
+  "affect": "pyramidal"
+}

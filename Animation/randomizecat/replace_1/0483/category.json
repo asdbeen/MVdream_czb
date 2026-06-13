@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "arch",
+  "direction": "planar",
+  "operation": "compressing",
+  "affect": "bundled"
+}

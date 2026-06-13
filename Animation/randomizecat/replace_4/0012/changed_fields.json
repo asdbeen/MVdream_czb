@@ -1,0 +1,27 @@
+{
+  "sample_id": "0012",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "paneled"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "polar"
+    },
+    {
+      "field": "operation",
+      "old": "pleating",
+      "new": "sagging"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

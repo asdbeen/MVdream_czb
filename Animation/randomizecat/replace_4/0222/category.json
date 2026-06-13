@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "ellipsoid",
+  "direction": "thin",
+  "operation": "morphing",
+  "affect": "degraded"
+}

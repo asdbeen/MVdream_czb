@@ -1,0 +1,27 @@
+{
+  "sample_id": "0852",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "ruled"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "tapering"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "courtyard"
+    }
+  ]
+}

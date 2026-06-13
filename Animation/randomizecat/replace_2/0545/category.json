@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "Lshape",
+  "direction": "planar",
+  "operation": "tapering",
+  "affect": "opening"
+}

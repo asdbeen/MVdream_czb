@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "Lshape",
+  "direction": "centrifugal",
+  "operation": "splitting",
+  "affect": "sunken"
+}

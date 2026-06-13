@@ -1,0 +1,22 @@
+{
+  "sample_id": "0005",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "pyramidal",
+      "new": "rippled"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "glyph"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "linear"
+    }
+  ]
+}

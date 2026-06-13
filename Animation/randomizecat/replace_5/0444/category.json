@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cone",
+  "direction": "up",
+  "operation": "bifurcating",
+  "affect": "rotational"
+}

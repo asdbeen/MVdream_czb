@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "canopy",
+  "direction": "tri",
+  "operation": "seperating",
+  "affect": "continuous"
+}

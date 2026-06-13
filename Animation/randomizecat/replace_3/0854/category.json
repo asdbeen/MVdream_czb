@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "arch",
+  "direction": "parallel",
+  "operation": "joining",
+  "affect": "Lshaped"
+}

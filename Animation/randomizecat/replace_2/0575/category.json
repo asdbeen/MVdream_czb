@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "polyhedron",
+  "direction": "horizontal",
+  "operation": "crumpling",
+  "affect": "hollow"
+}

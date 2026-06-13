@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "octahedral",
+  "direction": "planar",
+  "operation": "tangling",
+  "affect": "gradated"
+}

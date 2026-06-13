@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "hexagonal",
+  "direction": "horizontal",
+  "operation": "splashing",
+  "affect": "organic"
+}

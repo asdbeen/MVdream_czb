@@ -1,0 +1,32 @@
+{
+  "sample_id": "0713",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "continuous",
+      "new": "crowned"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "grading"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "octahedral"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "radial"
+    }
+  ]
+}

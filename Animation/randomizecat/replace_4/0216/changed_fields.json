@@ -1,0 +1,27 @@
+{
+  "sample_id": "0216",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "cross"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "carving",
+      "new": "intertwining"
+    },
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "rolled"
+    }
+  ]
+}

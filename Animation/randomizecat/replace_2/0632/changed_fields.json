@@ -1,0 +1,17 @@
+{
+  "sample_id": "0632",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "up"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "perforating"
+    }
+  ]
+}

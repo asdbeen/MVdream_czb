@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cube",
+  "direction": "vertical",
+  "operation": "pitching",
+  "affect": "gabled"
+}

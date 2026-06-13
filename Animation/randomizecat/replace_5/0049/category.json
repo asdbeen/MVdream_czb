@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hemisphere",
+  "direction": "planar",
+  "operation": "stretching",
+  "affect": "inverted"
+}

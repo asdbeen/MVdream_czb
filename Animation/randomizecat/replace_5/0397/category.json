@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "disk",
+  "direction": "perpendicular",
+  "operation": "grooving",
+  "affect": "domical"
+}

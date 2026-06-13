@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "vortex",
+  "direction": "polar",
+  "operation": "peeling",
+  "affect": "colonnaded"
+}

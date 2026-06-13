@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "sphere",
+  "direction": "perpendicular",
+  "operation": "subtracting",
+  "affect": "framed"
+}

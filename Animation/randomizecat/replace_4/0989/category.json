@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hemisphere",
+  "direction": "bi",
+  "operation": "excavating",
+  "affect": "shifted"
+}

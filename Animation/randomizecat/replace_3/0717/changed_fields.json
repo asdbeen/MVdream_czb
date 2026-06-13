@@ -1,0 +1,22 @@
+{
+  "sample_id": "0717",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "tripod"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "linear"
+    }
+  ]
+}

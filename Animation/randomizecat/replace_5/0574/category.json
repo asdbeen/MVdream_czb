@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "canopy",
+  "direction": "planar",
+  "operation": "degrading",
+  "affect": "perimetral"
+}

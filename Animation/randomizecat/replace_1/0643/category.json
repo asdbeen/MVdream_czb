@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "capsule",
+  "direction": "vertical",
+  "operation": "knotting",
+  "affect": "flooring"
+}

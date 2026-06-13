@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "line",
+  "direction": "parallel",
+  "operation": "intertwining",
+  "affect": "wired"
+}

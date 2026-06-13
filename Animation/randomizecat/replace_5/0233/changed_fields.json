@@ -1,0 +1,32 @@
+{
+  "sample_id": "0233",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "polyhedron"
+    },
+    {
+      "field": "affect",
+      "old": "figural",
+      "new": "anthropomorphic"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "vertical"
+    },
+    {
+      "field": "operation",
+      "old": "puncturing",
+      "new": "interlocking"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

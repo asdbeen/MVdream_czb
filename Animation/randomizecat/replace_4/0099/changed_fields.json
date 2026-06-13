@@ -1,0 +1,27 @@
+{
+  "sample_id": "0099",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "uni"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "asymmetrical"
+    },
+    {
+      "field": "operation",
+      "old": "slicing",
+      "new": "kerfing"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0004",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "radial"
+    },
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "filleting"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "sphere"
+    },
+    {
+      "field": "affect",
+      "old": "tentacular",
+      "new": "semicircular"
+    }
+  ]
+}

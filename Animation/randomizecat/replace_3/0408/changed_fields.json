@@ -1,0 +1,22 @@
+{
+  "sample_id": "0408",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "asymmetrical",
+      "new": "truncated"
+    },
+    {
+      "field": "operation",
+      "old": "interlocking",
+      "new": "pitching"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "line"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0967",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "continuous"
+    },
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "kerfing"
+    },
+    {
+      "field": "entity",
+      "old": "triple",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "bi"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "roll"
+    }
+  ]
+}

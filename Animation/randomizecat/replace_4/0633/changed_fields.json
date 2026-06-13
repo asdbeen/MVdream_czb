@@ -1,0 +1,27 @@
+{
+  "sample_id": "0633",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "degraded"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "spiraling",
+      "new": "embedding"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "perpendicular"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0975",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "perpendicular",
+      "new": "parallel"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "arraying"
+    },
+    {
+      "field": "affect",
+      "old": "round",
+      "new": "kinky"
+    }
+  ]
+}

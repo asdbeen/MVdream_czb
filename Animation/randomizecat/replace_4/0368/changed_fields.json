@@ -1,0 +1,27 @@
+{
+  "sample_id": "0368",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "unfolding"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "horizontal"
+    },
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "sphere"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "tube",
+  "direction": "normal",
+  "operation": "arraying",
+  "affect": "rolled"
+}

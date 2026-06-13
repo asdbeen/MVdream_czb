@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "polyhedron",
+  "direction": "cardinal",
+  "operation": "embedding",
+  "affect": "tilted"
+}

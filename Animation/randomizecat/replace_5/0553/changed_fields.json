@@ -1,0 +1,32 @@
+{
+  "sample_id": "0553",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "capsule"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "peeling"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "planar"
+    },
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "rolled"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    }
+  ]
+}

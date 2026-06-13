@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "tripod",
+  "direction": "tri",
+  "operation": "joining",
+  "affect": "rotational"
+}

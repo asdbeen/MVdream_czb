@@ -1,0 +1,17 @@
+{
+  "sample_id": "0402",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "capsule"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "bi"
+    }
+  ]
+}

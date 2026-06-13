@@ -1,0 +1,22 @@
+{
+  "sample_id": "0651",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "pleating"
+    },
+    {
+      "field": "volume",
+      "old": "ellipsoid",
+      "new": "line"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "perpendicular"
+    }
+  ]
+}

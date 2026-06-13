@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "courtyard",
+  "direction": "planar",
+  "operation": "intersecting",
+  "affect": "diagonal"
+}

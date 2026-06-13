@@ -1,0 +1,27 @@
+{
+  "sample_id": "0324",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "cornered"
+    },
+    {
+      "field": "operation",
+      "old": "zigzagging",
+      "new": "pixelating"
+    },
+    {
+      "field": "entity",
+      "old": "triple",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "hexagonal"
+    }
+  ]
+}

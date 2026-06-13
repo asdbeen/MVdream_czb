@@ -1,0 +1,32 @@
+{
+  "sample_id": "0102",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "slicing"
+    },
+    {
+      "field": "affect",
+      "old": "gabled",
+      "new": "paneled"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "cross"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "horizontal"
+    }
+  ]
+}

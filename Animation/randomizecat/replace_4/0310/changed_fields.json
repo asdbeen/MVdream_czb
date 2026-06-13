@@ -1,0 +1,27 @@
+{
+  "sample_id": "0310",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "sagging",
+      "new": "seperating"
+    },
+    {
+      "field": "affect",
+      "old": "convex",
+      "new": "concave"
+    },
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "bi"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0900",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "single"
+    },
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "bifurcating"
+    },
+    {
+      "field": "volume",
+      "old": "tripod",
+      "new": "tube"
+    },
+    {
+      "field": "affect",
+      "old": "symmetrical",
+      "new": "diagonal"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "planar"
+    }
+  ]
+}

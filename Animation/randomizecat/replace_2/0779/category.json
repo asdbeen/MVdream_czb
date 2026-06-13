@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "donut",
+  "direction": "vertical",
+  "operation": "stacking",
+  "affect": "sawtooth"
+}

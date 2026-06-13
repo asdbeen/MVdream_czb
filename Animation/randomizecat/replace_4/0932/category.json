@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "octahedral",
+  "direction": "cardinal",
+  "operation": "interlocking",
+  "affect": "cornered"
+}

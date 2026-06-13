@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "vortex",
+  "direction": "radial",
+  "operation": "packing",
+  "affect": "gridded"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0435",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "normal"
+    },
+    {
+      "field": "volume",
+      "old": "tripod",
+      "new": "pipe"
+    },
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "grooving"
+    },
+    {
+      "field": "affect",
+      "old": "spherical",
+      "new": "hollow"
+    }
+  ]
+}

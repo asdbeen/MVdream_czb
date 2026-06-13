@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "pipe",
+  "direction": "cardinal",
+  "operation": "grading",
+  "affect": "tentacular"
+}

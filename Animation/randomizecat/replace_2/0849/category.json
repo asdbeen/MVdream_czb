@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "stellate",
+  "direction": "radial",
+  "operation": "pitching",
+  "affect": "gridded"
+}

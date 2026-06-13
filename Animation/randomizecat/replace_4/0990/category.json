@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "vortex",
+  "direction": "tri",
+  "operation": "looping",
+  "affect": "cornered"
+}

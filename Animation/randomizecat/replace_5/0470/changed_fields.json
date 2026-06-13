@@ -1,0 +1,32 @@
+{
+  "sample_id": "0470",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "hypershape"
+    },
+    {
+      "field": "operation",
+      "old": "oscillating",
+      "new": "knotting"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "faceted"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "up"
+    }
+  ]
+}

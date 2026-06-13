@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "glyph",
+  "direction": "omni",
+  "operation": "branching",
+  "affect": "columnar"
+}

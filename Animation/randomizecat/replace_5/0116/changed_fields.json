@@ -1,0 +1,32 @@
+{
+  "sample_id": "0116",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "stretching"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "surface",
+      "new": "capsule"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "topographic"
+    },
+    {
+      "field": "direction",
+      "old": "polar",
+      "new": "omni"
+    }
+  ]
+}

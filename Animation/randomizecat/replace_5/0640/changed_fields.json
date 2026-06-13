@@ -1,0 +1,32 @@
+{
+  "sample_id": "0640",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "wedge"
+    },
+    {
+      "field": "operation",
+      "old": "grading",
+      "new": "packing"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "uni"
+    },
+    {
+      "field": "affect",
+      "old": "topographic",
+      "new": "cubic"
+    }
+  ]
+}

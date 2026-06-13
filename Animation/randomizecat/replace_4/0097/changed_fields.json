@@ -1,0 +1,27 @@
+{
+  "sample_id": "0097",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "kinky",
+      "new": "concave"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "cardinal"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "sphere"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "scaffolding"
+    }
+  ]
+}

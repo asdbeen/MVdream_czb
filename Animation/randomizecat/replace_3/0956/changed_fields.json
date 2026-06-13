@@ -1,0 +1,22 @@
+{
+  "sample_id": "0956",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "dashed",
+      "new": "sunken"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "interlocking"
+    }
+  ]
+}

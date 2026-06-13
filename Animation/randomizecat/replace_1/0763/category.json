@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hypershape",
+  "direction": "random",
+  "operation": "carving",
+  "affect": "discoid"
+}

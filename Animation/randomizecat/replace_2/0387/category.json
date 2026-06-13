@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "surface",
+  "direction": "uni",
+  "operation": "zigzagging",
+  "affect": "enveloping"
+}

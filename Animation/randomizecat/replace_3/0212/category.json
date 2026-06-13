@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cuboid",
+  "direction": "perpendicular",
+  "operation": "draping",
+  "affect": "cantilevered"
+}

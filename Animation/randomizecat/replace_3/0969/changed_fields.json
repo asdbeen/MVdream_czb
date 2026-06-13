@@ -1,0 +1,22 @@
+{
+  "sample_id": "0969",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "oblique"
+    },
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "oscillating"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

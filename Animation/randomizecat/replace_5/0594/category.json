@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "donut",
+  "direction": "radial",
+  "operation": "separating",
+  "affect": "sunken"
+}

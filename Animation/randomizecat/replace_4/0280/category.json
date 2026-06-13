@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cuboid",
+  "direction": "perpendicular",
+  "operation": "kerfing",
+  "affect": "truncated"
+}

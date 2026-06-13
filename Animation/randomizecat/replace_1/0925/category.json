@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cuboid",
+  "direction": "bi",
+  "operation": "slicing",
+  "affect": "shifted"
+}

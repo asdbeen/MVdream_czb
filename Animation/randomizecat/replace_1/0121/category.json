@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "sphere",
+  "direction": "oblique",
+  "operation": "inflating",
+  "affect": "notched"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "hemisphere",
+  "direction": "normal",
+  "operation": "zigzagging",
+  "affect": "gridded"
+}

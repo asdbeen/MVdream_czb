@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "octahedral",
+  "direction": "centrifugal",
+  "operation": "separating",
+  "affect": "crowned"
+}

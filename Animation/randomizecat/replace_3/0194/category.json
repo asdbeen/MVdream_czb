@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cross",
+  "direction": "random",
+  "operation": "joining",
+  "affect": "degraded"
+}

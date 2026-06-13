@@ -1,0 +1,32 @@
+{
+  "sample_id": "0192",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "crumpling",
+      "new": "joining"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "tri"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "vortical"
+    },
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "surface"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

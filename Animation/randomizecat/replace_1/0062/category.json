@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cuboid",
+  "direction": "cardinal",
+  "operation": "looping",
+  "affect": "discontinuous"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0963",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "cylinder"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "wrapping"
+    },
+    {
+      "field": "affect",
+      "old": "bundled",
+      "new": "rippled"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "perpendicular"
+    }
+  ]
+}

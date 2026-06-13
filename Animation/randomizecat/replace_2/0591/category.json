@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "surface",
+  "direction": "vertical",
+  "operation": "packing",
+  "affect": "continuous"
+}

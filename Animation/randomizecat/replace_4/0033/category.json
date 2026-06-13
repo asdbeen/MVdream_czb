@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pyramid",
+  "direction": "radial",
+  "operation": "scarving",
+  "affect": "discoid"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hemisphere",
+  "direction": "random",
+  "operation": "separating",
+  "affect": "irregular"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0451",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "horizontal"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "sawtooth"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "oscillating"
+    },
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "surface"
+    }
+  ]
+}

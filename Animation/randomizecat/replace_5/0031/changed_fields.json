@@ -1,0 +1,32 @@
+{
+  "sample_id": "0031",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "polar"
+    },
+    {
+      "field": "operation",
+      "old": "bifurcating",
+      "new": "fractaling"
+    },
+    {
+      "field": "affect",
+      "old": "tentacular",
+      "new": "latticed"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "hypershape"
+    }
+  ]
+}

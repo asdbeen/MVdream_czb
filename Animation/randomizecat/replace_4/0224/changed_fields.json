@@ -1,0 +1,27 @@
+{
+  "sample_id": "0224",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "up"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "concave",
+      "new": "cantilevered"
+    },
+    {
+      "field": "operation",
+      "old": "excavating",
+      "new": "folding"
+    }
+  ]
+}

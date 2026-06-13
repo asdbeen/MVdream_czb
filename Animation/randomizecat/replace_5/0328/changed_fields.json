@@ -1,0 +1,32 @@
+{
+  "sample_id": "0328",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "linear"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "carving",
+      "new": "splashing"
+    },
+    {
+      "field": "volume",
+      "old": "hemisphere",
+      "new": "arch"
+    },
+    {
+      "field": "affect",
+      "old": "sawtooth",
+      "new": "dilated"
+    }
+  ]
+}

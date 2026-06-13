@@ -1,0 +1,22 @@
+{
+  "sample_id": "0178",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "prismic"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "stacking"
+    }
+  ]
+}

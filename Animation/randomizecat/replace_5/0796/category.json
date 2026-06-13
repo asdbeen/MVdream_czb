@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "capsule",
+  "direction": "up",
+  "operation": "intertwining",
+  "affect": "topographic"
+}

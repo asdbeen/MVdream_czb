@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "blob",
+  "direction": "random",
+  "operation": "joining",
+  "affect": "rolled"
+}

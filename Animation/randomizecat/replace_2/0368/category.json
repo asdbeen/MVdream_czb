@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "courtyard",
+  "direction": "thin",
+  "operation": "bridging",
+  "affect": "rotational"
+}

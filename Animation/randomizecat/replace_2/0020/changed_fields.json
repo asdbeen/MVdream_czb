@@ -1,0 +1,17 @@
+{
+  "sample_id": "0020",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "hexagonal"
+    },
+    {
+      "field": "operation",
+      "old": "undulating",
+      "new": "packing"
+    }
+  ]
+}

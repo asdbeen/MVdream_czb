@@ -1,0 +1,27 @@
+{
+  "sample_id": "0521",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "spiraling"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "tri"
+    },
+    {
+      "field": "affect",
+      "old": "sunken",
+      "new": "Lshaped"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "single"
+    }
+  ]
+}

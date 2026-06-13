@@ -1,0 +1,27 @@
+{
+  "sample_id": "0539",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "gable",
+      "new": "lune"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "down"
+    },
+    {
+      "field": "operation",
+      "old": "pitching",
+      "new": "embedding"
+    }
+  ]
+}

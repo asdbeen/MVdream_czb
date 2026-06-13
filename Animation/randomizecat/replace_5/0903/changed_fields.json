@@ -1,0 +1,32 @@
+{
+  "sample_id": "0903",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "pipe"
+    },
+    {
+      "field": "operation",
+      "old": "tapering",
+      "new": "inflating"
+    },
+    {
+      "field": "affect",
+      "old": "round",
+      "new": "latticed"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "thin"
+    }
+  ]
+}

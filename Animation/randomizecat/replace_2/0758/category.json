@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "pyramid",
+  "direction": "parallel",
+  "operation": "looping",
+  "affect": "crowned"
+}

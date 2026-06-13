@@ -1,0 +1,32 @@
+{
+  "sample_id": "0254",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "courtyard"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "cardinal"
+    },
+    {
+      "field": "affect",
+      "old": "inverted",
+      "new": "consistent"
+    },
+    {
+      "field": "operation",
+      "old": "interlocking",
+      "new": "grading"
+    }
+  ]
+}

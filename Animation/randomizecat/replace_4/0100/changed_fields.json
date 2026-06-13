@@ -1,0 +1,27 @@
+{
+  "sample_id": "0100",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "normal"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "faceted"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "wedge"
+    }
+  ]
+}

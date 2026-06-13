@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cross",
+  "direction": "random",
+  "operation": "wrapping",
+  "affect": "dashed"
+}

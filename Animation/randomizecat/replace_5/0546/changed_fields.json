@@ -1,0 +1,32 @@
+{
+  "sample_id": "0546",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "wired",
+      "new": "tilted"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "planar"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "canopy"
+    },
+    {
+      "field": "operation",
+      "old": "wrapping",
+      "new": "pixelating"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

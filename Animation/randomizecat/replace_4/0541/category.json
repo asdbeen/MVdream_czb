@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "canopy",
+  "direction": "up",
+  "operation": "slicing",
+  "affect": "columnar"
+}

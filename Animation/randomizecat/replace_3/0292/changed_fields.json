@@ -1,0 +1,22 @@
+{
+  "sample_id": "0292",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "organic"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "roll"
+    }
+  ]
+}

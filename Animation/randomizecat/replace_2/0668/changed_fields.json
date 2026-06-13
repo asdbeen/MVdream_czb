@@ -1,0 +1,17 @@
+{
+  "sample_id": "0668",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "topographic",
+      "new": "gradated"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "parallel"
+    }
+  ]
+}

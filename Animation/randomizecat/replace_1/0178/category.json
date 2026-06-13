@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pyramid",
+  "direction": "linear",
+  "operation": "intersecting",
+  "affect": "colonnaded"
+}

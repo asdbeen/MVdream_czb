@@ -1,0 +1,32 @@
+{
+  "sample_id": "0615",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "capsule"
+    },
+    {
+      "field": "operation",
+      "old": "scaffolding",
+      "new": "connecting"
+    },
+    {
+      "field": "affect",
+      "old": "perimetral",
+      "new": "organic"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "perpendicular",
+      "new": "up"
+    }
+  ]
+}

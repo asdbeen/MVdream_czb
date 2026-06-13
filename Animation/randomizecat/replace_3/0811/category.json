@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "sphere",
+  "direction": "parallel",
+  "operation": "crumpling",
+  "affect": "hollow"
+}

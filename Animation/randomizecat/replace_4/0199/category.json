@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "wedge",
+  "direction": "bi",
+  "operation": "voiding",
+  "affect": "tilted"
+}

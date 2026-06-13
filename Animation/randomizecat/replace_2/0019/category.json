@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "pipe",
+  "direction": "vertical",
+  "operation": "stacking",
+  "affect": "staggered"
+}

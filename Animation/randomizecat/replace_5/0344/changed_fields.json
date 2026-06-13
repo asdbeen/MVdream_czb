@@ -1,0 +1,32 @@
+{
+  "sample_id": "0344",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "polar"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "line"
+    },
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "wrapping"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "wired",
+      "new": "conic"
+    }
+  ]
+}

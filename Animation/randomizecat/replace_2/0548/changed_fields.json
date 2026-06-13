@@ -1,0 +1,17 @@
+{
+  "sample_id": "0548",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "bundled"
+    },
+    {
+      "field": "operation",
+      "old": "zigzagging",
+      "new": "spiralling"
+    }
+  ]
+}

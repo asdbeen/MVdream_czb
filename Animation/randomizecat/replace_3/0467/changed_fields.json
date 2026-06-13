@@ -1,0 +1,22 @@
+{
+  "sample_id": "0467",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "donut"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "subtracting"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cuboid",
+  "direction": "bi",
+  "operation": "folding",
+  "affect": "gabled"
+}

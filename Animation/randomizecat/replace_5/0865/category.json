@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "stellate",
+  "direction": "linear",
+  "operation": "hovering",
+  "affect": "vaulted"
+}

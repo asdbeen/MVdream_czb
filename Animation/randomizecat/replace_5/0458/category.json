@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "pyramid",
+  "direction": "up",
+  "operation": "spiraing",
+  "affect": "perimetral"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "disk",
+  "direction": "centrifugal",
+  "operation": "inflating",
+  "affect": "crowned"
+}

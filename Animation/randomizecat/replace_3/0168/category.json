@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cuboid",
+  "direction": "horizontal",
+  "operation": "zigzagging",
+  "affect": "latticed"
+}

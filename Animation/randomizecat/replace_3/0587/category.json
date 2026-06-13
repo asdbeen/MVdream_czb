@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "pipe",
+  "direction": "linear",
+  "operation": "stacking",
+  "affect": "enveloping"
+}

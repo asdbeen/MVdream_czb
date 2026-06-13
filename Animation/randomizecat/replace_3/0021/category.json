@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "blob",
+  "direction": "tri",
+  "operation": "knotting",
+  "affect": "spherical"
+}

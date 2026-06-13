@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cylinder",
+  "direction": "oblique",
+  "operation": "joining",
+  "affect": "sunken"
+}

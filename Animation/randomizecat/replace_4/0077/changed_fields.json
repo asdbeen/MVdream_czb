@@ -1,0 +1,27 @@
+{
+  "sample_id": "0077",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "sphere"
+    },
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "thin"
+    },
+    {
+      "field": "operation",
+      "old": "pitching",
+      "new": "oscillating"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

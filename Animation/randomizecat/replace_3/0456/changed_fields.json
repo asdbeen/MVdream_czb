@@ -1,0 +1,22 @@
+{
+  "sample_id": "0456",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "undulating",
+      "new": "scaffolding"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "polar"
+    },
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "discontinuous"
+    }
+  ]
+}

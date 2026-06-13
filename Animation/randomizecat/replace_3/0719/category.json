@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "disk",
+  "direction": "vertical",
+  "operation": "intersecting",
+  "affect": "figural"
+}

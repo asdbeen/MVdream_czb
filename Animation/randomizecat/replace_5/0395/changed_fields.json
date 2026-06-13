@@ -1,0 +1,32 @@
+{
+  "sample_id": "0395",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "latticed"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "arch"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "spiralling"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "thin"
+    }
+  ]
+}

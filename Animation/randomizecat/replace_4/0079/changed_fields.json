@@ -1,0 +1,27 @@
+{
+  "sample_id": "0079",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "peeling",
+      "new": "excavating"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "normal"
+    },
+    {
+      "field": "affect",
+      "old": "sunken",
+      "new": "notched"
+    }
+  ]
+}

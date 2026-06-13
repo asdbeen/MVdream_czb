@@ -1,0 +1,32 @@
+{
+  "sample_id": "0252",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "perpendicular"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "degraded"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "surface"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "degrading"
+    }
+  ]
+}

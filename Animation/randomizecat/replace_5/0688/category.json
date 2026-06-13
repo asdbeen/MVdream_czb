@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "capsule",
+  "direction": "polar",
+  "operation": "ripping",
+  "affect": "staggered"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0032",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "pitching",
+      "new": "undulating"
+    },
+    {
+      "field": "affect",
+      "old": "sawtooth",
+      "new": "Lshaped"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "radial"
+    },
+    {
+      "field": "volume",
+      "old": "gable",
+      "new": "wedge"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

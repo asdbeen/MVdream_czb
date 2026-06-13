@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "hemisphere",
+  "direction": "random",
+  "operation": "intersecting",
+  "affect": "semicircular"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "wedge",
+  "direction": "planar",
+  "operation": "folding",
+  "affect": "paneled"
+}

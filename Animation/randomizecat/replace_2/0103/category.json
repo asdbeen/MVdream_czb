@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "stellate",
+  "direction": "omni",
+  "operation": "voiding",
+  "affect": "sawtooth"
+}

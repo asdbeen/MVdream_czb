@@ -1,0 +1,22 @@
+{
+  "sample_id": "0870",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gridded",
+      "new": "patterned"
+    },
+    {
+      "field": "operation",
+      "old": "perforating",
+      "new": "crumpling"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "cross"
+    }
+  ]
+}

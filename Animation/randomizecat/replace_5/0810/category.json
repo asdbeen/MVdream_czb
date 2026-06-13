@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cross",
+  "direction": "omni",
+  "operation": "kerfing",
+  "affect": "paneled"
+}

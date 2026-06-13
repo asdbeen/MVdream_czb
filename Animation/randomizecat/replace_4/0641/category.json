@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "arch",
+  "direction": "polar",
+  "operation": "spiraling",
+  "affect": "wired"
+}

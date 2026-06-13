@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "vortex",
+  "direction": "vertical",
+  "operation": "pitching",
+  "affect": "cantilevered"
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0802",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "hypershape"
+    },
+    {
+      "field": "operation",
+      "old": "ripping",
+      "new": "bending"
+    }
+  ]
+}

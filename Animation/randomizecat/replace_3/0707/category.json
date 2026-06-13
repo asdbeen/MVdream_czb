@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cone",
+  "direction": "bi",
+  "operation": "seperating",
+  "affect": "asymmetrical"
+}

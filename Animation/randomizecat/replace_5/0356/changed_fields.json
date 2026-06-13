@@ -1,0 +1,32 @@
+{
+  "sample_id": "0356",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "branching"
+    },
+    {
+      "field": "entity",
+      "old": "triple",
+      "new": "single"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "paneled"
+    },
+    {
+      "field": "volume",
+      "old": "lune",
+      "new": "tripod"
+    },
+    {
+      "field": "direction",
+      "old": "tri",
+      "new": "oblique"
+    }
+  ]
+}

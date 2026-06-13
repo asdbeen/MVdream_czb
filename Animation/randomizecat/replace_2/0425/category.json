@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "wedge",
+  "direction": "parallel",
+  "operation": "wrapping",
+  "affect": "stripped"
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0185",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "centrifugal"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "excavating"
+    },
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "faceted"
+    }
+  ]
+}

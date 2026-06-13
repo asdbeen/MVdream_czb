@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "blob",
+  "direction": "perpendicular",
+  "operation": "packing",
+  "affect": "gridded"
+}

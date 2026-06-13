@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cylinder",
+  "direction": "down",
+  "operation": "zigzagging",
+  "affect": "enveloping"
+}

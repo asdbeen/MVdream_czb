@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cuboid",
+  "direction": "omni",
+  "operation": "folding",
+  "affect": "enveloping"
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0288",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "containing",
+      "new": "ripping"
+    },
+    {
+      "field": "affect",
+      "old": "waved",
+      "new": "crowned"
+    },
+    {
+      "field": "volume",
+      "old": "surface",
+      "new": "sphere"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0911",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "wedge",
+      "new": "surface"
+    },
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "up"
+    },
+    {
+      "field": "operation",
+      "old": "peeling",
+      "new": "embedding"
+    },
+    {
+      "field": "affect",
+      "old": "sunken",
+      "new": "rippled"
+    }
+  ]
+}

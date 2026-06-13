@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "hexagonal",
+  "direction": "oblique",
+  "operation": "grading",
+  "affect": "patterned"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cone",
+  "direction": "normal",
+  "operation": "folding",
+  "affect": "stripped"
+}

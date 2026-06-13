@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cube",
+  "direction": "horizontal",
+  "operation": "curving",
+  "affect": "dilated"
+}

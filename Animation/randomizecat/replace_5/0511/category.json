@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "pyramid",
+  "direction": "uni",
+  "operation": "inflating",
+  "affect": "dashed"
+}

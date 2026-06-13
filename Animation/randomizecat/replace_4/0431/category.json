@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "sphere",
+  "direction": "perpendicular",
+  "operation": "oscillating",
+  "affect": "rolled"
+}

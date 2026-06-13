@@ -1,0 +1,22 @@
+{
+  "sample_id": "0780",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "oblique"
+    },
+    {
+      "field": "operation",
+      "old": "pixelating",
+      "new": "puncturing"
+    },
+    {
+      "field": "affect",
+      "old": "paneled",
+      "new": "discoid"
+    }
+  ]
+}

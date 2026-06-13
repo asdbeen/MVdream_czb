@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "donut",
+  "direction": "random",
+  "operation": "wrapping",
+  "affect": "rolled"
+}

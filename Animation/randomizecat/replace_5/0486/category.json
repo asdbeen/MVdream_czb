@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "line",
+  "direction": "planar",
+  "operation": "floating",
+  "affect": "curved"
+}

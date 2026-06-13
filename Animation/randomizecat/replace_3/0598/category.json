@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "wedge",
+  "direction": "linear",
+  "operation": "spiraing",
+  "affect": "hollow"
+}

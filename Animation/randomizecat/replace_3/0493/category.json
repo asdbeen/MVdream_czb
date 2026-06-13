@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "Lshape",
+  "direction": "tri",
+  "operation": "bending",
+  "affect": "sunken"
+}

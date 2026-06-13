@@ -1,0 +1,17 @@
+{
+  "sample_id": "0219",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "spiraling",
+      "new": "puncturing"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "thin"
+    }
+  ]
+}

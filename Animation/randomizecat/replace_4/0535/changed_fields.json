@@ -1,0 +1,27 @@
+{
+  "sample_id": "0535",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "Lshape"
+    },
+    {
+      "field": "operation",
+      "old": "slitting",
+      "new": "peeling"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "affect",
+      "old": "waved",
+      "new": "perimetral"
+    }
+  ]
+}

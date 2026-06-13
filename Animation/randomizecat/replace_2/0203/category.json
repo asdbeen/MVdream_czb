@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "lune",
+  "direction": "perpendicular",
+  "operation": "stacking",
+  "affect": "tentacular"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cube",
+  "direction": "perpendicular",
+  "operation": "intersecting",
+  "affect": "dilated"
+}

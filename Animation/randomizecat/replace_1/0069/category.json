@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "sphere",
+  "direction": "horizontal",
+  "operation": "grading",
+  "affect": "cantilevered"
+}

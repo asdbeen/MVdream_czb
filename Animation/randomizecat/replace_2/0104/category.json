@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "sphere",
+  "direction": "random",
+  "operation": "intersecting",
+  "affect": "gridded"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0607",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "oblique"
+    },
+    {
+      "field": "operation",
+      "old": "embedding",
+      "new": "spiraling"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "cylinder"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "prismic"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

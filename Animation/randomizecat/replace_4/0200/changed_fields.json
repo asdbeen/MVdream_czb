@@ -1,0 +1,27 @@
+{
+  "sample_id": "0200",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "gable"
+    },
+    {
+      "field": "affect",
+      "old": "sunken",
+      "new": "diagonal"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "planar"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "spiralling"
+    }
+  ]
+}

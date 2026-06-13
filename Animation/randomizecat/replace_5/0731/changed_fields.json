@@ -1,0 +1,32 @@
+{
+  "sample_id": "0731",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "hypershape"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "filleting"
+    },
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "topographic"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "cardinal"
+    }
+  ]
+}

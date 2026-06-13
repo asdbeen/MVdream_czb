@@ -1,0 +1,27 @@
+{
+  "sample_id": "0800",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "thin"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "vortical"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "ellipsoid"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "intersecting"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0727",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "opening"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "intertwining",
+      "new": "ripping"
+    }
+  ]
+}

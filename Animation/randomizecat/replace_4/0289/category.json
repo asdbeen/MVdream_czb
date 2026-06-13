@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "courtyard",
+  "direction": "normal",
+  "operation": "curving",
+  "affect": "vaulted"
+}

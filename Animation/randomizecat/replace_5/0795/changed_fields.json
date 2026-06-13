@@ -1,0 +1,32 @@
+{
+  "sample_id": "0795",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "draping"
+    },
+    {
+      "field": "affect",
+      "old": "asymmetrical",
+      "new": "columnar"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "glyph"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "up"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

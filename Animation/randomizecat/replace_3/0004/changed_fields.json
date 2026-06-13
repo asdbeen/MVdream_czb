@@ -1,0 +1,22 @@
+{
+  "sample_id": "0004",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "tentacular",
+      "new": "perimetral"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "glyph"
+    },
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "packing"
+    }
+  ]
+}

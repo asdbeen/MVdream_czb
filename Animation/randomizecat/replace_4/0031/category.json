@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "courtyard",
+  "direction": "down",
+  "operation": "seperating",
+  "affect": "irregular"
+}

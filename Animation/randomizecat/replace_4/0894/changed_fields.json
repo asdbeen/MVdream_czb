@@ -1,0 +1,27 @@
+{
+  "sample_id": "0894",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "cylinder"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "linear"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "anthropomorphic"
+    }
+  ]
+}

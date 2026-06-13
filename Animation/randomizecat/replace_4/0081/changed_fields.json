@@ -1,0 +1,27 @@
+{
+  "sample_id": "0081",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "crumpling",
+      "new": "zigzagging"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "wedge"
+    },
+    {
+      "field": "direction",
+      "old": "polar",
+      "new": "thin"
+    }
+  ]
+}

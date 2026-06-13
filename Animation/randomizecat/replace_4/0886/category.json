@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "disk",
+  "direction": "centrifugal",
+  "operation": "folding",
+  "affect": "rippled"
+}

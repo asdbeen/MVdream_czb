@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cylinder",
+  "direction": "perpendicular",
+  "operation": "carving",
+  "affect": "notched"
+}

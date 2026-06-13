@@ -1,0 +1,17 @@
+{
+  "sample_id": "0321",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "rolled"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "perforating"
+    }
+  ]
+}

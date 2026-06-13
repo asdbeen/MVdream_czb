@@ -1,0 +1,32 @@
+{
+  "sample_id": "0703",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "pipe"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "dilated"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "parallel"
+    },
+    {
+      "field": "operation",
+      "old": "inflating",
+      "new": "overlapping"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

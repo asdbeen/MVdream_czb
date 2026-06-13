@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "blob",
+  "direction": "linear",
+  "operation": "hovering",
+  "affect": "colonnaded"
+}

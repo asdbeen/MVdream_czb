@@ -1,0 +1,27 @@
+{
+  "sample_id": "0946",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "up"
+    },
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "sawtooth"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "wedge"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

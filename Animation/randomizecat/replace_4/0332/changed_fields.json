@@ -1,0 +1,27 @@
+{
+  "sample_id": "0332",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "patterned",
+      "new": "vortical"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "omni"
+    },
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "wrapping"
+    }
+  ]
+}

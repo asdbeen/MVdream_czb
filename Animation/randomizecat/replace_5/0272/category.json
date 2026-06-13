@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cross",
+  "direction": "tri",
+  "operation": "bending",
+  "affect": "bundled"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0425",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "parallel",
+      "new": "random"
+    },
+    {
+      "field": "affect",
+      "old": "stripped",
+      "new": "Lshaped"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "wrapping",
+      "new": "fluting"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "capsule"
+    }
+  ]
+}

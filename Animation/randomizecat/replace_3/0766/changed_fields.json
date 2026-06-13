@@ -1,0 +1,22 @@
+{
+  "sample_id": "0766",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "folding"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "up"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "hemisphere"
+    }
+  ]
+}

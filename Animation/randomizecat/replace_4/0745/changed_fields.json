@@ -1,0 +1,27 @@
+{
+  "sample_id": "0745",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "topographic",
+      "new": "domical"
+    },
+    {
+      "field": "operation",
+      "old": "grading",
+      "new": "twisting"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "up"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cylinder",
+  "direction": "centrifugal",
+  "operation": "inflating",
+  "affect": "patterned"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "pyramid",
+  "direction": "planar",
+  "operation": "hovering",
+  "affect": "stripped"
+}

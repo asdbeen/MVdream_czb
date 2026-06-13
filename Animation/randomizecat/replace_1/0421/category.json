@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hemisphere",
+  "direction": "linear",
+  "operation": "slicing",
+  "affect": "shifted"
+}

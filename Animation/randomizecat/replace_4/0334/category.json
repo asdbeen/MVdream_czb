@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "blob",
+  "direction": "bi",
+  "operation": "compressing",
+  "affect": "dashed"
+}

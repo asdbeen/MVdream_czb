@@ -1,0 +1,32 @@
+{
+  "sample_id": "0619",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "surface"
+    },
+    {
+      "field": "operation",
+      "old": "slicing",
+      "new": "carving"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "omni"
+    },
+    {
+      "field": "affect",
+      "old": "rotational",
+      "new": "prismic"
+    }
+  ]
+}

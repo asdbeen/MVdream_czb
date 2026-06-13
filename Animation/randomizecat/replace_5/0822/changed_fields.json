@@ -1,0 +1,32 @@
+{
+  "sample_id": "0822",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "surface",
+      "new": "lune"
+    },
+    {
+      "field": "affect",
+      "old": "continuous",
+      "new": "circular"
+    },
+    {
+      "field": "operation",
+      "old": "twisting",
+      "new": "intersecting"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "polar"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

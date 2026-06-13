@@ -1,0 +1,27 @@
+{
+  "sample_id": "0664",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "triple",
+      "new": "single"
+    },
+    {
+      "field": "affect",
+      "old": "sunken",
+      "new": "porous"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "spiraling"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "cross"
+    }
+  ]
+}

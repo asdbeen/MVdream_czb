@@ -1,0 +1,27 @@
+{
+  "sample_id": "0619",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "bi"
+    },
+    {
+      "field": "affect",
+      "old": "rotational",
+      "new": "faceted"
+    },
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "arch"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

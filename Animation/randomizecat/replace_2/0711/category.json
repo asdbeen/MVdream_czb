@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cylinder",
+  "direction": "centrifugal",
+  "operation": "wrapping",
+  "affect": "topographic"
+}

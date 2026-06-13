@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "lune",
+  "direction": "normal",
+  "operation": "inflating",
+  "affect": "ruled"
+}

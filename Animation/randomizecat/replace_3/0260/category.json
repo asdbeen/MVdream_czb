@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "vortex",
+  "direction": "cardinal",
+  "operation": "stretching",
+  "affect": "cubic"
+}

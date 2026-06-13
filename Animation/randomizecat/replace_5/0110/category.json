@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "courtyard",
+  "direction": "bi",
+  "operation": "wrapping",
+  "affect": "inverted"
+}

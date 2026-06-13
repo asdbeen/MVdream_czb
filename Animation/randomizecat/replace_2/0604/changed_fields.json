@@ -1,0 +1,17 @@
+{
+  "sample_id": "0604",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "tapered",
+      "new": "truncated"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "tripod"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cone",
+  "direction": "vertical",
+  "operation": "slitting",
+  "affect": "paneled"
+}

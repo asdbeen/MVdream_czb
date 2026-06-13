@@ -1,0 +1,32 @@
+{
+  "sample_id": "0715",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "looping"
+    },
+    {
+      "field": "affect",
+      "old": "gabled",
+      "new": "vaulted"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "cross"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "parallel"
+    }
+  ]
+}

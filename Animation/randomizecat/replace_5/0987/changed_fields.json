@@ -1,0 +1,32 @@
+{
+  "sample_id": "0987",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "planar"
+    },
+    {
+      "field": "volume",
+      "old": "surface",
+      "new": "disk"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "inflating",
+      "new": "tangling"
+    },
+    {
+      "field": "affect",
+      "old": "symmetrical",
+      "new": "asymmetrical"
+    }
+  ]
+}

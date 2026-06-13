@@ -1,0 +1,32 @@
+{
+  "sample_id": "0079",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "peeling",
+      "new": "wrapping"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "horizontal"
+    },
+    {
+      "field": "affect",
+      "old": "sunken",
+      "new": "kinky"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "pipe"
+    }
+  ]
+}

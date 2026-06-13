@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "glyph",
+  "direction": "omni",
+  "operation": "tapering",
+  "affect": "enveloping"
+}

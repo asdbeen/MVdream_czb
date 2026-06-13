@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cube",
+  "direction": "vertical",
+  "operation": "knotting",
+  "affect": "wired"
+}

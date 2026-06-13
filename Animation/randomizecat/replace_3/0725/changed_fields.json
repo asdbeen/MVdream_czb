@@ -1,0 +1,22 @@
+{
+  "sample_id": "0725",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "gable",
+      "new": "donut"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "scaffolding"
+    }
+  ]
+}

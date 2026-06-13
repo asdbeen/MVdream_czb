@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "blob",
+  "direction": "uni",
+  "operation": "grooving",
+  "affect": "curved"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "octahedral",
+  "direction": "linear",
+  "operation": "wrapping",
+  "affect": "round"
+}

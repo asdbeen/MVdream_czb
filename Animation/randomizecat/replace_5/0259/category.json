@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cone",
+  "direction": "oblique",
+  "operation": "fractaling",
+  "affect": "dilated"
+}

@@ -1,0 +1,17 @@
+{
+  "sample_id": "0447",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "wedge"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "polar"
+    }
+  ]
+}

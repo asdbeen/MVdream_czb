@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "disk",
+  "direction": "perpendicular",
+  "operation": "pitching",
+  "affect": "vaulted"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "courtyard",
+  "direction": "horizontal",
+  "operation": "tapering",
+  "affect": "opening"
+}

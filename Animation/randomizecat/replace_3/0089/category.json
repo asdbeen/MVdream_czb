@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "blob",
+  "direction": "vertical",
+  "operation": "stretching",
+  "affect": "hollow"
+}

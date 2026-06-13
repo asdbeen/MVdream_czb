@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pyramid",
+  "direction": "oblique",
+  "operation": "slicing",
+  "affect": "shifted"
+}

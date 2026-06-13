@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "lune",
+  "direction": "horizontal",
+  "operation": "curving",
+  "affect": "hollow"
+}

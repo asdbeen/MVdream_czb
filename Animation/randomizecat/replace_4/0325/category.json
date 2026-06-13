@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "vortex",
+  "direction": "thin",
+  "operation": "subtracting",
+  "affect": "crossed"
+}

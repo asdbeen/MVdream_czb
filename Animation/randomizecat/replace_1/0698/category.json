@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "courtyard",
+  "direction": "cardinal",
+  "operation": "draping",
+  "affect": "porous"
+}

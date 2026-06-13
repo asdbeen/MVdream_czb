@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cone",
+  "direction": "horizontal",
+  "operation": "grooving",
+  "affect": "irregular"
+}

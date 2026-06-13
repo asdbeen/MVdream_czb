@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cone",
+  "direction": "tri",
+  "operation": "hovering",
+  "affect": "colonnaded"
+}

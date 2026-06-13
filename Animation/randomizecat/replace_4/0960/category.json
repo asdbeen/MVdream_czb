@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "lune",
+  "direction": "normal",
+  "operation": "bifurcating",
+  "affect": "notched"
+}

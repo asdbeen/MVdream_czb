@@ -1,0 +1,27 @@
+{
+  "sample_id": "0842",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "wedge"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "up"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "spiraling"
+    }
+  ]
+}

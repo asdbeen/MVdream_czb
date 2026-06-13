@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "octahedral",
+  "direction": "radial",
+  "operation": "scarving",
+  "affect": "faceted"
+}

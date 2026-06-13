@@ -1,0 +1,22 @@
+{
+  "sample_id": "0924",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "radial"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "roll"
+    },
+    {
+      "field": "operation",
+      "old": "connecting",
+      "new": "grading"
+    }
+  ]
+}

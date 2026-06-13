@@ -1,0 +1,27 @@
+{
+  "sample_id": "0488",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "blob"
+    },
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "arraying"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "organic"
+    }
+  ]
+}

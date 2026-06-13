@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "capsule",
+  "direction": "radial",
+  "operation": "curving",
+  "affect": "opening"
+}

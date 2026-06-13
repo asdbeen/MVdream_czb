@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cylinder",
+  "direction": "uni",
+  "operation": "subtracting",
+  "affect": "tentacular"
+}

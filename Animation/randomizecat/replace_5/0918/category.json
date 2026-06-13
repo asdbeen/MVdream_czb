@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hexagonal",
+  "direction": "random",
+  "operation": "twisting",
+  "affect": "cantilevered"
+}

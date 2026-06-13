@@ -1,0 +1,27 @@
+{
+  "sample_id": "0141",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "pyramid",
+      "new": "disk"
+    },
+    {
+      "field": "affect",
+      "old": "truncated",
+      "new": "ruled"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "thin"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "hovering"
+    }
+  ]
+}

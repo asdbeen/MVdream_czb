@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "pyramid",
+  "direction": "perpendicular",
+  "operation": "tangling",
+  "affect": "indented"
+}

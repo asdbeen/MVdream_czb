@@ -1,0 +1,32 @@
+{
+  "sample_id": "0741",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "rolled",
+      "new": "columnar"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "spiraling"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "down"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "Lshape"
+    }
+  ]
+}

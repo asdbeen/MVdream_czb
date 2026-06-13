@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "roll",
+  "direction": "up",
+  "operation": "folding",
+  "affect": "consistent"
+}

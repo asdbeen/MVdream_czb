@@ -1,0 +1,32 @@
+{
+  "sample_id": "0686",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "concave",
+      "new": "indented"
+    },
+    {
+      "field": "direction",
+      "old": "up",
+      "new": "uni"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "sagging",
+      "new": "degrading"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "sphere"
+    }
+  ]
+}

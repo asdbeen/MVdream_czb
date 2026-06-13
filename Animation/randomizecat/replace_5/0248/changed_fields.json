@@ -1,0 +1,32 @@
+{
+  "sample_id": "0248",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "arch"
+    },
+    {
+      "field": "operation",
+      "old": "pitching",
+      "new": "morphing"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "vertical"
+    },
+    {
+      "field": "affect",
+      "old": "inverted",
+      "new": "colonnaded"
+    }
+  ]
+}

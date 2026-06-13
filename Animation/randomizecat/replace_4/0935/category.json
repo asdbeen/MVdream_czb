@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "glyph",
+  "direction": "radial",
+  "operation": "draping",
+  "affect": "faceted"
+}

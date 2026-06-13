@@ -1,0 +1,27 @@
+{
+  "sample_id": "0013",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "tapered"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "crumpling"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "tripod"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

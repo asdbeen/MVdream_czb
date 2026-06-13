@@ -1,0 +1,32 @@
+{
+  "sample_id": "0966",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "curved",
+      "new": "vortical"
+    },
+    {
+      "field": "operation",
+      "old": "inflating",
+      "new": "draping"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "up"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "lune"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hypershape",
+  "direction": "planar",
+  "operation": "ripping",
+  "affect": "irregular"
+}

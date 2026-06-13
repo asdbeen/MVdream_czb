@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "roll",
+  "direction": "vertical",
+  "operation": "stacking",
+  "affect": "irregular"
+}

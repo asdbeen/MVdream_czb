@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "wedge",
+  "direction": "vertical",
+  "operation": "excavating",
+  "affect": "conic"
+}

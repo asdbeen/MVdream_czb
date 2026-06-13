@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "arch",
+  "direction": "perpendicular",
+  "operation": "compressing",
+  "affect": "circular"
+}

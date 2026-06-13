@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "donut",
+  "direction": "vertical",
+  "operation": "splashing",
+  "affect": "discontinuous"
+}

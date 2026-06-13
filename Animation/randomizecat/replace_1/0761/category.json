@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "roll",
+  "direction": "uni",
+  "operation": "compressing",
+  "affect": "enveloping"
+}

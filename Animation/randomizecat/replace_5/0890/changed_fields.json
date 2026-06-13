@@ -1,0 +1,32 @@
+{
+  "sample_id": "0890",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "tri"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "canopy",
+      "new": "glyph"
+    },
+    {
+      "field": "affect",
+      "old": "columnar",
+      "new": "inverted"
+    },
+    {
+      "field": "operation",
+      "old": "morphing",
+      "new": "knotting"
+    }
+  ]
+}

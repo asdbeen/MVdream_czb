@@ -1,0 +1,32 @@
+{
+  "sample_id": "0519",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "glyph",
+      "new": "cube"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "normal"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "filleting"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "tentacular"
+    }
+  ]
+}

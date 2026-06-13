@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "donut",
+  "direction": "horizontal",
+  "operation": "pitching",
+  "affect": "sawtooth"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0900",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "symmetrical",
+      "new": "wired"
+    },
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "folding"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "cardinal"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "quadruple"
+    }
+  ]
+}

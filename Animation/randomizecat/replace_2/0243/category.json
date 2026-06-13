@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cylinder",
+  "direction": "vertical",
+  "operation": "filleting",
+  "affect": "notched"
+}

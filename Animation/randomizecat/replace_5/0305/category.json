@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "blob",
+  "direction": "polar",
+  "operation": "crumpling",
+  "affect": "degraded"
+}

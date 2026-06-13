@@ -1,0 +1,27 @@
+{
+  "sample_id": "0401",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "inflating",
+      "new": "pitching"
+    },
+    {
+      "field": "volume",
+      "old": "surface",
+      "new": "sphere"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "symmetrical"
+    }
+  ]
+}

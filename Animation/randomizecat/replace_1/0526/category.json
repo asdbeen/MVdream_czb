@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hypershape",
+  "direction": "vertical",
+  "operation": "pixelating",
+  "affect": "patterned"
+}

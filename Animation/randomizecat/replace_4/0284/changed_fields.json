@@ -1,0 +1,27 @@
+{
+  "sample_id": "0284",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "radial",
+      "new": "omni"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "hovering",
+      "new": "compressing"
+    },
+    {
+      "field": "affect",
+      "old": "flooring",
+      "new": "rippled"
+    }
+  ]
+}

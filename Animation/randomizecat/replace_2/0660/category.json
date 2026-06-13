@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "donut",
+  "direction": "vertical",
+  "operation": "subtracting",
+  "affect": "sawtooth"
+}

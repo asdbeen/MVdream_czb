@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cube",
+  "direction": "vertical",
+  "operation": "pixelating",
+  "affect": "gradated"
+}

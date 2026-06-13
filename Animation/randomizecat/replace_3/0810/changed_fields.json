@@ -1,0 +1,22 @@
+{
+  "sample_id": "0810",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "cardinal",
+      "new": "horizontal"
+    },
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "sphere"
+    },
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "staggered"
+    }
+  ]
+}

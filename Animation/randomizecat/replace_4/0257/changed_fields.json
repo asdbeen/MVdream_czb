@@ -1,0 +1,27 @@
+{
+  "sample_id": "0257",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "hemisphere"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "waved"
+    },
+    {
+      "field": "operation",
+      "old": "leaning",
+      "new": "embedding"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "multiple"
+    }
+  ]
+}

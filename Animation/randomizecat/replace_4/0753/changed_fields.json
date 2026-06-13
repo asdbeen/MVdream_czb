@@ -1,0 +1,27 @@
+{
+  "sample_id": "0753",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "sawtooth",
+      "new": "continuous"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "stellate"
+    },
+    {
+      "field": "operation",
+      "old": "pitching",
+      "new": "inflating"
+    }
+  ]
+}

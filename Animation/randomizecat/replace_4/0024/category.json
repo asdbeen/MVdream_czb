@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "donut",
+  "direction": "cardinal",
+  "operation": "bridging",
+  "affect": "tilted"
+}

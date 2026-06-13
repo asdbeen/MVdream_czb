@@ -1,0 +1,22 @@
+{
+  "sample_id": "0952",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "crowned",
+      "new": "cubic"
+    },
+    {
+      "field": "direction",
+      "old": "cardinal",
+      "new": "down"
+    },
+    {
+      "field": "operation",
+      "old": "pitching",
+      "new": "seperating"
+    }
+  ]
+}

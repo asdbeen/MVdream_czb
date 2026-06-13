@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "sphere",
+  "direction": "random",
+  "operation": "stacking",
+  "affect": "flooring"
+}

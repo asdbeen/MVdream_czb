@@ -1,0 +1,27 @@
+{
+  "sample_id": "0754",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "slicing"
+    },
+    {
+      "field": "direction",
+      "old": "radial",
+      "new": "tri"
+    },
+    {
+      "field": "affect",
+      "old": "tentacular",
+      "new": "consistent"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

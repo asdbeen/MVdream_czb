@@ -214,31 +214,76 @@ class FrozenCLIPT5Encoder(AbstractEncoder):
 
 
 class ImageEmbedder(AbstractEncoder):
-    """Simple image embedder that produces a fixed-size embedding for an input image.
-    Returns tensor of shape (batch, 1, embed_dim) to be compatible with text pooled embeddings.
+    """DINOv2-based image embedder.
+
+    Returns tensor of shape (batch, num_tokens, embed_dim).
     """
-    def __init__(self, embed_dim=768, device="cuda", img_size=256):
+    def __init__(self, embed_dim=384, device="cuda", img_size=256, model_name="dinov2_vits14", freeze_backbone=True):
         super().__init__()
         self.device = device
         self.embed_dim = embed_dim
         self.img_size = img_size
-        # small conv backbone
-        self.net = nn.Sequential(
-            nn.Conv2d(3, 64, kernel_size=7, stride=2, padding=3),
-            nn.ReLU(inplace=True),
-            nn.MaxPool2d(3, stride=2, padding=1),
-            nn.Conv2d(64, 128, kernel_size=3, stride=2, padding=1),
-            nn.ReLU(inplace=True),
-            nn.AdaptiveAvgPool2d(1),
-            nn.Flatten(),
-            nn.Linear(128, embed_dim),
-            nn.ReLU(inplace=True),
-        )
+        self.model_name = model_name
+        self.freeze_backbone = freeze_backbone
+
+        self.backbone = None
+        self.backbone_img_size = 224
+        self.register_buffer("pixel_mean", torch.tensor([0.485, 0.456, 0.406]).view(1, 3, 1, 1), persistent=False)
+        self.register_buffer("pixel_std", torch.tensor([0.229, 0.224, 0.225]).view(1, 3, 1, 1), persistent=False)
+
+        try:
+            self.backbone = torch.hub.load("facebookresearch/dinov2", self.model_name)
+            self.backbone.eval()
+            for p in self.backbone.parameters():
+                p.requires_grad = not self.freeze_backbone
+            in_features = getattr(self.backbone, "embed_dim", 384)
+            print(f"[info] ImageEmbedder using DINOv2 backbone: {self.model_name} (embed_dim={in_features})")
+        except Exception as e:
+            # Keep training/inference runnable if DINOv2 cannot be fetched in current env.
+            print(f"[warn] Failed to load DINOv2 ({self.model_name}): {e}")
+            print("[warn] Falling back to conv image embedder.")
+            self.backbone = nn.Sequential(
+                nn.Conv2d(3, 64, kernel_size=7, stride=2, padding=3),
+                nn.ReLU(inplace=True),
+                nn.MaxPool2d(3, stride=2, padding=1),
+                nn.Conv2d(64, 128, kernel_size=3, stride=2, padding=1),
+                nn.ReLU(inplace=True),
+                nn.AdaptiveAvgPool2d(1),
+                nn.Flatten(),
+            )
+            in_features = 128
+
+        self.proj = nn.Linear(in_features, embed_dim)
         self.to(self.device)
         self.preprocess = T.Compose([
             T.Resize((self.img_size, self.img_size)),
             T.ToTensor(),
         ])
+
+    def _extract_features(self, x):
+        if hasattr(self.backbone, "forward_features"):
+            feats = self.backbone.forward_features(x)
+            if isinstance(feats, dict):
+                cls_tok = feats.get("x_norm_clstoken", feats.get("x_clstoken", None))
+                patch_tok = feats.get("x_norm_patchtokens", feats.get("x_patchtokens", None))
+                # Keep all tokens: CLS + patch tokens.
+                if cls_tok is not None and patch_tok is not None:
+                    return torch.cat([cls_tok.unsqueeze(1), patch_tok], dim=1)
+                if patch_tok is not None:
+                    return patch_tok
+                if cls_tok is not None:
+                    return cls_tok.unsqueeze(1)
+            if torch.is_tensor(feats):
+                if feats.ndim == 2:
+                    return feats.unsqueeze(1)
+                return feats
+        out = self.backbone(x)
+        if out.ndim > 2:
+            if out.ndim != 3:
+                out = out.flatten(start_dim=1)
+        if out.ndim == 2:
+            out = out.unsqueeze(1)
+        return out
 
     def forward(self, x):
         # expect x: tensor (B,3,H,W) in range [0,1] or [0,255]
@@ -249,9 +294,29 @@ class ImageEmbedder(AbstractEncoder):
         if x.ndim == 3:
             x = x.unsqueeze(0)
         x = x.to(self.device)
-        z = self.net(x)
-        # return shape (B, 1, embed_dim)
-        return z.unsqueeze(1)
+        x = x.float()
+
+        if x.max() > 1.0:
+            x = x / 255.0
+        if x.shape[-2:] != (self.backbone_img_size, self.backbone_img_size):
+            x = torch.nn.functional.interpolate(x, size=(self.backbone_img_size, self.backbone_img_size), mode="bicubic", align_corners=False)
+        x = (x - self.pixel_mean) / self.pixel_std
+
+        if self.freeze_backbone:
+            with torch.no_grad():
+                feats = self._extract_features(x)
+        else:
+            feats = self._extract_features(x)
+
+        z = self.proj(feats)
+        if z.ndim == 2:
+            z = z.unsqueeze(1)
+
+        # print(">>> feats shape:", feats.shape)
+        # print(">>> z shape:", z.shape)
+
+
+        return z
 
     def encode(self, x):
         return self(x)

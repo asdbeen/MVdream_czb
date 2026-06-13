@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cross",
+  "direction": "radial",
+  "operation": "spiraling",
+  "affect": "porous"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "Lshape",
+  "direction": "thin",
+  "operation": "peeling",
+  "affect": "perimetral"
+}

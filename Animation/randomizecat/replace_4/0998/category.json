@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "wedge",
+  "direction": "bi",
+  "operation": "spiraling",
+  "affect": "shifted"
+}

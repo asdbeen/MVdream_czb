@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "blob",
+  "direction": "horizontal",
+  "operation": "intersecting",
+  "affect": "semicircular"
+}

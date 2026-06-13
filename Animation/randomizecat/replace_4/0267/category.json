@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hexagonal",
+  "direction": "centrifugal",
+  "operation": "compressing",
+  "affect": "flooring"
+}

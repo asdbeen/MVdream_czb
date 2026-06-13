@@ -1,0 +1,27 @@
+{
+  "sample_id": "0798",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "roll"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "rippled",
+      "new": "gabled"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "perpendicular"
+    }
+  ]
+}

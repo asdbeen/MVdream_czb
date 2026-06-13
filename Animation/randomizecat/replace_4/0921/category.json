@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "surface",
+  "direction": "parallel",
+  "operation": "compressing",
+  "affect": "irregular"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "Lshape",
+  "direction": "vertical",
+  "operation": "degrading",
+  "affect": "contained"
+}

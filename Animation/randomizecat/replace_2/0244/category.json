@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "normal",
+  "operation": "inflating",
+  "affect": "staggered"
+}

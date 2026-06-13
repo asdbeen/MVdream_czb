@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "stellate",
+  "direction": "tri",
+  "operation": "inflating",
+  "affect": "hollow"
+}

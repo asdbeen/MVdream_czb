@@ -1,0 +1,27 @@
+{
+  "sample_id": "0510",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "kinky",
+      "new": "hollow"
+    },
+    {
+      "field": "operation",
+      "old": "interlocking",
+      "new": "twisting"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "sphere"
+    }
+  ]
+}

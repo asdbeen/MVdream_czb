@@ -1,0 +1,17 @@
+{
+  "sample_id": "0708",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "pleating",
+      "new": "crumpling"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "polyhedron"
+    }
+  ]
+}

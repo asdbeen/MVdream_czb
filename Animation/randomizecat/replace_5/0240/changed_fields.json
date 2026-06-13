@@ -1,0 +1,32 @@
+{
+  "sample_id": "0240",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "uni"
+    },
+    {
+      "field": "operation",
+      "old": "zigzagging",
+      "new": "branching"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "bundled"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "pipe"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

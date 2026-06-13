@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "oblique",
+  "operation": "carving",
+  "affect": "porous"
+}

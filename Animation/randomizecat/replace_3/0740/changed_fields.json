@@ -1,0 +1,22 @@
+{
+  "sample_id": "0740",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "spiraling",
+      "new": "folding"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "lune"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "omni"
+    }
+  ]
+}

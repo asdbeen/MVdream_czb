@@ -1,0 +1,22 @@
+{
+  "sample_id": "0464",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "pyramidal",
+      "new": "rolled"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "arraying"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

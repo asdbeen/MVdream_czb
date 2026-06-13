@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "arch",
+  "direction": "thin",
+  "operation": "curving",
+  "affect": "tilted"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "canopy",
+  "direction": "up",
+  "operation": "compressing",
+  "affect": "rolled"
+}

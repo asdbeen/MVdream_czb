@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "disk",
+  "direction": "perpendicular",
+  "operation": "bridging",
+  "affect": "continuous"
+}

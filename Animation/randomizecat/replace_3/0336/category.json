@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "up",
+  "operation": "bridging",
+  "affect": "inverted"
+}

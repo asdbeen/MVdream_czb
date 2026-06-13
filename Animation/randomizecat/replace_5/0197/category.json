@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "donut",
+  "direction": "parallel",
+  "operation": "crumpling",
+  "affect": "indented"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0060",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "linear"
+    },
+    {
+      "field": "affect",
+      "old": "inserted",
+      "new": "stripped"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "cylinder"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    }
+  ]
+}

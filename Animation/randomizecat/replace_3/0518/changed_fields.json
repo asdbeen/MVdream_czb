@@ -1,0 +1,22 @@
+{
+  "sample_id": "0518",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "omni"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "ellipsoid"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "inserted"
+    }
+  ]
+}

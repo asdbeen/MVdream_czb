@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cube",
+  "direction": "oblique",
+  "operation": "slicing",
+  "affect": "shifted"
+}

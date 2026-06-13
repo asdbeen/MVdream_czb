@@ -1,0 +1,22 @@
+{
+  "sample_id": "0683",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "opening",
+      "new": "framed"
+    },
+    {
+      "field": "direction",
+      "old": "tri",
+      "new": "perpendicular"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "unfolding"
+    }
+  ]
+}

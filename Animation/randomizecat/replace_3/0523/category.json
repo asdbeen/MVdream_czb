@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "stellate",
+  "direction": "random",
+  "operation": "pleating",
+  "affect": "discontinuous"
+}

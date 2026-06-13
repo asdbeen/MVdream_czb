@@ -1,0 +1,22 @@
+{
+  "sample_id": "0270",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "staggered"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "bi"
+    }
+  ]
+}

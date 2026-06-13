@@ -1,0 +1,22 @@
+{
+  "sample_id": "0507",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "dashed"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "capsule",
+      "new": "cylinder"
+    }
+  ]
+}

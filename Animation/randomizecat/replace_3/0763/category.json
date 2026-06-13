@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "stellate",
+  "direction": "random",
+  "operation": "looping",
+  "affect": "concave"
+}

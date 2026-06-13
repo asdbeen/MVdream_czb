@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cuboid",
+  "direction": "normal",
+  "operation": "excavating",
+  "affect": "notched"
+}

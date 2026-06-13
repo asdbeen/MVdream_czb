@@ -1,0 +1,22 @@
+{
+  "sample_id": "0531",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "curved"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "gable"
+    },
+    {
+      "field": "operation",
+      "old": "carving",
+      "new": "looping"
+    }
+  ]
+}

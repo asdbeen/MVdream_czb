@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "surface",
+  "direction": "horizontal",
+  "operation": "inflating",
+  "affect": "cantilevered"
+}

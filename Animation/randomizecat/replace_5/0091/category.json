@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "surface",
+  "direction": "linear",
+  "operation": "inflating",
+  "affect": "discoid"
+}

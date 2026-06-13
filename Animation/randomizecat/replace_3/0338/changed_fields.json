@@ -1,0 +1,22 @@
+{
+  "sample_id": "0338",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "stellate",
+      "new": "cone"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "omni"
+    },
+    {
+      "field": "affect",
+      "old": "cornered",
+      "new": "bundled"
+    }
+  ]
+}

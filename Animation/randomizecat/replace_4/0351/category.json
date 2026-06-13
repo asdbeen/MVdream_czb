@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "courtyard",
+  "direction": "uni",
+  "operation": "joining",
+  "affect": "gridded"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0895",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "hovering"
+    },
+    {
+      "field": "volume",
+      "old": "hemisphere",
+      "new": "line"
+    },
+    {
+      "field": "affect",
+      "old": "perimetral",
+      "new": "pyramidal"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "single"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "stellate",
+  "direction": "omni",
+  "operation": "pixelating",
+  "affect": "contained"
+}

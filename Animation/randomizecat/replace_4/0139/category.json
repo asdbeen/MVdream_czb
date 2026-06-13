@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "disk",
+  "direction": "omni",
+  "operation": "spiraling",
+  "affect": "gradated"
+}

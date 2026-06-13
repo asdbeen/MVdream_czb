@@ -1,0 +1,27 @@
+{
+  "sample_id": "0530",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "oblique"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "ellipsoid"
+    },
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "tapered"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "single"
+    }
+  ]
+}

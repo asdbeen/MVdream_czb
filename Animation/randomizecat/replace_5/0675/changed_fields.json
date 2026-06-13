@@ -1,0 +1,32 @@
+{
+  "sample_id": "0675",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "dilated",
+      "new": "organic"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "omni"
+    },
+    {
+      "field": "operation",
+      "old": "subtracting",
+      "new": "looping"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "capsule"
+    }
+  ]
+}

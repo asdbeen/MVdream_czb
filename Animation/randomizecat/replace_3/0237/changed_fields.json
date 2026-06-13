@@ -1,0 +1,22 @@
+{
+  "sample_id": "0237",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "donut"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "interlocking"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "bi"
+    }
+  ]
+}

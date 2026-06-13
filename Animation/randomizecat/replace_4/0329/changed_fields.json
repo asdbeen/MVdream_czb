@@ -1,0 +1,27 @@
+{
+  "sample_id": "0329",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "radial"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "sagging"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "cube"
+    }
+  ]
+}

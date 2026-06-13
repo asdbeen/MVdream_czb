@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "blob",
+  "direction": "horizontal",
+  "operation": "grooving",
+  "affect": "ruled"
+}

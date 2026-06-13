@@ -1,0 +1,32 @@
+{
+  "sample_id": "0088",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "courtyard"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "planar"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "domical"
+    },
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "scarving"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

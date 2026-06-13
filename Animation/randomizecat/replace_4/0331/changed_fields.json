@@ -1,0 +1,27 @@
+{
+  "sample_id": "0331",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "voiding",
+      "new": "looping"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "framed",
+      "new": "gaping"
+    },
+    {
+      "field": "volume",
+      "old": "polyhedron",
+      "new": "surface"
+    }
+  ]
+}

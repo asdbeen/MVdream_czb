@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "surface",
+  "direction": "thin",
+  "operation": "wrapping",
+  "affect": "tentacular"
+}

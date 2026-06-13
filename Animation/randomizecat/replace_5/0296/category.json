@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "glyph",
+  "direction": "radial",
+  "operation": "compressing",
+  "affect": "wired"
+}

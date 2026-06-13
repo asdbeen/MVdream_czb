@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "ellipsoid",
+  "direction": "bi",
+  "operation": "grooving",
+  "affect": "discontinuous"
+}

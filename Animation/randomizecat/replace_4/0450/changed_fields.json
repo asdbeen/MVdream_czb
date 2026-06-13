@@ -1,0 +1,27 @@
+{
+  "sample_id": "0450",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "hexagonal"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "horizontal"
+    },
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "porous"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "stacking"
+    }
+  ]
+}

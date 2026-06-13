@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "arch",
+  "direction": "vertical",
+  "operation": "morphing",
+  "affect": "colonnaded"
+}

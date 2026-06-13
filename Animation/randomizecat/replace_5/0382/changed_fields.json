@@ -1,0 +1,32 @@
+{
+  "sample_id": "0382",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "perpendicular"
+    },
+    {
+      "field": "affect",
+      "old": "circular",
+      "new": "tilted"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "arch"
+    },
+    {
+      "field": "operation",
+      "old": "voiding",
+      "new": "draping"
+    }
+  ]
+}

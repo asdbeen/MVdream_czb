@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "line",
+  "direction": "random",
+  "operation": "folding",
+  "affect": "irregular"
+}

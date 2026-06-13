@@ -1,0 +1,27 @@
+{
+  "sample_id": "0856",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "contained",
+      "new": "gabled"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "cube"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "pitching"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "wedge",
+  "direction": "normal",
+  "operation": "subtracting",
+  "affect": "wired"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "capsule",
+  "direction": "cardinal",
+  "operation": "grading",
+  "affect": "faceted"
+}

@@ -1,0 +1,17 @@
+{
+  "sample_id": "0742",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "courtyard"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "folding"
+    }
+  ]
+}

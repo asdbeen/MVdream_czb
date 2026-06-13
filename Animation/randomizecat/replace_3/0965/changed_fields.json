@@ -1,0 +1,22 @@
+{
+  "sample_id": "0965",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "capsule"
+    },
+    {
+      "field": "operation",
+      "old": "undulating",
+      "new": "peeling"
+    },
+    {
+      "field": "affect",
+      "old": "discoid",
+      "new": "enveloping"
+    }
+  ]
+}

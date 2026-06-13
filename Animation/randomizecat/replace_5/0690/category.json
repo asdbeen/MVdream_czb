@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "line",
+  "direction": "perpendicular",
+  "operation": "excavating",
+  "affect": "enveloping"
+}

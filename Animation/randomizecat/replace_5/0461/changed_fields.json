@@ -1,0 +1,32 @@
+{
+  "sample_id": "0461",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "donut"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "staggered",
+      "new": "prismic"
+    },
+    {
+      "field": "operation",
+      "old": "slicing",
+      "new": "spiralling"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "oblique"
+    }
+  ]
+}

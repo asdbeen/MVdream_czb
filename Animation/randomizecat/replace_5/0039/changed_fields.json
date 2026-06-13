@@ -1,0 +1,32 @@
+{
+  "sample_id": "0039",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "roll"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "containing"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "thin"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "crossed"
+    }
+  ]
+}

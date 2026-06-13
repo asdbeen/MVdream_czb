@@ -1,0 +1,32 @@
+{
+  "sample_id": "0489",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "dilated",
+      "new": "porous"
+    },
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "pleating"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "single"
+    },
+    {
+      "field": "direction",
+      "old": "cardinal",
+      "new": "thin"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "capsule"
+    }
+  ]
+}

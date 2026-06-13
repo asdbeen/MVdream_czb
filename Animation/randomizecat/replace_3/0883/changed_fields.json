@@ -1,0 +1,22 @@
+{
+  "sample_id": "0883",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "gable"
+    },
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "intertwining"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "single"
+    }
+  ]
+}

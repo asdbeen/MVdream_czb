@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "canopy",
+  "direction": "oblique",
+  "operation": "slitting",
+  "affect": "cubic"
+}

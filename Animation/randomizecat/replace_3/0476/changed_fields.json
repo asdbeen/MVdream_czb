@@ -1,0 +1,22 @@
+{
+  "sample_id": "0476",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "centrifugal",
+      "new": "down"
+    },
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "stellate"
+    },
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "fractaling"
+    }
+  ]
+}

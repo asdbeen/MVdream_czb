@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "pipe",
+  "direction": "vertical",
+  "operation": "spiraling",
+  "affect": "curved"
+}

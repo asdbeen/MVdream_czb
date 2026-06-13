@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cone",
+  "direction": "up",
+  "operation": "tapering",
+  "affect": "figural"
+}

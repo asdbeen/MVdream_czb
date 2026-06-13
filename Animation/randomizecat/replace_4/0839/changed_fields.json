@@ -1,0 +1,27 @@
+{
+  "sample_id": "0839",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "disk"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "oblique"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "dashed"
+    }
+  ]
+}

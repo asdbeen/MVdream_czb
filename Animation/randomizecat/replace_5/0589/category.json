@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "gable",
+  "direction": "thin",
+  "operation": "filleting",
+  "affect": "tapered"
+}

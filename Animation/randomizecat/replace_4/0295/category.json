@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cuboid",
+  "direction": "cardinal",
+  "operation": "scaffolding",
+  "affect": "inverted"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cross",
+  "direction": "bi",
+  "operation": "looping",
+  "affect": "discontinuous"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hypershape",
+  "direction": "linear",
+  "operation": "puncturing",
+  "affect": "columnar"
+}

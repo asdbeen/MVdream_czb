@@ -1,0 +1,32 @@
+{
+  "sample_id": "0614",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "filleting"
+    },
+    {
+      "field": "affect",
+      "old": "kinky",
+      "new": "convex"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "down"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "vortex"
+    }
+  ]
+}

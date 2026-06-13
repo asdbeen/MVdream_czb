@@ -1,0 +1,22 @@
+{
+  "sample_id": "0845",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "grooving",
+      "new": "scarving"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "horizontal"
+    }
+  ]
+}

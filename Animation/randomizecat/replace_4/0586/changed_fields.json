@@ -1,0 +1,27 @@
+{
+  "sample_id": "0586",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "shifted"
+    },
+    {
+      "field": "direction",
+      "old": "up",
+      "new": "radial"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "knotting"
+    },
+    {
+      "field": "volume",
+      "old": "blob",
+      "new": "lune"
+    }
+  ]
+}

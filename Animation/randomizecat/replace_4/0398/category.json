@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "hypershape",
+  "direction": "omni",
+  "operation": "floating",
+  "affect": "asymmetrical"
+}

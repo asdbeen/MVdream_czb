@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cube",
+  "direction": "linear",
+  "operation": "unfolding",
+  "affect": "paneled"
+}

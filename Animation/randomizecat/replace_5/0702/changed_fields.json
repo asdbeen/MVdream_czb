@@ -1,0 +1,32 @@
+{
+  "sample_id": "0702",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "domical",
+      "new": "organic"
+    },
+    {
+      "field": "volume",
+      "old": "wedge",
+      "new": "arch"
+    },
+    {
+      "field": "direction",
+      "old": "radial",
+      "new": "vertical"
+    },
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "tangling"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    }
+  ]
+}

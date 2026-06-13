@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "surface",
+  "direction": "vertical",
+  "operation": "slicing",
+  "affect": "kinky"
+}

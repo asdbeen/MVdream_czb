@@ -1,0 +1,32 @@
+{
+  "sample_id": "0855",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "dilated",
+      "new": "wired"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "fractaling"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "centrifugal"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "Lshape"
+    }
+  ]
+}

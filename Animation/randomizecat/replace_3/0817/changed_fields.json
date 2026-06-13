@@ -1,0 +1,22 @@
+{
+  "sample_id": "0817",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "figural",
+      "new": "cubic"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "hypershape"
+    }
+  ]
+}

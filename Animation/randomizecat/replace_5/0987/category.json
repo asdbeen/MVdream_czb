@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "disk",
+  "direction": "planar",
+  "operation": "tangling",
+  "affect": "asymmetrical"
+}

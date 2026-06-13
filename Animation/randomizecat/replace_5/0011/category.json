@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "octahedral",
+  "direction": "parallel",
+  "operation": "stretching",
+  "affect": "latticed"
+}

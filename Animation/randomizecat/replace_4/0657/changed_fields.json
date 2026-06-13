@@ -1,0 +1,27 @@
+{
+  "sample_id": "0657",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "figural"
+    },
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "puncturing"
+    },
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "wedge"
+    },
+    {
+      "field": "direction",
+      "old": "up",
+      "new": "thin"
+    }
+  ]
+}

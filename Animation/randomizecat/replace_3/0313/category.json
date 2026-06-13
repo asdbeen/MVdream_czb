@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "sphere",
+  "direction": "oblique",
+  "operation": "wrapping",
+  "affect": "stripped"
+}

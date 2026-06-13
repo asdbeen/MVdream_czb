@@ -1,0 +1,32 @@
+{
+  "sample_id": "0156",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "planar"
+    },
+    {
+      "field": "operation",
+      "old": "grooving",
+      "new": "peeling"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "cross"
+    },
+    {
+      "field": "affect",
+      "old": "patterned",
+      "new": "circular"
+    }
+  ]
+}

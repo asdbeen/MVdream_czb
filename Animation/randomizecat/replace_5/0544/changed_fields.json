@@ -1,0 +1,32 @@
+{
+  "sample_id": "0544",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "normal"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "undulating",
+      "new": "ripping"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "arch"
+    },
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "Lshaped"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "gable",
+  "direction": "planar",
+  "operation": "zigzagging",
+  "affect": "cornered"
+}

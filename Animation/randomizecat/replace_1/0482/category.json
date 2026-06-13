@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "surface",
+  "direction": "up",
+  "operation": "draping",
+  "affect": "enveloping"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "sphere",
+  "direction": "uni",
+  "operation": "intertwining",
+  "affect": "vaulted"
+}

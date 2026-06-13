@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "courtyard",
+  "direction": "tri",
+  "operation": "packing",
+  "affect": "vaulted"
+}

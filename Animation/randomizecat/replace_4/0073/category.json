@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "polyhedron",
+  "direction": "horizontal",
+  "operation": "branching",
+  "affect": "curved"
+}

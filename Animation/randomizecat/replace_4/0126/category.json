@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "arch",
+  "direction": "linear",
+  "operation": "looping",
+  "affect": "topographic"
+}

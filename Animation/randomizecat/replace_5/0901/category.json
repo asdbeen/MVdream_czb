@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hypershape",
+  "direction": "centrifugal",
+  "operation": "seperating",
+  "affect": "flooring"
+}

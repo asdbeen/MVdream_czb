@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cube",
+  "direction": "random",
+  "operation": "embedding",
+  "affect": "tapered"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "line",
+  "direction": "linear",
+  "operation": "pitching",
+  "affect": "perimetral"
+}

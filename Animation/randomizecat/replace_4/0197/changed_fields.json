@@ -1,0 +1,27 @@
+{
+  "sample_id": "0197",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "arch"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "affect",
+      "old": "degraded",
+      "new": "sunken"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "centrifugal"
+    }
+  ]
+}

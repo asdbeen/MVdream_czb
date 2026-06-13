@@ -1,0 +1,22 @@
+{
+  "sample_id": "0490",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "dilated",
+      "new": "wired"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "degrading"
+    }
+  ]
+}

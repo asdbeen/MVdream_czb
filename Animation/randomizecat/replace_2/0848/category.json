@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hemisphere",
+  "direction": "vertical",
+  "operation": "stacking",
+  "affect": "hollow"
+}

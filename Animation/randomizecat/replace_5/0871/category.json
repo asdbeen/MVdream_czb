@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "surface",
+  "direction": "polar",
+  "operation": "bulging",
+  "affect": "waved"
+}

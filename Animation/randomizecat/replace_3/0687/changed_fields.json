@@ -1,0 +1,22 @@
+{
+  "sample_id": "0687",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "peeling"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "staggered"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "pipe"
+    }
+  ]
+}

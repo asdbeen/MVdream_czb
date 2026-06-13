@@ -1,0 +1,22 @@
+{
+  "sample_id": "0578",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "cardinal"
+    },
+    {
+      "field": "affect",
+      "old": "prismic",
+      "new": "discoid"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "tripod"
+    }
+  ]
+}

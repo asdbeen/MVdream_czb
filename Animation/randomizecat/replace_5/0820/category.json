@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cone",
+  "direction": "up",
+  "operation": "inflating",
+  "affect": "Lshaped"
+}

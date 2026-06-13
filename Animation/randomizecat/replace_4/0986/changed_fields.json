@@ -1,0 +1,27 @@
+{
+  "sample_id": "0986",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "curved",
+      "new": "asymmetrical"
+    },
+    {
+      "field": "direction",
+      "old": "cardinal",
+      "new": "parallel"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "tripod"
+    }
+  ]
+}

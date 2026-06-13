@@ -1,0 +1,27 @@
+{
+  "sample_id": "0876",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "undulating",
+      "new": "looping"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "round"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "octahedral"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "gable",
+  "direction": "tri",
+  "operation": "bending",
+  "affect": "notched"
+}

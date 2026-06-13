@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "octahedral",
+  "direction": "thin",
+  "operation": "hovering",
+  "affect": "columnar"
+}

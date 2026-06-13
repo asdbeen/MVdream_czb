@@ -1,0 +1,17 @@
+{
+  "sample_id": "0394",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "porous"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "polar"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0777",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "glyph"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "floating"
+    },
+    {
+      "field": "affect",
+      "old": "columnar",
+      "new": "kinky"
+    },
+    {
+      "field": "direction",
+      "old": "tri",
+      "new": "random"
+    }
+  ]
+}

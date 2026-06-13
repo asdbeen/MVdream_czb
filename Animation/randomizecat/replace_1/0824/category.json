@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cone",
+  "direction": "oblique",
+  "operation": "branching",
+  "affect": "perimetral"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "Lshape",
+  "direction": "radial",
+  "operation": "slitting",
+  "affect": "hollow"
+}

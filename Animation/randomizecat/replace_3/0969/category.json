@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "tube",
+  "direction": "oblique",
+  "operation": "oscillating",
+  "affect": "continuous"
+}

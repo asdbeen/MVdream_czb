@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "sphere",
+  "direction": "tri",
+  "operation": "peeling",
+  "affect": "contained"
+}

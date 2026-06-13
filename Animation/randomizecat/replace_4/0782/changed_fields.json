@@ -1,0 +1,27 @@
+{
+  "sample_id": "0782",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "dilated",
+      "new": "tapered"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "blob"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "tapering"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    }
+  ]
+}

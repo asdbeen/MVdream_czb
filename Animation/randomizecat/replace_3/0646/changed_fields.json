@@ -1,0 +1,22 @@
+{
+  "sample_id": "0646",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "hypershape",
+      "new": "courtyard"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "spiralling"
+    }
+  ]
+}

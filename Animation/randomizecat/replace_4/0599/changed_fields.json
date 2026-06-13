@@ -1,0 +1,27 @@
+{
+  "sample_id": "0599",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "polar"
+    },
+    {
+      "field": "affect",
+      "old": "tentacular",
+      "new": "notched"
+    },
+    {
+      "field": "entity",
+      "old": "triple",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "spiraling",
+      "new": "ripping"
+    }
+  ]
+}

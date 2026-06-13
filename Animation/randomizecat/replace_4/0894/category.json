@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cylinder",
+  "direction": "linear",
+  "operation": "kerfing",
+  "affect": "anthropomorphic"
+}

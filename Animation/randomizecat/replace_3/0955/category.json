@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cuboid",
+  "direction": "parallel",
+  "operation": "voiding",
+  "affect": "dashed"
+}

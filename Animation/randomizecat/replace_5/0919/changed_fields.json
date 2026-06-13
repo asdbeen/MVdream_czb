@@ -1,0 +1,32 @@
+{
+  "sample_id": "0919",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "cylinder"
+    },
+    {
+      "field": "operation",
+      "old": "waffling",
+      "new": "tapering"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "cardinal"
+    },
+    {
+      "field": "affect",
+      "old": "gridded",
+      "new": "dashed"
+    }
+  ]
+}

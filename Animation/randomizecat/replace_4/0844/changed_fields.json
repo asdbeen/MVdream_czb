@@ -1,0 +1,27 @@
+{
+  "sample_id": "0844",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "opening",
+      "new": "rotational"
+    },
+    {
+      "field": "direction",
+      "old": "polar",
+      "new": "normal"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "bending"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "vortex",
+  "direction": "planar",
+  "operation": "splashing",
+  "affect": "porous"
+}

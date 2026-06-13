@@ -1,0 +1,32 @@
+{
+  "sample_id": "0719",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "affect",
+      "old": "flooring",
+      "new": "irregular"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "lune"
+    },
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "knotting"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "parallel"
+    }
+  ]
+}

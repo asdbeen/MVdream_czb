@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "tube",
+  "direction": "up",
+  "operation": "splashing",
+  "affect": "rotational"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "gable",
+  "direction": "radial",
+  "operation": "stacking",
+  "affect": "gridded"
+}

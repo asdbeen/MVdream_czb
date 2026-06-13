@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "donut",
+  "direction": "polar",
+  "operation": "slicing",
+  "affect": "round"
+}

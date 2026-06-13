@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "courtyard",
+  "direction": "normal",
+  "operation": "knotting",
+  "affect": "cubic"
+}

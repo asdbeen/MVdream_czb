@@ -1,0 +1,22 @@
+{
+  "sample_id": "0475",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "polyhedron"
+    },
+    {
+      "field": "affect",
+      "old": "cylindrical",
+      "new": "flooring"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "sagging"
+    }
+  ]
+}

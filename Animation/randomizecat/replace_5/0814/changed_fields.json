@@ -1,0 +1,32 @@
+{
+  "sample_id": "0814",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "curved",
+      "new": "dilated"
+    },
+    {
+      "field": "operation",
+      "old": "bridging",
+      "new": "folding"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "normal"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "disk"
+    }
+  ]
+}

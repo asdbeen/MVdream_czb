@@ -1,0 +1,22 @@
+{
+  "sample_id": "0904",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "peeling"
+    },
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "flooring"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0607",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "domical"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "canopy"
+    },
+    {
+      "field": "operation",
+      "old": "embedding",
+      "new": "sagging"
+    }
+  ]
+}

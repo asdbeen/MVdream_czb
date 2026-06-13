@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cube",
+  "direction": "perpendicular",
+  "operation": "fractaling",
+  "affect": "wired"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "tube",
+  "direction": "bi",
+  "operation": "undulating",
+  "affect": "faceted"
+}

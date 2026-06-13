@@ -1,0 +1,27 @@
+{
+  "sample_id": "0146",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "undulating",
+      "new": "curving"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "ellipsoid"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "framed"
+    }
+  ]
+}

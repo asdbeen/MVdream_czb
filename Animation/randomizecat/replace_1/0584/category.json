@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "pipe",
+  "direction": "bi",
+  "operation": "bending",
+  "affect": "cornered"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0748",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "linear"
+    },
+    {
+      "field": "volume",
+      "old": "pyramid",
+      "new": "hypershape"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "pitching"
+    },
+    {
+      "field": "affect",
+      "old": "cornered",
+      "new": "waved"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

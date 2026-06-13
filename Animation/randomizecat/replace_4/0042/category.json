@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hexagonal",
+  "direction": "omni",
+  "operation": "bending",
+  "affect": "conic"
+}

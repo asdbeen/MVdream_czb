@@ -1,0 +1,22 @@
+{
+  "sample_id": "0191",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "normal"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "slitting"
+    }
+  ]
+}

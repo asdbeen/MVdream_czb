@@ -1,0 +1,32 @@
+{
+  "sample_id": "0406",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "down"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "degrading"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "organic"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "cone"
+    }
+  ]
+}

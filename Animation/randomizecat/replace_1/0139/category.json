@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cube",
+  "direction": "thin",
+  "operation": "packing",
+  "affect": "gradated"
+}

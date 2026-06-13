@@ -1,0 +1,32 @@
+{
+  "sample_id": "0867",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "blob",
+      "new": "tripod"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "curving"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "tri"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "topographic"
+    }
+  ]
+}

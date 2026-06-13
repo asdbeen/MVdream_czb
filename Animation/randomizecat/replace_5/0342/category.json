@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "glyph",
+  "direction": "polar",
+  "operation": "hovering",
+  "affect": "semicircular"
+}

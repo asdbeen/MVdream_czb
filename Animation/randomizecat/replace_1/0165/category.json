@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "tube",
+  "direction": "bi",
+  "operation": "connecting",
+  "affect": "bundled"
+}

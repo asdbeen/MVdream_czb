@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "down",
+  "operation": "arraying",
+  "affect": "columnar"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "blob",
+  "direction": "vertical",
+  "operation": "unfolding",
+  "affect": "cubic"
+}

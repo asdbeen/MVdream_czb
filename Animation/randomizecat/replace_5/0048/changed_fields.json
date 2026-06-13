@@ -1,0 +1,32 @@
+{
+  "sample_id": "0048",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "asymmetrical",
+      "new": "dilated"
+    },
+    {
+      "field": "operation",
+      "old": "bifurcating",
+      "new": "inflating"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "courtyard"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "polar"
+    }
+  ]
+}

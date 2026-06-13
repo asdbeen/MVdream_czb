@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "canopy",
+  "direction": "vertical",
+  "operation": "perforating",
+  "affect": "tilted"
+}

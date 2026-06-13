@@ -1,0 +1,32 @@
+{
+  "sample_id": "0971",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "curved",
+      "new": "gradated"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "pipe"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "ripping"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "down"
+    }
+  ]
+}

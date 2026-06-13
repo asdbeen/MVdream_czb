@@ -1,0 +1,32 @@
+{
+  "sample_id": "0408",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "normal"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "vortex"
+    },
+    {
+      "field": "affect",
+      "old": "asymmetrical",
+      "new": "consistent"
+    },
+    {
+      "field": "operation",
+      "old": "interlocking",
+      "new": "inflating"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cone",
+  "direction": "centrifugal",
+  "operation": "hovering",
+  "affect": "perimetral"
+}

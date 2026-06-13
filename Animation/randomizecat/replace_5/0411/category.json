@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "capsule",
+  "direction": "up",
+  "operation": "puncturing",
+  "affect": "staggered"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cuboid",
+  "direction": "polar",
+  "operation": "pixelating",
+  "affect": "cantilevered"
+}

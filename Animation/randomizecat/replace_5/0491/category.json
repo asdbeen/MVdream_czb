@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "ellipsoid",
+  "direction": "polar",
+  "operation": "bending",
+  "affect": "columnar"
+}

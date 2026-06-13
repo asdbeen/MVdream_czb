@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "pyramid",
+  "direction": "parallel",
+  "operation": "puncturing",
+  "affect": "truncated"
+}

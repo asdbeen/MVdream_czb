@@ -1,0 +1,22 @@
+{
+  "sample_id": "0186",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "horizontal"
+    },
+    {
+      "field": "affect",
+      "old": "discontinuous",
+      "new": "crossed"
+    },
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "ripping"
+    }
+  ]
+}

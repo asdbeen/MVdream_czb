@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hypershape",
+  "direction": "omni",
+  "operation": "pixelating",
+  "affect": "patterned"
+}

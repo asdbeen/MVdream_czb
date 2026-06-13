@@ -1,0 +1,22 @@
+{
+  "sample_id": "0211",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "tube"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "cardinal"
+    },
+    {
+      "field": "affect",
+      "old": "rotational",
+      "new": "topographic"
+    }
+  ]
+}

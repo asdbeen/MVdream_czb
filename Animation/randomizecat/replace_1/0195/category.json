@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "tube",
+  "direction": "vertical",
+  "operation": "packing",
+  "affect": "bundled"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0057",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "cornered",
+      "new": "diagonal"
+    },
+    {
+      "field": "operation",
+      "old": "subtracting",
+      "new": "joining"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "hypershape"
+    },
+    {
+      "field": "direction",
+      "old": "cardinal",
+      "new": "random"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

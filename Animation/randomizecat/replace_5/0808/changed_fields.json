@@ -1,0 +1,32 @@
+{
+  "sample_id": "0808",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "up",
+      "new": "omni"
+    },
+    {
+      "field": "operation",
+      "old": "splashing",
+      "new": "slitting"
+    },
+    {
+      "field": "volume",
+      "old": "blob",
+      "new": "hexagonal"
+    },
+    {
+      "field": "affect",
+      "old": "crowned",
+      "new": "Lshaped"
+    }
+  ]
+}

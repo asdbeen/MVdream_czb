@@ -1,0 +1,32 @@
+{
+  "sample_id": "0529",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "subtracting",
+      "new": "carving"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "semicircular"
+    },
+    {
+      "field": "volume",
+      "old": "hemisphere",
+      "new": "polyhedron"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "planar"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

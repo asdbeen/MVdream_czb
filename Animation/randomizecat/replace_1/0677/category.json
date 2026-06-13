@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "gable",
+  "direction": "perpendicular",
+  "operation": "peeling",
+  "affect": "inverted"
+}

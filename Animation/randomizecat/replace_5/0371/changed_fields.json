@@ -1,0 +1,32 @@
+{
+  "sample_id": "0371",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "joining"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "cardinal"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "cross"
+    },
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "continuous"
+    }
+  ]
+}

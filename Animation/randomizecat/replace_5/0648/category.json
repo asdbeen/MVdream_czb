@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "roll",
+  "direction": "bi",
+  "operation": "packing",
+  "affect": "rolled"
+}

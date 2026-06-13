@@ -1,0 +1,32 @@
+{
+  "sample_id": "0796",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "pyramid",
+      "new": "capsule"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "intertwining"
+    },
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "topographic"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "up"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0468",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "arraying"
+    },
+    {
+      "field": "affect",
+      "old": "rotational",
+      "new": "latticed"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "capsule"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "tri"
+    },
+    {
+      "field": "entity",
+      "old": "triple",
+      "new": "multiple"
+    }
+  ]
+}

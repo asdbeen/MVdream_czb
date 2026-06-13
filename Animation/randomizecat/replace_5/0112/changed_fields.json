@@ -1,0 +1,32 @@
+{
+  "sample_id": "0112",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "horizontal"
+    },
+    {
+      "field": "volume",
+      "old": "blob",
+      "new": "pyramid"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "undulating"
+    },
+    {
+      "field": "affect",
+      "old": "prismic",
+      "new": "colonnaded"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    }
+  ]
+}

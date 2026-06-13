@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "line",
+  "direction": "centrifugal",
+  "operation": "pitching",
+  "affect": "inverted"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "arch",
+  "direction": "radial",
+  "operation": "voiding",
+  "affect": "rotational"
+}

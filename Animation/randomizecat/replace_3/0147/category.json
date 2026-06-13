@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "pipe",
+  "direction": "omni",
+  "operation": "packing",
+  "affect": "gabled"
+}

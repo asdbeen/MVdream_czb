@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "hexagonal",
+  "direction": "planar",
+  "operation": "packing",
+  "affect": "Lshaped"
+}

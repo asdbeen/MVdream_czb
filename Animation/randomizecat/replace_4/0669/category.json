@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "polyhedron",
+  "direction": "random",
+  "operation": "carving",
+  "affect": "hollow"
+}

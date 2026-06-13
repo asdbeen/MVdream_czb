@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "gable",
+  "direction": "horizontal",
+  "operation": "twisting",
+  "affect": "tilted"
+}

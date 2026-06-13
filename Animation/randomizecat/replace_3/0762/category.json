@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "glyph",
+  "direction": "parallel",
+  "operation": "wrapping",
+  "affect": "cylindrical"
+}

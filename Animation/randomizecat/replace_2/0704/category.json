@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cube",
+  "direction": "oblique",
+  "operation": "fractaling",
+  "affect": "porous"
+}

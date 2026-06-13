@@ -1,0 +1,27 @@
+{
+  "sample_id": "0669",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "random"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "polyhedron"
+    },
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "hollow"
+    },
+    {
+      "field": "operation",
+      "old": "pixelating",
+      "new": "carving"
+    }
+  ]
+}

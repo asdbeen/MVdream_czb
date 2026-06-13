@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "sphere",
+  "direction": "parallel",
+  "operation": "tapering",
+  "affect": "dashed"
+}

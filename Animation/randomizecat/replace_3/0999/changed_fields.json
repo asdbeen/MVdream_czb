@@ -1,0 +1,22 @@
+{
+  "sample_id": "0999",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "morphing"
+    },
+    {
+      "field": "affect",
+      "old": "wired",
+      "new": "cylindrical"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "uni"
+    }
+  ]
+}

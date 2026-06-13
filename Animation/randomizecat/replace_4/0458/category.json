@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "surface",
+  "direction": "normal",
+  "operation": "puncturing",
+  "affect": "concave"
+}

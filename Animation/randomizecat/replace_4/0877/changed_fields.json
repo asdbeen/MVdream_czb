@@ -1,0 +1,27 @@
+{
+  "sample_id": "0877",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "slitting"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "single"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "flooring"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "tri"
+    }
+  ]
+}

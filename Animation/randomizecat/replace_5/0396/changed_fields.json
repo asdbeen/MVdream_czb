@@ -1,0 +1,32 @@
+{
+  "sample_id": "0396",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "tube"
+    },
+    {
+      "field": "affect",
+      "old": "rippled",
+      "new": "crowned"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "degrading"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "normal"
+    }
+  ]
+}

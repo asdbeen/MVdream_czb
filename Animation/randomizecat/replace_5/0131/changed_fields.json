@@ -1,0 +1,32 @@
+{
+  "sample_id": "0131",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "pleating"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "tentacular"
+    },
+    {
+      "field": "direction",
+      "old": "up",
+      "new": "omni"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "donut"
+    }
+  ]
+}

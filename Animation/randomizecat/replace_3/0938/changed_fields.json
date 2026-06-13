@@ -1,0 +1,22 @@
+{
+  "sample_id": "0938",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "planar"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "pyramid"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "pixelating"
+    }
+  ]
+}

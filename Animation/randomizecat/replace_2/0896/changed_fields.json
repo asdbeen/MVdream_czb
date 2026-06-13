@@ -1,0 +1,17 @@
+{
+  "sample_id": "0896",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "staggered",
+      "new": "irregular"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "degrading"
+    }
+  ]
+}

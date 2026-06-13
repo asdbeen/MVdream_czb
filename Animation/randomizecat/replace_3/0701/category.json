@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "ellipsoid",
+  "direction": "uni",
+  "operation": "undulating",
+  "affect": "gabled"
+}

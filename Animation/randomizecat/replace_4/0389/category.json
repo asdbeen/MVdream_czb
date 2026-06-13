@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cube",
+  "direction": "polar",
+  "operation": "splitting",
+  "affect": "convex"
+}

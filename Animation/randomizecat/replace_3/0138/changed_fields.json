@@ -1,0 +1,22 @@
+{
+  "sample_id": "0138",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "cylinder"
+    },
+    {
+      "field": "operation",
+      "old": "peeling",
+      "new": "zigzagging"
+    },
+    {
+      "field": "affect",
+      "old": "paneled",
+      "new": "sunken"
+    }
+  ]
+}

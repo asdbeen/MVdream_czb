@@ -1,0 +1,32 @@
+{
+  "sample_id": "0787",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "cardinal"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "surface"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "degraded"
+    },
+    {
+      "field": "operation",
+      "old": "bulging",
+      "new": "intertwining"
+    }
+  ]
+}

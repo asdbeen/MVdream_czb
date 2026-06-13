@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "pyramid",
+  "direction": "linear",
+  "operation": "oscillating",
+  "affect": "cantilevered"
+}

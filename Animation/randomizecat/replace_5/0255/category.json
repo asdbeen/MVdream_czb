@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cone",
+  "direction": "cardinal",
+  "operation": "bifurcating",
+  "affect": "stripped"
+}

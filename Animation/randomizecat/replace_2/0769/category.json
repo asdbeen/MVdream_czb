@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cuboid",
+  "direction": "horizontal",
+  "operation": "curving",
+  "affect": "opening"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0846",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "polyhedron",
+      "new": "cone"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "down"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "affect",
+      "old": "dilated",
+      "new": "Lshaped"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "spiraling"
+    }
+  ]
+}

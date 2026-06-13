@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "polyhedron",
+  "direction": "polar",
+  "operation": "floating",
+  "affect": "gabled"
+}

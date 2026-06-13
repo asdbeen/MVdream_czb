@@ -1,0 +1,32 @@
+{
+  "sample_id": "0797",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "affect",
+      "old": "gridded",
+      "new": "dilated"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "hemisphere"
+    },
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "pitching"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "up"
+    }
+  ]
+}

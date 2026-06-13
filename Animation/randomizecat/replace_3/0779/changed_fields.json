@@ -1,0 +1,22 @@
+{
+  "sample_id": "0779",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "flooring",
+      "new": "figural"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "disk"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    }
+  ]
+}

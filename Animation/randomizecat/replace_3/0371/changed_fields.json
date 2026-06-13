@@ -1,0 +1,22 @@
+{
+  "sample_id": "0371",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "waved"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "excavating"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "octahedral"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cone",
+  "direction": "oblique",
+  "operation": "containing",
+  "affect": "opening"
+}

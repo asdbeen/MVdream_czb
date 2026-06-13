@@ -1,0 +1,27 @@
+{
+  "sample_id": "0151",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "framed",
+      "new": "tentacular"
+    },
+    {
+      "field": "operation",
+      "old": "twisting",
+      "new": "pitching"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "uni"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "hypershape"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0497",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "uni"
+    },
+    {
+      "field": "operation",
+      "old": "pixelating",
+      "new": "draping"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

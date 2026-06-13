@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cone",
+  "direction": "random",
+  "operation": "embedding",
+  "affect": "discontinuous"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "surface",
+  "direction": "random",
+  "operation": "joining",
+  "affect": "prismic"
+}

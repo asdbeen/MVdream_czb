@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hypershape",
+  "direction": "omni",
+  "operation": "morphing",
+  "affect": "sunken"
+}

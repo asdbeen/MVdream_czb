@@ -1,0 +1,17 @@
+{
+  "sample_id": "0267",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "uni"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "pipe"
+    }
+  ]
+}

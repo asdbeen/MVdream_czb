@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "sphere",
+  "direction": "thin",
+  "operation": "zigzagging",
+  "affect": "discoid"
+}

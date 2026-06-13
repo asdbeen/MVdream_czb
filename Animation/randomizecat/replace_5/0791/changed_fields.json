@@ -1,0 +1,32 @@
+{
+  "sample_id": "0791",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "crossed",
+      "new": "discontinuous"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "disk"
+    },
+    {
+      "field": "operation",
+      "old": "scaffolding",
+      "new": "seperating"
+    },
+    {
+      "field": "direction",
+      "old": "perpendicular",
+      "new": "planar"
+    }
+  ]
+}

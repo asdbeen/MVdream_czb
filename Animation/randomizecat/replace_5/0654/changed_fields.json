@@ -1,0 +1,32 @@
+{
+  "sample_id": "0654",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "normal"
+    },
+    {
+      "field": "operation",
+      "old": "pixelating",
+      "new": "pitching"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "wedge"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "curved"
+    }
+  ]
+}

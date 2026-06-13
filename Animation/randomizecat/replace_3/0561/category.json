@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hexagonal",
+  "direction": "oblique",
+  "operation": "spiraling",
+  "affect": "cubic"
+}

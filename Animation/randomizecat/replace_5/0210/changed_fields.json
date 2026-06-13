@@ -1,0 +1,32 @@
+{
+  "sample_id": "0210",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "planar"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "donut"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "intersecting"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "inverted"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0780",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "hemisphere",
+      "new": "pyramid"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "parallel"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "pixelating",
+      "new": "slicing"
+    },
+    {
+      "field": "affect",
+      "old": "paneled",
+      "new": "tentacular"
+    }
+  ]
+}

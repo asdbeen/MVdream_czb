@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "pyramid",
+  "direction": "polar",
+  "operation": "stacking",
+  "affect": "cylindrical"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0430",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "polar"
+    },
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "wired"
+    },
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "peeling"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "courtyard"
+    }
+  ]
+}

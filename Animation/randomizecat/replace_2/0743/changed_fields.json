@@ -1,0 +1,17 @@
+{
+  "sample_id": "0743",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "fluting"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "linear"
+    }
+  ]
+}

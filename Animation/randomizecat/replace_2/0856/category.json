@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "stellate",
+  "direction": "radial",
+  "operation": "draping",
+  "affect": "contained"
+}

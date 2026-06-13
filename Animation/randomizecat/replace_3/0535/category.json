@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "arch",
+  "direction": "omni",
+  "operation": "slitting",
+  "affect": "inserted"
+}

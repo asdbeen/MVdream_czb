@@ -1,0 +1,22 @@
+{
+  "sample_id": "0271",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "hypershape",
+      "new": "gable"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "crumpling"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    }
+  ]
+}

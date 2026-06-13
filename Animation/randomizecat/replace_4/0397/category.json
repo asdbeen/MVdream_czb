@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cone",
+  "direction": "cardinal",
+  "operation": "tapering",
+  "affect": "vaulted"
+}

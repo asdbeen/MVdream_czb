@@ -1,0 +1,27 @@
+{
+  "sample_id": "0320",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "random"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "flooring"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "sphere"
+    }
+  ]
+}

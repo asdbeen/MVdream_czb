@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "ellipsoid",
+  "direction": "omni",
+  "operation": "hovering",
+  "affect": "framed"
+}

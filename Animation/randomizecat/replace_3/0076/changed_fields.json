@@ -1,0 +1,22 @@
+{
+  "sample_id": "0076",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "compressing"
+    },
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "rotational"
+    }
+  ]
+}

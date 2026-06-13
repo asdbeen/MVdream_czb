@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cone",
+  "direction": "random",
+  "operation": "subtracting",
+  "affect": "paneled"
+}

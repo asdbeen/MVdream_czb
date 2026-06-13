@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "arch",
+  "direction": "bi",
+  "operation": "carving",
+  "affect": "staggered"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0646",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "domical"
+    },
+    {
+      "field": "volume",
+      "old": "hypershape",
+      "new": "tube"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "uni"
+    },
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "oscillating"
+    }
+  ]
+}

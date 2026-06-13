@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "polyhedron",
+  "direction": "random",
+  "operation": "spiraing",
+  "affect": "tapered"
+}

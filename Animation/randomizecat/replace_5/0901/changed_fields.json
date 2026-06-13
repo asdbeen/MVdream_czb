@@ -1,0 +1,32 @@
+{
+  "sample_id": "0901",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "crumpling",
+      "new": "seperating"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "hypershape"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "centrifugal"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "flooring"
+    }
+  ]
+}

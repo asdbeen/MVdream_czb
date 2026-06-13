@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "line",
+  "direction": "centrifugal",
+  "operation": "voiding",
+  "affect": "contained"
+}

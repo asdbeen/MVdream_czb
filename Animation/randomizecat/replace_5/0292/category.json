@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cylinder",
+  "direction": "radial",
+  "operation": "stretching",
+  "affect": "latticed"
+}

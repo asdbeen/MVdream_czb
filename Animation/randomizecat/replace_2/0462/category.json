@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cross",
+  "direction": "normal",
+  "operation": "bifurcating",
+  "affect": "irregular"
+}

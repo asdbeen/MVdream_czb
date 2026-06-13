@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "donut",
+  "direction": "tri",
+  "operation": "joining",
+  "affect": "round"
+}

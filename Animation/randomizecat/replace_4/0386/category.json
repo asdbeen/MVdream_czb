@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "capsule",
+  "direction": "perpendicular",
+  "operation": "splitting",
+  "affect": "indented"
+}

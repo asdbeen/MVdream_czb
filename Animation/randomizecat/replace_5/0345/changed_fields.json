@@ -1,0 +1,32 @@
+{
+  "sample_id": "0345",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "omni"
+    },
+    {
+      "field": "operation",
+      "old": "perforating",
+      "new": "undulating"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "hemisphere"
+    },
+    {
+      "field": "affect",
+      "old": "figural",
+      "new": "discontinuous"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

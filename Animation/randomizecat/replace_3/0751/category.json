@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "tube",
+  "direction": "parallel",
+  "operation": "connecting",
+  "affect": "dilated"
+}

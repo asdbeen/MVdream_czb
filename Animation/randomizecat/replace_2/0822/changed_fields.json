@@ -1,0 +1,17 @@
+{
+  "sample_id": "0822",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "continuous",
+      "new": "opening"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "random"
+    }
+  ]
+}

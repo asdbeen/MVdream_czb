@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "capsule",
+  "direction": "perpendicular",
+  "operation": "twisting",
+  "affect": "pyramidal"
+}

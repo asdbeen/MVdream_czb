@@ -1,0 +1,27 @@
+{
+  "sample_id": "0222",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "kerfing",
+      "new": "morphing"
+    },
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "degraded"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "ellipsoid"
+    }
+  ]
+}

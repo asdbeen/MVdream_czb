@@ -1,0 +1,22 @@
+{
+  "sample_id": "0793",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "filleting"
+    },
+    {
+      "field": "affect",
+      "old": "staggered",
+      "new": "columnar"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    }
+  ]
+}

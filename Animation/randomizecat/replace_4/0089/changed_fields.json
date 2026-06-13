@@ -1,0 +1,27 @@
+{
+  "sample_id": "0089",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "patterned"
+    },
+    {
+      "field": "operation",
+      "old": "stretching",
+      "new": "containing"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "cone"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "random"
+    }
+  ]
+}

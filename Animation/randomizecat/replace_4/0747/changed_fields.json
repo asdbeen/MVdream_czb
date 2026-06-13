@@ -1,0 +1,27 @@
+{
+  "sample_id": "0747",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "waved"
+    },
+    {
+      "field": "operation",
+      "old": "undulating",
+      "new": "stretching"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "wedge"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

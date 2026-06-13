@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pipe",
+  "direction": "planar",
+  "operation": "undulating",
+  "affect": "discoid"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0990",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "donut"
+    },
+    {
+      "field": "affect",
+      "old": "tilted",
+      "new": "cornered"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "parallel"
+    },
+    {
+      "field": "operation",
+      "old": "embedding",
+      "new": "overlapping"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

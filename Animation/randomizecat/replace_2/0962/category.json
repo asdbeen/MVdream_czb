@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "ellipsoid",
+  "direction": "random",
+  "operation": "splitting",
+  "affect": "convex"
+}

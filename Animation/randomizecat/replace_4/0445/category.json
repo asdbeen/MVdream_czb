@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "arch",
+  "direction": "horizontal",
+  "operation": "packing",
+  "affect": "columnar"
+}

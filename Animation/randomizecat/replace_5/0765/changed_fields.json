@@ -1,0 +1,32 @@
+{
+  "sample_id": "0765",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "Lshape"
+    },
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "tilted"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "up"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "puncturing"
+    }
+  ]
+}

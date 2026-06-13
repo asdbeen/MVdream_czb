@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "courtyard",
+  "direction": "horizontal",
+  "operation": "pixelating",
+  "affect": "hollow"
+}

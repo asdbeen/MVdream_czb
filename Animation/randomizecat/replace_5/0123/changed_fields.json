@@ -1,0 +1,32 @@
+{
+  "sample_id": "0123",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "tentacular",
+      "new": "vortical"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "canopy"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "polar"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "folding"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    }
+  ]
+}

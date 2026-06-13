@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "disk",
+  "direction": "horizontal",
+  "operation": "draping",
+  "affect": "circular"
+}

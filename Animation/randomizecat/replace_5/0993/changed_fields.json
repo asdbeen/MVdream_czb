@@ -1,0 +1,32 @@
+{
+  "sample_id": "0993",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "topographic"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "perpendicular"
+    },
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "degrading"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "hexagonal"
+    }
+  ]
+}

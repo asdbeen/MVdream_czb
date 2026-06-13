@@ -1,0 +1,17 @@
+{
+  "sample_id": "0907",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "hovering",
+      "new": "bending"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "octahedral"
+    }
+  ]
+}

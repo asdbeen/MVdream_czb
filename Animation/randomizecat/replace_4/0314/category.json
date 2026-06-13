@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cross",
+  "direction": "planar",
+  "operation": "arraying",
+  "affect": "flooring"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cross",
+  "direction": "linear",
+  "operation": "inflating",
+  "affect": "cantilevered"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "hemisphere",
+  "direction": "uni",
+  "operation": "bifurcating",
+  "affect": "spherical"
+}

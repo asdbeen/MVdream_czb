@@ -1,0 +1,27 @@
+{
+  "sample_id": "0818",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "dashed"
+    },
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "splashing"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "perpendicular"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "cube"
+    }
+  ]
+}

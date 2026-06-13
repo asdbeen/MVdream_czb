@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "line",
+  "direction": "horizontal",
+  "operation": "slicing",
+  "affect": "cantilevered"
+}

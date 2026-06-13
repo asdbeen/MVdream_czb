@@ -1,0 +1,22 @@
+{
+  "sample_id": "0871",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "dilated",
+      "new": "discontinuous"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "degrading"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "random"
+    }
+  ]
+}

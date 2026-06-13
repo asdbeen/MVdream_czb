@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cube",
+  "direction": "normal",
+  "operation": "looping",
+  "affect": "prismic"
+}

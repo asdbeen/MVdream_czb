@@ -1,0 +1,27 @@
+{
+  "sample_id": "0673",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "splashing"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "up"
+    },
+    {
+      "field": "volume",
+      "old": "wedge",
+      "new": "pyramid"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

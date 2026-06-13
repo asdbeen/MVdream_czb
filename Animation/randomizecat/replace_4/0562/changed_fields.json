@@ -1,0 +1,27 @@
+{
+  "sample_id": "0562",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "scaffolding",
+      "new": "splashing"
+    },
+    {
+      "field": "affect",
+      "old": "crossed",
+      "new": "enveloping"
+    },
+    {
+      "field": "direction",
+      "old": "perpendicular",
+      "new": "uni"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "courtyard"
+    }
+  ]
+}

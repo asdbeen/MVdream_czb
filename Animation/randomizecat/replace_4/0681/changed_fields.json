@@ -1,0 +1,27 @@
+{
+  "sample_id": "0681",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "waffling"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "polyhedron"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "waved",
+      "new": "sawtooth"
+    }
+  ]
+}

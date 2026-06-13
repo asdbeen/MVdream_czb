@@ -1,0 +1,17 @@
+{
+  "sample_id": "0169",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "vortex"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "radial"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "hypershape",
+  "direction": "random",
+  "operation": "joining",
+  "affect": "diagonal"
+}

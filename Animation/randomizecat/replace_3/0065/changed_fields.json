@@ -1,0 +1,22 @@
+{
+  "sample_id": "0065",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "perforating"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "gable"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "sphere",
+  "direction": "up",
+  "operation": "tangling",
+  "affect": "discontinuous"
+}

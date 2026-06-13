@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "canopy",
+  "direction": "down",
+  "operation": "seperating",
+  "affect": "figural"
+}

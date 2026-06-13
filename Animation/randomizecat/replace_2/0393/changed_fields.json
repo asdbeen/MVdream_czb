@@ -1,0 +1,17 @@
+{
+  "sample_id": "0393",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "radial"
+    },
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "grooving"
+    }
+  ]
+}

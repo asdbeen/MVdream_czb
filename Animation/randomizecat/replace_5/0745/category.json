@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "roll",
+  "direction": "cardinal",
+  "operation": "scarving",
+  "affect": "bundled"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "roll",
+  "direction": "horizontal",
+  "operation": "puncturing",
+  "affect": "ruled"
+}

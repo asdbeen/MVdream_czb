@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "Lshape",
+  "direction": "bi",
+  "operation": "interlocking",
+  "affect": "tapered"
+}

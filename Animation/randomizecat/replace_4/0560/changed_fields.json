@@ -1,0 +1,27 @@
+{
+  "sample_id": "0560",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "compressing"
+    },
+    {
+      "field": "affect",
+      "old": "spherical",
+      "new": "truncated"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "vertical"
+    }
+  ]
+}

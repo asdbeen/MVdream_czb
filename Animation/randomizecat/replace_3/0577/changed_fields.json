@@ -1,0 +1,22 @@
+{
+  "sample_id": "0577",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "up"
+    },
+    {
+      "field": "operation",
+      "old": "knotting",
+      "new": "carving"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "surface"
+    }
+  ]
+}

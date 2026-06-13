@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "roll",
+  "direction": "planar",
+  "operation": "pitching",
+  "affect": "Lshaped"
+}

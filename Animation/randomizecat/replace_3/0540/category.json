@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "blob",
+  "direction": "planar",
+  "operation": "bulging",
+  "affect": "circular"
+}

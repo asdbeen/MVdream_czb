@@ -1,0 +1,27 @@
+{
+  "sample_id": "0106",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "up"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "pyramid",
+      "new": "line"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "symmetrical"
+    }
+  ]
+}

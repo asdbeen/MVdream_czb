@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "gable",
+  "direction": "radial",
+  "operation": "pitching",
+  "affect": "sawtooth"
+}

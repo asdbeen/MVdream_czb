@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "pyramid",
+  "direction": "bi",
+  "operation": "carving",
+  "affect": "notched"
+}

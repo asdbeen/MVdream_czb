@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "surface",
+  "direction": "cardinal",
+  "operation": "bridging",
+  "affect": "indented"
+}

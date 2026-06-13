@@ -1,0 +1,32 @@
+{
+  "sample_id": "0499",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "sphere"
+    },
+    {
+      "field": "affect",
+      "old": "stripped",
+      "new": "inserted"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "planar"
+    },
+    {
+      "field": "operation",
+      "old": "intertwining",
+      "new": "spiralling"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

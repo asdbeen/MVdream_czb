@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "line",
+  "direction": "random",
+  "operation": "grading",
+  "affect": "opening"
+}

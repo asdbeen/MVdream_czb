@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cuboid",
+  "direction": "parallel",
+  "operation": "bending",
+  "affect": "spherical"
+}

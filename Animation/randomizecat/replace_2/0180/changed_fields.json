@@ -1,0 +1,17 @@
+{
+  "sample_id": "0180",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "hemisphere",
+      "new": "vortex"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "gaping"
+    }
+  ]
+}

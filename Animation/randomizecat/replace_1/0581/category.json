@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pyramid",
+  "direction": "omni",
+  "operation": "splitting",
+  "affect": "contained"
+}

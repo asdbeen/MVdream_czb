@@ -1,0 +1,27 @@
+{
+  "sample_id": "0486",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "bifurcating"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "crowned"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "cylinder"
+    }
+  ]
+}

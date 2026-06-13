@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cross",
+  "direction": "vertical",
+  "operation": "overlapping",
+  "affect": "gradated"
+}

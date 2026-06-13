@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "glyph",
+  "direction": "linear",
+  "operation": "bending",
+  "affect": "rippled"
+}

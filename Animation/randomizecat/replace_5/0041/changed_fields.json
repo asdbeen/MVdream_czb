@@ -1,0 +1,32 @@
+{
+  "sample_id": "0041",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "Lshape"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "radial"
+    },
+    {
+      "field": "operation",
+      "old": "crumpling",
+      "new": "excavating"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "vortical"
+    }
+  ]
+}

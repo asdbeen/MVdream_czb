@@ -1,0 +1,27 @@
+{
+  "sample_id": "0421",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "degraded"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "perpendicular"
+    },
+    {
+      "field": "operation",
+      "old": "slicing",
+      "new": "tapering"
+    }
+  ]
+}

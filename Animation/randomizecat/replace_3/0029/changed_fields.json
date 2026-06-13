@@ -1,0 +1,22 @@
+{
+  "sample_id": "0029",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "disk"
+    },
+    {
+      "field": "affect",
+      "old": "semicircular",
+      "new": "dilated"
+    },
+    {
+      "field": "direction",
+      "old": "polar",
+      "new": "tri"
+    }
+  ]
+}

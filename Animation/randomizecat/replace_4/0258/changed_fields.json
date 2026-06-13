@@ -1,0 +1,27 @@
+{
+  "sample_id": "0258",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "pitching",
+      "new": "grooving"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "symmetrical"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "bi"
+    }
+  ]
+}

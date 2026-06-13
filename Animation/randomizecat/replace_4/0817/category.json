@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "arch",
+  "direction": "horizontal",
+  "operation": "puncturing",
+  "affect": "asymmetrical"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0858",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "pleating"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "contained"
+    },
+    {
+      "field": "volume",
+      "old": "ellipsoid",
+      "new": "pyramid"
+    }
+  ]
+}

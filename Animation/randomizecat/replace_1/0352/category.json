@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "disk",
+  "direction": "bi",
+  "operation": "curving",
+  "affect": "porous"
+}

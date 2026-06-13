@@ -1,0 +1,32 @@
+{
+  "sample_id": "0387",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "rolled"
+    },
+    {
+      "field": "volume",
+      "old": "surface",
+      "new": "canopy"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "oscillating"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "bi"
+    }
+  ]
+}

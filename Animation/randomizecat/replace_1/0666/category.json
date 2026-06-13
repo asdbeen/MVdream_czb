@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cone",
+  "direction": "down",
+  "operation": "scaffolding",
+  "affect": "hollow"
+}

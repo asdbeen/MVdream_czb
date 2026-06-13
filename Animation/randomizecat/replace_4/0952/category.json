@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "pipe",
+  "direction": "radial",
+  "operation": "pitching",
+  "affect": "symmetrical"
+}

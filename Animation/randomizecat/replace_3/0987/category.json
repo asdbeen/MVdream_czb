@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "polyhedron",
+  "direction": "parallel",
+  "operation": "inflating",
+  "affect": "dilated"
+}

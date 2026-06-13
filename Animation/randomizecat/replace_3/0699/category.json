@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cube",
+  "direction": "tri",
+  "operation": "carving",
+  "affect": "latticed"
+}

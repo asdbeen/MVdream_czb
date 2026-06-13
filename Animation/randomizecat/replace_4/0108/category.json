@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "arch",
+  "direction": "parallel",
+  "operation": "voiding",
+  "affect": "sawtooth"
+}

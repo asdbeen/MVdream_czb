@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cube",
+  "direction": "cardinal",
+  "operation": "stretching",
+  "affect": "circular"
+}

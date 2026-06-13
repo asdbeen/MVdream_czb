@@ -1,0 +1,22 @@
+{
+  "sample_id": "0063",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "figural"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "up"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "tapering"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "canopy",
+  "direction": "horizontal",
+  "operation": "grading",
+  "affect": "cantilevered"
+}

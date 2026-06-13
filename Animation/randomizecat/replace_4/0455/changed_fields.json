@@ -1,0 +1,27 @@
+{
+  "sample_id": "0455",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "linear"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "pyramid"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "wired",
+      "new": "paneled"
+    }
+  ]
+}

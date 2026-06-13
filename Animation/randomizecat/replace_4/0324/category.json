@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hexagonal",
+  "direction": "bi",
+  "operation": "pixelating",
+  "affect": "cornered"
+}

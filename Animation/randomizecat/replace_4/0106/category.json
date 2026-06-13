@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "line",
+  "direction": "up",
+  "operation": "fractaling",
+  "affect": "symmetrical"
+}

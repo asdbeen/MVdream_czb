@@ -1,0 +1,32 @@
+{
+  "sample_id": "0007",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "concave"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "perpendicular"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "hypershape"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "stretching",
+      "new": "seperating"
+    }
+  ]
+}

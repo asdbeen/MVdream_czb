@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "lune",
+  "direction": "centrifugal",
+  "operation": "twisting",
+  "affect": "discoid"
+}

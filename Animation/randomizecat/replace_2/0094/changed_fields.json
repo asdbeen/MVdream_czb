@@ -1,0 +1,17 @@
+{
+  "sample_id": "0094",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "anthropomorphic"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "tripod"
+    }
+  ]
+}

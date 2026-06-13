@@ -1,0 +1,27 @@
+{
+  "sample_id": "0187",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "hexagonal"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "radial"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "shifted"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "quadruple"
+    }
+  ]
+}

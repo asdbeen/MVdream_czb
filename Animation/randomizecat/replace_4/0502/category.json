@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "surface",
+  "direction": "horizontal",
+  "operation": "grooving",
+  "affect": "notched"
+}

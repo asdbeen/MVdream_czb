@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hexagonal",
+  "direction": "oblique",
+  "operation": "embedding",
+  "affect": "round"
+}

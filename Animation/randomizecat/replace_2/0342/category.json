@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hypershape",
+  "direction": "cardinal",
+  "operation": "filleting",
+  "affect": "vaulted"
+}

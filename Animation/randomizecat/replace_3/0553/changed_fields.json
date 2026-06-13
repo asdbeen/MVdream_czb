@@ -1,0 +1,22 @@
+{
+  "sample_id": "0553",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "intertwining"
+    },
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "vaulted"
+    }
+  ]
+}

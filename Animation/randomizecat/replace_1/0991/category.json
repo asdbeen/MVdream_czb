@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hypershape",
+  "direction": "bi",
+  "operation": "voiding",
+  "affect": "patterned"
+}

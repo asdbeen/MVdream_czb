@@ -1,0 +1,27 @@
+{
+  "sample_id": "0228",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "indented"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "vertical"
+    },
+    {
+      "field": "operation",
+      "old": "subtracting",
+      "new": "voiding"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "courtyard"
+    }
+  ]
+}

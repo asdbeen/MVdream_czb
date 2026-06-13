@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cross",
+  "direction": "up",
+  "operation": "morphing",
+  "affect": "rolled"
+}

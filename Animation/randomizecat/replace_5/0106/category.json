@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "gable",
+  "direction": "omni",
+  "operation": "curving",
+  "affect": "gradated"
+}

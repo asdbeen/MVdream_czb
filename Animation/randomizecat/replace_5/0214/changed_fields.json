@@ -1,0 +1,32 @@
+{
+  "sample_id": "0214",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "centrifugal"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "voiding",
+      "new": "degrading"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "tube"
+    },
+    {
+      "field": "affect",
+      "old": "framed",
+      "new": "concave"
+    }
+  ]
+}

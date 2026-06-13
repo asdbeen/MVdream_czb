@@ -1,0 +1,27 @@
+{
+  "sample_id": "0630",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "pipe"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "scaffolding"
+    },
+    {
+      "field": "affect",
+      "old": "cornered",
+      "new": "porous"
+    }
+  ]
+}

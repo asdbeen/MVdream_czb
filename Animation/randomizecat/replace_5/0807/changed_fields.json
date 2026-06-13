@@ -1,0 +1,32 @@
+{
+  "sample_id": "0807",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "spherical",
+      "new": "dilated"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "omni"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "canopy",
+      "new": "lune"
+    },
+    {
+      "field": "operation",
+      "old": "tangling",
+      "new": "bifurcating"
+    }
+  ]
+}

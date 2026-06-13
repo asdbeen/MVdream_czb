@@ -1,0 +1,22 @@
+{
+  "sample_id": "0320",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "polar"
+    },
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "round"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

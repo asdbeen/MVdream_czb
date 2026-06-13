@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "courtyard",
+  "direction": "vertical",
+  "operation": "joining",
+  "affect": "rippled"
+}

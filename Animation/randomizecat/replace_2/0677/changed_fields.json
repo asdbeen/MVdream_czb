@@ -1,0 +1,17 @@
+{
+  "sample_id": "0677",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "affect",
+      "old": "inverted",
+      "new": "dashed"
+    }
+  ]
+}

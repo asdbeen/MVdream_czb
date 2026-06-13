@@ -1,0 +1,22 @@
+{
+  "sample_id": "0602",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "columnar",
+      "new": "concave"
+    },
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "perforating"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "horizontal"
+    }
+  ]
+}

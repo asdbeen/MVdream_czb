@@ -1,0 +1,32 @@
+{
+  "sample_id": "0545",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "parallel"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "wedge"
+    },
+    {
+      "field": "affect",
+      "old": "opening",
+      "new": "sawtooth"
+    },
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "filleting"
+    }
+  ]
+}

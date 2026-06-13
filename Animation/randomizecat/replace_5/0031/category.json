@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hypershape",
+  "direction": "polar",
+  "operation": "fractaling",
+  "affect": "latticed"
+}

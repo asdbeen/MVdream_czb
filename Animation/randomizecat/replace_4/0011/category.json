@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cube",
+  "direction": "polar",
+  "operation": "pleating",
+  "affect": "opening"
+}

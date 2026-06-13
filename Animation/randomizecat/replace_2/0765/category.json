@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "canopy",
+  "direction": "uni",
+  "operation": "bending",
+  "affect": "gradated"
+}

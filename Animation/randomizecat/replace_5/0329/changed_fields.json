@@ -1,0 +1,32 @@
+{
+  "sample_id": "0329",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "truncated",
+      "new": "perimetral"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "voiding"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "linear"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "courtyard"
+    }
+  ]
+}

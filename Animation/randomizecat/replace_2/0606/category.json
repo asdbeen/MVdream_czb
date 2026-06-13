@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "courtyard",
+  "direction": "centrifugal",
+  "operation": "interlocking",
+  "affect": "paneled"
+}

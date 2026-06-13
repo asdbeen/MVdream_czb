@@ -1,0 +1,32 @@
+{
+  "sample_id": "0852",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "wired"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "sagging"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "tri"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "Lshape"
+    }
+  ]
+}

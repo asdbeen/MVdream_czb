@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "pyramid",
+  "direction": "cardinal",
+  "operation": "twisting",
+  "affect": "round"
+}

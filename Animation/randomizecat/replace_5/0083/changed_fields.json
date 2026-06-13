@@ -1,0 +1,32 @@
+{
+  "sample_id": "0083",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "stripped",
+      "new": "cylindrical"
+    },
+    {
+      "field": "operation",
+      "old": "zigzagging",
+      "new": "sagging"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "octahedral",
+      "new": "courtyard"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "horizontal"
+    }
+  ]
+}

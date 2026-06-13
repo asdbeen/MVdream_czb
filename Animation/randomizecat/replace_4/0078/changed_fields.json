@@ -1,0 +1,27 @@
+{
+  "sample_id": "0078",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "parallel",
+      "new": "perpendicular"
+    },
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "subtracting"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "sawtooth",
+      "new": "continuous"
+    }
+  ]
+}

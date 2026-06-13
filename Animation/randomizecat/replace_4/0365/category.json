@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "capsule",
+  "direction": "normal",
+  "operation": "morphing",
+  "affect": "vaulted"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cylinder",
+  "direction": "bi",
+  "operation": "branching",
+  "affect": "stripped"
+}

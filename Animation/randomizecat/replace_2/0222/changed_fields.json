@@ -1,0 +1,17 @@
+{
+  "sample_id": "0222",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "bi"
+    },
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "spherical"
+    }
+  ]
+}

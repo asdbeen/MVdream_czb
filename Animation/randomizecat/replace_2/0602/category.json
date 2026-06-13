@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "tube",
+  "direction": "vertical",
+  "operation": "stretching",
+  "affect": "columnar"
+}

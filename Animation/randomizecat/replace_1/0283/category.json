@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cone",
+  "direction": "linear",
+  "operation": "packing",
+  "affect": "truncated"
+}

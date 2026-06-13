@@ -1,0 +1,22 @@
+{
+  "sample_id": "0483",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "bundled",
+      "new": "consistent"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "splitting"
+    }
+  ]
+}

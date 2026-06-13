@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "Lshape",
+  "direction": "horizontal",
+  "operation": "fractaling",
+  "affect": "inverted"
+}

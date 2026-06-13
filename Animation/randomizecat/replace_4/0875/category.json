@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cube",
+  "direction": "cardinal",
+  "operation": "slicing",
+  "affect": "bundled"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "stellate",
+  "direction": "perpendicular",
+  "operation": "leaning",
+  "affect": "Lshaped"
+}

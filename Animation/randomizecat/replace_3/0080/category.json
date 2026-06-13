@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "stellate",
+  "direction": "thin",
+  "operation": "tangling",
+  "affect": "cubic"
+}

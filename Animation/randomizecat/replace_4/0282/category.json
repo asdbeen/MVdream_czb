@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "lune",
+  "direction": "perpendicular",
+  "operation": "looping",
+  "affect": "gradated"
+}

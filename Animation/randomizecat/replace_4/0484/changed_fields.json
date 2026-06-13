@@ -1,0 +1,27 @@
+{
+  "sample_id": "0484",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "concave",
+      "new": "vortical"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "capsule"
+    },
+    {
+      "field": "operation",
+      "old": "leaning",
+      "new": "ripping"
+    },
+    {
+      "field": "direction",
+      "old": "tri",
+      "new": "centrifugal"
+    }
+  ]
+}

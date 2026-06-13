@@ -1,0 +1,22 @@
+{
+  "sample_id": "0377",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "perforating"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "bi"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    }
+  ]
+}

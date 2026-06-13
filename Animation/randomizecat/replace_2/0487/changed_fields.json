@@ -1,0 +1,17 @@
+{
+  "sample_id": "0487",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "radial",
+      "new": "vertical"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "glyph"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0943",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "centrifugal"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "line"
+    },
+    {
+      "field": "affect",
+      "old": "bundled",
+      "new": "figural"
+    }
+  ]
+}

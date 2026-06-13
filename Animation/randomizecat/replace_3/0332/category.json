@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "disk",
+  "direction": "normal",
+  "operation": "looping",
+  "affect": "patterned"
+}

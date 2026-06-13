@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "wedge",
+  "direction": "uni",
+  "operation": "packing",
+  "affect": "cubic"
+}

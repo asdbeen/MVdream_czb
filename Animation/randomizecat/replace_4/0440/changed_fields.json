@@ -1,0 +1,27 @@
+{
+  "sample_id": "0440",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "oscillating"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "uni"
+    },
+    {
+      "field": "affect",
+      "old": "discontinuous",
+      "new": "indented"
+    }
+  ]
+}

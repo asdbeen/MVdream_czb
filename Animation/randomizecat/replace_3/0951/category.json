@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hemisphere",
+  "direction": "down",
+  "operation": "bridging",
+  "affect": "shifted"
+}

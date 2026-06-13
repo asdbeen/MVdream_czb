@@ -1,0 +1,32 @@
+{
+  "sample_id": "0497",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "oblique"
+    },
+    {
+      "field": "operation",
+      "old": "pixelating",
+      "new": "zigzagging"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "polyhedron"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "continuous"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

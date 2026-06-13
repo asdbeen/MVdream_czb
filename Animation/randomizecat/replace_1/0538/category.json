@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "tripod",
+  "direction": "omni",
+  "operation": "packing",
+  "affect": "hollow"
+}

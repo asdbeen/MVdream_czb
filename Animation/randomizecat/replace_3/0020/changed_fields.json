@@ -1,0 +1,22 @@
+{
+  "sample_id": "0020",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "waved",
+      "new": "dashed"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "arch"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "polar"
+    }
+  ]
+}

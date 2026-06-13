@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "tri",
+  "operation": "excavating",
+  "affect": "stripped"
+}

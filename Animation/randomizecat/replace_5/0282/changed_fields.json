@@ -1,0 +1,32 @@
+{
+  "sample_id": "0282",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "lune"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "omni"
+    },
+    {
+      "field": "operation",
+      "old": "pixelating",
+      "new": "wrapping"
+    },
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "paneled"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "sphere",
+  "direction": "normal",
+  "operation": "spiraing",
+  "affect": "irregular"
+}

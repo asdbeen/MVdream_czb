@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "roll",
+  "direction": "centrifugal",
+  "operation": "bending",
+  "affect": "cantilevered"
+}

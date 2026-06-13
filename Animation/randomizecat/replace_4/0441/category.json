@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cross",
+  "direction": "oblique",
+  "operation": "curving",
+  "affect": "opening"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "pyramid",
+  "direction": "tri",
+  "operation": "crumpling",
+  "affect": "indented"
+}

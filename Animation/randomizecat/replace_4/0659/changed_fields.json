@@ -1,0 +1,27 @@
+{
+  "sample_id": "0659",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "draping"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "up"
+    },
+    {
+      "field": "affect",
+      "old": "tentacular",
+      "new": "discoid"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

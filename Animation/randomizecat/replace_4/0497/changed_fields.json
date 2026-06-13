@@ -1,0 +1,27 @@
+{
+  "sample_id": "0497",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "pixelating",
+      "new": "inflating"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "lune"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "ruled"
+    }
+  ]
+}

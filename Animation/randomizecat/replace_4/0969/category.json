@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cross",
+  "direction": "perpendicular",
+  "operation": "looping",
+  "affect": "gradated"
+}

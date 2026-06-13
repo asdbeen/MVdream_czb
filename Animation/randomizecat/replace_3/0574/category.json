@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "polyhedron",
+  "direction": "thin",
+  "operation": "subtracting",
+  "affect": "gridded"
+}

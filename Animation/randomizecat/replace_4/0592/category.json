@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cone",
+  "direction": "planar",
+  "operation": "compressing",
+  "affect": "gaping"
+}

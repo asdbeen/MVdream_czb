@@ -1,0 +1,32 @@
+{
+  "sample_id": "0096",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "flooring",
+      "new": "tapered"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "surface"
+    },
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "slitting"
+    },
+    {
+      "field": "direction",
+      "old": "parallel",
+      "new": "polar"
+    }
+  ]
+}

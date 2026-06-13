@@ -1,0 +1,22 @@
+{
+  "sample_id": "0133",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "embedding"
+    },
+    {
+      "field": "affect",
+      "old": "truncated",
+      "new": "perimetral"
+    }
+  ]
+}

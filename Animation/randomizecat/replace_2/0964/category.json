@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "gable",
+  "direction": "omni",
+  "operation": "compressing",
+  "affect": "irregular"
+}

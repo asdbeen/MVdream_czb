@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hemisphere",
+  "direction": "omni",
+  "operation": "morphing",
+  "affect": "porous"
+}

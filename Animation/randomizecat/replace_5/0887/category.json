@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cuboid",
+  "direction": "oblique",
+  "operation": "inflating",
+  "affect": "prismic"
+}

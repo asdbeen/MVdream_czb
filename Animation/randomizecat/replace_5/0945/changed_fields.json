@@ -1,0 +1,32 @@
+{
+  "sample_id": "0945",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "waffling"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "cornered"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "parallel"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "line",
+      "new": "hexagonal"
+    }
+  ]
+}

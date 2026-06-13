@@ -1,0 +1,27 @@
+{
+  "sample_id": "0196",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "omni"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "gable"
+    },
+    {
+      "field": "operation",
+      "old": "pitching",
+      "new": "splashing"
+    }
+  ]
+}

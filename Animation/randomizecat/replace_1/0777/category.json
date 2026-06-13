@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "tube",
+  "direction": "vertical",
+  "operation": "bending",
+  "affect": "columnar"
+}

@@ -6,6 +6,7 @@ import numpy as np
 from einops import rearrange
 from typing import Optional, Any
 import os
+import sys
 
 from ..attention import MemoryEfficientCrossAttention
 
@@ -17,7 +18,8 @@ except:
     XFORMERS_IS_AVAILBLE = False
     print("No module 'xformers'. Proceeding without it.")
 
-_disable_xformers_env = os.environ.get("MVDREAM_DISABLE_XFORMERS", "1").strip().lower()
+_default_disable_xformers = "0" if sys.platform.startswith("linux") else "1"
+_disable_xformers_env = os.environ.get("MVDREAM_DISABLE_XFORMERS", _default_disable_xformers).strip().lower()
 if _disable_xformers_env in ("1", "true", "yes", "on"):
     XFORMERS_IS_AVAILBLE = False
     print("[info] xformers disabled by MVDREAM_DISABLE_XFORMERS; using torch attention.")

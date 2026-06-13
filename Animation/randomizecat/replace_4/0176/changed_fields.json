@@ -1,0 +1,27 @@
+{
+  "sample_id": "0176",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "crossed",
+      "new": "ruled"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "Lshape"
+    },
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "carving"
+    },
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "parallel"
+    }
+  ]
+}

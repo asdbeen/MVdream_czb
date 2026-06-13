@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "disk",
+  "direction": "parallel",
+  "operation": "stacking",
+  "affect": "colonnaded"
+}

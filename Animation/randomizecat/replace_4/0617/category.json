@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "line",
+  "direction": "up",
+  "operation": "joining",
+  "affect": "gabled"
+}

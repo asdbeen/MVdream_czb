@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "pipe",
+  "direction": "parallel",
+  "operation": "looping",
+  "affect": "truncated"
+}

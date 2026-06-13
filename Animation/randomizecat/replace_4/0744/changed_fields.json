@@ -1,0 +1,27 @@
+{
+  "sample_id": "0744",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "tentacular",
+      "new": "tilted"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "pleating"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "ellipsoid"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "planar"
+    }
+  ]
+}

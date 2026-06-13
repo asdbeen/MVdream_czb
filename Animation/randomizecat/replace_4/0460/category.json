@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "wedge",
+  "direction": "down",
+  "operation": "twisting",
+  "affect": "staggered"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0959",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "curving"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "parallel"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "tripod"
+    }
+  ]
+}

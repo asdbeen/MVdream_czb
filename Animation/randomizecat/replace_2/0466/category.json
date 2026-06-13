@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "tube",
+  "direction": "uni",
+  "operation": "oscillating",
+  "affect": "indented"
+}

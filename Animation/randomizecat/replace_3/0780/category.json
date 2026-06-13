@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hemisphere",
+  "direction": "oblique",
+  "operation": "puncturing",
+  "affect": "discoid"
+}

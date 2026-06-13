@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "glyph",
+  "direction": "planar",
+  "operation": "packing",
+  "affect": "circular"
+}

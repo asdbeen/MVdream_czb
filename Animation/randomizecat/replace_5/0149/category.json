@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "disk",
+  "direction": "bi",
+  "operation": "hovering",
+  "affect": "sunken"
+}

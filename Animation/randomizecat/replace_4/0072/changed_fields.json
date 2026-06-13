@@ -1,0 +1,27 @@
+{
+  "sample_id": "0072",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "grading"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "diagonal",
+      "new": "faceted"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "capsule"
+    }
+  ]
+}

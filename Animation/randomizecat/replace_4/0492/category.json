@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "glyph",
+  "direction": "vertical",
+  "operation": "knotting",
+  "affect": "indented"
+}

@@ -1,0 +1,17 @@
+{
+  "sample_id": "0121",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "carving",
+      "new": "pleating"
+    },
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "asymmetrical"
+    }
+  ]
+}

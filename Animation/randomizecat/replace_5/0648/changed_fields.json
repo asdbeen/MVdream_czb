@@ -1,0 +1,32 @@
+{
+  "sample_id": "0648",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "roll"
+    },
+    {
+      "field": "affect",
+      "old": "crowned",
+      "new": "rolled"
+    },
+    {
+      "field": "operation",
+      "old": "interlocking",
+      "new": "packing"
+    },
+    {
+      "field": "direction",
+      "old": "radial",
+      "new": "bi"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    }
+  ]
+}

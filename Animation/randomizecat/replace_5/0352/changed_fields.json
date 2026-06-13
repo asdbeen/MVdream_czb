@@ -1,0 +1,32 @@
+{
+  "sample_id": "0352",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "separating"
+    },
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "surface"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "sunken"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "down"
+    }
+  ]
+}

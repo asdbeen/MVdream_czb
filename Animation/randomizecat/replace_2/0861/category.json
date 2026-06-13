@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cone",
+  "direction": "omni",
+  "operation": "wrapping",
+  "affect": "opening"
+}

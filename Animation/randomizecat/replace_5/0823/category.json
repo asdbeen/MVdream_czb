@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "tube",
+  "direction": "radial",
+  "operation": "embedding",
+  "affect": "bundled"
+}

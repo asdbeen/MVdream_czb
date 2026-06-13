@@ -1,0 +1,27 @@
+{
+  "sample_id": "0268",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "oblique"
+    },
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "intertwining"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "faceted"
+    }
+  ]
+}

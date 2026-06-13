@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "tripod",
+  "direction": "horizontal",
+  "operation": "seperating",
+  "affect": "flooring"
+}

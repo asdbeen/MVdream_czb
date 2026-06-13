@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "capsule",
+  "direction": "parallel",
+  "operation": "branching",
+  "affect": "shifted"
+}

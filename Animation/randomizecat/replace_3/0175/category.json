@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hemisphere",
+  "direction": "vertical",
+  "operation": "folding",
+  "affect": "rolled"
+}

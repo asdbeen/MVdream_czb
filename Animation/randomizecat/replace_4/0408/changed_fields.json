@@ -1,0 +1,27 @@
+{
+  "sample_id": "0408",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "down"
+    },
+    {
+      "field": "affect",
+      "old": "asymmetrical",
+      "new": "gaping"
+    },
+    {
+      "field": "operation",
+      "old": "interlocking",
+      "new": "splashing"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "lune"
+    }
+  ]
+}

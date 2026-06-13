@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "canopy",
+  "direction": "radial",
+  "operation": "kerfing",
+  "affect": "pyramidal"
+}

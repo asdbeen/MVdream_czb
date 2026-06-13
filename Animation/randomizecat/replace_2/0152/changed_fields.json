@@ -1,0 +1,17 @@
+{
+  "sample_id": "0152",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "donut"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "triple"
+    }
+  ]
+}

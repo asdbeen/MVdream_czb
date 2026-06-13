@@ -1,0 +1,32 @@
+{
+  "sample_id": "0541",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "slicing",
+      "new": "compressing"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "courtyard"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "omni"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "curved"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0943",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "inflating",
+      "new": "tapering"
+    },
+    {
+      "field": "affect",
+      "old": "bundled",
+      "new": "patterned"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "down"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "cuboid"
+    }
+  ]
+}

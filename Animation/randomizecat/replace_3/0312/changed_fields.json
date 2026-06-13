@@ -1,0 +1,22 @@
+{
+  "sample_id": "0312",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "cylindrical",
+      "new": "dilated"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "intersecting"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "perpendicular"
+    }
+  ]
+}

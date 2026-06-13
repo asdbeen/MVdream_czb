@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "disk",
+  "direction": "thin",
+  "operation": "carving",
+  "affect": "wired"
+}

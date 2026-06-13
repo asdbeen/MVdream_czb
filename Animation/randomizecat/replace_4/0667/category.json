@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "octahedral",
+  "direction": "normal",
+  "operation": "grading",
+  "affect": "curved"
+}

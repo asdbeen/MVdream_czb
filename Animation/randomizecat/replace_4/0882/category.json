@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "polyhedron",
+  "direction": "cardinal",
+  "operation": "intertwining",
+  "affect": "paneled"
+}

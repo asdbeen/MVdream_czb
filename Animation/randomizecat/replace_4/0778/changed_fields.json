@@ -1,0 +1,27 @@
+{
+  "sample_id": "0778",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "pipe"
+    },
+    {
+      "field": "affect",
+      "old": "circular",
+      "new": "topographic"
+    },
+    {
+      "field": "operation",
+      "old": "voiding",
+      "new": "unfolding"
+    }
+  ]
+}

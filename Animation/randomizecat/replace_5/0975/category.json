@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hemisphere",
+  "direction": "random",
+  "operation": "curving",
+  "affect": "wired"
+}

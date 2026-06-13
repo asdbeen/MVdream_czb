@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "pyramid",
+  "direction": "planar",
+  "operation": "leaning",
+  "affect": "domical"
+}

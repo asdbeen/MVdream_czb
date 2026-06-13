@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cross",
+  "direction": "omni",
+  "operation": "wrapping",
+  "affect": "cubic"
+}

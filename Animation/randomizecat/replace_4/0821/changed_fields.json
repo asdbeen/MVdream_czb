@@ -1,0 +1,27 @@
+{
+  "sample_id": "0821",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "radial"
+    },
+    {
+      "field": "operation",
+      "old": "kerfing",
+      "new": "pixelating"
+    },
+    {
+      "field": "affect",
+      "old": "tilted",
+      "new": "stripped"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

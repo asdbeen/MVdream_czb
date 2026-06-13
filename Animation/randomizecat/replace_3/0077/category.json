@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "donut",
+  "direction": "down",
+  "operation": "intersecting",
+  "affect": "gradated"
+}

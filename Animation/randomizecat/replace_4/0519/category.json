@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "hemisphere",
+  "direction": "omni",
+  "operation": "packing",
+  "affect": "figural"
+}

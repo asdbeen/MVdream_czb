@@ -1,0 +1,27 @@
+{
+  "sample_id": "0305",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "up"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "hexagonal"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "bridging"
+    }
+  ]
+}

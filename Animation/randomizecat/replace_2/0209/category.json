@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "cardinal",
+  "operation": "inflating",
+  "affect": "vaulted"
+}

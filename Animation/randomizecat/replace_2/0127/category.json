@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cone",
+  "direction": "bi",
+  "operation": "bifurcating",
+  "affect": "gridded"
+}

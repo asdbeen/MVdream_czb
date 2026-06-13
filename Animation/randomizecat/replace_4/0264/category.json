@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pipe",
+  "direction": "vertical",
+  "operation": "slitting",
+  "affect": "perimetral"
+}

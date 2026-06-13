@@ -1,0 +1,17 @@
+{
+  "sample_id": "0050",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "radial"
+    },
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "rotational"
+    }
+  ]
+}

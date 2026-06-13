@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "surface",
+  "direction": "tri",
+  "operation": "splitting",
+  "affect": "opening"
+}

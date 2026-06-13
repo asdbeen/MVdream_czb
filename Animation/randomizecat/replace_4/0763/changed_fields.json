@@ -1,0 +1,27 @@
+{
+  "sample_id": "0763",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "concave",
+      "new": "convex"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "normal"
+    },
+    {
+      "field": "operation",
+      "old": "carving",
+      "new": "perforating"
+    }
+  ]
+}

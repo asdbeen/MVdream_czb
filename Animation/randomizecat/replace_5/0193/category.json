@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "octahedral",
+  "direction": "cardinal",
+  "operation": "slicing",
+  "affect": "opening"
+}

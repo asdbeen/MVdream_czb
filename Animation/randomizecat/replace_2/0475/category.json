@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "disk",
+  "direction": "down",
+  "operation": "filleting",
+  "affect": "cylindrical"
+}

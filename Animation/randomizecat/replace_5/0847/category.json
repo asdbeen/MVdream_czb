@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cube",
+  "direction": "random",
+  "operation": "sagging",
+  "affect": "organic"
+}

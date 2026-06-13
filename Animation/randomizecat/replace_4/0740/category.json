@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "arch",
+  "direction": "bi",
+  "operation": "undulating",
+  "affect": "stripped"
+}

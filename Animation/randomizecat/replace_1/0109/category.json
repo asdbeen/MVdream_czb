@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hemisphere",
+  "direction": "horizontal",
+  "operation": "stacking",
+  "affect": "irregular"
+}

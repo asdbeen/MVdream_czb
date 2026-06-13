@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "capsule",
+  "direction": "up",
+  "operation": "morphing",
+  "affect": "irregular"
+}

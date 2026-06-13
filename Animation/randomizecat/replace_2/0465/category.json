@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cube",
+  "direction": "normal",
+  "operation": "connecting",
+  "affect": "enveloping"
+}

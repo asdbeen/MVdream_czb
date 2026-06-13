@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cylinder",
+  "direction": "oblique",
+  "operation": "grooving",
+  "affect": "bundled"
+}

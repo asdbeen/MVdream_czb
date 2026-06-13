@@ -1,0 +1,32 @@
+{
+  "sample_id": "0816",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "sphere"
+    },
+    {
+      "field": "affect",
+      "old": "circular",
+      "new": "shifted"
+    },
+    {
+      "field": "operation",
+      "old": "voiding",
+      "new": "intersecting"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "parallel"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

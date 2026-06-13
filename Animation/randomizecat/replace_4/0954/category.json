@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "roll",
+  "direction": "bi",
+  "operation": "slitting",
+  "affect": "crossed"
+}

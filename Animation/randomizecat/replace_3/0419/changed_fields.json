@@ -1,0 +1,22 @@
+{
+  "sample_id": "0419",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "canopy",
+      "new": "donut"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "columnar",
+      "new": "domical"
+    }
+  ]
+}

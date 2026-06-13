@@ -1,0 +1,32 @@
+{
+  "sample_id": "0743",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "branching"
+    },
+    {
+      "field": "volume",
+      "old": "surface",
+      "new": "polyhedron"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "planar"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "spherical"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cylinder",
+  "direction": "cardinal",
+  "operation": "joining",
+  "affect": "porous"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0834",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "hypershape"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "cardinal"
+    },
+    {
+      "field": "affect",
+      "old": "dashed",
+      "new": "gradated"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "embedding"
+    }
+  ]
+}

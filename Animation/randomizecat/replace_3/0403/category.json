@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "lune",
+  "direction": "down",
+  "operation": "overlapping",
+  "affect": "gaping"
+}

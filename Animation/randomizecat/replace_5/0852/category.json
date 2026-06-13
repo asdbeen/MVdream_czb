@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "Lshape",
+  "direction": "tri",
+  "operation": "sagging",
+  "affect": "wired"
+}

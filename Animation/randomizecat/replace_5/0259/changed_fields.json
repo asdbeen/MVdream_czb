@@ -1,0 +1,32 @@
+{
+  "sample_id": "0259",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "cone"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "dilated"
+    },
+    {
+      "field": "direction",
+      "old": "perpendicular",
+      "new": "oblique"
+    },
+    {
+      "field": "operation",
+      "old": "bridging",
+      "new": "fractaling"
+    }
+  ]
+}

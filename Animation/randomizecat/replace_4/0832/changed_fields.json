@@ -1,0 +1,27 @@
+{
+  "sample_id": "0832",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "latticed"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "cuboid"
+    },
+    {
+      "field": "operation",
+      "old": "bulging",
+      "new": "joining"
+    }
+  ]
+}

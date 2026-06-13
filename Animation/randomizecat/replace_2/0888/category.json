@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "ellipsoid",
+  "direction": "oblique",
+  "operation": "connecting",
+  "affect": "hollow"
+}

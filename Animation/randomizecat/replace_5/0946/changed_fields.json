@@ -1,0 +1,32 @@
+{
+  "sample_id": "0946",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "cuboid"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "polar"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "filleting"
+    },
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "dashed"
+    }
+  ]
+}

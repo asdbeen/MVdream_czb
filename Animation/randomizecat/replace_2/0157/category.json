@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cuboid",
+  "direction": "uni",
+  "operation": "draping",
+  "affect": "dashed"
+}

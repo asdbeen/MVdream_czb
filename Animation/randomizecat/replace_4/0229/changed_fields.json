@@ -1,0 +1,27 @@
+{
+  "sample_id": "0229",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "hypershape"
+    },
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "opening"
+    },
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "fluting"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "linear"
+    }
+  ]
+}

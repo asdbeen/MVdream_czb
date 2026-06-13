@@ -1,0 +1,32 @@
+{
+  "sample_id": "0473",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "round"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "donut"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "uni"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "interlocking"
+    }
+  ]
+}

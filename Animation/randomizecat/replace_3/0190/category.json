@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "gable",
+  "direction": "up",
+  "operation": "pitching",
+  "affect": "diagonal"
+}

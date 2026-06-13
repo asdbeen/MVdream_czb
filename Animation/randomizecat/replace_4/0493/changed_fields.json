@@ -1,0 +1,27 @@
+{
+  "sample_id": "0493",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "thin"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "sunken",
+      "new": "crossed"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "spiraling"
+    }
+  ]
+}

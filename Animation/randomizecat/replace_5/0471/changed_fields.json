@@ -1,0 +1,32 @@
+{
+  "sample_id": "0471",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "vortex",
+      "new": "Lshape"
+    },
+    {
+      "field": "operation",
+      "old": "morphing",
+      "new": "oscillating"
+    },
+    {
+      "field": "affect",
+      "old": "waved",
+      "new": "flooring"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "horizontal"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

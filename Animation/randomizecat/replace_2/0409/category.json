@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "Lshape",
+  "direction": "polar",
+  "operation": "undulating",
+  "affect": "hollow"
+}

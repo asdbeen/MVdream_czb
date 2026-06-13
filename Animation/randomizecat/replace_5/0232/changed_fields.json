@@ -1,0 +1,32 @@
+{
+  "sample_id": "0232",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "sawtooth",
+      "new": "shifted"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "down"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "gable"
+    },
+    {
+      "field": "operation",
+      "old": "pitching",
+      "new": "subtracting"
+    }
+  ]
+}

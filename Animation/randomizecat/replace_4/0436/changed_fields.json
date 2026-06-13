@@ -1,0 +1,27 @@
+{
+  "sample_id": "0436",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "tri"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "polyhedron"
+    },
+    {
+      "field": "operation",
+      "old": "scarving",
+      "new": "tapering"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "faceted"
+    }
+  ]
+}

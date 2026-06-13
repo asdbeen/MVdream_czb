@@ -1,0 +1,22 @@
+{
+  "sample_id": "0505",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "asymmetrical"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "cross"
+    },
+    {
+      "field": "operation",
+      "old": "carving",
+      "new": "splashing"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0285",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "wired"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "polar"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "cone"
+    }
+  ]
+}

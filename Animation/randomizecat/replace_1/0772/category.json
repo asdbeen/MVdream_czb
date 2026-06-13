@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "courtyard",
+  "direction": "parallel",
+  "operation": "grading",
+  "affect": "cantilevered"
+}

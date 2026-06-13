@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hemisphere",
+  "direction": "up",
+  "operation": "scarving",
+  "affect": "staggered"
+}

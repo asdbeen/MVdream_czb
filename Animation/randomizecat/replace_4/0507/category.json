@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "capsule",
+  "direction": "normal",
+  "operation": "packing",
+  "affect": "topographic"
+}

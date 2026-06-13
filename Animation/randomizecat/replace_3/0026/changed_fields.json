@@ -1,0 +1,22 @@
+{
+  "sample_id": "0026",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "prismic"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "connecting"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0712",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "planar"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "disk"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "tangling"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    }
+  ]
+}

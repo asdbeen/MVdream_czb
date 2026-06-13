@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "linear",
+  "operation": "curving",
+  "affect": "tentacular"
+}

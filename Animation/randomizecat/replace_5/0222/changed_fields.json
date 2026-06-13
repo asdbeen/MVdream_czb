@@ -1,0 +1,32 @@
+{
+  "sample_id": "0222",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "random"
+    },
+    {
+      "field": "operation",
+      "old": "kerfing",
+      "new": "hovering"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "Lshape"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "rotational"
+    }
+  ]
+}

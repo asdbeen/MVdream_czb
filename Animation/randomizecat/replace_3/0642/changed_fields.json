@@ -1,0 +1,22 @@
+{
+  "sample_id": "0642",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "glyph"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "peeling"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "normal"
+    }
+  ]
+}

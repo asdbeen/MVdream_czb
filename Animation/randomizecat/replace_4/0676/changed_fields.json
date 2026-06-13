@@ -1,0 +1,27 @@
+{
+  "sample_id": "0676",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "random"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "donut"
+    },
+    {
+      "field": "operation",
+      "old": "pleating",
+      "new": "knotting"
+    },
+    {
+      "field": "affect",
+      "old": "cornered",
+      "new": "semicircular"
+    }
+  ]
+}

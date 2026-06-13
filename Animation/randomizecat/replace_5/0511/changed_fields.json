@@ -1,0 +1,32 @@
+{
+  "sample_id": "0511",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "uni"
+    },
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "inflating"
+    },
+    {
+      "field": "affect",
+      "old": "continuous",
+      "new": "dashed"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "pyramid"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

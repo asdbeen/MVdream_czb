@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "sphere",
+  "direction": "normal",
+  "operation": "curving",
+  "affect": "porous"
+}

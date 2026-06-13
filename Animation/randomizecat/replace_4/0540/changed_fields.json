@@ -1,0 +1,27 @@
+{
+  "sample_id": "0540",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "blob",
+      "new": "glyph"
+    },
+    {
+      "field": "operation",
+      "old": "wrapping",
+      "new": "unfolding"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "normal"
+    }
+  ]
+}

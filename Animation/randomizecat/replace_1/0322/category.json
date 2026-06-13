@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cuboid",
+  "direction": "random",
+  "operation": "bending",
+  "affect": "tilted"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0059",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "wrapping",
+      "new": "spiraing"
+    },
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "consistent"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "planar"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "courtyard"
+    }
+  ]
+}

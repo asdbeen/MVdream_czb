@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "wedge",
+  "direction": "thin",
+  "operation": "slitting",
+  "affect": "discoid"
+}

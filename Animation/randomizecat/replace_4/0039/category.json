@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "vortex",
+  "direction": "normal",
+  "operation": "embedding",
+  "affect": "cantilevered"
+}

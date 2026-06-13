@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "courtyard",
+  "direction": "horizontal",
+  "operation": "tapering",
+  "affect": "degraded"
+}

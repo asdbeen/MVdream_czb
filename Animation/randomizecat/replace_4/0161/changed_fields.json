@@ -1,0 +1,27 @@
+{
+  "sample_id": "0161",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "crossed",
+      "new": "staggered"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "single"
+    },
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "scarving"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "hemisphere"
+    }
+  ]
+}

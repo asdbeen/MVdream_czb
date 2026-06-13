@@ -1,0 +1,32 @@
+{
+  "sample_id": "0205",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "hemisphere"
+    },
+    {
+      "field": "operation",
+      "old": "knotting",
+      "new": "peeling"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "columnar",
+      "new": "notched"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "thin"
+    }
+  ]
+}

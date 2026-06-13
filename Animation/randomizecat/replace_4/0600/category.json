@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "polyhedron",
+  "direction": "omni",
+  "operation": "unfolding",
+  "affect": "rotational"
+}

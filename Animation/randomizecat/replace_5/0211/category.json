@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "lune",
+  "direction": "cardinal",
+  "operation": "unfolding",
+  "affect": "continuous"
+}

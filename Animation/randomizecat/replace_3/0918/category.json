@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "tube",
+  "direction": "horizontal",
+  "operation": "floating",
+  "affect": "inverted"
+}

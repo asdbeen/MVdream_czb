@@ -1,0 +1,22 @@
+{
+  "sample_id": "0002",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "looping"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "vertical"
+    },
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "porous"
+    }
+  ]
+}

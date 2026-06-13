@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "surface",
+  "direction": "planar",
+  "operation": "inflating",
+  "affect": "bundled"
+}

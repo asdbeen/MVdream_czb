@@ -1,0 +1,32 @@
+{
+  "sample_id": "0163",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "lune"
+    },
+    {
+      "field": "affect",
+      "old": "topographic",
+      "new": "porous"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "tri"
+    },
+    {
+      "field": "operation",
+      "old": "grading",
+      "new": "filleting"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

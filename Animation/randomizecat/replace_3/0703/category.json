@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "disk",
+  "direction": "tri",
+  "operation": "ripping",
+  "affect": "cantilevered"
+}

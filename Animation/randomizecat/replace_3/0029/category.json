@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "disk",
+  "direction": "tri",
+  "operation": "undulating",
+  "affect": "dilated"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "capsule",
+  "direction": "omni",
+  "operation": "spiralling",
+  "affect": "gradated"
+}

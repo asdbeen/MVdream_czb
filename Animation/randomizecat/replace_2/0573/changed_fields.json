@@ -1,0 +1,17 @@
+{
+  "sample_id": "0573",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "kinky",
+      "new": "organic"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "hemisphere"
+    }
+  ]
+}

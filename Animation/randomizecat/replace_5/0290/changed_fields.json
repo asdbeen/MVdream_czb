@@ -1,0 +1,32 @@
+{
+  "sample_id": "0290",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "waved"
+    },
+    {
+      "field": "operation",
+      "old": "morphing",
+      "new": "splashing"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "vertical"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "courtyard"
+    }
+  ]
+}

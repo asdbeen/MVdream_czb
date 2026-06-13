@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "courtyard",
+  "direction": "oblique",
+  "operation": "packing",
+  "affect": "cornered"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cylinder",
+  "direction": "normal",
+  "operation": "ripping",
+  "affect": "semicircular"
+}

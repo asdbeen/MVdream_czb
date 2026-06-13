@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "line",
+  "direction": "bi",
+  "operation": "pitching",
+  "affect": "truncated"
+}

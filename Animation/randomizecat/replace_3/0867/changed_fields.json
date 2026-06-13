@@ -1,0 +1,22 @@
+{
+  "sample_id": "0867",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "blob",
+      "new": "capsule"
+    },
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "hollow"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    }
+  ]
+}

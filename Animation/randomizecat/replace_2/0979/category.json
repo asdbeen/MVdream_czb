@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cuboid",
+  "direction": "centrifugal",
+  "operation": "packing",
+  "affect": "opening"
+}

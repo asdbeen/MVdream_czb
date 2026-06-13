@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "ellipsoid",
+  "direction": "uni",
+  "operation": "peeling",
+  "affect": "concave"
+}

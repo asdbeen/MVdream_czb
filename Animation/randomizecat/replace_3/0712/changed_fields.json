@@ -1,0 +1,22 @@
+{
+  "sample_id": "0712",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "radial"
+    },
+    {
+      "field": "affect",
+      "old": "staggered",
+      "new": "gridded"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "gable"
+    }
+  ]
+}

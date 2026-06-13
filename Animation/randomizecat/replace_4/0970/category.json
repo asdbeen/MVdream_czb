@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "tube",
+  "direction": "radial",
+  "operation": "folding",
+  "affect": "domical"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0595",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "hemisphere"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "planar"
+    },
+    {
+      "field": "operation",
+      "old": "hovering",
+      "new": "puncturing"
+    },
+    {
+      "field": "affect",
+      "old": "columnar",
+      "new": "bundled"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

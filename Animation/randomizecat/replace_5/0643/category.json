@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "gable",
+  "direction": "bi",
+  "operation": "voiding",
+  "affect": "hollow"
+}

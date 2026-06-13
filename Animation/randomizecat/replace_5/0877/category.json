@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "disk",
+  "direction": "random",
+  "operation": "floating",
+  "affect": "asymmetrical"
+}

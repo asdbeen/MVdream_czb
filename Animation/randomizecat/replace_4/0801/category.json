@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cuboid",
+  "direction": "thin",
+  "operation": "embedding",
+  "affect": "vaulted"
+}

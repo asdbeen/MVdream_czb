@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "roll",
+  "direction": "oblique",
+  "operation": "grading",
+  "affect": "cubic"
+}

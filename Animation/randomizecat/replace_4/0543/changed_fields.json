@@ -1,0 +1,27 @@
+{
+  "sample_id": "0543",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "zigzagging",
+      "new": "joining"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "Lshape"
+    },
+    {
+      "field": "affect",
+      "old": "truncated",
+      "new": "paneled"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "capsule",
+  "direction": "omni",
+  "operation": "looping",
+  "affect": "organic"
+}

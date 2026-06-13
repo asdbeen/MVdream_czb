@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "blob",
+  "direction": "radial",
+  "operation": "packing",
+  "affect": "convex"
+}

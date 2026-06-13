@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "tri",
+  "operation": "spiraling",
+  "affect": "Lshaped"
+}

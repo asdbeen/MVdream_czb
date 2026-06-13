@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "canopy",
+  "direction": "omni",
+  "operation": "joining",
+  "affect": "dashed"
+}

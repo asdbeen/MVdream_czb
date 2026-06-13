@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "sphere",
+  "direction": "down",
+  "operation": "packing",
+  "affect": "cornered"
+}

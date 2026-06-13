@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "ellipsoid",
+  "direction": "linear",
+  "operation": "interlocking",
+  "affect": "figural"
+}

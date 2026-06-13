@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cross",
+  "direction": "linear",
+  "operation": "unfolding",
+  "affect": "stripped"
+}

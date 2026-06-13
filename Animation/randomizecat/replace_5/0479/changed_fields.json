@@ -1,0 +1,32 @@
+{
+  "sample_id": "0479",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "up",
+      "new": "perpendicular"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "hemisphere"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "cylindrical"
+    },
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "ripping"
+    }
+  ]
+}

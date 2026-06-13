@@ -1,0 +1,22 @@
+{
+  "sample_id": "0671",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "carving",
+      "new": "bulging"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "up",
+      "new": "centrifugal"
+    }
+  ]
+}

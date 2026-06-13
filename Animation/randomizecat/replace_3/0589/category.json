@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "hypershape",
+  "direction": "vertical",
+  "operation": "seperating",
+  "affect": "inserted"
+}

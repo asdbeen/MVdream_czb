@@ -1,0 +1,27 @@
+{
+  "sample_id": "0646",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "linear"
+    },
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "folding"
+    },
+    {
+      "field": "volume",
+      "old": "hypershape",
+      "new": "cross"
+    }
+  ]
+}

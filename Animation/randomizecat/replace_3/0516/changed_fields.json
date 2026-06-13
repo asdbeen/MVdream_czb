@@ -1,0 +1,22 @@
+{
+  "sample_id": "0516",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "hypershape"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "random"
+    },
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "concave"
+    }
+  ]
+}

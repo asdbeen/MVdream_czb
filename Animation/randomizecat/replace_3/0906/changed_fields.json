@@ -1,0 +1,22 @@
+{
+  "sample_id": "0906",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "bi"
+    },
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "cross"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "unfolding"
+    }
+  ]
+}

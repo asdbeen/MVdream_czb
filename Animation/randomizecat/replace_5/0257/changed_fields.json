@@ -1,0 +1,32 @@
+{
+  "sample_id": "0257",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "tentacular"
+    },
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "omni"
+    },
+    {
+      "field": "operation",
+      "old": "leaning",
+      "new": "pitching"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "single"
+    },
+    {
+      "field": "volume",
+      "old": "disk",
+      "new": "gable"
+    }
+  ]
+}

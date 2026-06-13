@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "sphere",
+  "direction": "normal",
+  "operation": "stacking",
+  "affect": "waved"
+}

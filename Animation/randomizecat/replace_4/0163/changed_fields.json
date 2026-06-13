@@ -1,0 +1,27 @@
+{
+  "sample_id": "0163",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "cylinder"
+    },
+    {
+      "field": "affect",
+      "old": "topographic",
+      "new": "consistent"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "bi"
+    }
+  ]
+}

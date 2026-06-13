@@ -1,0 +1,32 @@
+{
+  "sample_id": "0283",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    },
+    {
+      "field": "affect",
+      "old": "truncated",
+      "new": "round"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "radial"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "surface"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "slicing"
+    }
+  ]
+}

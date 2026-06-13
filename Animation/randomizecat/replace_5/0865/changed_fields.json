@@ -1,0 +1,32 @@
+{
+  "sample_id": "0865",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "perforating",
+      "new": "hovering"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "linear"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "stellate"
+    },
+    {
+      "field": "affect",
+      "old": "figural",
+      "new": "vaulted"
+    }
+  ]
+}

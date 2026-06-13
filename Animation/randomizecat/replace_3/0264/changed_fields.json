@@ -1,0 +1,22 @@
+{
+  "sample_id": "0264",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "cardinal"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "cross"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "looping"
+    }
+  ]
+}

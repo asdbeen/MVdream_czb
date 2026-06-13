@@ -1,0 +1,32 @@
+{
+  "sample_id": "0341",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "normal"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "disk"
+    },
+    {
+      "field": "affect",
+      "old": "opening",
+      "new": "semicircular"
+    },
+    {
+      "field": "operation",
+      "old": "sagging",
+      "new": "twisting"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

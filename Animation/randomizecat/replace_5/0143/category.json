@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hypershape",
+  "direction": "bi",
+  "operation": "pitching",
+  "affect": "cantilevered"
+}

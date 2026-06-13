@@ -1,0 +1,17 @@
+{
+  "sample_id": "0002",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "stellate"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "vertical"
+    }
+  ]
+}

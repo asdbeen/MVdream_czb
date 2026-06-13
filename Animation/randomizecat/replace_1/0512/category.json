@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "lune",
+  "direction": "radial",
+  "operation": "overlapping",
+  "affect": "dashed"
+}

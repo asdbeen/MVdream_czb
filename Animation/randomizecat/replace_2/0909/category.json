@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cuboid",
+  "direction": "planar",
+  "operation": "slicing",
+  "affect": "cornered"
+}

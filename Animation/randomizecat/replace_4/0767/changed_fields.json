@@ -1,0 +1,27 @@
+{
+  "sample_id": "0767",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "filleting"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "pyramid"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "perpendicular"
+    }
+  ]
+}

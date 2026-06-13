@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cone",
+  "direction": "down",
+  "operation": "arraying",
+  "affect": "ruled"
+}

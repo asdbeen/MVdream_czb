@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "arch",
+  "direction": "perpendicular",
+  "operation": "stacking",
+  "affect": "cantilevered"
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0358",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "voiding",
+      "new": "joining"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "thin"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "cuboid"
+    }
+  ]
+}

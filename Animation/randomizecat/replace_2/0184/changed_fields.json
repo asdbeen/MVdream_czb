@@ -1,0 +1,17 @@
+{
+  "sample_id": "0184",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "morphing"
+    },
+    {
+      "field": "volume",
+      "old": "pyramid",
+      "new": "polyhedron"
+    }
+  ]
+}

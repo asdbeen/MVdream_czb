@@ -1,0 +1,32 @@
+{
+  "sample_id": "0008",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "carving"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "dashed"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "donut"
+    },
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "tri"
+    }
+  ]
+}

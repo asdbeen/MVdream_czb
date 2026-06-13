@@ -1,0 +1,22 @@
+{
+  "sample_id": "0109",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "undulating"
+    },
+    {
+      "field": "volume",
+      "old": "hemisphere",
+      "new": "pyramid"
+    }
+  ]
+}

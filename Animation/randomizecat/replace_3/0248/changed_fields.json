@@ -1,0 +1,22 @@
+{
+  "sample_id": "0248",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "inverted",
+      "new": "domical"
+    },
+    {
+      "field": "operation",
+      "old": "pitching",
+      "new": "intertwining"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    }
+  ]
+}

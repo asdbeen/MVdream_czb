@@ -1,0 +1,41 @@
+python Animation/infer_dataset_multiview.py \
+  --base_ckpt checkpoints/pretrained/sd-v2.1-base-4view.pt \
+  --adapter_ckpt checkpoints/dir1/ckpt_epoch_67.pth \
+  --device cuda \
+  --fp16
+  --sample_ids 0090 0091
+
+
+python Animation/infer_dataset_multiview.py \
+  --base_ckpt checkpoints/pretrained/sd-v2.1-base-4view.pt \
+  --adapter_ckpt checkpoints/dir1/ckpt_epoch_67.pth \
+  --device cuda \
+  --fp16 \
+  --sample_ids 0008 0009 \
+  --input_view_ids 000 007 014 021 \
+  --output_view_ids 000 003 007 010 014 017 021 024
+
+
+  python Animation/infer_dataset_multiview.py \
+  --base_ckpt checkpoints/pretrained/sd-v2.1-base-4view.pt \
+  --adapter_ckpt checkpoints/dir1/ckpt_epoch_67.pth \
+  --device cuda \
+  --fp16 \
+  --sample_ids 27 \
+  --input_view_ids 000 007 014 021 \
+  --output_view_ids 000 003 007 010 014 017 021 024
+
+
+  python Animation/infer_dataset_multiview.py \
+  --base_ckpt checkpoints/pretrained/sd-v2.1-base-4view.pt \
+  --adapter_ckpt checkpoints/dir1/ckpt_epoch_67.pth \
+  --device cuda \
+  --fp16 \
+  --sample_id_start 1 \
+  --sample_id_end 1001 \
+  --category_root /home/chenzebin/MVdream_czb/Animation/randomizecat/replace_1 \
+  --output_root /home/chenzebin/MVdream_czb/Animation/output_replace_1 \
+  --input_view_ids 000 007 014 021 \
+  --output_view_ids 000 003 007 010 014 017 021 024
+
+

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "Lshape",
+  "direction": "down",
+  "operation": "floating",
+  "affect": "sunken"
+}

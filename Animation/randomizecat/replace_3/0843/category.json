@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "stellate",
+  "direction": "parallel",
+  "operation": "twisting",
+  "affect": "bundled"
+}

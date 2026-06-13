@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "gable",
+  "direction": "cardinal",
+  "operation": "oscillating",
+  "affect": "paneled"
+}

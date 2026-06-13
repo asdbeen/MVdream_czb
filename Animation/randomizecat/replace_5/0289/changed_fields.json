@@ -1,0 +1,32 @@
+{
+  "sample_id": "0289",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "perpendicular"
+    },
+    {
+      "field": "affect",
+      "old": "colonnaded",
+      "new": "prismic"
+    },
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "intersecting"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "roll"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

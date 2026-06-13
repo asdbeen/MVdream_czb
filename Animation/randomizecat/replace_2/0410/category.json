@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cuboid",
+  "direction": "down",
+  "operation": "perforating",
+  "affect": "latticed"
+}

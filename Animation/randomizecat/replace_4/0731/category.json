@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "stellate",
+  "direction": "up",
+  "operation": "stacking",
+  "affect": "consistent"
+}

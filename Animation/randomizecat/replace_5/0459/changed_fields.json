@@ -1,0 +1,32 @@
+{
+  "sample_id": "0459",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "perforating",
+      "new": "pleating"
+    },
+    {
+      "field": "affect",
+      "old": "gridded",
+      "new": "shifted"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "tripod"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "radial"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

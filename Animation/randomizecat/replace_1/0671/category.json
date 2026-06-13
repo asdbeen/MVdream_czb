@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "wedge",
+  "direction": "up",
+  "operation": "carving",
+  "affect": "convex"
+}

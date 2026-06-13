@@ -1,0 +1,17 @@
+{
+  "sample_id": "0323",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "subtracting"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "bi"
+    }
+  ]
+}

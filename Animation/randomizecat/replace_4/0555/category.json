@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "pipe",
+  "direction": "normal",
+  "operation": "compressing",
+  "affect": "gridded"
+}

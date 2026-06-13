@@ -1,0 +1,32 @@
+{
+  "sample_id": "0015",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "puncturing",
+      "new": "floating"
+    },
+    {
+      "field": "affect",
+      "old": "figural",
+      "new": "dilated"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "planar"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "cube"
+    }
+  ]
+}

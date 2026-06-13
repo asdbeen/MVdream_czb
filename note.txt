@@ -4,3 +4,53 @@ python -m py_compile scripts/gradio_app.py
 
 
 --meta_path customized_simple_dataset_tagVersion_simplified/train.txt --num_views 4 --bs 4 --size 256 --epochs 1 --device cuda  --debug_timing 
+
+
+cd /home/chenzebin/MVdream_czb
+source .venv/bin/activate
+
+
+python -u scripts/train_hull_finetune.py \
+--dataset_root customized_simple_dataset_tagVersion_simplified \
+--meta_path customized_simple_dataset_tagVersion_simplified/train.txt \
+--num_views 4 \
+--bs 16 \
+--size 256 \
+--epochs 500 \
+--device cuda \
+--debug_timing \
+--ckpt /home/chenzebin/MVdream_czb/checkpoints/pretrained/sd-v2.1-base-4view.pt \
+--save_pred_images_epoch 100 200 300 400 500 
+
+
+python -u scripts/train_hull_finetune.py \
+--dataset_root customized_simple_dataset_tagVersion_simplified \
+--meta_path customized_simple_dataset_tagVersion_simplified/train.txt \
+--num_views 4 \
+--bs 16 \
+--size 256 \
+--epochs 500 \
+--device cuda \
+--debug_timing \
+--ckpt /home/chenzebin/MVdream_czb/checkpoints/pretrained/sd-v2.1-base-4view.pt \
+--save_pred_images_epoch 1
+
+
+python scripts/gradio_app.py --base_ckpt checkpoints/pretrained/sd-v2.1-base-4view.pt --adapter_ckpt checkpoints/dir1/ckpt_epoch_67.pth
+
+
+
+python -u scripts/train_hull_finetune_test_new.py \
+--dataset_root customized_simple_dataset_tagVersion_simplified \
+--meta_path customized_simple_dataset_tagVersion_simplified/train.txt \
+--num_views 4 \
+--bs 16 \
+--size 256 \
+--epochs 500 \
+--device cuda \
+--debug_timing \
+--ckpt /home/chenzebin/MVdream_czb/checkpoints/pretrained/sd-v2.1-base-4view.pt \
+--save_pred_images_epoch 1
+
+
+python scripts/gradio_app_mask_enhanced.py --base_ckpt checkpoints/pretrained/sd-v2.1-base-4view.pt --adapter_ckpt checkpoints/mask_enhanced/ckpt_epoch_99.pth

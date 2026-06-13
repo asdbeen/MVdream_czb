@@ -1,0 +1,22 @@
+{
+  "sample_id": "0522",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "uni"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "bulging"
+    }
+  ]
+}

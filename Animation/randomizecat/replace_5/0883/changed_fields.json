@@ -1,0 +1,32 @@
+{
+  "sample_id": "0883",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "oscillating"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "hemisphere"
+    },
+    {
+      "field": "direction",
+      "old": "perpendicular",
+      "new": "omni"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "tilted",
+      "new": "discontinuous"
+    }
+  ]
+}

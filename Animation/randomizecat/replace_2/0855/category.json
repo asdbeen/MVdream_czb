@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cross",
+  "direction": "linear",
+  "operation": "arraying",
+  "affect": "dilated"
+}

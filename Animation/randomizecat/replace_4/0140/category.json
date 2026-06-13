@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "roll",
+  "direction": "parallel",
+  "operation": "tangling",
+  "affect": "hollow"
+}

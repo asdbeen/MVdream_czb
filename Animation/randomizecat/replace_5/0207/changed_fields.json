@@ -1,0 +1,32 @@
+{
+  "sample_id": "0207",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "zigzagging",
+      "new": "looping"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "polar"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "donut"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "latticed"
+    }
+  ]
+}

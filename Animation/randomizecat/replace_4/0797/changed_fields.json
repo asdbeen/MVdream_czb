@@ -1,0 +1,27 @@
+{
+  "sample_id": "0797",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "affect",
+      "old": "gridded",
+      "new": "anthropomorphic"
+    },
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "carving"
+    },
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "roll"
+    }
+  ]
+}

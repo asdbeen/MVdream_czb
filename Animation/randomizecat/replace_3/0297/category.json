@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pipe",
+  "direction": "oblique",
+  "operation": "carving",
+  "affect": "topographic"
+}

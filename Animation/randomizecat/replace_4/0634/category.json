@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "wedge",
+  "direction": "horizontal",
+  "operation": "spiraing",
+  "affect": "stripped"
+}

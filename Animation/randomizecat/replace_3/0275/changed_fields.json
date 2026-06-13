@@ -1,0 +1,22 @@
+{
+  "sample_id": "0275",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "rotational",
+      "new": "crossed"
+    },
+    {
+      "field": "operation",
+      "old": "leaning",
+      "new": "scarving"
+    },
+    {
+      "field": "direction",
+      "old": "radial",
+      "new": "thin"
+    }
+  ]
+}

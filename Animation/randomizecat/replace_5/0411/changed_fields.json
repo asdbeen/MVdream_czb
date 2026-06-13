@@ -1,0 +1,32 @@
+{
+  "sample_id": "0411",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "up"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "staggered"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "puncturing"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "capsule"
+    }
+  ]
+}

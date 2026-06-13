@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "capsule",
+  "direction": "tri",
+  "operation": "splitting",
+  "affect": "hollow"
+}

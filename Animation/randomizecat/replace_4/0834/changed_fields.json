@@ -1,0 +1,27 @@
+{
+  "sample_id": "0834",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "inflating"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "linear"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "pipe"
+    }
+  ]
+}

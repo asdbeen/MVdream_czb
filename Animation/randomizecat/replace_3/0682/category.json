@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hexagonal",
+  "direction": "thin",
+  "operation": "splitting",
+  "affect": "waved"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cylinder",
+  "direction": "down",
+  "operation": "arraying",
+  "affect": "inverted"
+}

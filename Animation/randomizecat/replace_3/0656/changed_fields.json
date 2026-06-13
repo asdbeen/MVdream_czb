@@ -1,0 +1,22 @@
+{
+  "sample_id": "0656",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "vortex"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "undulating",
+      "new": "crumpling"
+    }
+  ]
+}

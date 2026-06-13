@@ -1,0 +1,27 @@
+{
+  "sample_id": "0148",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "up"
+    },
+    {
+      "field": "operation",
+      "old": "carving",
+      "new": "scaffolding"
+    },
+    {
+      "field": "volume",
+      "old": "pyramid",
+      "new": "hypershape"
+    },
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "rolled"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "canopy",
+  "direction": "down",
+  "operation": "zigzagging",
+  "affect": "gridded"
+}

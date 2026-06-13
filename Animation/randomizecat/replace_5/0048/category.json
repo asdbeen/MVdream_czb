@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "courtyard",
+  "direction": "polar",
+  "operation": "inflating",
+  "affect": "dilated"
+}

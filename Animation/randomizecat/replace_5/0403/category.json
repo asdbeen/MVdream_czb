@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "tripod",
+  "direction": "cardinal",
+  "operation": "unfolding",
+  "affect": "symmetrical"
+}

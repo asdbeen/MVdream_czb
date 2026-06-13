@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "canopy",
+  "direction": "planar",
+  "operation": "compressing",
+  "affect": "bundled"
+}

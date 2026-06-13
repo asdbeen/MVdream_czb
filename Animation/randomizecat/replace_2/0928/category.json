@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hemisphere",
+  "direction": "thin",
+  "operation": "compressing",
+  "affect": "latticed"
+}

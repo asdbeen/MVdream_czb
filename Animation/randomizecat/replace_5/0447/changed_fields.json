@@ -1,0 +1,32 @@
+{
+  "sample_id": "0447",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "hollow"
+    },
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "curving"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "planar"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "polyhedron"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

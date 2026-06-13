@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "line",
+  "direction": "vertical",
+  "operation": "separating",
+  "affect": "cubic"
+}

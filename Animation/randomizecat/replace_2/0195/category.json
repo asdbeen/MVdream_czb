@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "blob",
+  "direction": "vertical",
+  "operation": "bending",
+  "affect": "gradated"
+}

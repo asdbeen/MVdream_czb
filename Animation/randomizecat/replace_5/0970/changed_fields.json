@@ -1,0 +1,32 @@
+{
+  "sample_id": "0970",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "symmetrical"
+    },
+    {
+      "field": "operation",
+      "old": "pitching",
+      "new": "containing"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "perpendicular",
+      "new": "down"
+    },
+    {
+      "field": "volume",
+      "old": "gable",
+      "new": "cone"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "stellate",
+  "direction": "parallel",
+  "operation": "zigzagging",
+  "affect": "indented"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cylinder",
+  "direction": "linear",
+  "operation": "floating",
+  "affect": "organic"
+}

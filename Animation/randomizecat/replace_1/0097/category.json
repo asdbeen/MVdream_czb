@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "tube",
+  "direction": "polar",
+  "operation": "folding",
+  "affect": "kinky"
+}

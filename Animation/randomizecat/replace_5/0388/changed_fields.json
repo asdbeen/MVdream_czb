@@ -1,0 +1,32 @@
+{
+  "sample_id": "0388",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "cube"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "vertical"
+    },
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "anthropomorphic"
+    },
+    {
+      "field": "operation",
+      "old": "intertwining",
+      "new": "packing"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cylinder",
+  "direction": "parallel",
+  "operation": "bifurcating",
+  "affect": "cornered"
+}

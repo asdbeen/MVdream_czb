@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "tripod",
+  "direction": "radial",
+  "operation": "folding",
+  "affect": "staggered"
+}

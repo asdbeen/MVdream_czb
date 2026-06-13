@@ -1,0 +1,32 @@
+{
+  "sample_id": "0071",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "centrifugal"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "gable"
+    },
+    {
+      "field": "affect",
+      "old": "rotational",
+      "new": "gradated"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "tapering"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    }
+  ]
+}

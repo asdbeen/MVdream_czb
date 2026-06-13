@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "lune",
+  "direction": "perpendicular",
+  "operation": "compressing",
+  "affect": "topographic"
+}

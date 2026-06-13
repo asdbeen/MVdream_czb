@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "Lshape",
+  "direction": "tri",
+  "operation": "slicing",
+  "affect": "gaping"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cuboid",
+  "direction": "polar",
+  "operation": "carving",
+  "affect": "notched"
+}

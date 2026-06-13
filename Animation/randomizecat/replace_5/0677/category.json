@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "canopy",
+  "direction": "polar",
+  "operation": "perforating",
+  "affect": "circular"
+}

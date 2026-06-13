@@ -1,0 +1,27 @@
+{
+  "sample_id": "0355",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "line"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "polar"
+    },
+    {
+      "field": "affect",
+      "old": "discoid",
+      "new": "hollow"
+    },
+    {
+      "field": "operation",
+      "old": "zigzagging",
+      "new": "packing"
+    }
+  ]
+}

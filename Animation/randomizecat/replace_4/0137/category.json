@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "Lshape",
+  "direction": "cardinal",
+  "operation": "bridging",
+  "affect": "convex"
+}

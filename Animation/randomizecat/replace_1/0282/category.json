@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "courtyard",
+  "direction": "cardinal",
+  "operation": "pixelating",
+  "affect": "gradated"
+}

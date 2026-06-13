@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "tube",
+  "direction": "bi",
+  "operation": "pleating",
+  "affect": "cantilevered"
+}

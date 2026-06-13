@@ -1,0 +1,32 @@
+{
+  "sample_id": "0130",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "radial"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "courtyard"
+    },
+    {
+      "field": "operation",
+      "old": "scaffolding",
+      "new": "ripping"
+    },
+    {
+      "field": "affect",
+      "old": "rotational",
+      "new": "prismic"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    }
+  ]
+}

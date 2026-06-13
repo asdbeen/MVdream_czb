@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "disk",
+  "direction": "thin",
+  "operation": "inflating",
+  "affect": "hollow"
+}

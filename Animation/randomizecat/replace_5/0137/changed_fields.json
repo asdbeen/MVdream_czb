@@ -1,0 +1,32 @@
+{
+  "sample_id": "0137",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "convex",
+      "new": "porous"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "single"
+    },
+    {
+      "field": "operation",
+      "old": "excavating",
+      "new": "seperating"
+    },
+    {
+      "field": "volume",
+      "old": "surface",
+      "new": "glyph"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "cardinal"
+    }
+  ]
+}

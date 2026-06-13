@@ -1,0 +1,32 @@
+{
+  "sample_id": "0835",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "planar"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "convex"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "filleting"
+    },
+    {
+      "field": "volume",
+      "old": "glyph",
+      "new": "cross"
+    }
+  ]
+}

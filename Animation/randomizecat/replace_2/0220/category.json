@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "hexagonal",
+  "direction": "horizontal",
+  "operation": "twisting",
+  "affect": "columnar"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "gable",
+  "direction": "vertical",
+  "operation": "floating",
+  "affect": "notched"
+}

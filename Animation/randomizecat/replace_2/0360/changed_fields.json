@@ -1,0 +1,17 @@
+{
+  "sample_id": "0360",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "slicing"
+    }
+  ]
+}

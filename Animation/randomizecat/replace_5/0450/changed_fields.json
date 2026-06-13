@@ -1,0 +1,32 @@
+{
+  "sample_id": "0450",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "normal"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "donut"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "asymmetrical"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "degrading"
+    }
+  ]
+}

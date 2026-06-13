@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "polar",
+  "operation": "compressing",
+  "affect": "gaping"
+}

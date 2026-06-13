@@ -1,0 +1,27 @@
+{
+  "sample_id": "0561",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "polyhedron"
+    },
+    {
+      "field": "operation",
+      "old": "spiraling",
+      "new": "peeling"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "horizontal"
+    },
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "prismic"
+    }
+  ]
+}

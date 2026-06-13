@@ -1,0 +1,27 @@
+{
+  "sample_id": "0684",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "interlocking",
+      "new": "bifurcating"
+    },
+    {
+      "field": "volume",
+      "old": "tripod",
+      "new": "cylinder"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "parallel"
+    },
+    {
+      "field": "affect",
+      "old": "asymmetrical",
+      "new": "cornered"
+    }
+  ]
+}

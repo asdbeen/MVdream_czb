@@ -1,0 +1,27 @@
+{
+  "sample_id": "0318",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "centrifugal"
+    },
+    {
+      "field": "affect",
+      "old": "symmetrical",
+      "new": "porous"
+    },
+    {
+      "field": "operation",
+      "old": "intersecting",
+      "new": "packing"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "double"
+    }
+  ]
+}

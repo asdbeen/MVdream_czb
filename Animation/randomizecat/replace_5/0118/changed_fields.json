@@ -1,0 +1,32 @@
+{
+  "sample_id": "0118",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "cornered"
+    },
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "donut"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "centrifugal"
+    },
+    {
+      "field": "operation",
+      "old": "seperating",
+      "new": "curving"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "multiple"
+    }
+  ]
+}

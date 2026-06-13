@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "polyhedron",
+  "direction": "down",
+  "operation": "seperating",
+  "affect": "semicircular"
+}

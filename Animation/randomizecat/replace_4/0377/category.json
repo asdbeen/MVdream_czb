@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cylinder",
+  "direction": "random",
+  "operation": "containing",
+  "affect": "rolled"
+}

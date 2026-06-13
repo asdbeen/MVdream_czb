@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "glyph",
+  "direction": "thin",
+  "operation": "fractaling",
+  "affect": "discontinuous"
+}

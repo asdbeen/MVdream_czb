@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "pyramid",
+  "direction": "thin",
+  "operation": "bending",
+  "affect": "rotational"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "vortex",
+  "direction": "omni",
+  "operation": "bulging",
+  "affect": "consistent"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "disk",
+  "direction": "polar",
+  "operation": "scarving",
+  "affect": "faceted"
+}

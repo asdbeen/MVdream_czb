@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "ellipsoid",
+  "direction": "centrifugal",
+  "operation": "grading",
+  "affect": "convex"
+}

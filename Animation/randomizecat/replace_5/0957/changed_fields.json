@@ -1,0 +1,32 @@
+{
+  "sample_id": "0957",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "gridded",
+      "new": "rotational"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "hypershape"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "down"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "degrading",
+      "new": "bifurcating"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0850",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "asymmetrical",
+      "new": "consistent"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "uni"
+    },
+    {
+      "field": "operation",
+      "old": "twisting",
+      "new": "intertwining"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "wedge"
+    }
+  ]
+}

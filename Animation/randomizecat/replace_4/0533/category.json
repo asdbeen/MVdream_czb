@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "gable",
+  "direction": "random",
+  "operation": "compressing",
+  "affect": "degraded"
+}

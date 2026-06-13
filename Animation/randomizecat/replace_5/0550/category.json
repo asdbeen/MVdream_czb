@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "ellipsoid",
+  "direction": "cardinal",
+  "operation": "intertwining",
+  "affect": "rippled"
+}

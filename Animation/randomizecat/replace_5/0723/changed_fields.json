@@ -1,0 +1,32 @@
+{
+  "sample_id": "0723",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "bulging",
+      "new": "waffling"
+    },
+    {
+      "field": "affect",
+      "old": "gridded",
+      "new": "pyramidal"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "capsule"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "down"
+    }
+  ]
+}

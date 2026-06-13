@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "wedge",
+  "direction": "perpendicular",
+  "operation": "draping",
+  "affect": "crossed"
+}

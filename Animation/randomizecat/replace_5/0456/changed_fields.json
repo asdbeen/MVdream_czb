@@ -1,0 +1,32 @@
+{
+  "sample_id": "0456",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "oblique"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "disk"
+    },
+    {
+      "field": "operation",
+      "old": "undulating",
+      "new": "grooving"
+    },
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "consistent"
+    }
+  ]
+}

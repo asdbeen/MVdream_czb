@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "horizontal",
+  "operation": "waffling",
+  "affect": "gridded"
+}

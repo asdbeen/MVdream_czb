@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "roll",
+  "direction": "centrifugal",
+  "operation": "spiraing",
+  "affect": "discoid"
+}

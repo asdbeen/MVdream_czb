@@ -1,0 +1,32 @@
+{
+  "sample_id": "0169",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "rotational",
+      "new": "vortical"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "single"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "stretching"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "uni"
+    },
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "roll"
+    }
+  ]
+}

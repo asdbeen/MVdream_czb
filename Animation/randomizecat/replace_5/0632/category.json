@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "arch",
+  "direction": "perpendicular",
+  "operation": "grooving",
+  "affect": "crowned"
+}

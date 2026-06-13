@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "lune",
+  "direction": "tri",
+  "operation": "wrapping",
+  "affect": "gaping"
+}

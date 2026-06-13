@@ -1,0 +1,22 @@
+{
+  "sample_id": "0406",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "ellipsoid"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "embedding"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "cantilevered"
+    }
+  ]
+}

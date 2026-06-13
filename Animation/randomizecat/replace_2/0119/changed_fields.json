@@ -1,0 +1,17 @@
+{
+  "sample_id": "0119",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "folding",
+      "new": "zigzagging"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "line"
+    }
+  ]
+}

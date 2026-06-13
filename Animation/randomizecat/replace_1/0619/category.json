@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "Lshape",
+  "direction": "thin",
+  "operation": "slicing",
+  "affect": "rotational"
+}

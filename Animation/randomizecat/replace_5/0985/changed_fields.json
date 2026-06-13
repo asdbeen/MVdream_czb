@@ -1,0 +1,32 @@
+{
+  "sample_id": "0985",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "horizontal"
+    },
+    {
+      "field": "operation",
+      "old": "intertwining",
+      "new": "subtracting"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "blob"
+    },
+    {
+      "field": "affect",
+      "old": "discontinuous",
+      "new": "faceted"
+    }
+  ]
+}

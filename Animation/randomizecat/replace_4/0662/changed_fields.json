@@ -1,0 +1,27 @@
+{
+  "sample_id": "0662",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "stretching",
+      "new": "excavating"
+    },
+    {
+      "field": "affect",
+      "old": "cornered",
+      "new": "semicircular"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "vortex"
+    }
+  ]
+}

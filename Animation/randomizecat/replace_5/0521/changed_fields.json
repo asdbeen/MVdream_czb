@@ -1,0 +1,32 @@
+{
+  "sample_id": "0521",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "sunken",
+      "new": "dilated"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "centrifugal"
+    },
+    {
+      "field": "operation",
+      "old": "joining",
+      "new": "packing"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "arch"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "single"
+    }
+  ]
+}

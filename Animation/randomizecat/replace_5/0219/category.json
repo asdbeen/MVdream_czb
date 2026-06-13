@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "disk",
+  "direction": "radial",
+  "operation": "packing",
+  "affect": "cornered"
+}

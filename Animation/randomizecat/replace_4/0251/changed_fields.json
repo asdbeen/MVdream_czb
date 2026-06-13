@@ -1,0 +1,27 @@
+{
+  "sample_id": "0251",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "slicing",
+      "new": "scarving"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "cuboid"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "horizontal"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

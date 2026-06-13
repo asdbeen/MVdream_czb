@@ -1,0 +1,32 @@
+{
+  "sample_id": "0914",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "asymmetrical",
+      "new": "flooring"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "up"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "embedding"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "courtyard"
+    }
+  ]
+}

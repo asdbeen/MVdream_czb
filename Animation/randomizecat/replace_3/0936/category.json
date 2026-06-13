@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "canopy",
+  "direction": "horizontal",
+  "operation": "filleting",
+  "affect": "gridded"
+}

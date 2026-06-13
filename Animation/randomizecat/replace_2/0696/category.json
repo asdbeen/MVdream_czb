@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "lune",
+  "direction": "vertical",
+  "operation": "fractaling",
+  "affect": "asymmetrical"
+}

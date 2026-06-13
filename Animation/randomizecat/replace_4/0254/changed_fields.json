@@ -1,0 +1,27 @@
+{
+  "sample_id": "0254",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "interlocking",
+      "new": "hovering"
+    },
+    {
+      "field": "affect",
+      "old": "inverted",
+      "new": "cornered"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "uni"
+    }
+  ]
+}

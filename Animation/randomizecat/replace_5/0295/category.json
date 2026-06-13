@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hypershape",
+  "direction": "planar",
+  "operation": "leaning",
+  "affect": "circular"
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "0417",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "down"
+    },
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "morphing"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "multiple"
+    }
+  ]
+}

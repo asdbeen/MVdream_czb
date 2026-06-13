@@ -1,0 +1,32 @@
+{
+  "sample_id": "0121",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "capsule"
+    },
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "vaulted"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "perpendicular"
+    },
+    {
+      "field": "operation",
+      "old": "carving",
+      "new": "unfolding"
+    }
+  ]
+}

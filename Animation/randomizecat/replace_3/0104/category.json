@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pyramid",
+  "direction": "thin",
+  "operation": "folding",
+  "affect": "truncated"
+}

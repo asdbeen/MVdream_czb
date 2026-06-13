@@ -1,0 +1,32 @@
+{
+  "sample_id": "0724",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "centrifugal"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "cross"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "branching"
+    },
+    {
+      "field": "affect",
+      "old": "inserted",
+      "new": "cantilevered"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    }
+  ]
+}

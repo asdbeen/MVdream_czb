@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "polyhedron",
+  "direction": "oblique",
+  "operation": "carving",
+  "affect": "vaulted"
+}

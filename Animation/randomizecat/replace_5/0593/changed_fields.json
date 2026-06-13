@@ -1,0 +1,32 @@
+{
+  "sample_id": "0593",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "discoid"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "polar"
+    },
+    {
+      "field": "operation",
+      "old": "undulating",
+      "new": "voiding"
+    },
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "cross"
+    }
+  ]
+}

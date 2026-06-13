@@ -1,0 +1,27 @@
+{
+  "sample_id": "0181",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "capsule",
+      "new": "cuboid"
+    },
+    {
+      "field": "affect",
+      "old": "spherical",
+      "new": "gaping"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "random"
+    },
+    {
+      "field": "operation",
+      "old": "subtracting",
+      "new": "grooving"
+    }
+  ]
+}

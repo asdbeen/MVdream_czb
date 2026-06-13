@@ -1,0 +1,22 @@
+{
+  "sample_id": "0422",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "octahedral"
+    },
+    {
+      "field": "direction",
+      "old": "perpendicular",
+      "new": "uni"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "wired"
+    }
+  ]
+}

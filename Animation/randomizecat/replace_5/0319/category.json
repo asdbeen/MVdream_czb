@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "capsule",
+  "direction": "down",
+  "operation": "separating",
+  "affect": "conic"
+}

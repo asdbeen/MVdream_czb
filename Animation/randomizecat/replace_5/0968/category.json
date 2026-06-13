@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "vortex",
+  "direction": "perpendicular",
+  "operation": "bridging",
+  "affect": "gabled"
+}

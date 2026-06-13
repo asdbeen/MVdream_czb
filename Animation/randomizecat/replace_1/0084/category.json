@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hypershape",
+  "direction": "vertical",
+  "operation": "perforating",
+  "affect": "columnar"
+}

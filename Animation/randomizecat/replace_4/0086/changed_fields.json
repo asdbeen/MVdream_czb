@@ -1,0 +1,27 @@
+{
+  "sample_id": "0086",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "tri",
+      "new": "up"
+    },
+    {
+      "field": "volume",
+      "old": "tripod",
+      "new": "polyhedron"
+    },
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "undulating"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

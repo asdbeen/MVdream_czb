@@ -1,0 +1,32 @@
+{
+  "sample_id": "0261",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "ruled"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "omni"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "sphere"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "twisting"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    }
+  ]
+}

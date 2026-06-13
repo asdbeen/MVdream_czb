@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cuboid",
+  "direction": "uni",
+  "operation": "overlapping",
+  "affect": "dashed"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cone",
+  "direction": "up",
+  "operation": "morphing",
+  "affect": "sawtooth"
+}

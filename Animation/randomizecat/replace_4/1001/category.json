@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "octahedral",
+  "direction": "thin",
+  "operation": "intertwining",
+  "affect": "truncated"
+}

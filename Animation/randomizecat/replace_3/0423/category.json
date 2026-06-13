@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cuboid",
+  "direction": "planar",
+  "operation": "ripping",
+  "affect": "cantilevered"
+}

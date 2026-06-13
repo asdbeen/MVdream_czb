@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cuboid",
+  "direction": "radial",
+  "operation": "grading",
+  "affect": "gradated"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cylinder",
+  "direction": "oblique",
+  "operation": "arraying",
+  "affect": "rotational"
+}

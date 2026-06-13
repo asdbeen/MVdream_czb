@@ -1,0 +1,22 @@
+{
+  "sample_id": "0526",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "wedge",
+      "new": "gable"
+    },
+    {
+      "field": "affect",
+      "old": "patterned",
+      "new": "domical"
+    },
+    {
+      "field": "operation",
+      "old": "pixelating",
+      "new": "curving"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cylinder",
+  "direction": "uni",
+  "operation": "undulating",
+  "affect": "degraded"
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0296",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "pyramidal",
+      "new": "flooring"
+    },
+    {
+      "field": "volume",
+      "old": "sphere",
+      "new": "courtyard"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "twisting"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "down"
+    }
+  ]
+}

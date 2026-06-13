@@ -1,0 +1,27 @@
+{
+  "sample_id": "0620",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "parallel"
+    },
+    {
+      "field": "affect",
+      "old": "hollow",
+      "new": "spherical"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "peeling",
+      "new": "joining"
+    }
+  ]
+}

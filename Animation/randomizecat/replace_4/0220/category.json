@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "sphere",
+  "direction": "polar",
+  "operation": "containing",
+  "affect": "dilated"
+}

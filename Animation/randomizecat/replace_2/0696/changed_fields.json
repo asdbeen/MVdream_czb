@@ -1,0 +1,17 @@
+{
+  "sample_id": "0696",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "lune"
+    },
+    {
+      "field": "operation",
+      "old": "overlapping",
+      "new": "fractaling"
+    }
+  ]
+}

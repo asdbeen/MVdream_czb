@@ -1,0 +1,27 @@
+{
+  "sample_id": "0585",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "hovering",
+      "new": "slicing"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "up"
+    },
+    {
+      "field": "affect",
+      "old": "colonnaded",
+      "new": "waved"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cube",
+  "direction": "bi",
+  "operation": "subtracting",
+  "affect": "staggered"
+}

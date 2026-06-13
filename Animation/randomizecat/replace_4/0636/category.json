@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "sphere",
+  "direction": "normal",
+  "operation": "puncturing",
+  "affect": "ruled"
+}

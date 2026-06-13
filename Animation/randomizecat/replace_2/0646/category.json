@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hypershape",
+  "direction": "omni",
+  "operation": "branching",
+  "affect": "crowned"
+}

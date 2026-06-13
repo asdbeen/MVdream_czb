@@ -1,0 +1,27 @@
+{
+  "sample_id": "0128",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "sphere"
+    },
+    {
+      "field": "affect",
+      "old": "tentacular",
+      "new": "prismic"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "thin"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

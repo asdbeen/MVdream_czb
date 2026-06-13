@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "surface",
+  "direction": "perpendicular",
+  "operation": "degrading",
+  "affect": "degraded"
+}

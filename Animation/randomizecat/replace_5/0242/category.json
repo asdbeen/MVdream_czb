@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "glyph",
+  "direction": "planar",
+  "operation": "splashing",
+  "affect": "rolled"
+}

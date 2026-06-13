@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cuboid",
+  "direction": "bi",
+  "operation": "bending",
+  "affect": "bundled"
+}

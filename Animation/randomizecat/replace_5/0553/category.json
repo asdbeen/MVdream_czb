@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "capsule",
+  "direction": "planar",
+  "operation": "peeling",
+  "affect": "rolled"
+}

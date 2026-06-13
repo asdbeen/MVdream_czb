@@ -1,0 +1,32 @@
+{
+  "sample_id": "0132",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "gable"
+    },
+    {
+      "field": "affect",
+      "old": "irregular",
+      "new": "shifted"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "omni"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "scaffolding"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "single"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "Lshape",
+  "direction": "omni",
+  "operation": "subtracting",
+  "affect": "organic"
+}

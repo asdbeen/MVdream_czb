@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "roll",
+  "direction": "polar",
+  "operation": "embedding",
+  "affect": "wired"
+}

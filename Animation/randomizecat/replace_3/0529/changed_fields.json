@@ -1,0 +1,22 @@
+{
+  "sample_id": "0529",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "hemisphere",
+      "new": "wedge"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "subtracting",
+      "new": "morphing"
+    }
+  ]
+}

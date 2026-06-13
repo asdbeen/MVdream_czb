@@ -1,0 +1,27 @@
+{
+  "sample_id": "0750",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "arch"
+    },
+    {
+      "field": "affect",
+      "old": "rolled",
+      "new": "circular"
+    },
+    {
+      "field": "operation",
+      "old": "looping",
+      "new": "compressing"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "perpendicular"
+    }
+  ]
+}

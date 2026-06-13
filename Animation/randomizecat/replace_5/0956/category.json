@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "disk",
+  "direction": "tri",
+  "operation": "tangling",
+  "affect": "convex"
+}

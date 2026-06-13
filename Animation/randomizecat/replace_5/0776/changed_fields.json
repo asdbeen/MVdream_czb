@@ -1,0 +1,32 @@
+{
+  "sample_id": "0776",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "polar"
+    },
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "anthropomorphic"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "pipe"
+    },
+    {
+      "field": "operation",
+      "old": "pixelating",
+      "new": "curving"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "0516",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "kinky"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "slicing"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "roll"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0644",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "flooring"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "polar"
+    },
+    {
+      "field": "operation",
+      "old": "interlocking",
+      "new": "pleating"
+    },
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "polyhedron"
+    },
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "single"
+    }
+  ]
+}

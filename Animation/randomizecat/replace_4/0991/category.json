@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "sphere",
+  "direction": "centrifugal",
+  "operation": "voiding",
+  "affect": "truncated"
+}

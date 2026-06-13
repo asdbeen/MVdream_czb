@@ -1,0 +1,27 @@
+{
+  "sample_id": "0027",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "fractaling"
+    },
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "latticed"
+    },
+    {
+      "field": "volume",
+      "old": "blob",
+      "new": "courtyard"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "blob",
+  "direction": "random",
+  "operation": "bulging",
+  "affect": "opening"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0962",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "horizontal"
+    },
+    {
+      "field": "affect",
+      "old": "rippled",
+      "new": "anthropomorphic"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "hovering"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "tube"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

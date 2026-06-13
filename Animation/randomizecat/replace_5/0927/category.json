@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "courtyard",
+  "direction": "omni",
+  "operation": "filleting",
+  "affect": "opening"
+}

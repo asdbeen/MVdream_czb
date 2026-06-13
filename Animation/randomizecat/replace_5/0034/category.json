@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "lune",
+  "direction": "random",
+  "operation": "interlocking",
+  "affect": "gridded"
+}

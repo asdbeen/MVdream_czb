@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "pyramid",
+  "direction": "uni",
+  "operation": "folding",
+  "affect": "cornered"
+}

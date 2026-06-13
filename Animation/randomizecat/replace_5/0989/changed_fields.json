@@ -1,0 +1,32 @@
+{
+  "sample_id": "0989",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "planar"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "excavating"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "roll"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "consistent"
+    }
+  ]
+}

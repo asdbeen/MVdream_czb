@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "gable",
+  "direction": "radial",
+  "operation": "arraying",
+  "affect": "truncated"
+}

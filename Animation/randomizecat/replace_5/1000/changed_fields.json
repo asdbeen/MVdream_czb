@@ -1,0 +1,32 @@
+{
+  "sample_id": "1000",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "down"
+    },
+    {
+      "field": "operation",
+      "old": "oscillating",
+      "new": "stretching"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "cylinder"
+    },
+    {
+      "field": "affect",
+      "old": "cantilevered",
+      "new": "notched"
+    }
+  ]
+}

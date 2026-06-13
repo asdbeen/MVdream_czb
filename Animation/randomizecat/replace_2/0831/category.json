@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cross",
+  "direction": "horizontal",
+  "operation": "stretching",
+  "affect": "opening"
+}

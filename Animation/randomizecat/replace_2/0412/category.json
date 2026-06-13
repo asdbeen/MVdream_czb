@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cube",
+  "direction": "up",
+  "operation": "wrapping",
+  "affect": "enveloping"
+}

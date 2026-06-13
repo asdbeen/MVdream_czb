@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "pipe",
+  "direction": "polar",
+  "operation": "stretching",
+  "affect": "gridded"
+}

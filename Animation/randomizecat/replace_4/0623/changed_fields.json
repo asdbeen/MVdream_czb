@@ -1,0 +1,27 @@
+{
+  "sample_id": "0623",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "stellate"
+    },
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "perpendicular"
+    },
+    {
+      "field": "affect",
+      "old": "domical",
+      "new": "curved"
+    },
+    {
+      "field": "operation",
+      "old": "curving",
+      "new": "kerfing"
+    }
+  ]
+}

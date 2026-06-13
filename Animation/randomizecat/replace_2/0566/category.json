@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cube",
+  "direction": "random",
+  "operation": "voiding",
+  "affect": "figural"
+}

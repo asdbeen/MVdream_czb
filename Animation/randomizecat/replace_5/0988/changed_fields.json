@@ -1,0 +1,32 @@
+{
+  "sample_id": "0988",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "sawtooth",
+      "new": "curved"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "operation",
+      "old": "pitching",
+      "new": "voiding"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "tri"
+    },
+    {
+      "field": "volume",
+      "old": "donut",
+      "new": "polyhedron"
+    }
+  ]
+}

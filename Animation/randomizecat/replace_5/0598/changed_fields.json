@@ -1,0 +1,32 @@
+{
+  "sample_id": "0598",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "random"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "glyph"
+    },
+    {
+      "field": "operation",
+      "old": "unfolding",
+      "new": "ripping"
+    },
+    {
+      "field": "affect",
+      "old": "paneled",
+      "new": "cylindrical"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    }
+  ]
+}

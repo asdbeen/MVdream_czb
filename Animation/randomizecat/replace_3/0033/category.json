@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "pyramid",
+  "direction": "down",
+  "operation": "spiraling",
+  "affect": "spherical"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "glyph",
+  "direction": "bi",
+  "operation": "oscillating",
+  "affect": "cantilevered"
+}

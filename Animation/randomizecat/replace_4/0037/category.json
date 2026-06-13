@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "capsule",
+  "direction": "vertical",
+  "operation": "bulging",
+  "affect": "gaping"
+}

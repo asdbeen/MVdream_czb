@@ -1,0 +1,32 @@
+{
+  "sample_id": "0729",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "cuboid"
+    },
+    {
+      "field": "operation",
+      "old": "wrapping",
+      "new": "ripping"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "inverted"
+    },
+    {
+      "field": "direction",
+      "old": "perpendicular",
+      "new": "centrifugal"
+    }
+  ]
+}

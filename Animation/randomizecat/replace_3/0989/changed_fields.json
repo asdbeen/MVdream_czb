@@ -1,0 +1,22 @@
+{
+  "sample_id": "0989",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "diagonal"
+    },
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "embedding"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "polar"
+    }
+  ]
+}

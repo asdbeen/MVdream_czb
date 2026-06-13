@@ -1,0 +1,32 @@
+{
+  "sample_id": "0100",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "cardinal"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "capsule"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "crumpling"
+    },
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "truncated"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "arch",
+  "direction": "up",
+  "operation": "embedding",
+  "affect": "hollow"
+}

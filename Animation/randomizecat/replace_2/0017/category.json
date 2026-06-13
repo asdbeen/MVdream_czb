@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "canopy",
+  "direction": "bi",
+  "operation": "bifurcating",
+  "affect": "porous"
+}

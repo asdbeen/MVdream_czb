@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "polar",
+  "operation": "splitting",
+  "affect": "concave"
+}

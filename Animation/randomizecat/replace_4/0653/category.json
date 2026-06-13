@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "glyph",
+  "direction": "normal",
+  "operation": "stacking",
+  "affect": "concave"
+}

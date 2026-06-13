@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "surface",
+  "direction": "parallel",
+  "operation": "stacking",
+  "affect": "contained"
+}

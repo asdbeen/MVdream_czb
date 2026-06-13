@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cube",
+  "direction": "parallel",
+  "operation": "unfolding",
+  "affect": "columnar"
+}

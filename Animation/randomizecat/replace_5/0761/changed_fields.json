@@ -1,0 +1,32 @@
+{
+  "sample_id": "0761",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "hovering"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "pyramid"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "ruled"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "down"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "donut",
+  "direction": "oblique",
+  "operation": "packing",
+  "affect": "cubic"
+}

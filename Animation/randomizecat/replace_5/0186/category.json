@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "wedge",
+  "direction": "polar",
+  "operation": "knotting",
+  "affect": "sawtooth"
+}

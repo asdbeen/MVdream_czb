@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "courtyard",
+  "direction": "bi",
+  "operation": "containing",
+  "affect": "truncated"
+}

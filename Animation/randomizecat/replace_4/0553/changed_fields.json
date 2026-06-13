@@ -1,0 +1,27 @@
+{
+  "sample_id": "0553",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "spiraling"
+    },
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "symmetrical"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "polar"
+    }
+  ]
+}

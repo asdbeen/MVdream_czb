@@ -1,0 +1,32 @@
+{
+  "sample_id": "0247",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "radial"
+    },
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "surface"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "pleating"
+    },
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "single"
+    },
+    {
+      "field": "affect",
+      "old": "gradated",
+      "new": "stripped"
+    }
+  ]
+}

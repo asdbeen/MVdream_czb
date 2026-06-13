@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "disk",
+  "direction": "parallel",
+  "operation": "perforating",
+  "affect": "gridded"
+}

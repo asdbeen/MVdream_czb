@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cone",
+  "direction": "normal",
+  "operation": "pleating",
+  "affect": "continuous"
+}

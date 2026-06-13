@@ -1,0 +1,27 @@
+{
+  "sample_id": "0691",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "down",
+      "new": "cardinal"
+    },
+    {
+      "field": "affect",
+      "old": "tentacular",
+      "new": "cubic"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "draping",
+      "new": "separating"
+    }
+  ]
+}

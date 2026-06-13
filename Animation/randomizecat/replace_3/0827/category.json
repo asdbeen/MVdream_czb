@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "sphere",
+  "direction": "up",
+  "operation": "tapering",
+  "affect": "cubic"
+}

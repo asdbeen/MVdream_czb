@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cross",
+  "direction": "perpendicular",
+  "operation": "joining",
+  "affect": "framed"
+}

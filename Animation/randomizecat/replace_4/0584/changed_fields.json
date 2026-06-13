@@ -1,0 +1,27 @@
+{
+  "sample_id": "0584",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "perpendicular"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "voiding"
+    },
+    {
+      "field": "affect",
+      "old": "cubic",
+      "new": "diagonal"
+    }
+  ]
+}

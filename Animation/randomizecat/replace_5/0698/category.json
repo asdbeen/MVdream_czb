@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hexagonal",
+  "direction": "planar",
+  "operation": "fluting",
+  "affect": "topographic"
+}

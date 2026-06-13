@@ -1,0 +1,32 @@
+{
+  "sample_id": "0543",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "omni"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "zigzagging",
+      "new": "bridging"
+    },
+    {
+      "field": "affect",
+      "old": "truncated",
+      "new": "colonnaded"
+    },
+    {
+      "field": "volume",
+      "old": "cone",
+      "new": "surface"
+    }
+  ]
+}

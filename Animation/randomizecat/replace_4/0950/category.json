@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "polyhedron",
+  "direction": "uni",
+  "operation": "wrapping",
+  "affect": "tentacular"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cylinder",
+  "direction": "perpendicular",
+  "operation": "voiding",
+  "affect": "pyramidal"
+}

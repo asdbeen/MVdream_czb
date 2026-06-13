@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "stellate",
+  "direction": "random",
+  "operation": "folding",
+  "affect": "pyramidal"
+}

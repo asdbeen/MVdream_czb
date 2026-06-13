@@ -1,0 +1,22 @@
+{
+  "sample_id": "0080",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "stellate"
+    },
+    {
+      "field": "operation",
+      "old": "packing",
+      "new": "tangling"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "thin"
+    }
+  ]
+}

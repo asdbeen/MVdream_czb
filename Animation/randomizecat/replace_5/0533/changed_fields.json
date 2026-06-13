@@ -1,0 +1,32 @@
+{
+  "sample_id": "0533",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "polyhedron"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "flooring",
+      "new": "convex"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "pleating"
+    },
+    {
+      "field": "direction",
+      "old": "random",
+      "new": "thin"
+    }
+  ]
+}

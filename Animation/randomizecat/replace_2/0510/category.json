@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cone",
+  "direction": "radial",
+  "operation": "interlocking",
+  "affect": "kinky"
+}

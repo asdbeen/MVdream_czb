@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "vortex",
+  "direction": "parallel",
+  "operation": "splitting",
+  "affect": "asymmetrical"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "ellipsoid",
+  "direction": "centrifugal",
+  "operation": "bifurcating",
+  "affect": "stripped"
+}

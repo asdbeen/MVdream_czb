@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "surface",
+  "direction": "vertical",
+  "operation": "draping",
+  "affect": "cornered"
+}

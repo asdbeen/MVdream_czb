@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "courtyard",
+  "direction": "vertical",
+  "operation": "peeling",
+  "affect": "asymmetrical"
+}

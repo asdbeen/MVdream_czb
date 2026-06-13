@@ -1,0 +1,27 @@
+{
+  "sample_id": "0907",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "perpendicular"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "wedge"
+    },
+    {
+      "field": "affect",
+      "old": "columnar",
+      "new": "circular"
+    },
+    {
+      "field": "operation",
+      "old": "hovering",
+      "new": "ripping"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "pipe",
+  "direction": "centrifugal",
+  "operation": "folding",
+  "affect": "concave"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "hemisphere",
+  "direction": "planar",
+  "operation": "interlocking",
+  "affect": "enveloping"
+}

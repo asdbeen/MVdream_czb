@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cuboid",
+  "direction": "thin",
+  "operation": "branching",
+  "affect": "tentacular"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "sphere",
+  "direction": "cardinal",
+  "operation": "connecting",
+  "affect": "discontinuous"
+}

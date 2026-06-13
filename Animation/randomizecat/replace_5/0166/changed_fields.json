@@ -1,0 +1,32 @@
+{
+  "sample_id": "0166",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "voiding",
+      "new": "tangling"
+    },
+    {
+      "field": "volume",
+      "old": "arch",
+      "new": "octahedral"
+    },
+    {
+      "field": "affect",
+      "old": "staggered",
+      "new": "perimetral"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "linear",
+      "new": "vertical"
+    }
+  ]
+}

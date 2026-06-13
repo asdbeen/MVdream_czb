@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "polyhedron",
+  "direction": "oblique",
+  "operation": "zigzagging",
+  "affect": "continuous"
+}

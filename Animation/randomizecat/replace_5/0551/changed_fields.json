@@ -1,0 +1,32 @@
+{
+  "sample_id": "0551",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "parallel"
+    },
+    {
+      "field": "operation",
+      "old": "fluting",
+      "new": "connecting"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "polyhedron"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "discoid"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "vortex",
+  "direction": "parallel",
+  "operation": "interlocking",
+  "affect": "discoid"
+}

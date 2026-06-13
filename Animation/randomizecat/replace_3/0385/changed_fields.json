@@ -1,0 +1,22 @@
+{
+  "sample_id": "0385",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "notched",
+      "new": "rippled"
+    },
+    {
+      "field": "operation",
+      "old": "zigzagging",
+      "new": "sagging"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "courtyard"
+    }
+  ]
+}

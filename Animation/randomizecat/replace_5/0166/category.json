@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "octahedral",
+  "direction": "vertical",
+  "operation": "tangling",
+  "affect": "perimetral"
+}

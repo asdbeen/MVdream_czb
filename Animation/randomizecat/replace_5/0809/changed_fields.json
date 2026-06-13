@@ -1,0 +1,32 @@
+{
+  "sample_id": "0809",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "cardinal"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "draping"
+    },
+    {
+      "field": "affect",
+      "old": "vaulted",
+      "new": "perimetral"
+    },
+    {
+      "field": "volume",
+      "old": "tube",
+      "new": "sphere"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "hypershape",
+  "direction": "cardinal",
+  "operation": "packing",
+  "affect": "discoid"
+}

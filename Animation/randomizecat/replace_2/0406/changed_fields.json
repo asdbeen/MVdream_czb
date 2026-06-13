@@ -1,0 +1,17 @@
+{
+  "sample_id": "0406",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "latticed"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "bi"
+    }
+  ]
+}

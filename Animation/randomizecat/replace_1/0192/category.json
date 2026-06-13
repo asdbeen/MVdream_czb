@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "disk",
+  "direction": "polar",
+  "operation": "crumpling",
+  "affect": "cantilevered"
+}

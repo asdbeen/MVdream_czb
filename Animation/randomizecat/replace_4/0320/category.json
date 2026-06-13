@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "sphere",
+  "direction": "random",
+  "operation": "slicing",
+  "affect": "flooring"
+}

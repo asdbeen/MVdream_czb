@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "roll",
+  "direction": "vertical",
+  "operation": "stacking",
+  "affect": "shifted"
+}

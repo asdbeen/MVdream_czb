@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "pipe",
+  "direction": "planar",
+  "operation": "tangling",
+  "affect": "colonnaded"
+}

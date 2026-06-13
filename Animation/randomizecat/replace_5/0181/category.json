@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "canopy",
+  "direction": "cardinal",
+  "operation": "unfolding",
+  "affect": "framed"
+}

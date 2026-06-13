@@ -1,0 +1,17 @@
+{
+  "sample_id": "0965",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "discoid",
+      "new": "faceted"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "bi"
+    }
+  ]
+}

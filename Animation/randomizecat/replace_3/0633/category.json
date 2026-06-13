@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "sphere",
+  "direction": "linear",
+  "operation": "embedding",
+  "affect": "gaping"
+}

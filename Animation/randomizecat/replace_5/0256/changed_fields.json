@@ -1,0 +1,32 @@
+{
+  "sample_id": "0256",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "operation",
+      "old": "peeling",
+      "new": "unfolding"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "hexagonal"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "inverted"
+    },
+    {
+      "field": "direction",
+      "old": "omni",
+      "new": "centrifugal"
+    }
+  ]
+}

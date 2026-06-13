@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "blob",
+  "direction": "cardinal",
+  "operation": "seperating",
+  "affect": "convex"
+}

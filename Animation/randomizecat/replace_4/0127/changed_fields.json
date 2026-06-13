@@ -1,0 +1,27 @@
+{
+  "sample_id": "0127",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "horizontal"
+    },
+    {
+      "field": "operation",
+      "old": "bifurcating",
+      "new": "grooving"
+    },
+    {
+      "field": "affect",
+      "old": "asymmetrical",
+      "new": "irregular"
+    }
+  ]
+}

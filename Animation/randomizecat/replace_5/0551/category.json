@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "polyhedron",
+  "direction": "parallel",
+  "operation": "connecting",
+  "affect": "discoid"
+}

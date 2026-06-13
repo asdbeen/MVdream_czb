@@ -1,0 +1,27 @@
+{
+  "sample_id": "0053",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "quadruple"
+    },
+    {
+      "field": "direction",
+      "old": "normal",
+      "new": "tri"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "tripod"
+    },
+    {
+      "field": "operation",
+      "old": "spiraling",
+      "new": "waffling"
+    }
+  ]
+}

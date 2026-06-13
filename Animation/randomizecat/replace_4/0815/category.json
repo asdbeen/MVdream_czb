@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cylinder",
+  "direction": "perpendicular",
+  "operation": "kerfing",
+  "affect": "gridded"
+}

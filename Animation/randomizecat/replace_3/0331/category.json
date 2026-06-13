@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "lune",
+  "direction": "polar",
+  "operation": "voiding",
+  "affect": "latticed"
+}

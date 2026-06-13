@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "pyramid",
+  "direction": "normal",
+  "operation": "crumpling",
+  "affect": "rippled"
+}

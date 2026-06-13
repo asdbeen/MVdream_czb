@@ -1,0 +1,17 @@
+{
+  "sample_id": "0761",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "compressing",
+      "new": "puncturing"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "gridded"
+    }
+  ]
+}

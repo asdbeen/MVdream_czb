@@ -1,0 +1,27 @@
+{
+  "sample_id": "0649",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "pixelating"
+    },
+    {
+      "field": "volume",
+      "old": "courtyard",
+      "new": "tube"
+    },
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "linear"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "triple"
+    }
+  ]
+}

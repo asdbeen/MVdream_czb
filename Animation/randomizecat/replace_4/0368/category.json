@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "sphere",
+  "direction": "horizontal",
+  "operation": "unfolding",
+  "affect": "rotational"
+}

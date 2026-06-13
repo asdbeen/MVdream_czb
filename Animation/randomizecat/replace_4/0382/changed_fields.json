@@ -1,0 +1,27 @@
+{
+  "sample_id": "0382",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "voiding",
+      "new": "looping"
+    },
+    {
+      "field": "affect",
+      "old": "circular",
+      "new": "gabled"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "linear"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

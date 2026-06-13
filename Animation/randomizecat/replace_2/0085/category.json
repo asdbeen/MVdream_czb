@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "lune",
+  "direction": "parallel",
+  "operation": "folding",
+  "affect": "cylindrical"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "0035",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "omni"
+    },
+    {
+      "field": "affect",
+      "old": "stripped",
+      "new": "inverted"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "cylinder"
+    },
+    {
+      "field": "operation",
+      "old": "spiraling",
+      "new": "overlapping"
+    }
+  ]
+}

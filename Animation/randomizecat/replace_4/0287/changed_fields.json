@@ -1,0 +1,27 @@
+{
+  "sample_id": "0287",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "hexagonal",
+      "new": "polyhedron"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "random"
+    },
+    {
+      "field": "operation",
+      "old": "arraying",
+      "new": "compressing"
+    }
+  ]
+}

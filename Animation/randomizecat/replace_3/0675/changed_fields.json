@@ -1,0 +1,22 @@
+{
+  "sample_id": "0675",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "double",
+      "new": "triple"
+    },
+    {
+      "field": "operation",
+      "old": "subtracting",
+      "new": "ripping"
+    },
+    {
+      "field": "affect",
+      "old": "dilated",
+      "new": "colonnaded"
+    }
+  ]
+}

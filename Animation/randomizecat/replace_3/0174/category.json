@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cube",
+  "direction": "horizontal",
+  "operation": "crumpling",
+  "affect": "porous"
+}

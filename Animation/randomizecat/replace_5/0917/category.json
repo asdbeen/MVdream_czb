@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "octahedral",
+  "direction": "down",
+  "operation": "scarving",
+  "affect": "gridded"
+}

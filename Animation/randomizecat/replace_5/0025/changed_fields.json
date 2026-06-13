@@ -1,0 +1,32 @@
+{
+  "sample_id": "0025",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "oblique"
+    },
+    {
+      "field": "affect",
+      "old": "enveloping",
+      "new": "tentacular"
+    },
+    {
+      "field": "volume",
+      "old": "surface",
+      "new": "courtyard"
+    },
+    {
+      "field": "operation",
+      "old": "unfolding",
+      "new": "fractaling"
+    }
+  ]
+}

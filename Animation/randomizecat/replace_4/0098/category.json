@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "courtyard",
+  "direction": "omni",
+  "operation": "spiralling",
+  "affect": "irregular"
+}

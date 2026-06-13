@@ -1,0 +1,22 @@
+{
+  "sample_id": "0584",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "pipe",
+      "new": "blob"
+    },
+    {
+      "field": "direction",
+      "old": "bi",
+      "new": "perpendicular"
+    },
+    {
+      "field": "operation",
+      "old": "bending",
+      "new": "zigzagging"
+    }
+  ]
+}

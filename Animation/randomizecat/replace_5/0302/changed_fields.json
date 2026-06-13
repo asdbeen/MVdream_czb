@@ -1,0 +1,32 @@
+{
+  "sample_id": "0302",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "hypershape",
+      "new": "roll"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "direction",
+      "old": "uni",
+      "new": "parallel"
+    },
+    {
+      "field": "operation",
+      "old": "branching",
+      "new": "puncturing"
+    },
+    {
+      "field": "affect",
+      "old": "organic",
+      "new": "continuous"
+    }
+  ]
+}

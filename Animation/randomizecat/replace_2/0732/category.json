@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cylinder",
+  "direction": "vertical",
+  "operation": "arraying",
+  "affect": "irregular"
+}

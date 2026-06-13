@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "hexagonal",
+  "direction": "horizontal",
+  "operation": "joining",
+  "affect": "discoid"
+}

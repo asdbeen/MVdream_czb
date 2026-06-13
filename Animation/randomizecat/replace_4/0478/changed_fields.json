@@ -1,0 +1,27 @@
+{
+  "sample_id": "0478",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "cylinder"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "linear"
+    },
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "crumpling"
+    },
+    {
+      "field": "affect",
+      "old": "shifted",
+      "new": "sunken"
+    }
+  ]
+}

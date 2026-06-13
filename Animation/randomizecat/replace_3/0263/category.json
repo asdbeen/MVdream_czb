@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "cylinder",
+  "direction": "parallel",
+  "operation": "scaffolding",
+  "affect": "gaping"
+}

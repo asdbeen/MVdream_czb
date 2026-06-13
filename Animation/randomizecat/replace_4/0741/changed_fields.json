@@ -1,0 +1,27 @@
+{
+  "sample_id": "0741",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "thin",
+      "new": "oblique"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    },
+    {
+      "field": "affect",
+      "old": "rolled",
+      "new": "truncated"
+    },
+    {
+      "field": "operation",
+      "old": "splitting",
+      "new": "peeling"
+    }
+  ]
+}

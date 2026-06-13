@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "tripod",
+  "direction": "radial",
+  "operation": "stacking",
+  "affect": "shifted"
+}

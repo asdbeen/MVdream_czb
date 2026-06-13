@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "arch",
+  "direction": "omni",
+  "operation": "pitching",
+  "affect": "columnar"
+}

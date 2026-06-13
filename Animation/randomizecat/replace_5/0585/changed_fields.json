@@ -1,0 +1,32 @@
+{
+  "sample_id": "0585",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "direction",
+      "old": "horizontal",
+      "new": "down"
+    },
+    {
+      "field": "affect",
+      "old": "colonnaded",
+      "new": "enveloping"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "sphere"
+    },
+    {
+      "field": "operation",
+      "old": "hovering",
+      "new": "grading"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "triple"
+    }
+  ]
+}

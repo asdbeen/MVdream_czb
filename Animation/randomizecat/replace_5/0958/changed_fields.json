@@ -1,0 +1,32 @@
+{
+  "sample_id": "0958",
+  "replace_count": 5,
+  "changed_count": 5,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "stacking",
+      "new": "hovering"
+    },
+    {
+      "field": "direction",
+      "old": "vertical",
+      "new": "radial"
+    },
+    {
+      "field": "affect",
+      "old": "dilated",
+      "new": "symmetrical"
+    },
+    {
+      "field": "entity",
+      "old": "multiple",
+      "new": "quadruple"
+    },
+    {
+      "field": "volume",
+      "old": "cube",
+      "new": "cuboid"
+    }
+  ]
+}

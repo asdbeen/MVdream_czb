@@ -1,0 +1,22 @@
+{
+  "sample_id": "0246",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "operation",
+      "old": "waffling",
+      "new": "zigzagging"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "double"
+    },
+    {
+      "field": "volume",
+      "old": "hypershape",
+      "new": "gable"
+    }
+  ]
+}

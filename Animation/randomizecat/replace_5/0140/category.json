@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "glyph",
+  "direction": "centrifugal",
+  "operation": "bulging",
+  "affect": "consistent"
+}

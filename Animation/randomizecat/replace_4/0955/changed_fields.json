@@ -1,0 +1,27 @@
+{
+  "sample_id": "0955",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    },
+    {
+      "field": "operation",
+      "old": "perforating",
+      "new": "curving"
+    },
+    {
+      "field": "direction",
+      "old": "oblique",
+      "new": "radial"
+    },
+    {
+      "field": "volume",
+      "old": "cuboid",
+      "new": "ellipsoid"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "bi",
+  "operation": "separating",
+  "affect": "Lshaped"
+}

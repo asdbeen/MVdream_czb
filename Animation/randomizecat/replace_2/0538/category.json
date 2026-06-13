@@ -1,0 +1,7 @@
+{
+  "entity": "multiple",
+  "volume": "pipe",
+  "direction": "omni",
+  "operation": "seperating",
+  "affect": "columnar"
+}

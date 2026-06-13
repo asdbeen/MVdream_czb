@@ -1,0 +1,22 @@
+{
+  "sample_id": "0590",
+  "replace_count": 3,
+  "changed_count": 3,
+  "changed_fields": [
+    {
+      "field": "volume",
+      "old": "pyramid",
+      "new": "tripod"
+    },
+    {
+      "field": "affect",
+      "old": "cornered",
+      "new": "truncated"
+    },
+    {
+      "field": "operation",
+      "old": "unfolding",
+      "new": "oscillating"
+    }
+  ]
+}

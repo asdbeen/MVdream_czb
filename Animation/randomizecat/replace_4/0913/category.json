@@ -1,0 +1,7 @@
+{
+  "entity": "triple",
+  "volume": "cross",
+  "direction": "horizontal",
+  "operation": "oscillating",
+  "affect": "concave"
+}

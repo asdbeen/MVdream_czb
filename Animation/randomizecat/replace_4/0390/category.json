@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "cube",
+  "direction": "centrifugal",
+  "operation": "bridging",
+  "affect": "dashed"
+}

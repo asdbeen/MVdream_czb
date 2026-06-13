@@ -1,0 +1,7 @@
+{
+  "entity": "single",
+  "volume": "cube",
+  "direction": "random",
+  "operation": "inflating",
+  "affect": "gabled"
+}

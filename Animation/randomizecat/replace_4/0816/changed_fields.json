@@ -1,0 +1,27 @@
+{
+  "sample_id": "0816",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "circular",
+      "new": "cornered"
+    },
+    {
+      "field": "volume",
+      "old": "cylinder",
+      "new": "capsule"
+    },
+    {
+      "field": "operation",
+      "old": "voiding",
+      "new": "morphing"
+    },
+    {
+      "field": "entity",
+      "old": "single",
+      "new": "multiple"
+    }
+  ]
+}

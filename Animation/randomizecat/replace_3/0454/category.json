@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "cross",
+  "direction": "vertical",
+  "operation": "branching",
+  "affect": "curved"
+}

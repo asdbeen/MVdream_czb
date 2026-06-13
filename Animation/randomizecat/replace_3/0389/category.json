@@ -1,0 +1,7 @@
+{
+  "entity": "quadruple",
+  "volume": "tripod",
+  "direction": "horizontal",
+  "operation": "splitting",
+  "affect": "topographic"
+}

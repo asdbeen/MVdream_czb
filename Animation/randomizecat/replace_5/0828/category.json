@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "polyhedron",
+  "direction": "cardinal",
+  "operation": "grooving",
+  "affect": "semicircular"
+}

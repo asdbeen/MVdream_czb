@@ -1,0 +1,27 @@
+{
+  "sample_id": "0810",
+  "replace_count": 4,
+  "changed_count": 4,
+  "changed_fields": [
+    {
+      "field": "entity",
+      "old": "quadruple",
+      "new": "multiple"
+    },
+    {
+      "field": "volume",
+      "old": "Lshape",
+      "new": "disk"
+    },
+    {
+      "field": "direction",
+      "old": "cardinal",
+      "new": "parallel"
+    },
+    {
+      "field": "affect",
+      "old": "gaping",
+      "new": "colonnaded"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "double",
+  "volume": "hypershape",
+  "direction": "perpendicular",
+  "operation": "spiraing",
+  "affect": "perimetral"
+}

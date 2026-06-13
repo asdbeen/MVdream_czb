@@ -1,0 +1,17 @@
+{
+  "sample_id": "0800",
+  "replace_count": 2,
+  "changed_count": 2,
+  "changed_fields": [
+    {
+      "field": "affect",
+      "old": "porous",
+      "new": "gridded"
+    },
+    {
+      "field": "direction",
+      "old": "planar",
+      "new": "up"
+    }
+  ]
+}
