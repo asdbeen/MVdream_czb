@@ -329,9 +329,33 @@ def train(args):
     # 其他初始化
     hull_criterion = ConvexHullLoss(hull_threshold=0.1, use_dilation=True, kernel_size=5).to(device)
     target_save_epochs = set(args.save_pred_images_epoch) if args.save_pred_images_epoch is not None else None
+    start_epoch = 0
+    if args.resume_ckpt:
+        resume = torch.load(args.resume_ckpt, map_location="cpu")
+        model_state = resume.get("model_state", resume)
+        missing, unexpected = model.load_state_dict(model_state, strict=False)
+        print(f"Resumed model adapter from {args.resume_ckpt}; missing={len(missing)}, unexpected={len(unexpected)}")
+        if "image_encoder_state" in resume:
+            image_encoder.load_state_dict(resume["image_encoder_state"])
+            image_encoder.to(device)
+            image_encoder.backbone.eval()
+        if "alpha_mask_encoder_state" in resume:
+            alpha_mask_encoder.load_state_dict(resume["alpha_mask_encoder_state"])
+        if cond_proj is not None and "cond_proj_state" in resume:
+            cond_proj.load_state_dict(resume["cond_proj_state"])
+        if ref_pose_proj is not None and "ref_pose_proj_state" in resume:
+            ref_pose_proj.load_state_dict(resume["ref_pose_proj_state"])
+        if "optimizer" in resume:
+            optimizer.load_state_dict(resume["optimizer"])
+            for state in optimizer.state.values():
+                for key, value in state.items():
+                    if torch.is_tensor(value):
+                        state[key] = value.to(device)
+        start_epoch = int(resume.get("epoch", -1)) + 1
+        print(f"Resume training from epoch {start_epoch} / target epochs {args.epochs}")
 
 
-    for epoch in range(args.epochs):
+    for epoch in range(start_epoch, args.epochs):
         epoch_desc = f"epoch {epoch + 1}/{args.epochs}"
         epoch_loader = tqdm(dl, total=len(dl), desc=epoch_desc, leave=True) if tqdm is not None else dl
         for it, batch in enumerate(epoch_loader):
@@ -726,6 +750,7 @@ if __name__ == '__main__':
     parser.add_argument('--mask_loss_outside_weight', type=float, default=0.5, help='diffusion MSE weight outside alpha hull mask')
     parser.add_argument('--high_t_prob', type=float, default=0.7, help='probability of sampling timestep from the high-noise range')
     parser.add_argument('--min_t_ratio', type=float, default=0.7, help='lower timestep ratio used when high-noise sampling is selected')
+    parser.add_argument('--resume_ckpt', type=str, default=None, help='resume training from an adapter checkpoint saved by this script')
     args = parser.parse_args()
 
     if args.save_pred_images_epoch is not None and any(epoch_idx < 1 for epoch_idx in args.save_pred_images_epoch):
