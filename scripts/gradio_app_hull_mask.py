@@ -711,6 +711,45 @@ def build_app(args):
             print(f"[WARN] Failed to create hull mask zip: {e}")
             return None
 
+    def _image_to_pil(image):
+        if image is None:
+            return None
+        if isinstance(image, Image.Image):
+            return image
+        if isinstance(image, np.ndarray):
+            return Image.fromarray(image.astype(np.uint8))
+        if isinstance(image, str) and os.path.exists(image):
+            return Image.open(image)
+        if isinstance(image, dict):
+            path = image.get("name") or image.get("path")
+            if path and os.path.exists(path):
+                return Image.open(path)
+        return None
+
+    def _save_view_zip(images):
+        """Create a ZIP containing the four generated view PNGs."""
+        try:
+            if not images:
+                return None
+
+            tmpdir = tempfile.mkdtemp(prefix="mvdream_views_")
+            saved = 0
+            for i, image in enumerate(images[:4]):
+                pil_image = _image_to_pil(image)
+                if pil_image is None:
+                    continue
+                pil_image.save(os.path.join(tmpdir, f"view_{i + 1}.png"))
+                saved += 1
+
+            if saved == 0:
+                return None
+
+            zip_base = os.path.join(tmpdir, "four_views")
+            return shutil.make_archive(zip_base, "zip", root_dir=tmpdir)
+        except Exception as e:
+            print(f"[WARN] Failed to create view zip: {e}")
+            return None
+
     def infer(
         image1,
         pose1_txt,
@@ -822,12 +861,13 @@ def build_app(args):
                 f"denoise_mask={bool(enforce_denoise_mask)}, denoise_strength={float(hull_strength):.2f}, "
                 f"dilate_px={int(hull_dilate_px)}, mask_zip_ready={mask_zip is not None}"
             )
-            return grid, images, mask_grid, mask_images, status, mask_zip
+            return grid, images, mask_grid, mask_images, status, mask_zip, images
         except Exception as e:
-            return None, None, None, None, f"Error: {e}", None
+            return None, None, None, None, f"Error: {e}", None, []
 
     with gr.Blocks(title="MVDream Adapter Inference") as demo:
         gr.Markdown("## MVDream Adapter Inference\nUpload 1-4 reference images with matching pose txt files, fill in category fields, and generate the corresponding views.")
+        generated_views_state = gr.State([])
         with gr.Row():
             with gr.Column(scale=1):
                 with gr.Group():
@@ -882,6 +922,8 @@ def build_app(args):
                 mask_grid_out = gr.Image(type="numpy", label="Hull Mask Grid (white=allowed, black=forbidden)")
                 mask_gallery_out = gr.Gallery(label="Hull Masks Per View", columns=4, object_fit="contain", height=180)
                 status = gr.Textbox(label="Status", interactive=False)
+                download_views_btn = gr.Button("Download 4 View PNGs")
+                download_views_file = gr.File(label="4 View PNGs")
                 download_btn = gr.Button("Download Results")
                 download_file = gr.File(label="Download Results")
 
@@ -891,7 +933,7 @@ def build_app(args):
                     cat_entity, cat_volume, cat_direction, cat_operation, cat_affect,
                     prompt, negative_prompt, steps, guidance_scale, seed,
                     enforce_denoise_mask, hull_start_ratio, hull_interval, hull_strength, hull_dilate_px],
-            outputs=[grid_out, gallery_out, mask_grid_out, mask_gallery_out, status, download_file],
+            outputs=[grid_out, gallery_out, mask_grid_out, mask_gallery_out, status, download_file, generated_views_state],
         )
 
         def _make_download(grid, images, mask_grid, mask_images):
@@ -909,21 +951,24 @@ def build_app(args):
                     for i, im in enumerate(images):
                         if im is None:
                             continue
-                        img = Image.fromarray(im.astype(np.uint8)) if isinstance(im, np.ndarray) else im
-                        img.save(os.path.join(tmpdir, f"view_{i+1}.png"))
+                        img = _image_to_pil(im)
+                        if img is not None:
+                            img.save(os.path.join(tmpdir, f"view_{i+1}.png"))
 
                 if mask_images:
                     for i, im in enumerate(mask_images):
                         if im is None:
                             continue
-                        img = Image.fromarray(im.astype(np.uint8)) if isinstance(im, np.ndarray) else im
-                        img.save(os.path.join(tmpdir, f"hull_mask_{i+1}.png"))
+                        img = _image_to_pil(im)
+                        if img is not None:
+                            img.save(os.path.join(tmpdir, f"hull_mask_{i+1}.png"))
 
                 zip_base = os.path.join(tmpdir, "results")
                 return shutil.make_archive(zip_base, 'zip', root_dir=tmpdir)
             except Exception:
                 return None
 
+        download_views_btn.click(_save_view_zip, inputs=[generated_views_state], outputs=[download_views_file])
         download_btn.click(_make_download, inputs=[grid_out, gallery_out, mask_grid_out, mask_gallery_out], outputs=[download_file])
 
     return demo

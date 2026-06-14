@@ -1,3 +1,4 @@
+#batch*view 展平训练，不训练 mask_head，而是 decode RGB 后用 pseudo alpha 计算 hull 外部惩罚。
 
 # 導入必要的標準庫與第三方庫
 import os
@@ -7,6 +8,7 @@ import sys
 import time
 import contextlib
 from PIL import Image
+import numpy as np
 import torch
 from torch.utils.data import Dataset, DataLoader
 import torchvision.transforms as T
@@ -128,6 +130,58 @@ class ConvexHullLoss(torch.nn.Module):
 # 主訓練流程
 import glob
 
+
+def _load_depth_rgb(path: str, image_size: int) -> torch.Tensor:
+    """Load a depth map as a 3-channel tensor in [0, 1]."""
+    im = Image.open(path)
+    if im.mode in ("I", "I;16", "F"):
+        arr = np.asarray(im).astype(np.float32)
+        finite = np.isfinite(arr)
+        if not finite.any():
+            arr = np.zeros_like(arr, dtype=np.float32)
+        else:
+            valid = arr[finite]
+            lo, hi = float(valid.min()), float(valid.max())
+            arr = (arr - lo) / max(hi - lo, 1e-6)
+            arr = np.nan_to_num(arr, nan=0.0, posinf=1.0, neginf=0.0)
+            arr = np.clip(arr, 0.0, 1.0)
+        im = Image.fromarray((arr * 255.0).astype(np.uint8), mode="L")
+    else:
+        im = im.convert("L")
+    im = im.resize((image_size, image_size), Image.BILINEAR)
+    depth = T.ToTensor()(im)
+    return depth.repeat(3, 1, 1)
+
+
+class DepthConditionDataset(Dataset):
+    """Add per-view depth tensors to customizedDataset samples."""
+
+    def __init__(self, base_dataset, root_dir: str, depth_dir_name: str, image_size: int):
+        self.base_dataset = base_dataset
+        self.root_dir = root_dir
+        self.depth_dir_name = depth_dir_name
+        self.image_size = image_size
+
+    def __len__(self):
+        return len(self.base_dataset)
+
+    def __getitem__(self, idx):
+        sample = self.base_dataset[idx]
+        uid = sample["uid"]
+        depth_dir = os.path.join(self.root_dir, uid, self.depth_dir_name)
+        if not os.path.isdir(depth_dir):
+            raise FileNotFoundError(f"depth directory not found: {depth_dir}")
+
+        depths = []
+        for view_id in sample["selected_view_ids"].tolist():
+            path = os.path.join(depth_dir, f"{int(view_id):03d}.png")
+            if not os.path.exists(path):
+                raise FileNotFoundError(f"depth image not found: {path}")
+            depths.append(_load_depth_rgb(path, self.image_size).unsqueeze(0))
+        sample["depths"] = torch.cat(depths, dim=0)
+        return sample
+
+
 def train(args):
     device = args.device
     # 是否啟用自動混合精度（fp16）
@@ -210,6 +264,12 @@ def train(args):
             source_image_res=args.size,
             use_value_json=False,
         )
+        dataset = DepthConditionDataset(
+            dataset,
+            root_dir=args.dataset_root,
+            depth_dir_name=args.depth_dir_name,
+            image_size=args.size,
+        )
         dl = DataLoader(dataset, batch_size=args.bs, shuffle=True, num_workers=args.num_workers, drop_last=False, collate_fn=custom_collate)
  
     # 注入 LoRA 適配器，只訓練 LoRA 參數
@@ -234,10 +294,21 @@ def train(args):
         p.requires_grad = True
     image_encoder.backbone.eval()
 
+    # depth image encoder for per-view depth conditioning
+    depth_encoder = ImageEmbedder(device=device, img_size=args.size)
+    depth_encoder.to(device)
+    depth_encoder.train()
+    for p in depth_encoder.backbone.parameters():
+        p.requires_grad = False
+    for p in depth_encoder.proj.parameters():
+        p.requires_grad = True
+    depth_encoder.backbone.eval()
+
 
     # 從 dataloader 取一個 batch 推斷維度
     dummy_batch = next(iter(dl))
     hulls = dummy_batch['hulls'][0].to(device)  # (n_views, 3, H, W)
+    depths = dummy_batch['depths'][0].to(device)  # (n_views, 3, H, W)
     gts = dummy_batch['render_image_groundtruth'][0].to(device)  # (n_views, C, H, W)
     poses = dummy_batch['poses'][0].to(device)  # (n_views, 3, 4)
     category = dummy_batch['category'][0]
@@ -256,15 +327,29 @@ def train(args):
     else:
         cond_proj = None
         hull_rep_proj = hull_rep
+    depth_rep_list = []
+    for k in range(depths.shape[0]):
+        img = depths[k].unsqueeze(0)
+        e = depth_encoder.encode(img)
+        depth_rep_list.append(e.squeeze(0))
+    depth_rep = torch.stack(depth_rep_list, dim=0)
+    if depth_rep.shape[-1] != text_c.shape[-1]:
+        depth_cond_proj = torch.nn.Linear(depth_rep.shape[-1], text_c.shape[-1]).to(device)
+        depth_rep_proj = depth_cond_proj(depth_rep)
+    else:
+        depth_cond_proj = None
+        depth_rep_proj = depth_rep
     # ref_pose_proj
     pose_tokens = poses.reshape(n_views, -1)
     ref_pose_proj = torch.nn.Linear(pose_tokens.shape[-1], text_c.shape[-1]).to(device)
     pose_rep = ref_pose_proj(pose_tokens).unsqueeze(1)
 
     # ----------- 優化器收集所有參數 -----------
-    trainable = [p for p in model.parameters() if p.requires_grad] + list(image_encoder.proj.parameters())
+    trainable = [p for p in model.parameters() if p.requires_grad] + list(image_encoder.proj.parameters()) + list(depth_encoder.proj.parameters())
     if cond_proj is not None:
         trainable += list(cond_proj.parameters())
+    if depth_cond_proj is not None:
+        trainable += list(depth_cond_proj.parameters())
     trainable += list(ref_pose_proj.parameters())
     optimizer = torch.optim.Adam(trainable, lr=args.lr)
 
@@ -287,6 +372,7 @@ def train(args):
                 n_views = batch['render_image_groundtruth'][0].shape[0]
                 # 拼接 batch 維度
                 hulls = batch['hulls'].to(device)
+                depths = batch['depths'].to(device)
                 hull_masks = batch['hull_masks'].to(device)
                 gts = batch['render_image_groundtruth'].to(device)
                 poses = batch['poses'].to(device)
@@ -294,6 +380,7 @@ def train(args):
 
                 # 展平 batch 與 view 維度
                 hulls = hulls.view(bs * n_views, 3, hulls.shape[-2], hulls.shape[-1])
+                depths = depths.view(bs * n_views, 3, depths.shape[-2], depths.shape[-1])
                 hull_masks = hull_masks.view(bs * n_views, 1, hull_masks.shape[-2], hull_masks.shape[-1])
                 gts = gts.view(bs * n_views, gts.shape[2], gts.shape[-2], gts.shape[-1])
                 poses = poses.view(bs * n_views, 3, 4)
@@ -311,11 +398,20 @@ def train(args):
                 hull_rep = torch.stack(hull_rep_list, dim=0)
                 if cond_proj is not None:
                     hull_rep = cond_proj(hull_rep)
+                # depth 編碼
+                depth_rep_list = []
+                for k in range(depths.shape[0]):
+                    img = depths[k].unsqueeze(0)
+                    e = depth_encoder.encode(img)
+                    depth_rep_list.append(e.squeeze(0))
+                depth_rep = torch.stack(depth_rep_list, dim=0)
+                if depth_cond_proj is not None:
+                    depth_rep = depth_cond_proj(depth_rep)
                 # pose 編碼
                 pose_tokens = poses.reshape(bs * n_views, -1)
                 pose_rep = ref_pose_proj(pose_tokens).unsqueeze(1)
                 # 拼接 context
-                context_cat = torch.cat([text_c, hull_rep, pose_rep], dim=1)
+                context_cat = torch.cat([text_c, hull_rep, depth_rep, pose_rep], dim=1)
 
                 # ground truth latent
                 with torch.no_grad():
@@ -601,9 +697,12 @@ def train(args):
             'model_state_type': 'adapter_only',
             'optimizer': optimizer.state_dict(),
             'image_encoder_state': image_encoder.state_dict(),
+            'depth_encoder_state': depth_encoder.state_dict(),
         }
         if cond_proj is not None:
             save_dict['cond_proj_state'] = cond_proj.state_dict()
+        if depth_cond_proj is not None:
+            save_dict['depth_cond_proj_state'] = depth_cond_proj.state_dict()
         if ref_pose_proj is not None:
             save_dict['ref_pose_proj_state'] = ref_pose_proj.state_dict()
         torch.save(save_dict, ckpt_path)
@@ -640,6 +739,7 @@ if __name__ == '__main__':
     parser.add_argument('--lora_alpha', type=float, default=1.0, help='LoRA alpha scaling')
     parser.add_argument('--dataset_root', type=str, default=None, help='root dir for customized multi-view dataset')
     parser.add_argument('--meta_path', type=str, default=None, help='meta file listing uids for customized dataset')
+    parser.add_argument('--depth_dir_name', type=str, default='depth', help='per-sample directory containing depth PNGs with matching view ids')
     parser.add_argument('--num_views', type=int, default=4, help='number of side views to sample for customized dataset')
     parser.add_argument('--num_workers', type=int, default=0, help='DataLoader workers (set 0 on Windows for stability)')
     parser.add_argument('--fp16', action=argparse.BooleanOptionalAction, default=True, help='enable fp16 mixed precision (use --no-fp16 to disable)')

@@ -54,3 +54,4 @@ python -u scripts/train_hull_finetune_test_new.py \
 
 
 python scripts/gradio_app_mask_enhanced.py --base_ckpt checkpoints/pretrained/sd-v2.1-base-4view.pt --adapter_ckpt checkpoints/mask_enhanced/ckpt_epoch_99.pth
+python scripts/gradio_app_hull.py --base_ckpt checkpoints/pretrained/sd-v2.1-base-4view.pt --adapter_ckpt checkpoints/lora_hull/ckpt_epoch_9.pth

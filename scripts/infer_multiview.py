@@ -1,3 +1,13 @@
+
+# [infer_multiview.py (line 1)](/home/chenzebin/MVdream_czb/scripts/infer_multiview.py:1) 是一个 quick test / smoke test：
+# 只加载 base model：checkpoints/pretrained/sd-v2.1-base-4view.pt
+# 不加载 LoRA
+# 不加载 mask_enhanced
+# 不用完整 DDIM 多步采样
+# 只是拿 category = "car" + 数据集里 0001 的 4 个 camera pose，跑一次模型 forward，然后 decode 出 4 张图
+
+
+
 import os
 import torch
 from PIL import Image

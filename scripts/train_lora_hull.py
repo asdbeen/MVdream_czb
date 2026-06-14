@@ -1,3 +1,4 @@
+#batch*view 展平训练，不训练 mask_head，而是 decode RGB 后用 pseudo alpha 计算 hull 外部惩罚。
 
 # 導入必要的標準庫與第三方庫
 import os
@@ -235,44 +236,6 @@ def train(args):
     image_encoder.backbone.eval()
 
 
-    # ----------- 預先初始化 mask_head, cond_proj, ref_pose_proj -----------
-    # class MaskHead(torch.nn.Module):
-    #     def __init__(self, latent_dim):
-    #         super().__init__()
-    #         hidden = max(latent_dim // 2, 8)
-    #         self.conv = torch.nn.Sequential(
-    #             torch.nn.Conv2d(latent_dim, hidden, 3, padding=1),
-    #             torch.nn.SiLU(),
-    #             torch.nn.Conv2d(hidden, 1, 1)
-    #         )
-    #     def forward(self, x):
-    #         return torch.sigmoid(self.conv(x))
-
-
-    class MaskHead(torch.nn.Module):
-        def __init__(self, latent_dim, sharpness=10.0):
-            super().__init__()
-
-            hidden = max(latent_dim // 2, 8)
-
-            self.conv = torch.nn.Sequential(
-                torch.nn.Conv2d(latent_dim, hidden, 3, padding=1),
-                torch.nn.SiLU(),
-                torch.nn.Conv2d(hidden, 1, 1)
-            )
-
-            # sigmoid sharpen factor
-            self.sharpness = sharpness
-
-        def forward(self, x):
-
-            logits = self.conv(x)
-
-            # sharpen sigmoid
-            alpha = torch.sigmoid(self.sharpness * logits)
-
-            return alpha
-    
     # 從 dataloader 取一個 batch 推斷維度
     dummy_batch = next(iter(dl))
     hulls = dummy_batch['hulls'][0].to(device)  # (n_views, 3, H, W)
@@ -298,19 +261,12 @@ def train(args):
     pose_tokens = poses.reshape(n_views, -1)
     ref_pose_proj = torch.nn.Linear(pose_tokens.shape[-1], text_c.shape[-1]).to(device)
     pose_rep = ref_pose_proj(pose_tokens).unsqueeze(1)
-    # mask_head
-    with torch.no_grad():
-        enc_posterior = model.encode_first_stage(gts)
-        z = model.get_first_stage_encoding(enc_posterior)
-    latent_dim = z.shape[1]
-    mask_head = MaskHead(latent_dim).to(device)
 
     # ----------- 優化器收集所有參數 -----------
     trainable = [p for p in model.parameters() if p.requires_grad] + list(image_encoder.proj.parameters())
     if cond_proj is not None:
         trainable += list(cond_proj.parameters())
     trainable += list(ref_pose_proj.parameters())
-    trainable += list(mask_head.parameters())
     optimizer = torch.optim.Adam(trainable, lr=args.lr)
 
     # 其他初始化
@@ -328,6 +284,7 @@ def train(args):
                 print(f"[timing] first batch fetched in {time.perf_counter() - iter_t0:.2f}s{_vram_str()}")
             if 'render_image_groundtruth' in batch:
                 bs = len(batch['uid']) if 'uid' in batch else batch['render_image_groundtruth'].shape[0]
+                B = bs  # B = batch_size
                 n_views = batch['render_image_groundtruth'][0].shape[0]
                 # 拼接 batch 維度
                 hulls = batch['hulls'].to(device)
@@ -400,35 +357,171 @@ def train(args):
                         pred = model_out
                         pred_x0 = model.predict_start_from_noise(x_t, t, pred)
                     diffusion_loss = F.mse_loss(pred, noise)
-                    latent = pred_x0
-                    pred_alpha = mask_head(latent)
-                    hull_mask = hull_masks
-                    if hull_mask.shape[-2:] != pred_alpha.shape[-2:]:
-                        pred_alpha = F.interpolate(
-                            pred_alpha,
-                            size=hull_mask.shape[-2:],
-                            mode='bilinear',
-                            align_corners=False
-                        )
-                    hull_loss_val, _, pred_mask, gt_mask = hull_criterion(
-                        pred_alpha.unsqueeze(1),
-                        hull_mask.unsqueeze(1)
+                    gt_mask = None  # hull_criterion 已弃用，gt_mask 仅为后续保存接口保留
+                    # === 新增 pixel_loss、soft foreground mask、outside_loss，並保存 pred_soft_mask 圖像 ===
+                    # =========================================================
+                    # =========================================================
+                    # =========================================================
+                    # decode predicted x0
+                    # decoded_imgs = model.decode_first_stage(pred_x0)
+                    # decoded_imgs = torch.clamp((decoded_imgs + 1.0) / 2.0, 0.0, 1.0)
+                    # # 處理 groundtruth 圖像
+                    # gt_imgs = gts
+                    # if gt_imgs.min() < 0:
+                    #     gt_imgs = (gt_imgs + 1.0) / 2.0
+                    # gt_imgs = torch.clamp(gt_imgs, 0.0, 1.0)
+                    # # pixel supervision（已取消，不再加入loss）
+                    # # pixel_loss = F.l1_loss(decoded_imgs, gt_imgs)
+                    # hull_mask = hull_masks.float()
+                    # # 方案1：从RGB推soft occupancy（pseudo alpha）
+                    # gray = decoded_imgs.mean(dim=1, keepdim=True)
+                    # # white background, gray/dark object
+                    # pred_alpha = torch.sigmoid(30.0 * (0.95 - gray))
+
+                    # # hull mask
+                    # hull_mask = hull_masks.float()
+
+                    # # 方案：从 denoised RGB 推 pseudo alpha
+                    # gray = decoded_imgs.mean(dim=1, keepdim=True)
+
+                    # # normalize each image separately，避免背景不是纯白导致 alpha 偏灰
+                    # gray_min = gray.amin(dim=(2, 3), keepdim=True)
+                    # gray_max = gray.amax(dim=(2, 3), keepdim=True)
+                    # gray_norm = (gray - gray_min) / (gray_max - gray_min + 1e-8)
+
+                    # # white background / gray-dark object:
+                    # # 背景亮 -> 0，物体暗 -> 1
+                    # pred_alpha = 1.0 - gray_norm
+
+                    # # 压低背景灰度，让背景更接近黑色
+                    # pred_alpha = pred_alpha.clamp(0.0, 1.0)
+                    # pred_alpha = pred_alpha.pow(4)
+
+                    # if hull_mask.shape[-2:] != pred_alpha.shape[-2:]:
+                    #     hull_mask = F.interpolate(
+                    #         hull_mask,
+                    #         size=pred_alpha.shape[-2:],
+                    #         mode='nearest'
+                    #     )
+
+                    # outside_loss = (pred_alpha * (1.0 - hull_mask)).mean()
+                    # =========================================================
+                    # =========================================================
+                    # =========================================================
+
+
+                    # =========================================================
+                    # Randomly sample ONE view per object
+                    # =========================================================
+
+                    V = n_views
+
+                    # reshape back to [B, V, C, H, W]
+                    pred_x0 = pred_x0.view(B, V, *pred_x0.shape[1:])
+                    hull_masks = hull_masks.view(B, V, *hull_masks.shape[1:])
+
+                    # random select one view for each object
+                    rand_views = torch.randint(
+                        0,
+                        V,
+                        (B,),
+                        device=pred_x0.device
                     )
-                    total_loss = diffusion_loss + args.lambda_hull * hull_loss_val
-                    print(f"[DEBUG] batch_loss: {total_loss.item():.6f} (diffusion: {diffusion_loss.item():.6f}, hull: {hull_loss_val.item():.6f})")
+
+                    batch_ids = torch.arange(B, device=pred_x0.device)
+
+                    # [B, C, H, W]
+                    pred_x0_small = pred_x0[batch_ids, rand_views]
+
+                    # [B, 1, H, W]
+                    hull_mask = hull_masks[batch_ids, rand_views].float()
+
+                    # =========================================================
+                    # Decode only sampled views
+                    # =========================================================
+
+                    with torch.cuda.amp.autocast():
+
+                        decoded_imgs = model.decode_first_stage(pred_x0_small)
+
+                        decoded_imgs = torch.clamp(
+                            (decoded_imgs + 1.0) / 2.0,
+                            0.0,
+                            1.0
+                        )
+
+                        # -----------------------------------------------------
+                        # pseudo alpha from RGB
+                        # -----------------------------------------------------
+
+                        gray = decoded_imgs.mean(dim=1, keepdim=True)
+
+                        # normalize per-image
+                        gray_min = gray.amin(dim=(2, 3), keepdim=True)
+                        gray_max = gray.amax(dim=(2, 3), keepdim=True)
+
+                        gray_norm = (gray - gray_min) / (
+                            gray_max - gray_min + 1e-8
+                        )
+
+                        # white background -> 0
+                        # dark object -> 1
+                        pred_alpha = 1.0 - gray_norm
+
+                        pred_alpha = pred_alpha.clamp(0.0, 1.0)
+
+                        # sharpen alpha
+                        pred_alpha = pred_alpha.pow(4)
+
+                        # resize hull mask if needed
+                        if hull_mask.shape[-2:] != pred_alpha.shape[-2:]:
+                            hull_mask = F.interpolate(
+                                hull_mask,
+                                size=pred_alpha.shape[-2:],
+                                mode='nearest'
+                            )
+
+                        # outside penalty
+                        outside_loss = (
+                            pred_alpha * (1.0 - hull_mask)
+                        ).mean()
+
+                    # 保存 pred_alpha
+                    if args.save_pred_images and (target_save_epochs is None or (epoch + 1) in target_save_epochs):
+                        max_save = min(8, pred_alpha.shape[0])
+                        for idx in range(max_save):
+                            pred_alpha_path = os.path.join(pred_image_dir, f'epoch{epoch+1}_iter{it}_predalpha_{idx}.png')
+                            _save_pred_image(pred_alpha[idx], pred_alpha_path)
+                            print(f"[LOG] Saved predalpha: {pred_alpha_path}")
+                    total_loss = diffusion_loss + args.lambda_hull * outside_loss
+                    print(f"[LOG] epoch={epoch+1} iter={it} total_loss={total_loss.item():.6f} diffusion_loss={diffusion_loss.item():.6f} outside_loss={outside_loss.item():.6f}")
 
                     # === 儲存 pred_alpha、ground truth alpha、denoise 圖、rgb_convexhull、rgb_groundtruth ===
                     if args.save_pred_images and (target_save_epochs is None or (epoch + 1) in target_save_epochs):
-                        # 只存第一個 batch 的前幾張
-                        max_save = min(8, pred_alpha.shape[0])
+
+                        V = n_views
+
+                        # pred_x0 已经是 [B, V, C, H, W]
+                        pred_x0_reshaped = pred_x0
+
+                        # z 和 x_t 还没有 reshape，可以 reshape
+                        z_reshaped = z.view(B, V, *z.shape[1:])
+                        x_t_reshaped = x_t.view(B, V, *x_t.shape[1:])
+
+                        rand_views = torch.randint(0, V, (B,), device=pred_x0.device)
+                        batch_ids = torch.arange(B, device=pred_x0.device)
+
+                        pred_x0_small = pred_x0_reshaped[batch_ids, rand_views]
+                        z_small = z_reshaped[batch_ids, rand_views]
+                        x_t_small = x_t_reshaped[batch_ids, rand_views]
                         with torch.no_grad():
-                            decoded_imgs = model.decode_first_stage(pred_x0[:max_save].detach())
+                            decoded_imgs = model.decode_first_stage(pred_x0_small)
                             decoded_imgs = torch.clamp((decoded_imgs + 1.0) / 2.0, 0.0, 1.0)
                             # decode groundtruth latent (z) for comparison
-                            gt_decoded_imgs = model.decode_first_stage(z[:max_save].detach())
+                            gt_decoded_imgs = model.decode_first_stage(z_small)
                             gt_decoded_imgs = torch.clamp((gt_decoded_imgs + 1.0) / 2.0, 0.0, 1.0)
                             # decode noisy latent (x_t) for visualization
-                            noisy_decoded_imgs = model.decode_first_stage(x_t[:max_save].detach())
+                            noisy_decoded_imgs = model.decode_first_stage(x_t_small)
                             noisy_decoded_imgs = torch.clamp((noisy_decoded_imgs + 1.0) / 2.0, 0.0, 1.0)
                         # 嘗試從 batch 取出原始路徑資訊
                         batch_uids = batch['uid'] if 'uid' in batch else None
@@ -437,34 +530,32 @@ def train(args):
                         dataset_for_load = None
                         if batch_uids is not None and batch_view_ids is not None and hasattr(args, 'dataset_root') and hasattr(args, 'meta_path'):
                             dataset_for_load = customizedDataset(args.dataset_root, args.meta_path)
-                        for idx in range(max_save):
-                            pred_path = os.path.join(pred_image_dir, f'epoch{epoch+1}_iter{it}_pred_{idx}.png')
-                            gt_path = os.path.join(pred_image_dir, f'epoch{epoch+1}_iter{it}_gt_{idx}.png')
+                        for idx in range(B):
+                            # 只保存 predalpha_*.png，不再保存 pred_*.png，避免重复
+                            pred_alpha_path = os.path.join(pred_image_dir, f'epoch{epoch+1}_iter{it}_predalpha_{idx}.png')
+                            _save_pred_image(pred_alpha[idx], pred_alpha_path)
                             denoise_path = os.path.join(pred_image_dir, f'epoch{epoch+1}_iter{it}_denoise_{idx}.png')
-                            _save_pred_image(pred_alpha[idx], pred_path)
-                            gt_img = gt_mask[idx]
-                            if gt_img.dim() == 4:
-                                gt_img = gt_img[0]
-                            _save_pred_image(gt_img, gt_path)
                             _save_pred_image(decoded_imgs[idx], denoise_path)
-                            # save decoded groundtruth latent
                             gt_decoded_path = os.path.join(pred_image_dir, f'epoch{epoch+1}_iter{it}_gtdecoded_{idx}.png')
                             _save_pred_image(gt_decoded_imgs[idx], gt_decoded_path)
-                            # save decoded noisy latent (加噪音的)
                             noisy_decoded_path = os.path.join(pred_image_dir, f'epoch{epoch+1}_iter{it}_noisy_{idx}.png')
                             _save_pred_image(noisy_decoded_imgs[idx], noisy_decoded_path)
 
+                            # 保存 groundtruth mask
+                            if gt_mask is not None:
+                                gt_path = os.path.join(pred_image_dir, f'epoch{epoch+1}_iter{it}_gt_{idx}.png')
+                                gt_img = gt_mask[idx]
+                                if gt_img.dim() == 4:
+                                    gt_img = gt_img[0]
+                                _save_pred_image(gt_img, gt_path)
+
                             # 額外儲存 rgb_convexhull 和 rgb_groundtruth
-                            if dataset_for_load is not None:
-                                # idx 對應 batch 中的第幾個樣本
-                                batch_idx = idx // n_views
-                                view_idx = idx % n_views
-                                uid = batch_uids[batch_idx]
-                                view_id = batch_view_ids[batch_idx][view_idx].item() if hasattr(batch_view_ids[batch_idx][view_idx], 'item') else int(batch_view_ids[batch_idx][view_idx])
-                                # 構造路徑
+                            if dataset_for_load is not None and batch_uids is not None and batch_view_ids is not None:
+                                uid = batch_uids[idx]
+                                # 取采样的view
+                                view_id = rand_views[idx].item() if hasattr(rand_views[idx], 'item') else int(rand_views[idx])
                                 convex_path = os.path.join(args.dataset_root, uid, 'rgb_convexhull', f'{view_id:03d}.png')
                                 gtimg_path = os.path.join(args.dataset_root, uid, 'rgb_groundtruth', f'{view_id:03d}.png')
-                                # 用 _load_rgba_with_alpha 處理
                                 try:
                                     rgb_convex, _ = dataset_for_load._load_rgba_with_alpha(convex_path)
                                     rgb_gt, _ = dataset_for_load._load_rgba_with_alpha(gtimg_path)
@@ -512,8 +603,6 @@ def train(args):
             'optimizer': optimizer.state_dict(),
             'image_encoder_state': image_encoder.state_dict(),
         }
-        if mask_head is not None:
-            save_dict['mask_head_state'] = mask_head.state_dict()
         if cond_proj is not None:
             save_dict['cond_proj_state'] = cond_proj.state_dict()
         if ref_pose_proj is not None:

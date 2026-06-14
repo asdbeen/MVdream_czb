@@ -228,7 +228,7 @@ def _prepare_hull_embed(
             emb = image_encoder.encode(x)  # (1, 1, D)
             embeds.append(emb)
 
-    hull_embed = torch.cat(embeds, dim=1)  # (1, num_images, D)
+    hull_embed = torch.cat(embeds, dim=0)  # (num_images, 1, D)
     if hull_embed.shape[-1] != target_text_dim:
         if cond_proj is not None:
             hull_embed = cond_proj(hull_embed)
@@ -252,14 +252,14 @@ def _prepare_reference_pose_tokens_from_poses(
         poses: [4, 12], one pose for each reference image slot after expansion.
 
     Returns:
-        pose_rep: [1, 4, target_text_dim]
+        pose_rep: [4, 1, target_text_dim]
     """
     if ref_pose_proj is None:
         print("[warn] ref_pose_proj_state not found in checkpoint; uploaded pose txt will be ignored.")
         return None
 
-    poses = poses.to(device).unsqueeze(0)             # [1, 4, 12]
-    pose_rep = ref_pose_proj(poses)                   # [1, 4, target_text_dim]
+    poses = poses.to(device)                          # [4, 12]
+    pose_rep = ref_pose_proj(poses).unsqueeze(1)       # [4, 1, target_text_dim]
     if pose_rep.shape[-1] != target_text_dim:
         raise ValueError(
             f"Reference pose dim {pose_rep.shape[-1]} != text dim {target_text_dim}."
@@ -320,9 +320,17 @@ def _sample_multiview(
         camera = target_camera.to(device)
         c_text = text_c.repeat(num_frames, 1, 1)
         uc_text_batch = uc_text.repeat(num_frames, 1, 1)
-        hull_rep = hull_embed.repeat(num_frames, 1, 1)
+        hull_rep = hull_embed.to(device)
+        if hull_rep.shape[0] != num_frames:
+            raise ValueError(
+                f"Hull embedding batch {hull_rep.shape[0]} != num_frames {num_frames}."
+            )
         if ref_pose_embed is not None:
-            pose_rep = ref_pose_embed.repeat(num_frames, 1, 1)
+            pose_rep = ref_pose_embed.to(device)
+            if pose_rep.shape[0] != num_frames:
+                raise ValueError(
+                    f"Reference pose token batch {pose_rep.shape[0]} != num_frames {num_frames}."
+                )
             context_cat = torch.cat([c_text, hull_rep, pose_rep], dim=1)
             uc_context_cat = torch.cat([uc_text_batch, torch.zeros_like(hull_rep), torch.zeros_like(pose_rep)], dim=1)
         else:
