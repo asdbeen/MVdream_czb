@@ -2,6 +2,13 @@
 ###### checkpoint 输出在 StyleTransferOnly
 ###### 使用 gradio_app_OG_lora.py
 
+"python scripts/train_lora_StyleTransferOnly.py \
+  --dataset_root /home/chenzebin/MVdream_czb/customized_simple_dataset_tagVersion_simplified \
+  --meta_path /home/chenzebin/MVdream_czb/customized_simple_dataset_tagVersion_simplified/train.txt \
+  --val_meta_path /home/chenzebin/MVdream_czb/customized_simple_dataset_tagVersion_simplified/val.txt \
+  --bs 8 \
+  --epochs 50 \
+  --val_every_n_epochs 5"
 
 import argparse
 import contextlib
@@ -28,6 +35,24 @@ if PROJECT_ROOT not in sys.path:
 
 from mvdream.model_zoo import build_model
 from mvdream.ldm.modules.lora import inject_lora
+from mvdream.ldm.models.diffusion.ddim import DDIMSampler
+
+
+# 後處理：將接近黑色的像素設為白色
+def set_white_background(img: np.ndarray, threshold: int = 30) -> np.ndarray:
+    img = img.copy()
+    mask = np.all(img < threshold, axis=-1)
+    img[mask] = [255, 255, 255]
+    return img
+
+
+# 設定隨機種子
+def set_seed(seed):
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
 
 
 def _default_path(*parts: str) -> str:
@@ -158,6 +183,26 @@ def train_text_only(args) -> None:
         drop_last=False,
         collate_fn=_custom_collate,
     )
+    
+    # Create validation dataset if val_meta_path is provided
+    val_dl = None
+    if args.val_meta_path is not None:
+        val_dataset = customizedDataset(
+            args.dataset_root,
+            args.val_meta_path,
+            sample_side_views=args.num_views,
+            source_image_res=args.size,
+            use_value_json=False,
+        )
+        val_dl = DataLoader(
+            val_dataset,
+            batch_size=args.bs,
+            shuffle=False,
+            num_workers=args.num_workers,
+            drop_last=False,
+            collate_fn=_custom_collate,
+        )
+        print(f"Validation dataset created with {len(val_dataset)} samples")
 
     # Freeze base model and train only injected LoRA parameters.
     for p in model.parameters():
@@ -171,6 +216,18 @@ def train_text_only(args) -> None:
     trainable = [p for p in model.parameters() if p.requires_grad]
     optimizer = torch.optim.Adam(trainable, lr=args.lr)
     start_epoch = 0
+    
+    # Create DDIM sampler for validation
+    sampler = DDIMSampler(model)
+    
+    # Create validation log file
+    if val_dl is not None:
+        val_log_path = os.path.join(args.out_dir, 'validation_log.csv')
+        if start_epoch == 0:  # Only write header if starting from scratch
+            with open(val_log_path, 'w') as f:
+                f.write('epoch,val_loss\n')
+        print(f"Validation results will be saved to: {val_log_path}")
+    
     if args.resume_ckpt:
         resume = torch.load(args.resume_ckpt, map_location="cpu")
         model_state = resume.get("model_state", resume)
@@ -189,6 +246,89 @@ def train_text_only(args) -> None:
         if use_amp:
             return torch.autocast(device_type="cuda", dtype=torch.float16)
         return contextlib.nullcontext()
+
+    # Validation function
+    def validate(val_loader, model, sampler, device, fp16, use_camera_condition, save_images=False, save_dir=None):
+        """Run validation and return average loss"""
+        model.eval()
+        
+        total_loss = 0.0
+        num_batches = 0
+        saved_samples = 0
+        max_save_samples = 4  # Save 4 validation samples for visualization
+        
+        with torch.no_grad():
+            for batch in val_loader:
+                if 'render_image_groundtruth' not in batch:
+                    continue
+                    
+                gts = batch["render_image_groundtruth"].to(device)  # [B, V, 3, H, W]
+                poses = batch["poses"].to(device)                  # [B, V, 3, 4]
+                categories = batch["category"]                     # [B]
+
+                bsz = gts.shape[0]
+                num_views = gts.shape[1]
+
+                gts = gts.view(bsz * num_views, gts.shape[2], gts.shape[3], gts.shape[4])
+                poses = poses.view(bsz * num_views, 3, 4)
+                categories = [str(c) for c in categories for _ in range(num_views)]
+                
+                # Encode conditioning
+                with torch.autocast(device_type='cuda', dtype=torch.float16, enabled=fp16):
+                    # Text conditioning
+                    c_text = model.get_learned_conditioning(categories).to(device)
+                    
+                    # Encode images to latent
+                    enc_posterior = model.encode_first_stage(gts)
+                    x_0 = model.get_first_stage_encoding(enc_posterior).detach()
+                    
+                    # Sample noise and timestep
+                    noise = torch.randn_like(x_0)
+                    t = torch.randint(0, model.num_timesteps, (x_0.shape[0],), device=device).long()
+                    x_t = model.q_sample(x_start=x_0, t=t, noise=noise)
+                    
+                    # Prepare conditioning
+                    cond: Dict[str, torch.Tensor] = {
+                        "context": c_text,
+                    }
+                    if use_camera_condition:
+                        cond["camera"] = _build_camera_tensor_from_poses(poses, device)
+                        cond["num_frames"] = num_views
+                    
+                    # Predict noise
+                    model_out = model.apply_model(x_t, t, cond)
+                    if model.parameterization == "v":
+                        noise_pred = model.predict_eps_from_z_and_v(x_t, t, model_out)
+                    else:
+                        noise_pred = model_out
+                    
+                    # Diffusion loss
+                    loss = F.mse_loss(noise_pred.float(), noise.float())
+                
+                total_loss += loss.item()
+                num_batches += 1
+                
+                # Save validation images (simplified version)
+                if save_images and saved_samples < max_save_samples and save_dir is not None:
+                    from PIL import Image
+                    sample_dir = os.path.join(save_dir, f'sample_{saved_samples:03d}')
+                    os.makedirs(sample_dir, exist_ok=True)
+                    
+                    # Save first view of first sample
+                    img_gt = gts[0].detach().cpu()
+                    if img_gt.shape[0] == 3:  # RGB
+                        img_gt = (img_gt.permute(1, 2, 0).numpy() * 255).clip(0, 255).astype(np.uint8)
+                    else:
+                        img_gt = (img_gt.squeeze().numpy() * 255).clip(0, 255).astype(np.uint8)
+                        img_gt = np.stack([img_gt]*3, axis=-1)
+                    Image.fromarray(img_gt).save(os.path.join(sample_dir, 'gt_view_000.png'))
+                    
+                    saved_samples += 1
+        
+        model.train()
+        
+        avg_loss = total_loss / max(num_batches, 1)
+        return avg_loss
 
     for epoch in range(start_epoch, args.epochs):
         epoch_desc = f"epoch {epoch + 1}/{args.epochs}"
@@ -254,6 +394,17 @@ def train_text_only(args) -> None:
             if hasattr(epoch_loader, "set_postfix"):
                 epoch_loader.set_postfix(loss=f"{loss.item():.6f}")
 
+        # Run validation if validation dataset exists
+        if val_dl is not None and ((epoch + 1) % args.val_every_n_epochs == 0):
+            val_loss = validate(val_dl, model, sampler, device, use_amp, args.use_camera_condition, 
+                               save_images=False, save_dir=None)
+            print(f"Validation Loss: {val_loss:.4f}")
+            
+            # Log validation results to CSV
+            val_log_path = os.path.join(args.out_dir, 'validation_log.csv')
+            with open(val_log_path, 'a') as f:
+                f.write(f'{epoch},{val_loss:.6f}\n')
+
         ckpt_path = os.path.join(args.out_dir, f"ckpt_epoch_{epoch}.pth")
         adapter_state = {
             name: tensor
@@ -301,6 +452,8 @@ if __name__ == "__main__":
         default=_default_path("customized_simple_dataset_tagVersion_simplified", "train.txt"),
         help="Meta file listing sample paths such as data/0001.",
     )
+    parser.add_argument("--val_meta_path", type=str, default=None, help="meta file for validation dataset (optional)")
+    parser.add_argument("--val_every_n_epochs", type=int, default=5, help="run validation every N epochs")
     parser.add_argument("--size", type=int, default=256)
     parser.add_argument("--num_views", type=int, default=4)
     parser.add_argument("--bs", type=int, default=1)

@@ -6,6 +6,7 @@ import csv
 import sys
 import time
 import contextlib
+import random
 from PIL import Image
 import torch
 from torch.utils.data import Dataset, DataLoader
@@ -30,6 +31,24 @@ if PROJECT_ROOT not in sys.path:
 # 導入專案內部的模型構建與工具
 from mvdream.ldm.util import instantiate_from_config
 from mvdream.model_zoo import build_model
+from mvdream.ldm.models.diffusion.ddim import DDIMSampler
+
+
+# 後處理：將接近黑色的像素設為白色
+def set_white_background(img: np.ndarray, threshold: int = 30) -> np.ndarray:
+    img = img.copy()
+    mask = np.all(img < threshold, axis=-1)
+    img[mask] = [255, 255, 255]
+    return img
+
+
+# 設定隨機種子
+def set_seed(seed):
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
 
 
 
@@ -258,6 +277,19 @@ def train(args):
             use_value_json=False,
         )
         dl = DataLoader(dataset, batch_size=args.bs, shuffle=True, num_workers=args.num_workers, drop_last=False, collate_fn=custom_collate)
+        
+        # Create validation dataset if val_meta_path is provided
+        val_dl = None
+        if args.val_meta_path is not None:
+            val_dataset = customizedDataset(
+                args.dataset_root,
+                args.val_meta_path,
+                sample_side_views=args.num_views,
+                source_image_res=args.size,
+                use_value_json=False,
+            )
+            val_dl = DataLoader(val_dataset, batch_size=args.bs, shuffle=False, num_workers=args.num_workers, drop_last=False, collate_fn=custom_collate)
+            print(f"Validation dataset created with {len(val_dataset)} samples")
  
     # 注入 LoRA 適配器，只訓練 LoRA 參數
     from mvdream.ldm.modules.lora import inject_lora
@@ -330,6 +362,18 @@ def train(args):
     hull_criterion = ConvexHullLoss(hull_threshold=0.1, use_dilation=True, kernel_size=5).to(device)
     target_save_epochs = set(args.save_pred_images_epoch) if args.save_pred_images_epoch is not None else None
     start_epoch = 0
+    
+    # Create DDIM sampler for validation
+    sampler = DDIMSampler(model)
+    
+    # Create validation log file
+    if val_dl is not None:
+        val_log_path = os.path.join(args.out_dir, 'validation_log.csv')
+        if start_epoch == 0:  # Only write header if starting from scratch
+            with open(val_log_path, 'w') as f:
+                f.write('epoch,val_loss\n')
+        print(f"Validation results will be saved to: {val_log_path}")
+    
     if args.resume_ckpt:
         resume = torch.load(args.resume_ckpt, map_location="cpu")
         model_state = resume.get("model_state", resume)
@@ -354,6 +398,111 @@ def train(args):
         start_epoch = int(resume.get("epoch", -1)) + 1
         print(f"Resume training from epoch {start_epoch} / target epochs {args.epochs}")
 
+    # Validation function
+    def validate(val_loader, model, sampler, image_encoder, alpha_mask_encoder, cond_proj, ref_pose_proj, device, fp16, save_images=False, save_dir=None):
+        """Run validation and return average loss"""
+        model.eval()
+        image_encoder.eval()
+        alpha_mask_encoder.eval()
+        
+        total_loss = 0.0
+        num_batches = 0
+        saved_samples = 0
+        max_save_samples = 4  # Save 4 validation samples for visualization
+        
+        with torch.no_grad():
+            for batch in val_loader:
+                if 'render_image_groundtruth' not in batch:
+                    continue
+                    
+                bs = len(batch['uid']) if 'uid' in batch else batch['render_image_groundtruth'].shape[0]
+                n_views = batch['render_image_groundtruth'][0].shape[0]
+                
+                # Prepare batch data
+                hulls = batch['hulls'].to(device)
+                hull_masks = batch['hull_masks'].to(device)
+                gts = batch['render_image_groundtruth'].to(device)
+                poses = batch['poses'].to(device)
+                categories = batch['category']
+                
+                # Flatten batch and view dimensions
+                hulls = hulls.view(bs * n_views, 3, hulls.shape[-2], hulls.shape[-1])
+                hull_masks = hull_masks.view(bs * n_views, 1, hull_masks.shape[-2], hull_masks.shape[-1])
+                gts = gts.view(bs * n_views, gts.shape[-2], gts.shape[-1], gts.shape[-1])
+                poses_flat = poses.view(bs * n_views, 3, 4)
+                
+                # Encode conditioning
+                with torch.autocast(device_type='cuda', dtype=torch.float16, enabled=fp16):
+                    # Hull embedding
+                    hull_emb = image_encoder(hulls)
+                    if cond_proj is not None:
+                        hull_emb = cond_proj(hull_emb)
+                    
+                    # Alpha mask embedding
+                    alpha_mask_emb = alpha_mask_encoder(hull_masks.float())
+                    
+                    # Text conditioning
+                    text_prompts = []
+                    for i in range(bs):
+                        cat = categories[i]
+                        text_prompts.extend([str(cat)] * n_views)
+                    c_text = model.get_learned_conditioning(text_prompts)
+                    
+                    # Pose embedding
+                    pose_tokens = poses_flat.reshape(bs * n_views, -1)
+                    pose_emb = ref_pose_proj(pose_tokens)
+                    
+                    # Combine conditioning
+                    hull_rep = hull_emb.unsqueeze(1)
+                    alpha_rep = alpha_mask_emb
+                    pose_rep = pose_emb.unsqueeze(1)
+                    c = torch.cat([c_text, hull_rep, alpha_rep, pose_rep], dim=1)
+                    
+                    # Encode images to latent
+                    x_0 = model.encode_first_stage(gts.to(model.dtype))
+                    x_0 = model.get_first_stage_encoding(x_0).detach()
+                    
+                    # Sample noise and timestep
+                    noise = torch.randn_like(x_0)
+                    t = torch.randint(0, model.num_timesteps, (x_0.shape[0],), device=device).long()
+                    x_t = model.q_sample(x_start=x_0, t=t, noise=noise)
+                    
+                    # Predict noise
+                    noise_pred = model.apply_model(x_t, t, c)
+                    
+                    # Diffusion loss
+                    loss_diff = F.mse_loss(noise_pred, noise, reduction='mean')
+                    loss = loss_diff
+                
+                total_loss += loss.item()
+                num_batches += 1
+                
+                # Save validation images every N epochs (simplified version)
+                if save_images and saved_samples < max_save_samples and save_dir is not None:
+                    batch_idx = 0
+                    if batch_idx < bs:
+                        sample_dir = os.path.join(save_dir, f'sample_{saved_samples:03d}')
+                        os.makedirs(sample_dir, exist_ok=True)
+                        
+                        # Save first view of first sample
+                        view_idx = 0
+                        img_idx = batch_idx * n_views + view_idx
+                        img_gt = gts[img_idx].detach().cpu()
+                        if img_gt.shape[0] == 3:  # RGB
+                            img_gt = (img_gt.permute(1, 2, 0).numpy() * 255).clip(0, 255).astype(np.uint8)
+                        else:  # Single channel
+                            img_gt = (img_gt.squeeze().numpy() * 255).clip(0, 255).astype(np.uint8)
+                            img_gt = np.stack([img_gt]*3, axis=-1)  # Convert to RGB for saving
+                        Image.fromarray(img_gt).save(os.path.join(sample_dir, 'gt_view_000.png'))
+                        
+                        saved_samples += 1
+        
+        model.train()
+        image_encoder.train()
+        alpha_mask_encoder.train()
+        
+        avg_loss = total_loss / max(num_batches, 1)
+        return avg_loss
 
     for epoch in range(start_epoch, args.epochs):
         epoch_desc = f"epoch {epoch + 1}/{args.epochs}"
@@ -683,6 +832,22 @@ def train(args):
             if current_loss is not None and hasattr(epoch_loader, 'set_postfix'):
                 epoch_loader.set_postfix(loss=f"{current_loss:.6f}")
 
+        # Run validation if validation dataset exists
+        if val_dl is not None:
+            save_val_images = (target_save_epochs is None or (epoch + 1) in target_save_epochs) and ((epoch + 1) % 10 == 0)
+            val_save_dir = os.path.join(args.out_dir, f'validation_epoch_{epoch}') if save_val_images else None
+            if val_save_dir:
+                os.makedirs(val_save_dir, exist_ok=True)
+            
+            val_loss = validate(val_dl, model, sampler, image_encoder, alpha_mask_encoder, cond_proj, ref_pose_proj, device, args.fp16, 
+                               save_images=save_val_images, save_dir=val_save_dir)
+            print(f"Validation Loss: {val_loss:.4f}")
+            
+            # Log validation results to CSV
+            val_log_path = os.path.join(args.out_dir, 'validation_log.csv')
+            with open(val_log_path, 'a') as f:
+                f.write(f'{epoch},{val_loss:.6f}\n')
+        
         # save checkpoint
         ckpt_path = os.path.join(args.out_dir, f'ckpt_epoch_{epoch}.pth')
         trainable_param_names = {name for name, p in model.named_parameters() if p.requires_grad}
@@ -738,6 +903,7 @@ if __name__ == '__main__':
     parser.add_argument('--lora_alpha', type=float, default=1.0, help='LoRA alpha scaling')
     parser.add_argument('--dataset_root', type=str, default=None, help='root dir for customized multi-view dataset')
     parser.add_argument('--meta_path', type=str, default=None, help='meta file listing uids for customized dataset')
+    parser.add_argument('--val_meta_path', type=str, default=None, help='meta file for validation dataset (optional)')
     parser.add_argument('--num_views', type=int, default=4, help='number of side views to sample for customized dataset')
     parser.add_argument('--num_workers', type=int, default=0, help='DataLoader workers (set 0 on Windows for stability)')
     parser.add_argument('--fp16', action=argparse.BooleanOptionalAction, default=True, help='enable fp16 mixed precision (use --no-fp16 to disable)')
